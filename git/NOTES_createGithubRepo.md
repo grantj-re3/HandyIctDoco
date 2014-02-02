@@ -1,22 +1,20 @@
 Git documentation
 =================
 
-Web site:
+Web site
 - http://git-scm.com/
 
-Pro Git, Scott Chacon. July 29, 2009:
+Pro Git, Scott Chacon. July 29, 2009
 - http://git-scm.com/book
 
-Books:
+Books
 - http://git-scm.com/documentation/external-links
 
-GitHub:
+GitHub
 - https://github.com/
 
 Creating a Git repository at GitHub
 ===================================
-
-Github project name: myrepo
 
 Sign up for GitHub at https://github.com/
 
@@ -27,13 +25,14 @@ https://help.github.com/articles/set-up-git
 ### At linux prompt
 
 - user.name & user.email simply allow attribution of commits.
-- --global results in updates to user config at ~/.gitconfig
+- the --global option results in updates to the user config at ~/.gitconfig
 ```
 git config --global user.name "GITHUB_USER"
 git config --global user.email "GITHUB_USER@github.fake"
-```
+
 git config --global core.editor vi
 git config --global merge.tool vimdiff
+```
 
 View the config
 ```
@@ -46,13 +45,13 @@ git config --list
 ### At web browser
 
 - Repo name: GITHUB_USER / myrepo
-- Added short description
+- Add a short description
 - Do not add any files (eg. README.md) unless you:
   - are happy for your REAL email address to be exposed and
   - are happy to perform a "git pull ..." to merge with local commits.
 - Note that the Github repository *description* is not stored in a repo
-  file (ie. not visible via 'git ls-files') hence CAN be modified
-  without revealing your REAL email address.
+  file (ie. not visible via 'git ls-files') hence *can* be modified
+  without revealing your *real* email address.
 
 - Email addresses:
   - Keep real/valid email address hidden.
@@ -86,8 +85,8 @@ git commit
 ```
 
 Use the label "origin" instead of this long URL
-- I am using Git version is 1.7.1 on RHEL6.4, hence cannot cache github username/password.
-- IMPORTANT TO SPECIFY https://GITHUB_USER@... in order to be prompted for password
+- I am using git version 1.7.1 on RHEL6.4, hence cannot cache github username/password.
+- Specify https://GITHUB_USER@... in order to be prompted for password
 ```
 git remote add origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git
 
@@ -146,7 +145,7 @@ Delete a tag from the local repo
 git tag -d tagname
 ```
 
-# Delete a tag from the remote repo (eg. GitHub)
+Delete a tag from the remote repo (eg. GitHub)
 ```
 git push --delete origin tagname
 ```
