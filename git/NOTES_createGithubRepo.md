@@ -24,7 +24,10 @@ https://help.github.com/articles/set-up-git
 
 ### At linux prompt
 
-- user.name & user.email simply allow attribution of commits.
+- I chose to keep my real email address hidden (see
+  https://help.github.com/articles/keeping-your-email-address-private) 
+- user.name and user.email simply allow attribution of commits... the
+  email address does not have to be real/valid)
 - the --global option results in updates to the user config at ~/.gitconfig
 ```
 git config --global user.name "GITHUB_USER"
@@ -121,8 +124,6 @@ git commit -a
 git push -u origin master
 ```
 
----
-
 ## git pull
 Refresh from repo AND OVERWRITE ANY LOCAL CHANGES
 ```
@@ -139,6 +140,12 @@ git tag TAG_NAME [COMMIT_CHECKSUM]		# Light weight tag
 git tag -a TAG_NAME [-m TAG_MSG] [COMMIT_CHECKSUM]	# Annotated tag (allows an associated message)
 ```
 
+Push specified tag or all tags to remote repo
+```
+git push origin [TAG_NAME]
+git push origin --tags
+```
+
 Delete a tag from the local repo
 (not advisable if you have already pushed the tag to your repo)
 ```
@@ -148,11 +155,5 @@ git tag -d tagname
 Delete a tag from the remote repo (eg. GitHub)
 ```
 git push --delete origin tagname
-```
-
-Push specified tag or all tags
-```
-git push origin [TAG_NAME]
-git push origin --tags
 ```
 
