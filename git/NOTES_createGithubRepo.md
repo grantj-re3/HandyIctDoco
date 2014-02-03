@@ -125,7 +125,7 @@ git push -u origin master
 ```
 
 ## git pull
-Refresh from repo AND OVERWRITE ANY LOCAL CHANGES
+Refresh from repo **and overwrite any local changes**
 ```
 git pull	# No warning given when overwriting
 ```
@@ -147,7 +147,8 @@ git push origin --tags
 ```
 
 Delete a tag from the local repo
-(not advisable if you have already pushed the tag to your repo)
+(not advisable if you have already pushed the tag to
+your remote repo and others may have used it)
 ```
 git tag -d tagname
 ```
