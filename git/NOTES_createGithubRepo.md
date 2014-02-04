@@ -27,7 +27,7 @@ https://help.github.com/articles/set-up-git
 - I chose to keep my real email address hidden (see
   https://help.github.com/articles/keeping-your-email-address-private) 
 - user.name and user.email simply allow attribution of commits... the
-  email address does not have to be real/valid)
+  email address does not have to be real/valid
 - the --global option results in updates to the user config at ~/.gitconfig
 ```
 git config --global user.name "GITHUB_USER"
@@ -58,7 +58,10 @@ git config --list
 
 - Email addresses:
   - Keep real/valid email address hidden.
-  - Add a (fake) email which matches "git config --global user.email": GITHUB_USER@github.fake
+  - Add a (fake) email which matches:
+```
+    git config --global user.email "GITHUB_USER@github.fake"
+```
 - After clicking "Create repository" you get page including:
 ```
     We recommend every repository include a README, LICENSE, and .gitignore. 
@@ -78,7 +81,8 @@ git init
 Copy dirs/files 
 
 - Delete any dirs/files which we do not want in the repo
-- Remove/update any sensitive config info (eg. usernames, passwords, private DNS names/IPs).
+- Remove/update any sensitive config info (eg. usernames, passwords,
+  private DNS names/IPs).
 
 Stage the files (ie. add files to appear in the repo)
 ```
@@ -88,7 +92,8 @@ git commit
 ```
 
 Use the label "origin" instead of this long URL
-- I am using git version 1.7.1 on RHEL6.4, hence cannot cache github username/password.
+- I am using git version 1.7.1 on RHEL6.4, hence unable to cache the
+  github username/password.
 - Specify https://GITHUB_USER@... in order to be prompted for password
 ```
 git remote add origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git
@@ -130,9 +135,28 @@ Refresh from repo **and overwrite any local changes**
 git pull	# No warning given when overwriting
 ```
 
+## git log
+```
+git log
+git log --pretty=oneline
+```
+
+If you add an alias (in ~/.gitconfig) as given by the command below
+(based on the entry by Palesz at
+http://stackoverflow.com/questions/278192/view-the-change-history-of-a-file-using-git-versioning)
+```
+git config --global alias.prettylog "log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+then using that alias (see below) will give you a nicely formatted log
+with one line per event.
+```
+git prettylog
+```
+
 ## git tag
 
-Create a lightweight or annotated tag (eg. for a version number or release candidate)
+Create a lightweight or annotated tag (eg. for a version number or release
+candidate)
 ```
 git tag
 git log --pretty=oneline
