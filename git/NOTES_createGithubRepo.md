@@ -1,17 +1,18 @@
 Git documentation
 =================
 
-Web site
+Git web site
 - http://git-scm.com/
-
-Pro Git, Scott Chacon. July 29, 2009
-- http://git-scm.com/book
-
-Books
-- http://git-scm.com/documentation/external-links
 
 GitHub
 - https://github.com/
+- https://help.github.com/
+
+Book: Pro Git, Scott Chacon. July 29, 2009
+- http://git-scm.com/book
+
+Other books
+- http://git-scm.com/documentation/external-links
 
 Creating a Git repository at GitHub
 ===================================
