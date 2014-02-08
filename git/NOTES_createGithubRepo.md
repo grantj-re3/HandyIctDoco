@@ -1,5 +1,5 @@
-Git documentation
-=================
+Basic git documentation
+=======================
 
 Git web site
 - http://git-scm.com/
@@ -8,7 +8,8 @@ GitHub
 - https://github.com/
 - https://help.github.com/
 
-Book: Pro Git, Scott Chacon. July 29, 2009
+Book: Pro Git, Scott Chacon (July 2009).
+Topics include basics, branching, servers and other areas.
 - http://git-scm.com/book
 
 Other books
@@ -182,4 +183,26 @@ Delete a tag from the remote repo (eg. GitHub)
 ```
 git push --delete origin tagname
 ```
+
+Git servers
+-----------
+## Host your own
+I imagine many of these solutions may work well for small teams within
+an intranet, but for multiple teams or internet hosting solutions, you
+may need one of the larger packages which include fine grain access
+control (ACLs)
+- See above book, Pro Git. http://git-scm.com/book/en/Git-on-the-Server
+
+## Hosting
+Github - at the time of writing (Feb 2014) I cannot spot any special
+plans for academic users eg. including private repos
+- https://github.com/
+- https://github.com/pricing
+
+Bitbucket - I have not used this hosting service but it has an
+unlimited academic plan including private repos; eg. may be useful
+for collaborating using LaTeX/TeX documents (in addition to
+conventional software collaboration)
+- https://bitbucket.org/plans
+- https://www.atlassian.com/software/views/bitbucket-academic-license.jsp
 
