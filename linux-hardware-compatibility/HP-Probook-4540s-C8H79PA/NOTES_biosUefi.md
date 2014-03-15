@@ -4,22 +4,22 @@ F10 BIOS Setup
 
 **BIOS - File - System Information**
 
-| Parameter           | Value
-|---------------------|-----------------
-| Manufacturer        | Hewlett Packard
-| Product Name        | HP Probook 4540s
-| SKU Number          | C8H79PA#ABG
-|                     |
-| System BIOS version | 68IRR Ver. F.32
-| BIOS Date           | 11/06/2012
-|                     |
-| Video BIOS Revision | INTEL 2130
-| Video BIOS Revision | ATI 05/09/12
-|                     |
-| Processor Type      | Intel(R) Core(TM) i7-3632QM CPU
-| Microcode Revision  | 15
-| Processor Speed     | 2.20GHz
-| Total Memory Size   | 4096 MB RAM
+Parameter           | Value
+--------------------|-----------------
+Manufacturer        | Hewlett Packard
+Product Name        | HP Probook 4540s
+SKU Number          | C8H79PA#ABG
+                    |
+System BIOS version | 68IRR Ver. F.32
+BIOS Date           | 11/06/2012
+                    |
+Video BIOS Revision | INTEL 2130
+Video BIOS Revision | ATI 05/09/12
+                    |
+Processor Type      | Intel(R) Core(TM) i7-3632QM CPU
+Microcode Revision  | 15
+Processor Speed     | 2.20GHz
+Total Memory Size   | 4096 MB RAM
 
 **BIOS - System Configuration - Boot Options**
 
