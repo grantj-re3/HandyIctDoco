@@ -4,7 +4,7 @@ F10 BIOS Setup
 
 **BIOS - File - System Information**
 
-Parameter           | Value
+&nbsp;              | &nbsp;
 --------------------|-----------------
 Manufacturer        | Hewlett Packard
 Product Name        | HP Probook 4540s
