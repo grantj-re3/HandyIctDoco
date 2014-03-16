@@ -20,6 +20,14 @@ Microcode Revision                  | 15
 Processor Speed                     | 2.20GHz
 Total Memory Size                   | 4096 MB RAM
 
+
+### BIOS - System Configuration - Language
+
+Parameter                           | Value
+------------------------------------|-----------------
+x                                   | English
+
+
 ### BIOS - System Configuration - Boot Options
 
 Parameter                           | Value
@@ -44,11 +52,11 @@ x                                   | USB device boot
 x                                   | HP Application
 x                                   | Customised Boot
 **SecureBoot Configuration**        | ~~~
-[disabled]                          | SecureBoot
+. [disabled]                        | SecureBoot
 .                                   | Clear SecureBoot Keys
 **User Mode**                       | ~~~
-x [disabled]                        | HP Factory Keys
-. [disabled]                        | Customer Keys
+x                                   | HP Factory Keys
+.                                   | Customer Keys
 **Boot Mode**                       | ~~~
 .                                   | Legacy
 x                                   | UEFI Hybrid (With CSM)
