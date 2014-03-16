@@ -4,7 +4,7 @@ F10 BIOS Setup
 
 **BIOS - File - System Information**
 
-&nbsp;              | &nbsp;
+Parameter           | Value
 --------------------|-----------------
 Manufacturer        | Hewlett Packard
 Product Name        | HP Probook 4540s
@@ -23,37 +23,39 @@ Total Memory Size   | 4096 MB RAM
 
 **BIOS - System Configuration - Boot Options**
 
-| Startup Menu Delay (Sec)            | 0
-| Multiboot Express Popup Delay (Sec) | 0
-
-| .                                   | Audio alerts during boot
-| x                                   | Custom logo
-| x                                   | Display Diagnostic URL
-| .                                   | Custom Help and URL Message
-| .                                   | Require acknowledgment of battery errors
-| .                                   | Fast Boot
-
-| x                                   | CD-ROM boot
-| x                                   | SD card boot
-| x                                   | Floppy boot
-| x                                   | PXE Internal NIC boot
-| .                                   | PXE Internal IPV4 NIC boot
-| .                                   | PXE Internal IPV6 NIC boot
-| x                                   | USB device boot
-| x                                   | HP Application
-| x                                   | Customised Boot
-
-SecureBoot Configuration:
-| [disabled]                          | SecureBoot
-| .                                   | Clear SecureBoot Keys
-
-User Mode:
-| x [disabled]                        | HP Factory Keys
-| . [disabled]                        | Customer Keys
-
-Boot Mode:
-| .                                   | Legacy
-| x                                   | UEFI Hybrid (With CSM)
+Parameter                           | Value
+------------------------------------|-----------------
+Startup Menu Delay (Sec)            | 0
+Multiboot Express Popup Delay (Sec) | 0
+                                    |
+.                                   | Audio alerts during boot
+x                                   | Custom logo
+x                                   | Display Diagnostic URL
+.                                   | Custom Help and URL Message
+.                                   | Require acknowledgment of battery errors
+.                                   | Fast Boot
+                                    |
+x                                   | CD-ROM boot
+x                                   | SD card boot
+x                                   | Floppy boot
+x                                   | PXE Internal NIC boot
+.                                   | PXE Internal IPV4 NIC boot
+.                                   | PXE Internal IPV6 NIC boot
+x                                   | USB device boot
+x                                   | HP Application
+x                                   | Customised Boot
+                                    |
+**SecureBoot Configuration**        |
+[disabled]                          | SecureBoot
+.                                   | Clear SecureBoot Keys
+                                    |
+**User Mode**                       |
+x [disabled]                        | HP Factory Keys
+. [disabled]                        | Customer Keys
+                                    |
+**Boot Mode**                       |
+.                                   | Legacy
+x                                   | UEFI Hybrid (With CSM)
 .                                   | UEFI Native (Without CSM)
 
 UEFI Boot Order:
@@ -68,8 +70,10 @@ UEFI Boot Order:
 * Customized Boot
 
 Define Customized Boot Option:
-| .                                   | Add
-| x                                   | Delete
+Parameter                           | Value
+------------------------------------|-----------------
+.                                   | Add
+x                                   | Delete
 
 Legacy Boot Order:
 * Optical Disk Drive
@@ -82,61 +86,68 @@ Legacy Boot Order:
 
 **BIOS - System Configuration - Device Configurations**
 
-| x                                   | USB legacy support
-| x                                   | Fan Always on while on AC Power
-| x                                   | Data Execution Prevention
-
-Max SATA Speed:
-| .                                   | 3.0 Gbps
-| x                                   | 6.0 Gbps
-
-SATA Device Mode:
-| .                                   | IDE
-| x                                   | AHCI
-
-
-| x                                   | Wake on USB
-| .                                   | Virtualization Technology (VTx)
-| x                                   | Multi Core CPU
-| x                                   | Intel(R) HT Technology
-| .                                   | NumLock on at boot
-| x                                   | Switchable Graphics
-| .                                   | Power on unit when AC is detected
+Parameter                           | Value
+------------------------------------|-----------------
+x                                   | USB legacy support
+x                                   | Fan Always on while on AC Power
+x                                   | Data Execution Prevention
+                                    |
+**Max SATA Speed**                  |
+.                                   | 3.0 Gbps
+x                                   | 6.0 Gbps
+                                    |
+**SATA Device Mode**                |
+.                                   | IDE
+x                                   | AHCI
+                                    |
+x                                   | Wake on USB
+.                                   | Virtualization Technology (VTx)
+x                                   | Multi Core CPU
+x                                   | Intel(R) HT Technology
+.                                   | NumLock on at boot
+x                                   | Switchable Graphics
+.                                   | Power on unit when AC is detected
 
 **BIOS - System Configuration - Built-In Device Options**
 
-| x                                   | Wireless Button State
-| x                                   | Embedded WLAN Device
-| x                                   | Embedded Bluetooth Device
-| x                                   | Embedded LAN Controller
-| .                                   | LAN/WLAN Switching
-
-Wake on LAN:
-| .                                   | Disable
-| x                                   | Boot to Network
-| .                                   | Follow Boot Order
-
-| x                                   | Optical Disk Drive
-| x                                   | Fingerprint Device
-| x                                   | Integrated Camera
-| x                                   | Power Monitor Circuit
-| x                                   | Audio Device
-| x                                   | Microphone
-| x                                   | Speakers and Headphones
-| .                                   | Wake unit from sleep when lid is opened
-| .                                   | Power on unit when lid is opened
-| x                                   | Boost Converter
+Parameter                           | Value
+------------------------------------|-----------------
+x                                   | Wireless Button State
+x                                   | Embedded WLAN Device
+x                                   | Embedded Bluetooth Device
+x                                   | Embedded LAN Controller
+.                                   | LAN/WLAN Switching
+                                    |
+**Wake on LAN**                     |
+.                                   | Disable
+x                                   | Boot to Network
+.                                   | Follow Boot Order
+                                    |
+x                                   | Optical Disk Drive
+x                                   | Fingerprint Device
+x                                   | Integrated Camera
+x                                   | Power Monitor Circuit
+x                                   | Audio Device
+x                                   | Microphone
+x                                   | Speakers and Headphones
+.                                   | Wake unit from sleep when lid is opened
+.                                   | Power on unit when lid is opened
+x                                   | Boost Converter
 
 **BIOS - System Configuration - Port Options**
 
-| x                                   | Flash media reader
-| x                                   | USB Port
+Parameter                           | Value
+------------------------------------|-----------------
+x                                   | Flash media reader
+x                                   | USB Port
 
 **BIOS - System Configuration - Set Security Level**
 
-| Set All Security Levels             | \*default/change/view/hide
-| Flash media reader                  | change/\*view/hide
-| USB Port                            | change/\*view/hide
-| HP SpareKey                         | \*change/view/hide
-| Save/Restore MBR of the system Hard Drive | \*change/view/hide
+Parameter                           | Value
+------------------------------------|-----------------
+Set All Security Levels             | \*default/change/view/hide
+Flash media reader                  | change/\*view/hide
+USB Port                            | change/\*view/hide
+HP SpareKey                         | \*change/view/hide
+Save/Restore MBR of the system Hard Drive | \*change/view/hide
 
