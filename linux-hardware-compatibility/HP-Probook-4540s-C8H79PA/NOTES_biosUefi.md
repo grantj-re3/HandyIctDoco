@@ -3,6 +3,7 @@
 
 ### BIOS - File - System Information
 
+Parameter                           | Value
 ------------------------------------|-----------------
 Manufacturer                        | Hewlett Packard
 Product Name                        | HP Probook 4540s
@@ -21,6 +22,7 @@ Total Memory Size                   | 4096 MB RAM
 
 ### BIOS - System Configuration - Boot Options
 
+Parameter                           | Value
 ------------------------------------|-----------------
 Startup Menu Delay (Sec)            | 0
 Multiboot Express Popup Delay (Sec) | 0
@@ -65,6 +67,7 @@ UEFI Boot Order:
 
 Define Customized Boot Option:
 
+Parameter                           | Value
 ------------------------------------|-----------------
 .                                   | Add
 x                                   | Delete
