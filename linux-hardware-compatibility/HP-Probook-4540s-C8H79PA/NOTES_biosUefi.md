@@ -27,14 +27,14 @@ Parameter                           | Value
 ------------------------------------|-----------------
 Startup Menu Delay (Sec)            | 0
 Multiboot Express Popup Delay (Sec) | 0
-==========                          |
+\~\~\~\~\~                          |
 .                                   | Audio alerts during boot
 x                                   | Custom logo
 x                                   | Display Diagnostic URL
 .                                   | Custom Help and URL Message
 .                                   | Require acknowledgment of battery errors
 .                                   | Fast Boot
-==========                          |
+~~~~~                               |
 x                                   | CD-ROM boot
 x                                   | SD card boot
 x                                   | Floppy boot
@@ -151,4 +151,64 @@ Flash media reader                  | change/\*view/hide
 USB Port                            | change/\*view/hide
 HP SpareKey                         | \*change/view/hide
 Save/Restore MBR of the system Hard Drive | \*change/view/hide
+Startup Menu Delay (Sec.)           | \*change/view/hide
+Custom Logo                         | change/\*view/hide
+Fast Boot                           | \*change/view/hide
+CD-ROM boot                         | change/\*view/hide
+SD card boot                        | change/\*view/hide
+Floppy boot                         | change/\*view/hide
+USB device boot                     | change/\*view/hide
+PXE Internal NIC boot               | change/\*view/hide
+PXE Internal IPV4/IPV6 NIC boot     | change/\*view/hide
+Multiboot Express Popup Delay (Sec) | \*change/view/hide
+Legacy Boot Order                   | change/\*view/hide
+UEFI Boot Order                     | change/\*view/hide
+USB legacy support                  | change/\*view/hide
+Fan Always on while on AC Power     | change/\*view/hide
+Data Execution Prevention           | change/\*view/hide
+SATA Device Mode                    | change/\*view/hide
+Virtualization Technology (VTx)     | change/\*view/hide
+Embedded WLAN Device                | change/\*view/hide
+Embedded Bluetooth Device           | change/\*view/hide
+Embedded LAN Controller             | change/\*view/hide
+LAN/WLAN Switching                  | change/\*view/hide
+Wake on LAN                         | change/\*view/hide
+Multi Core CPU                      | change/\*view/hide
+Intel(R) HT Technology              | change/\*view/hide
+Optical Disk Drive                  | change/\*view/hide
+Fingerprint Device                  | change/\*view/hide
+Set DriveLock Password              | change/\*view/hide
+Disk Sanitizer                      | change/\*view/hide
+Asset Tracking Number               | change/\*view/hide
+Ownership Tag                       | \*change/view/hide
+Integrated Camera                   | change/\*view/hide
+Audio Device                        | change/\*view/hide
+Microphone                          | change/\*view/hide
+Speakers and Headphones             | change/\*view/hide
+Power Monitor Circuit               | change/\*view/hide
+Wireless Button State               | change/\*view/hide
+Display Diagnostic URL              | change/\*view/hide
+Custom Help and URL message         | change/\*view/hide
+SecureBoot                          | change/\*view/hide
+Key Management                      | change/\*view/hide
+Boot Mode                           | change/\*view/hide
+Intel(R) Anti-Theft                 | change/\*view/hide
+Wake on USB                         | change/\*view/hide
+NumLock on at boot                  | \*change/view/hide
+Switchable Graphics                 | \*change/view/hide
+BIOS Power-On                       | change/\*view/hide
+DriveLock password on restart       | change/\*view/hide
+Secure Erase                        | change/\*view/hide
+Smart Card Reader Power Setting (if present) | change/\*view/hide
+Power on unit when AC is detected   | change/\*view/hide
+Wake unit form sleep when lid is opened | change/\*view/hide
+Power on unit when lid is opeded    | change/\*view/hide
+System Management Command           | change/\*view/hide
+Boost Converter                     | change/\*view/hide
+Update System BIOS                  | change/\*view/hide
+Require acknowledgement of battery errors | change/\*view/hide
+Max SATA Speed                      | change/\*view/hide
+HP Hypervisor                       | change/\*view/hide
+Customized Boot                     | change/\*view/hide
+HP Application                      | change/\*view/hide
 
