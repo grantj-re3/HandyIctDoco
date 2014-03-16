@@ -27,14 +27,14 @@ Parameter                           | Value
 ------------------------------------|-----------------
 Startup Menu Delay (Sec)            | 0
 Multiboot Express Popup Delay (Sec) | 0
-                                    |
+==========                          |
 .                                   | Audio alerts during boot
 x                                   | Custom logo
 x                                   | Display Diagnostic URL
 .                                   | Custom Help and URL Message
 .                                   | Require acknowledgment of battery errors
 .                                   | Fast Boot
-                                    |
+==========                          |
 x                                   | CD-ROM boot
 x                                   | SD card boot
 x                                   | Floppy boot
@@ -44,15 +44,15 @@ x                                   | PXE Internal NIC boot
 x                                   | USB device boot
 x                                   | HP Application
 x                                   | Customised Boot
-                                    |
+==========                          |
 **SecureBoot Configuration**        |
 [disabled]                          | SecureBoot
 .                                   | Clear SecureBoot Keys
-                                    |
+==========                          |
 **User Mode**                       |
 x [disabled]                        | HP Factory Keys
 . [disabled]                        | Customer Keys
-                                    |
+==========                          |
 **Boot Mode**                       |
 .                                   | Legacy
 x                                   | UEFI Hybrid (With CSM)
@@ -70,6 +70,7 @@ UEFI Boot Order:
 * Customized Boot
 
 Define Customized Boot Option:
+
 Parameter                           | Value
 ------------------------------------|-----------------
 .                                   | Add
@@ -91,11 +92,11 @@ Parameter                           | Value
 x                                   | USB legacy support
 x                                   | Fan Always on while on AC Power
 x                                   | Data Execution Prevention
-                                    |
+&nbsp;                              |
 **Max SATA Speed**                  |
 .                                   | 3.0 Gbps
 x                                   | 6.0 Gbps
-                                    |
+&nbsp;                              |
 **SATA Device Mode**                |
 .                                   | IDE
 x                                   | AHCI
@@ -117,12 +118,12 @@ x                                   | Embedded WLAN Device
 x                                   | Embedded Bluetooth Device
 x                                   | Embedded LAN Controller
 .                                   | LAN/WLAN Switching
-                                    |
+&nbsp;                              |
 **Wake on LAN**                     |
 .                                   | Disable
 x                                   | Boot to Network
 .                                   | Follow Boot Order
-                                    |
+&nbsp;                              |
 x                                   | Optical Disk Drive
 x                                   | Fingerprint Device
 x                                   | Integrated Camera
