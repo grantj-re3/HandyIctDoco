@@ -110,6 +110,27 @@ git push -u https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git master
 Basic maintenance
 =================
 
+## git clone
+```
+git clone https://github.com/GITHUB_USER/myrepo.git
+```
+
+## git remote
+For git version 1.7.1, if I clone one of my repos at Github then
+later wish to perform a push from that cloned working tree, I
+first need to change my https URL config to prompt for a password
+as follows.
+```
+# View the current setting
+$ git remote -v
+  origin https://github.com/GITHUB_USER/myrepo.git (...)
+
+$ git remote set-url origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git
+# View the new setting
+$ git remote -v
+  origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git (...)
+```
+
 ## git diff
 
 git diff with diagram at
@@ -119,6 +140,11 @@ git diff --cached FILENAME
 git diff FILENAME
 git diff HEAD FILENAME
 git diff --name-only
+```
+
+## git status
+```
+git status
 ```
 
 ## git commit
