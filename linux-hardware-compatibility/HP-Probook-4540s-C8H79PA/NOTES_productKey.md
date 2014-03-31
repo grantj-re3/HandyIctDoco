@@ -11,7 +11,7 @@ loss of your product key.
 
 I have read a number of articles suggesting how you can
 extract your product key by installing and running a
-particular Windows app. However below are a couple of
+particular third-party Windows app. However below are a couple of
 methods which I have found work ok ___under certain
 conditions___. They involve booting into a Linux
 operating system (eg. Ubuntu or Fedora LiveCD) then
@@ -22,7 +22,7 @@ reasonable knowledge of Linux. They also assume that you
 take great care when performing commands as root,
 especially the partition commands parted, fdisk and gdisk.
 
-### Look in the paging file
+### Look in the Windows paging file
 
 Assuming you have a page file configured, and you have
 recently performed some action which required (probably
@@ -63,6 +63,7 @@ strings /mnt/win8/pagefile.sys |egrep -A3 "<ProductKey>"
 ```
 The output should look something like this (but with
 "YOUR-WINDOWS-PRODUCT-KEY-HERE" replaced with your key).
+Copy your Windows product key to a safe place.
 ```
     <ProductKey>
         <Key>YOUR-WINDOWS-PRODUCT-KEY-HERE</Key>
@@ -117,10 +118,16 @@ egrep -A3 "<ProductKey>" /mnt/win8/\$WINDOWS.~BT/Sources/Panther/unattend.xml
 ```
 The output should look something like this (but with
 "YOUR-WINDOWS-PRODUCT-KEY-HERE" replaced with your key).
+Copy your Windows product key to a safe place.
 ```
     <ProductKey>
         <Key>YOUR-WINDOWS-PRODUCT-KEY-HERE</Key>
         <WillShowUI>Never</WillShowUI>
     </ProductKey>
 ```
+
+- Continue with your Windows 8 install by:
+  * Shutting down your Linux LiveCD
+  * Removing the Linux LiveCD
+  * Booting into Windows 8 (on hard disk) to complete the installation
 
