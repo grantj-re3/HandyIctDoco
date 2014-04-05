@@ -15,7 +15,10 @@ particular third-party Windows app. However below are a couple of
 methods which I have found work ok ___under certain
 conditions___. They involve booting into a Linux
 operating system (eg. Ubuntu or Fedora LiveCD) then
-mounting the Windows drive-C partition.
+mounting the Windows drive-C partition. If you already have
+a dual boot Windows 8 and Linux system, then you can use
+that Linux operating system instead of the Linux LiveCD
+which I describe below.
 
 ___Warning___: The instructions below assume you have a
 reasonable knowledge of Linux. They also assume that you
@@ -88,29 +91,12 @@ Language DVD".  The steps for me were:
 
 - Boot to your Linux LiveCD
 
-- Become the root user. Eg.
-```
-# Perhaps this
-su -
-# or this
-sudo su -
-```
+- Become the root user. (See the section above.)
 
 - Figure out on which partition your Windows drive-C
-  resides. Some of the commands which may help you
-  identify the partition (eg. which should be NTFS
-  and of the size of your drive-C) are:
-```
-parted -l
-fdisk -l
-gdisk -l /dev/sda
-```
+  resides. (See the section above.)
 
-- Mount drive-C. Mine was /dev/sda4 (but yours may be different).
-```
-mkdir /mnt/win8
-mount /dev/sda4 /mnt/win8
-```
+- Mount drive-C. (See the section above.)
 
 - Search for the product key within unattend.xml.
 ```
