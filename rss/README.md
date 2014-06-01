@@ -5,6 +5,22 @@ Bookmarks related to technical aspects of RSS including:
 - how to create an RSS feed with just a text editor
 - where to find RSS icons
 
+## RSS in a nutshell
+
+- RSS provides a means for content providers (including news channels,
+  web masters, bloggers and repository managers) to update or notify
+  consumers of new content.
+- The content provider makes an (XML) RSS page available on the
+  internet (typically via a web server).
+- If the consumer subscribes to the RSS page, their RSS reader
+  will poll the page regularly looking for updates. If there are any
+  updates, the RSS reader will take appropriate action which may
+  include a notification to the consumer.
+- Many web browsers and email clients also include some RSS reading
+  capability. Mozilla Firefox for example has a native feature called
+  Live Bookmarks which updates (RSS-harvested) bookmarks based on
+  updates discovered via RSS polling. Firefox also can have other RSS
+  features via add-ons (ie. plugins).
 
 ## RSS Specification and other information
 
