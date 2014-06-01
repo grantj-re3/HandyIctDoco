@@ -2,13 +2,13 @@
 
 Bookmarks related to technical aspects of RSS including:
 - the specification
-- how to create an XML feed with just a text editor
+- how to create an RSS feed with just a text editor
 - where to find RSS icons
 
 
 ## RSS Specification and other information
 
-Specifications
+Specifications, validators and other resources
 - http://www.rss-specifications.com/
 - http://www.rss-specifications.com/rss-specifications.htm
 - http://www.rss-specifications.com/feed-validators.htm
@@ -30,6 +30,7 @@ Create an RSS feed with a text editor
 
 - http://www.feedicons.com/
 - http://www.feedicons.com/guidelines/ says
+
 > The feed icon is freely available for general use in connection with web
 > feeds using open web syndication formats, without the need to enter into
 > a trademark license agreement or similar legal arrangement... However...
