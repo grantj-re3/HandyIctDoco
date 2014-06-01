@@ -18,9 +18,9 @@ Bookmarks related to technical aspects of RSS including:
   include a notification to the consumer.
 - Many web browsers and email clients also include some RSS reading
   capability. Mozilla Firefox for example has a native feature called
-  Live Bookmarks which updates (RSS-harvested) bookmarks based on
-  updates discovered via RSS polling. Firefox also can have other RSS
-  features via add-ons (ie. plugins).
+  Live Bookmarks which updates RSS-channel bookmarks based on new
+  information discovered via RSS polling. Firefox can also have other
+  RSS features via add-ons (ie. plugins).
 
 ## RSS Specification and other information
 
