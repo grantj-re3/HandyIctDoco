@@ -69,7 +69,7 @@ Partition | Filesystem | Size       | Type                 | Comment
 ----------|------------|------------|----------------------|---------
 /dev/sda1 | HTFS       | 400MB      | Recovery Partition   |
 /dev/sda2 | FAT        | 260MB      | EFI System Partition | ESP
-/dev/sda3 | Unknown    | 128MB      | -                    | Flags: msftres
+/dev/sda3 | Unknown    | 128MB      | -                    | Flags: msftres (I didn't notice this partition in Win8.1)
 /dev/sda4 | NTFS       | 446GB      | Windows 8.1 (C:)     | 
 /dev/sda5 | NTFS       | 18GB       | OEM Partition (D:)   | Recovery
 
@@ -95,6 +95,8 @@ I referenced
 http://www.linuxbsdos.com/2014/06/11/how-to-dual-boot-linux-mint-17-and-windows-8-on-a-pc-with-uefi-firmware/
 to install Linux Mint 17.
 
+### Partitioning
+
 When creating my custom partition table (ie. Installation Type of
 "Something Else") I chose the following arrangement of the
 unallocated space created in the shrink step above.
@@ -113,6 +115,10 @@ rather than /mnt/road above (or even omit a /home partition completely).
 Here is the reasoning behind my Linux partitioning. (Skip this if you
 already know your requirements.)
 
+- The notebook has 4GB of RAM. Perhaps in future I will upgrade to 8GB.
+  I would like to store all of RAM in the swap area in such a future
+  scenario. Hence I configured swap size to be larger than:
+    1024 x 1024 x 1024 x 8 = approx 8,600,000,000
 - For a home system or notebook, I don't want lots of partitions which
   limit how many files I can store on /var, /tmp, /usr, etc. Hence I
   follow the fairly common convention for home systems of having:
@@ -198,12 +204,14 @@ data, etc (eg. ~/.mozilla) in /home (which is part of the
 / partition). If you install a new Linux under / these
 files and configs will be deleted.
 
+### Grub boot loader
+
 The other important thing to do is ensure that grub2 and linux EFI
 files are installed into the EFI System Partition (ESP). The Windows
 Boot Manager and Windows 8.1 EFI files already exist on this
-partition. *(This is not necessarily the ideal option because
+partition. ***(This is not necessarily the ideal option because
 updates or upgrades to Windows might adversely affect your
-ability to boot to both Windows and Linux!)*
+ability to boot to both Windows and Linux!)***
 
 Do this by setting "Device for boot loader installation" to /dev/sda2
 (or whatever partition your pre-installed EFI System Partiton lives on).
