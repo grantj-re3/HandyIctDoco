@@ -1,14 +1,14 @@
 HP 250 G2 G0R80PA notebook
 ==========================
 
-**Work in progress**
+**Work in progress...**
 
 # Dual boot Windows 8.1 and Linux Mint 17 under UEFI
 
 ## Introduction
 
 My environment was as follows.
-- I was installing to a HP 250 G2 G0R80PA notebook
+- I was installing to an HP 250 G2 G0R80PA notebook
 - I did not re-install Windows but left the pre-installed Windows 8.1
   operating system in place
 - I used a Linux Mint 17 (http://www.linuxmint.com/) Cinnamon 64bit
@@ -21,6 +21,7 @@ The instructions assume:
   programs and data from the hard disk)
 
 Of course, I built on the info provided by others. My rough steps were:
+
 1. Register Win8.1 with Microsoft as per the wizard
 2. Verify that your new laptop works ok under Win8.1
 3. Verify that laptop is compatible with Linux by booting to various
