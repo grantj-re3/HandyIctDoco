@@ -31,17 +31,17 @@ My rough high-level steps were:
 3. Verify that laptop is compatible with Linux by booting to various
    LiveDVDs and testing the operation of the display, keyboard,
    touchpad, ethernet, wifi, webcam, USB mouse, USB storage, etc.
-4. Configure UEFI firmware/BIOS (see below)
+4. [Configure the UEFI firmware](#configure-the-uefi-firmware)
 5. Disable Windows 8.1 Fast Boot as per http://www.typicaltips.com/2013/02/disable-fast-startup-in-windows-8.html
 6. Perform backups of the Windows 8.1 operating system (but since I didn't use them I cannot vouch for their usefulness)
    * Create a USB bootable Windows 8.x recovery disk
    * Create a Windows 8.x system image
-7. Shrink the Windows 8.1 partition
-8. Install Linux Mint 17 (see below)
+7. [Shrink the Windows partition](#shrink-the-windows-partition)
+8. [Install Linux Mint 17](#install-linux-mint-17)
 9. Configure UEFI so that the notebook boots into grub by default as per
    http://www.coreyford.name/2013/10/05/linuxmint-uefi.html
 
-## Configure UEFI firmware
+## Configure the UEFI firmware
 
 I chose to disable Secure Boot and enable CSM (Compatibility Support
 Module) in the firmware as I had success with this method in the past
@@ -215,11 +215,18 @@ Linux under / these files and configs will be deleted
 
 The other important thing to do is ensure that grub2 and linux EFI
 files are installed into the EFI System Partition (ESP). The Windows
-Boot Manager and Windows 8.1 EFI files already exist on this
-partition. ***(This is not necessarily the ideal option because
-updates or upgrades to Windows might adversely affect your
-ability to boot to both Windows and Linux!)***
+Boot Manager and Windows 8.x EFI files already exist on this
+partition.
 
 Do this by setting "Device for boot loader installation" to /dev/sda2
 (or whatever partition your pre-installed EFI System Partiton lives on).
+
+***This is not necessarily the ideal option because updates or
+upgrades to Windows might adversely affect your ability to boot
+to both Windows and Linux!*** So next time, I may create an extra
+EFI System Partition (ESP) for Linux (eg. /dev/sda9) then set
+"Device for boot loader installation" to that partition. Hopefully
+we could boot to Linux by simply choosing the Grub EFI file on the
+Linux ESP during the EFI-boot process even if Windows and its ESP
+are damaged or do not exist.
 
