@@ -26,11 +26,11 @@ The instructions assume:
 
 My rough high-level steps were:
 
-1. Register Win8.1 with Microsoft as per the wizard
-2. Verify that your new laptop works ok under Win8.1
-3. Verify that laptop is compatible with Linux by booting to various
+1. Verify that laptop is compatible with Linux by booting to various
    LiveDVDs and testing the operation of the display, keyboard,
    touchpad, ethernet, wifi, webcam, USB mouse, USB storage, etc.
+2. Register Win8.1 with Microsoft as per the wizard
+3. Verify that your new laptop works ok under Win8.1
 4. [Configure the UEFI firmware](#configure-the-uefi-firmware)
 5. Disable Windows 8.1 Fast Boot as per http://www.typicaltips.com/2013/02/disable-fast-startup-in-windows-8.html
 6. Perform backups of the Windows 8.1 operating system (but since I didn't use them I cannot vouch for their usefulness)
@@ -51,10 +51,10 @@ mode and Windows 8.1 clearly displays its dislike of such behaviour
 by showing a warning on your desktop! :(
 
 Configure by:
-- Hitting the F10 key several times early in the notebook boot
+- Hitting the F10 key (perhaps several times) early in the notebook boot
   process (ie. shortly after applying power) to enter the UEFI
   firmware configuration menu
-- Navigate to ...
+- Navigate to System Configuration > Boot Options 
 - Change *Legacy Support* (ie. CSM) option to *Enable*. As a
   result you should see the *Secure Boot* option change to
   *Disable*
@@ -226,7 +226,9 @@ upgrades to Windows might adversely affect your ability to boot
 to both Windows and Linux!*** So next time, I may create an extra
 EFI System Partition (ESP) for Linux (eg. /dev/sda9) then set
 "Device for boot loader installation" to that partition. Hopefully
-we could boot to Linux by simply choosing the Grub EFI file on the
-Linux ESP during the EFI-boot process even if Windows and its ESP
-are damaged or do not exist.
+we could boot to Linux by simply selecting the Grub EFI file (on the
+Linux ESP during the EFI-boot process) even if Windows and its ESP
+are damaged or do not exist. That is, on this notebook:
+
+Power on > F9 > Boot From EFI File > [Your EFI System Partition] > <EFI> > <ubuntu> > grubx64.efi
 
