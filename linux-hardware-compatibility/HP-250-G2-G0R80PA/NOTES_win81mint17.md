@@ -29,7 +29,9 @@ My rough steps were:
    touchpad, ethernet, wifi, webcam, USB mouse, USB storage, etc.
 4. Configure UEFI firmware/BIOS (see below)
 5. Disable Windows 8.1 Fast Boot as per http://www.typicaltips.com/2013/02/disable-fast-startup-in-windows-8.html
-6. Perform backups of the Windows 8.1 operating system
+6. Perform backups of the Windows 8.1 operating system (but since I didn't use them I cannot vouch for their usefulness)
+   * Created a USB bootable Windows 8.x recovery disk
+   * Created a Windows 8.x system image
 7. Shrink the Windows 8.1 partition
 8. Install Linux Mint 17 (see below)
 9. Configure UEFI so that the notebook boots into grub by default as per
@@ -62,12 +64,12 @@ shrinking of drive-C but only seems to allow it to become about half the
 size (ie. 220GB) without going to a lot of effort. Hence I used the
 gparted tool on the Linux Mint 17 LiveDVD to do this.
 
-This disk drive on this notebook was nominally 500GB.
+The disk drive on this notebook was nominally 500GB.
 Before shrinking, the partition table looked something like this.
 
 Partition | Filesystem | Size       | Type                 | Comment
 ----------|------------|------------|----------------------|---------
-/dev/sda1 | HTFS       | 400MB      | Recovery Partition   |
+/dev/sda1 | NTFS       | 400MB      | Recovery Partition   |
 /dev/sda2 | FAT        | 260MB      | EFI System Partition | ESP
 /dev/sda3 | Unknown    | 128MB      | -                    | Flags: msftres (I didn't notice this partition in Win8.1)
 /dev/sda4 | NTFS       | 446GB      | Windows 8.1 (C:)     | 
@@ -99,7 +101,7 @@ to install Linux Mint 17.
 
 When creating my custom partition table (ie. Installation Type of
 "Something Else") I chose the following arrangement of the
-unallocated space created in the shrink step above.
+unallocated space (created in the shrink step above).
 
 Partition | Filesystem | Mount point | Size       | Comment
 ----------|------------|-------------|------------|---------
@@ -127,9 +129,9 @@ already know your requirements.)
 - I like to have plenty of room on my / partition to install future
   software and upgrade linux by (perhaps) reinstalling a future
   version of linux which is likely to be larger than my current
-  Linux OS. Also, my / partition will also contain home directories
-  (ie. /home) probably all of the default storage used by some
-  applications (eg. thumbnails and web browser cache). Hence I
+  Linux OS. In addition, my / partition will contain home directories
+  (ie. /home) hence probably all of the default storage used by some
+  applications (eg. thumbnails and web browser cache). Therefore I
   want more space than discussed in the article and have chosen
   50GB.
 - Many people like to configure their personal system with a
@@ -144,11 +146,11 @@ already know your requirements.)
   However I've had trouble with the second of these ideas in the
   past. In particular, when I've had several Linux operating
   systems which share /home/myhomedir I've found that different
-  versions of applications (or perhaps difference configurations
+  versions of applications (or perhaps different configurations
   of the same application versions) use the same files/directories
-  in difference ways. This might apply to say Gnome desktop
+  in different ways. This might apply to say Gnome desktop
   (~/.cache, ~/.config, ~/.local) or Firefox (~/.mozilla) or Gimp
-  (~/.gimp-X.Y) or many other apps. Instead, I use a slightly
+  (~/.gimp-X.Y) or other apps. Instead, I use a slightly
   different principle which achieves a similar result (but does
   not fully and formally address bullet one (growth in /home).
   Here is an example.
@@ -196,13 +198,14 @@ control-D			# Go back to root user
 
 ```
 
-Now each user has a place to store files their files directly
+Now each user has a place to store their files directly
 under their home directory. These directory trees will remain
-in place even if you re-install Linux under / partition.
-Linux apps can store their still store their configs, cache,
+in place even if you re-install the Linux / partition.
+Linux apps can still store their configs, cache,
 data, etc (eg. ~/.mozilla) in /home (which is part of the
-/ partition). If you install a new Linux under / these
-files and configs will be deleted.
+/ partition). However note that if you install a new
+Linux under / these files and configs will be deleted
+(so you will need to backup anything important).
 
 ### Grub boot loader
 
