@@ -27,7 +27,7 @@ WLAN FCC ID *              | PPD-QCWB335
 Bluetooth FCC ID *         | PPD-QCWB335
 System Log                 | xxxx
 
-* = Cursor skips this setting (for the current settings)
+ * = Cursor skips this setting (for the current settings)
 
 
 ### InsydeH2O Setup Utility - Security
@@ -67,6 +67,8 @@ Pending Action                 | None
 Clear All Secure Boot Keys *   | ~~~
 Load HP Factory Default Keys * | ~~~
 ~~~                            | ~~~
+
+ * = Cursor skips this setting (for the current settings)
 
 UEFI Boot Order:
 * Internal CD/DVD ROM Drive
