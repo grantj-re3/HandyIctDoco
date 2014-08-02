@@ -1,11 +1,14 @@
 HP 250 G2 G0R80PA notebook
 ==========================
 
-**Work in progress...**
-
 # Dual boot Windows 8.1 and Linux Mint 17 under UEFI
 
 ## Introduction
+
+The purpose of these instructions is to remind myself (and other
+users who are very familiar with installing Linux) about:
+- dual booting Linux and Windows 8.x
+- installing Linux on a UEFI firmware system
 
 My environment was as follows.
 - I was installing to an HP 250 G2 G0R80PA notebook
@@ -15,12 +18,13 @@ My environment was as follows.
   LiveDVD/install disk downloaded from my local mirror site
 
 The instructions assume:
-- you are familiar with Linux
+- you are familiar with Linux and have installed Linux operating
+  systems in the past
 - you will take great care when partitioning, formatting and installing
   (as these tasks typically delete whole operating systems including
   programs and data from the hard disk)
 
-My rough steps were:
+My rough high-level steps were:
 
 1. Register Win8.1 with Microsoft as per the wizard
 2. Verify that your new laptop works ok under Win8.1
@@ -30,8 +34,8 @@ My rough steps were:
 4. Configure UEFI firmware/BIOS (see below)
 5. Disable Windows 8.1 Fast Boot as per http://www.typicaltips.com/2013/02/disable-fast-startup-in-windows-8.html
 6. Perform backups of the Windows 8.1 operating system (but since I didn't use them I cannot vouch for their usefulness)
-   * Created a USB bootable Windows 8.x recovery disk
-   * Created a Windows 8.x system image
+   * Create a USB bootable Windows 8.x recovery disk
+   * Create a Windows 8.x system image
 7. Shrink the Windows 8.1 partition
 8. Install Linux Mint 17 (see below)
 9. Configure UEFI so that the notebook boots into grub by default as per
