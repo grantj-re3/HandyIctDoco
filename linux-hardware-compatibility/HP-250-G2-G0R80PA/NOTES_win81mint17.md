@@ -230,5 +230,5 @@ we could boot to Linux by simply selecting the Grub EFI file (on the
 Linux ESP during the EFI-boot process) even if Windows and its ESP
 are damaged or do not exist. That is, on this notebook:
 
-Power on > F9 > Boot From EFI File > [Your EFI System Partition] > <EFI> > <ubuntu> > grubx64.efi
+Power on > F9 > Boot From EFI File > [Your EFI System Partition] > EFI > ubuntu > grubx64.efi
 
