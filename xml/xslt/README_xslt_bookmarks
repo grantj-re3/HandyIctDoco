@@ -1,0 +1,146 @@
+##############################################################################
+# XSLT - quick start info
+##############################################################################
+# XSLT Basic Example
+https://developer.mozilla.org/en-US/docs/XSLT_in_Gecko/Basic_Example
+https://developer.mozilla.org/en-US/docs/XSLT_in_Gecko
+
+# Example study: How to transform XML into XHTML using XSLT.
+http://www.w3schools.com/xsl/xsl_transformation.asp
+http://www.w3schools.com/xsl/xsl_intro.asp
+
+# Linux: xsltproc; apache; firefox; example
+http://linux.dd.com.au/wiki/XSLT_Tutorial
+
+##############################################################################
+# More XSLT info
+##############################################################################
+http://www.w3.org/TR/xpath20/
+http://www.w3.org/TR/xquery-operators/
+
+# XSLT Elements Reference eg. <xsl:variable>
+
+http://www.w3schools.com/xsl/xsl_w3celementref.asp
+http://www.w3schools.com/xsl/el_variable.asp
+http://zvon.org/xxl/XSLTreference/Output/elementIndex.html
+
+# Functions
+#
+# XQuery 1.0, XPath 2.0, and XSLT 2.0 share the same functions library.
+# XSLT includes over 100 built-in functions. There are functions for 
+# string values, numeric values, date and time comparison, node and 
+# QName manipulation, sequence manipulation, Boolean values, and more.
+
+# XSLT 2.0
+http://www.w3schools.com/xpath/xpath_functions.asp
+http://www.w3schools.com/xsl/xsl_functions.asp
+
+http://www.w3.org/TR/xquery-operators/#accessors
+http://www.w3.org/TR/xquery-operators/#numeric-functions
+http://www.w3.org/TR/xquery-operators/#string-functions
+
+# XSLT 1.0
+http://zvon.org/xxl/XSLTreference/Output/xpathFunctionIndex.html
+http://www.edankert.com/xpathfunctions.html
+http://www.w3.org/TR/xpath/#corelib
+http://www.mulberrytech.com/quickref/XSLT_1quickref-v2.pdf
+
+##############################################################################
+# XSLT 1.0 User defined functions (assuming your XSLT 1.0 implementation supports EXSLT)
+##############################################################################
+http://xml.coverpages.org/jenitennison-exsl200102.html	# Good
+http://www.exslt.org/func/index.html			# Good
+http://www.exslt.org/regexp/functions/replace/index.html
+
+http://www.getsymphony.com/discuss/thread/87656/
+http://stackoverflow.com/questions/5246222/create-xpath-function-in-xslt-1-0
+
+##############################################################################
+# Gecko implementation
+##############################################################################
+# XSLT1 + subset of EXSLT
+https://developer.mozilla.org/en-US/docs/Web/EXSLT	# Firefox/gecko subset of EXSLT
+https://developer.mozilla.org/en-US/docs/Web/EXSLT/regexp/replace
+https://developer.mozilla.org/en-US/docs/Web/EXSLT/regexp/match
+https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions
+
+##############################################################################
+# HE: Saxon Home Edition (open source)
+# Java (or .NET) app for XSLT2
+##############################################################################
+http://www.saxonica.com/documentation/index.html#!about
+http://www.saxonica.com/documentation/index.html#!about/installationjava/licensekey
+http://www.saxonica.com/feature-matrix.html
+http://www.saxonica.com/documentation/index.html#!using-xsl/commandline
+http://www.saxonica.com/documentation/documentation.xml
+http://stackoverflow.com/questions/8535947/xslt-2-0-transformation-via-linux-shell
+# Saxon-CE (client edition) is XSLT 2.0 for use on web browsers
+http://www.saxonica.com/ce/index.xml
+
+# Saxon wrapper GEM for JRuby
+https://github.com/fidothe/saxon-xslt
+
+##############################################################################
+# Ruby, Python and other Language implementations
+##############################################################################
+http://www.w3.org/XML/Query/#implementations	# Also see section "XPath 2 Implementations"
+https://wiki.python.org/moin/PythonXml
+
+http://exist-db.org/exist/apps/homepage/index.html
+http://sourceforge.net/projects/exist/files/Stable/2.1/
+https://github.com/eXist-db
+https://github.com/eXist-db/xsltforms-demo-app
+
+# Partial support for XSLT was introduced in Qt 4.5. (formerly Patternist)
+# XSLT 2.0
+http://qt-project.org/doc/qt-5.0/qtxmlpatterns/xmlprocessing.html#xslt-2-0
+http://sourceforge.net/projects/patternist/	# No content? A component of Qt
+
+# XML_XSLT2Processor is a PHP class... This project is now dead. 
+http://sourceforge.net/projects/xslt2processor/
+# Saxon/C is in beta release of Saxon-HE on the C/C++ programming platform.
+# APIs are offered currently to run XSLT 2.0 and XQuery 1.0 from C/C++ or PHP applications.
+http://www.saxonica.com/saxon-c/index.xml
+
+# BaseX is a light-weight, high-performance and scalable XML Database engine and XPath/XQuery 3.0 Processor, which includes full support for the W3C Update and Full Text extensions. An interactive and user-friendly GUI frontend gives you great insight into your XML documents. 
+# BaseX gives developers full access to transform XML with XSLT 1.0 and XSLT 2.0 (via Saxon)
+http://basex.org/products/xquery/
+
+# OrientX (Native XML Database Management System) [No updates for 5 years; 2009]
+http://idke.ruc.edu.cn/OrientX/
+
+#####
+##### This looks hopeful (for XSLT2 processing for home/work)
+#####
+# With the XPath 2 / XQuery engine you can then run arbitrary XPath 2 / XQuery queries on the dom-like representation. It is completely implemented in Pascal, supports all XPath 2 / XQuery functions and is nearly standard compatible.
+
+http://benibela.de/sources_en.html#top
+benibela.de/bin/sources/internettools.zip
+
+# XBird is a light-weight XQuery processor and database system written in Java.
+# Cannot spot XSLT2 in doco
+http://code.google.com/p/xbird/
+
+# XPath 2 Implementations
+http://www.w3.org/XML/Query/#implementations	# Also see section "XPath 2 Implementations"
+
+http://www.mono-project.com/
+
+#####
+##### This looks hopeful (for XSLT2 processing for home/work)
+#####
+# XQilla is an XQuery and XPath 2 library and command line utility written in C++, implemented on top of the Xerces-C library.
+# Binary packages for XQilla are also available for Debian, Fedora Core and Suse.
+# XQilla version 2.2.0 ... partial support for XSLT 2.0 ...
+
+http://xqilla.sourceforge.net/HomePage
+http://xqilla.sourceforge.net/Documentation
+
+# XQilla is working towards a conformant implementation of XSLT 2.0∞. As of release 2.2.0 this work is an ongoing effort, and should be considered alpha quality. Although it is possible to run a number of complex transformations there are significant features missing from the implementation, including...
+http://xqilla.sourceforge.net/XSLT2
+
+# PsychoPath is an XPath 2.0 processor...
+# Its JAR (org.eclipse.wst.xml.xpath2.processor) can be used outside of eclipse, and does not have any eclipse dependencies. 
+http://wiki.eclipse.org/PsychoPathXPathProcessor
+http://wiki.eclipse.org/PsychoPathXPathProcessor/UserManual	# Cannot spot XSLT2 in doco
+
