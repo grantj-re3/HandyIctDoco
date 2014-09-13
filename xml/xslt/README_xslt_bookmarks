@@ -46,6 +46,31 @@ http://www.w3.org/TR/xpath/#corelib
 http://www.mulberrytech.com/quickref/XSLT_1quickref-v2.pdf
 
 ##############################################################################
+# XSLT 2.0 User defined functions; language
+##############################################################################
+http://www.xml.com/pub/a/2003/09/03/trxml.html
+http://stackoverflow.com/questions/9053088/how-have-xslfunction-return-a-string-value-including-html-tags
+
+# XSLT2 language
+http://nwalsh.com/docs/tutorials/extreme04/slides.pdf	# 111 slides; Aug-2004
+http://nwalsh.com/docs/tutorials/extreme2006/plain.html	# 2006 [perhaps same as above presentation?]
+http://www.codeproject.com/Articles/460968/XSLT-programming-basics	# Simple/short tutorial
+
+# XSLT2 books
+
+# XSLT Programmer's Reference 2nd Edition Paperback – 1 Apr 2001
+# by Michael Kay
+http://www.amazon.co.uk/XSLT-Programmers-Reference-2nd-Michael/dp/1861005067/ref=sr_1_1?ie=UTF8&s=books&qid=1224675010&sr=1-1
+
+# XSLT 2nd Edition – 6 Jul 2008
+# by Doug Tidwell
+http://www.amazon.co.uk/XSLT-Doug-Tidwell/dp/0596527217/ref=dp_ob_title_bk
+
+# Beginning XSLT 2.0: From Novice to Professional Paperback – 30 Jun 2005
+# by Jeni Tennison
+http://www.amazon.co.uk/Beginning-XSLT-2-0-Novice-Professional/dp/1590593243/ref=pd_sim_b_2/276-0113657-6486551?ie=UTF8&refRID=0B9KQ31PAQWQ8EHSTPV1
+
+##############################################################################
 # XSLT 1.0 User defined functions (assuming your XSLT 1.0 implementation supports EXSLT)
 ##############################################################################
 http://xml.coverpages.org/jenitennison-exsl200102.html	# Good
