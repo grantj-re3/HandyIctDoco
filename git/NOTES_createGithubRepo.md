@@ -131,6 +131,13 @@ $ git remote -v
   origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git (...)
 ```
 
+This is equivalent to:
+```
+$ git remote rm origin
+$ git remote add origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git
+```
+
+
 ## git diff
 
 git diff with diagram at
@@ -158,9 +165,12 @@ git push -u origin master
 ```
 
 ## git pull
-Refresh from repo **and overwrite any local changes**
+Synchronise/refresh from a remote repo **and overwrite any local changes**
+(assuming you have only one local branch and are tracking one remote branch).
+A git pull does a fetch then merge from a remote branch into your local branch.
+Existing **untracked** files are not overwritten.
 ```
-git pull	# No warning given when overwriting
+git pull	# No warning given when overwriting/merging
 ```
 
 ## git log
