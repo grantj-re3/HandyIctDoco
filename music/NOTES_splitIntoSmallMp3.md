@@ -105,3 +105,27 @@ Using the above navigation tips do the following.
 - If desired, remove markers by clicking on each one
 - Repeat these steps for each file/track
 
+## Post-processing
+
+If you want to reduce the size of your mp3 files (eg. for uploading
+to the web) and you want to have minimal impact on audio quality, you
+might choose convert your MP3 files/tracks to mono. I like to do this
+to halve the size of each file. Audacity allows this, but you may
+chose to do this during post processing (as I have below).
+
+To convert a single file from stereo to mono, type:
+```
+lame -m m in_stereo_song.mp3 out_mono_song_mono.mp3
+```
+
+To convert a directory of MP3 files from stereo to mono, try something like:
+```
+cd YOUR_SOURCE_MP3_DIR
+mkdir mono
+for s in *.mp3; do d=`echo "$s" |sed 's:\.mp3:_m.mp3:; s:^:mono/:'`; cmd="lame -m m \"$s\" \"$d\""; eval $cmd; done
+```
+
+The destination files will be written into the mono subdirectory
+(which is immediately under YOUR_SOURCE_MP3_DIR) and a source
+filename of MY_TRACK.mp3 will be written to mono/MY_TRACK_m.mp3
+
