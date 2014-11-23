@@ -15,10 +15,10 @@ via the yum package manager.
 yum -y install audacity audacity-manual
 ```
 
-This package was not compiled with support with MP3 import, but MP3
+This package was not compiled with support for MP3 import, but MP3
 export works fine. Under Fedora you will probably need to compile from
 source if you need MP3-import (or use Lame as I have done below). I 
-magine many other Linux distros will support MP3-import.
+imagine many other Linux distros will support MP3-import.
 
 ## Convert your source MP3 file to WAV
 
@@ -38,7 +38,6 @@ lame --decode SRC_FILE.mp3 DEST_FILE.wav
 ```
 
 ## Audacity
-123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789
 
 ### Load your source file into Audacity
 - Start Audacity via your OS menu or from the command line.
@@ -46,7 +45,7 @@ lame --decode SRC_FILE.mp3 DEST_FILE.wav
   file and you don't have a backup you should load a copy so changes
   are not written back to your original file. (Of course, if it is
   valuable then I'm sure you've already copied a __backup__ to a
-  separate disk or device.) Navigate to:
+  separate disk or device.  :oncoming_bus:) Navigate to:
     File > Open > Make a copy of the files before editing (safer) > OK
 - At regular intervals during the steps below, save your work as
   a project with something like:
@@ -61,7 +60,7 @@ followed these steps.
 
 - Select the whole recording with Cntl-A or Edit > Select > All.
 - Amplify the selection as given below. If the amplification will
-  introduce clipping (distortion due to exceeding the maximum digital
+  introduce clipping (ie. distortion due to exceeding the maximum digital
   level), the OK button will be disabled unless you check the "Allow
   clipping" option. This may be acceptable to you if, for example,
   the distortion is only introduced during applause and the applause
@@ -73,7 +72,7 @@ followed these steps.
   with the result.
 
 ### Useful navigation tips
-- Ensure the Selection Tool ("I" icon) is enabled.
+- Ensure the Selection Tool ("`I`" icon) is enabled.
 - When zooming in/out:
   * Your mouse pointer must be placed over the waveform
   * Zoom by holding the Cntl key and moving the mouse scroll-wheel
@@ -101,7 +100,7 @@ Using the above navigation tips do the following.
 - Select the region by double-clicking between the 2 markers
 - If required, zoom out to confirm the selection is as expected
 - Save the selection as an MP3 file with: File > Export Selected Audio >
-  MP3 Files > Click Options if required > YOUR_TRACK_FILENAME.mp3 >
+  MP3 Files > Click "Options" if required > YOUR_TRACK_FILENAME.mp3 >
   Save > Edit metadata if required > OK
 - If desired, remove markers by clicking on each one
 - Repeat these steps for each file/track
