@@ -220,6 +220,55 @@ Delete a tag from the remote repo (eg. GitHub)
 git push --delete origin tagname
 ```
 
+Git branching and merging
+-------------------------
+
+Assuming you are not on master branch and have nothing outstanding to commit
+```
+git checkout master
+```
+
+Create a new branch & use it
+```
+git checkout -b newfeature
+...
+git status
+git commit [-a]
+```
+
+Merge the newfeature branch into master
+```
+git checkout master
+git merge newfeature
+
+# If you have to manually resolve merge conflicts, complete the merge with:
+git commit
+```
+
+Optionally delete the pointer to newfeature after the successful merger
+```
+git branch -d newfeature
+```
+
+Useful local repo commands
+```
+git branch
+git branch -v
+git branch --merged
+git branch --no-merged
+```
+
+Useful remote repo commands
+```
+# Save the "newfeature" branch to your remote repo
+git push -u origin newfeature
+
+# At a later time, the branch can be checked out...
+git checkout -b newfeature origin/newfeature
+# ... or merged
+git merge origin/newfeature
+```
+
 Git servers
 -----------
 ## Host your own
