@@ -228,7 +228,7 @@ Assuming you are not on the master branch and have no outstanding work to commit
 git checkout master
 ```
 
-Create a new branch switch to it
+Create a new branch and switch to it
 ```
 git checkout -b newfeature
 ...
