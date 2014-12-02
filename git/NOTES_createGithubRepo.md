@@ -223,12 +223,12 @@ git push --delete origin tagname
 Git branching and merging
 -------------------------
 
-Assuming you are not on master branch and have nothing outstanding to commit
+Assuming you are not on the master branch and have no outstanding work to commit
 ```
 git checkout master
 ```
 
-Create a new branch & use it
+Create a new branch switch to it
 ```
 git checkout -b newfeature
 ...
@@ -236,16 +236,16 @@ git status
 git commit [-a]
 ```
 
-Merge the newfeature branch into master
+Merge the newfeature branch into the master branch
 ```
 git checkout master
 git merge newfeature
 
-# If you have to manually resolve merge conflicts, complete the merge with:
+# If required: after manually resolving merge conflicts, complete the merge with:
 git commit
 ```
 
-Optionally delete the pointer to newfeature after the successful merger
+Optionally delete the pointer to the newfeature branch after the successful merger
 ```
 git branch -d newfeature
 ```
@@ -260,7 +260,7 @@ git branch --no-merged
 
 Useful remote repo commands
 ```
-# Save the "newfeature" branch to your remote repo
+# Save the "newfeature" branch to your remote repo "origin"
 git push -u origin newfeature
 
 # At a later time, the branch can be checked out...
