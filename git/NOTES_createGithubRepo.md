@@ -15,6 +15,7 @@ Topics include basics, branching, workflows, servers and other areas.
 Other books
 - http://git-scm.com/documentation/external-links
 
+
 Creating a Git repository at GitHub
 ===================================
 
@@ -106,6 +107,7 @@ git push -u origin master  # Prompts for password
 # Alternatively use:
 git push -u https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git master
 ```
+
 
 Basic maintenance
 =================
@@ -269,6 +271,82 @@ git checkout -b newfeature origin/newfeature
 git merge origin/newfeature
 ```
 
+
+Deleting a git commit
+---------------------
+
+This section describes how to undo (or delete or remove) your last git
+commit so it is no longer visible in your local or remote git-history.
+
+This is generally regarded as bad practice (and unfriendly) if your
+remote repo is public and it is possible that someone has downloaded
+it since your unwanted commit (hence may have made changes based on
+the info you are removing).  Hence it should only be carried out in
+extreme/rare circumstances (eg. the commit contains sensitive info).
+
+For similar reasons, it is also best carried out before (or very soon
+after) the commit is pushed to a public repo.
+ 
+
+## Assumptions
+
+This example assumes:
+- The second-last commit contains sensitive info
+- The last commit fixes the issue (ie. removes or replaces the sensitive info)
+
+Hence you are happy to "merge" (ie. squash) the last and second-last
+commits (thereby hiding the second-last commit).
+
+ 
+## Procedure
+
+- Backup your local repo
+```
+tar cvzf myrepo.tgz myrepo
+```
+
+- Interactively update your local repo
+```
+git rebase -i HEAD~2	# Allow editing of the last 2 commits
+```
+
+- Note that commits will be listed with the newest at the bottom (as
+  opposed the the "git log" command which lists the newest at the top).
+  You should replace:
+```
+  pick COMMIT-i Older and unwanted commit
+  pick COMMIT-j Newer and wanted commit
+```
+with:
+```
+  pick COMMIT-i Older and unwanted commit
+  squash COMMIT-j Newer and wanted commit
+  [Exit editor]
+  Enter new commit message
+  [Exit editor]
+```
+
+- Check COMMIT-i is now missing from your local repo
+```
+git status
+git log		# Or: git prettylog
+```
+
+- If required, update your remote repo (which is undesirable/unfriendly
+  for a public repo)
+```
+git push --force origin master
+```
+
+- Check COMMIT-i is now missing from your local repo and your remote repo
+  is synchronised with it (ie. no longer stores a fork/branch of the local
+  repo)
+```
+git status
+git log		# Or: git prettylog
+```
+
+ 
 Git servers
 -----------
 ## Host your own
