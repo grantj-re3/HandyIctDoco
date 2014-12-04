@@ -223,7 +223,7 @@ git push --delete origin tagname
 ```
 
 Git branching and merging
--------------------------
+=========================
 
 Assuming you are not on the master branch and have no outstanding work to commit
 ```
@@ -273,7 +273,7 @@ git merge origin/newfeature
 
 
 Deleting a git commit
----------------------
+=====================
 
 This section describes how to undo (or delete or remove) your last git
 commit so it is no longer visible in your local or remote git-history.
@@ -287,7 +287,6 @@ extreme/rare circumstances (eg. the commit contains sensitive info).
 For similar reasons, it is also best carried out before (or very soon
 after) the commit is pushed to a public repo.
  
-
 ## Assumptions
 
 This example assumes:
@@ -296,7 +295,6 @@ This example assumes:
 
 Hence you are happy to "merge" (ie. squash) the last and second-last
 commits (thereby hiding the second-last commit).
-
  
 ## Procedure
 
@@ -311,7 +309,7 @@ git rebase -i HEAD~2	# Allow editing of the last 2 commits
 ```
 
 - Note that commits will be listed with the newest at the bottom (as
-  opposed the the "git log" command which lists the newest at the top).
+  opposed to the "git log" command which lists the newest at the top).
   You should replace:
 ```
   pick COMMIT-i Older and unwanted commit
@@ -348,7 +346,7 @@ git log		# Or: git prettylog
 
  
 Git servers
------------
+===========
 ## Host your own
 I imagine many of these solutions may work well for small teams within
 an intranet, but for multiple teams or internet hosting solutions, you
