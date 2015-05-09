@@ -1,0 +1,36 @@
+
+##############################################################################
+# XML Schema info
+##############################################################################
+
+# XML Schema Tutorial
+http://www.w3schools.com/schema/default.asp
+
+# Using another schema within a schema
+http://www.liquid-technologies.com/Tutorials/XmlSchemas/XsdTutorial_04.aspx
+
+# XML Schema Part 0: Primer Second Edition (W3C Recommendation)
+http://www.w3.org/TR/xmlschema-0/
+
+##############################################################################
+# Books
+##############################################################################
+
+# 1
+Priscilla Walmsley. (2012) Definitive XML Schema, 2nd Ed. Prentice Hall.
+Priscilla Walmsley. (2001) Definitive XML Schema, 1st Ed. Prentice Hall.
+
+# 2
+Eric van der Vlist. (2002) XML Schema: The W3C's Object-Oriented Descriptions for XML, 1st Ed. O'Reilly.
+
+##############################################################################
+# Misc
+##############################################################################
+
+# Book list
+http://www.xmlplease.com/books-schema
+http://www.oxygenxml.com/xml_books.html
+
+# Reference list
+http://xml.coverpages.org/schemas.html
+
