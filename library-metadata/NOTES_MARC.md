@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Understanding MARC Bibliographic: Machine-Readable Cataloging
+Understanding MARC **Bibliographic**: Machine-Readable Cataloging
 
 - Library of Congress (LOC)
 - http://www.loc.gov/marc/umb/
@@ -27,7 +27,7 @@ MARC 21 Reference Materials
 
 ---
 
-Understanding MARC Holdings Records
+Understanding MARC **Holdings** Records
 
 - http://www.loc.gov/marc/umh/index.html
 
@@ -43,12 +43,11 @@ MARC tutorials
 
 ---
 
-Use Firefox [not Chrome] browser
+Introduction to MARC Tagging; Use Firefox [not Chrome] browser
 
-- Introduction to MARC Tagging
 - https://www.oclc.org/support/training/portfolios/cataloging-and-metadata/marc/tutorials/intro-marc-tagging.en.html
 
-Use Firefox [not Chrome] browser with popups disabled
+Introduction to MARC Tagging; Use Firefox [not Chrome] browser with popups disabled
 
 - http://www5.oclc.org/downloads/tutorials/connexion/marctagging/imtread1/ns7/index.html
 
@@ -62,7 +61,7 @@ MARC standards
 
 ## Detail
 
-MARC 21 Specs
+MARC 21 Specifications
 
 - http://www.loc.gov/marc/specifications/
 - http://www.loc.gov/marc/bibliographic/
