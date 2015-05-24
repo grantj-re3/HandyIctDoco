@@ -12,6 +12,9 @@ http://www.w3schools.com/xsl/xsl_intro.asp
 # Linux: xsltproc; apache; firefox; example
 http://linux.dd.com.au/wiki/XSLT_Tutorial
 
+# XSLT 1.0 Tutorial presentation; 47 slides
+http://www.cs.ox.ac.uk/dan.olteanu/tutorials/xslt1.pdf
+
 ##############################################################################
 # More XSLT info
 ##############################################################################
@@ -70,6 +73,11 @@ http://www.amazon.co.uk/XSLT-Doug-Tidwell/dp/0596527217/ref=dp_ob_title_bk
 # Beginning XSLT 2.0: From Novice to Professional Paperback – 30 Jun 2005
 # by Jeni Tennison
 http://www.amazon.co.uk/Beginning-XSLT-2-0-Novice-Professional/dp/1590593243/ref=pd_sim_b_2/276-0113657-6486551?ie=UTF8&refRID=0B9KQ31PAQWQ8EHSTPV1
+
+# XSLT Jumpstarter: Level the Learning Curve and Put Your XML to Work
+# by David James Kelly
+# I presume it includes XSLT v2.0 (as the Details tab says you need Saxon 6.5.5)
+https://pragprog.com/book/djkxsl/xslt-jumpstarter
 
 ##############################################################################
 # XSLT 1.0 User defined functions (assuming your XSLT 1.0 implementation supports EXSLT)
@@ -169,4 +177,13 @@ http://xqilla.sourceforge.net/XSLT2
 # Its JAR (org.eclipse.wst.xml.xpath2.processor) can be used outside of eclipse, and does not have any eclipse dependencies. 
 http://wiki.eclipse.org/PsychoPathXPathProcessor
 http://wiki.eclipse.org/PsychoPathXPathProcessor/UserManual	# Cannot spot XSLT2 in doco
+
+##############################################################################
+# Specific application tasks - code samples & fragments
+##############################################################################
+# Converting XML to CSV using XSLT 1.0 (under GPL)
+http://fahdshariff.blogspot.com.au/2014/07/converting-xml-to-csv-using-xslt-10.html
+
+# XSLT Variable Arrays (XSLT v1.0 & v2.0)
+http://blog.fpmurphy.com/2008/12/xslt-variable-arrays.html
 
