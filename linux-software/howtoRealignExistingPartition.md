@@ -140,14 +140,71 @@ gparted /dev/sdc &
 fdisk -l > fdisk_Myhost_YYYYMMDDb.txt  # Where YYYYMMDD is the date
 ```
 
+My output looked like this.
+```
+Disk /dev/sdc: 2000.4 GB, 2000398934016 bytes
+255 heads, 63 sectors/track, 243201 cylinders, total 3907029168 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disk identifier: 0x000a2010
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdc1             ...
+...
+/dev/sdc8       454719888   554740514    50010313+  83  Linux
+/dev/sdc9       554743808   654759935    50008064   83  Linux
+/dev/sdc10      654761268  1283930864   314584798+   8  AIX
+...
+/dev/sdc13     2542270248  3907024064   682376908+  83  Linux
+```
+
 Compare both partition tables using diff. The only difference should
 be the /dev/sdc9 line (and the newly removed message "Partition 9
 does not start on physical sector boundary"). E.g.
 ```
+diff fdisk_Myhost_YYYYMMDDa.txt fdisk_Myhost_YYYYMMDDb.txt
+```
+
+or
+```
 diff fdisk_Myhost_YYYYMMDDa.txt fdisk_Myhost_YYYYMMDDb.txt |egrep -v boundary
 ```
 
-## Alternative solution using fdisk
+## Alternative solution using fdisk (untested)
+
+I believe an alternative to the above is possible using fdisk.
+The method is potentially error prone and involves more user
+effort but might be useful if gparted is not available or the
+target partition is at or near the last partition.
+
+The high level method is:
+- Create a backup of "fdisk -l" output as described above.
+- Start fdisk in interactive mode on the physical hard drive
+  which contains the target partition (i.e., in my case
+  "fdisk /dev/sdc"
+- Delete all partitions from the last partition down to the target
+  partition (i.e., in my case, delete sdc13, sdc12, ... sdc10, sdc9).
+  **Do not save and exit.**
+- Re-enter manually the new Start and End block numbers for
+  the target partition (i.e. in my case sdc9).  Since logical
+  sectors (blocks) are 512 bytes and physical sectors are 4096
+  bytes, Start block numbers must be divisible by 8 to ensure
+  the target partition starts on a physical sector boundary.
+  **Do not save and exit.**
+- Copy manually or paste Start and End block numbers from
+  the fdisk backup starting at the partition above the
+  target partition and ending at the last partition (i.e.,
+  in my case sda10 to sda13 inclusive).
+  **Do not save and exit.**
+- Press "p" then copy and paste the output of the new partition
+  table for the target physical disk (in my case /dev/sdc) into
+  a file.
+- Compare the fdisk backup and the fdisk copy just made using
+  diff as described above.
+- If the only difference is the target partition (in my case
+  /dev/sdc9) and the Start and End block number are verified
+  as correct, then **save and exit from fdisk** by pressing "w".
 
 ## Unsuccessful attempt using LiveCD
 
