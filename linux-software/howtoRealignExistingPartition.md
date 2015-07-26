@@ -9,11 +9,11 @@ a spare partition sdc9.
 
 During the installation (after partitioning and before installing
 packages) the installer issued a warning to the effect that partition 9
-does not start on physical sector boundary and that this may result in
+does not start on a physical sector boundary and that this may result in
 Linux having poor performance.
 
 It was important that all of the other partitions (both above and below
-sdc9) remain unaffected as many of them are used for other Linux operating
+partition 9) remain unaffected as many of them are used for other Linux operating
 systems - as the "/" mount point or some other mount point for /home,
 shared data or backups.
 
@@ -83,14 +83,17 @@ Note 1: Typically gparted allows you to configure an operation and inspect
 the result before doing (applying) it.
 
 Note 2: After applying an operation, it appears that gparted changes the
-selected partition from the one being processed to the last one. **This
+selected partition from the one being processed to the last partition. **This
 might have disasterous consequences if you do not notice and apply an
 operation to the wrong partition.**
+
+Instructions:
 
 - Start gparted from the menu or command line
 ```
 # In my case, the target partition was on physical disk /dev/sdc.
-# You should use your own device, /dev/sdX (where X= a or b or c or...
+# You should use your own device, /dev/sdX (where X= a or b or c or...)
+
 gparted /dev/sdc &
 ```
 - Click on the target partition row (in my case /dev/sdc9) to select it.
@@ -110,10 +113,11 @@ gparted /dev/sdc &
   partition as follows.
   * If required, click on the target partition row again (as a
     different partition may now be selected following the "Apply
-    All Operations" step above.
+    All Operations" step above).
   * If required, re-confirm that the Start and End block numbers agree
     with those shown in your fdisk backup.
-  * Right click the row then select Resize/Move
+  * Right click the row then select Resize/Move. Then do the following
+    in the dialog box:
     - Free space preceding (MiB): 1 [not 0]
     - New size (MiB): Leave as default [in my case approx 50GB]
     - Free space following (MiB): 0
@@ -127,6 +131,7 @@ gparted /dev/sdc &
     - Resize/Move is now a pending operation for the target partition.
       Perform the resize by clicking Edit > Apply All Operations.
       (This took 15 minutes or so on my PC.)
+- Exit the gparted application
 
 ### Checking
 
@@ -135,7 +140,12 @@ gparted /dev/sdc &
 fdisk -l > fdisk_Myhost_YYYYMMDDb.txt  # Where YYYYMMDD is the date
 ```
 
-...
+Compare both partition tables using diff. The only difference should
+be the /dev/sdc9 line (and the newly removed message "Partition 9
+does not start on physical sector boundary"). E.g.
+```
+diff fdisk_Myhost_YYYYMMDDa.txt fdisk_Myhost_YYYYMMDDb.txt |egrep -v boundary
+```
 
 ## Alternative solution using fdisk
 
