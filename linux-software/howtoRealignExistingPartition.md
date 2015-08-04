@@ -42,8 +42,8 @@ some other disks**. Hence:
 
 The solution described below was my third attempt to solve this
 problem. My first 2 unsuccessful attempts are described
-[here](#unsuccessful_attempt_using_the_LiveCD_installer) and
-[here](unsuccessful_attempt_using_fdisk).
+[here](#unsuccessful_attempt_using_the_livecd_installer) and
+[here](#unsuccessful_attempt_using_fdisk).
 
 All commands below are assumed to be run as the root user on a
 LiveCD (in my case Linux Mint 17.2 LiveCD).
