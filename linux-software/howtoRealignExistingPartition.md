@@ -235,7 +235,7 @@ because it had the following effect.
 
 So in effect, sdc9-sdc13 had all been "shuffled" and since several of
 those partitions were already referenced by other operating systems
-**I cancelled ("q" quit) all of the partition changes**.
+**I cancelled (quit) all of the partition changes**.
 
 ## Unsuccessful attempt using fdisk
 
