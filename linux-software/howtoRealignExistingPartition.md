@@ -40,6 +40,11 @@ some other disks**. Hence:
 
 ## Solution using gparted
 
+The solution described below was my third attempt to solve this
+problem. My first 2 unsuccessful attempts are described
+[here](#unsuccessful_attempt_using_the_LiveCD_installer) and
+[here](unsuccessful_attempt_using_fdisk).
+
 All commands below are assumed to be run as the root user on a
 LiveCD (in my case Linux Mint 17.2 LiveCD).
 ```
@@ -206,7 +211,58 @@ The high level method is:
   /dev/sdc9) and the Start and End block number are verified
   as correct, then **save and exit from fdisk** by pressing "w".
 
-## Unsuccessful attempt using LiveCD
+## Unsuccessful attempt using the LiveCD installer
+
+This section describes a scenario which I attempted then cancelled
+before saving. I recommend you do not try it, or if you do,
+**exercise extreme care**.
+
+Before performing the solution described above, I planned to align the
+start of sdc9 by doing the following using the LiveCD installer.
+- deleting sdc9
+- recreating sdc9 (with a new start block number) in the free space
+  produced by the above deletion
+
+I did attempt this but cancelled without saving the new partition layout
+because it had the following effect.
+- Deleting sdc9 successfully removed sdc9 and replaced it with free
+  space (as expected) but in addition the partitions above sdc9 were
+  renamed to "fill the newly created gap" i.e., sdc10-13 were
+  renamed to be sdc9-sdc12 respectively. This behaviour was unexpected
+  to me.
+- When I added a new partition in the newly created free space,
+  instead of being named sdc9, it was named sdc13.
+
+So in effect, sdc9-sdc13 had all be "shuffled" and since several of
+those partitions were already referenced by other operating systems
+I **cancelled (i.e., did not save) those partition changes**.
 
 ## Unsuccessful attempt using fdisk
+
+This section describes a scenario which I attempted then cancelled
+before saving. I recommend you do not try it, or if you do,
+**exercise extreme care**.
+
+After the unsuccessful attempt using the LiveCD installer, I planned
+to align the start of sdc9 using a similar principle but using fdisk.
+
+The fdisk utility had the same unwanted side-effect of shuffling
+partition numbers sdc9-sdc13 as described above. When printing the
+partition table, fdisk displayed the following message under
+the table:
+
+```
+Partition table entries are not in disk order
+```
+
+However the hope was that I could re-number the partitions by selecting:
+- "x" - extra functionality
+- "f" - fix partition order
+
+However, after performing the "x" and "f" steps and printing the
+table again, the table was still not in order of the starting
+block number (although the order had changed) and the message
+regarding "Partition table entries are not in disk order" was
+still present. Hence I **cancelled (i.e., did not save) any of
+those partition changes**.
 
