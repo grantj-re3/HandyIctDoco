@@ -233,9 +233,9 @@ because it had the following effect.
 - When I added a new partition in the newly created free space,
   instead of being named sdc9, it was named sdc13.
 
-So in effect, sdc9-sdc13 had all be "shuffled" and since several of
+So in effect, sdc9-sdc13 had all been "shuffled" and since several of
 those partitions were already referenced by other operating systems
-I **cancelled (i.e., did not save) those partition changes**.
+**I cancelled ("q" quit) all of the partition changes**.
 
 ## Unsuccessful attempt using fdisk
 
@@ -246,6 +246,10 @@ before saving. I recommend you do not try it, or if you do,
 After the unsuccessful attempt using the LiveCD installer, I planned
 to align the start of sdc9 using a similar principle but using fdisk.
 
+```
+fdisk /dev/sdc
+```
+
 The fdisk utility had the same unwanted side-effect of shuffling
 partition numbers sdc9-sdc13 as described above. When printing the
 partition table, fdisk displayed the following message under
@@ -255,7 +259,9 @@ the table:
 Partition table entries are not in disk order
 ```
 
-However the hope was that I could re-number the partitions by selecting:
+However the hope was that (while remaining within fdisk and with
+none of the fdisk changes saved) I could re-number the partitions
+by selecting:
 - "x" - extra functionality
 - "f" - fix partition order
 
@@ -263,6 +269,5 @@ However, after performing the "x" and "f" steps and printing the
 table again, the table was still not in order of the starting
 block number (although the order had changed) and the message
 regarding "Partition table entries are not in disk order" was
-still present. Hence I **cancelled (i.e., did not save) any of
-those partition changes**.
+still present. Hence **I cancelled ("q" quit) all of the partition changes**.
 
