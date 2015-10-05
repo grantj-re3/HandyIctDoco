@@ -158,7 +158,9 @@ git status
 
 ## git commit
 ```
-git commit -a
+git commit		# Commit files in your staged area
+git commit -a		# Automatically add/rm indexed files then commit
+git commit --amend	# Amend your last commit with new message and/or staged files
 ```
 
 ## git push
