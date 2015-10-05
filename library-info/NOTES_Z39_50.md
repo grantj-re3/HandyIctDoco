@@ -20,9 +20,9 @@ Information Retrieval (Z39.50): Application Service Definition and Protocol Spec
 
 ## SRU/CQL
 
-SRU - Search/Retrieve via URL - is a standard XML-based protocol for search queries, utilizing CQL
+SRU: Search/Retrieve via URL - a standard XML-based protocol for search queries, utilizing CQL.
 
-Contextual Query Language - a standard syntax for representing queries.
+CQL: Contextual Query Language - a standard syntax for representing queries.
 
 - http://www.loc.gov/standards/sru/
 - http://www.loc.gov/standards/sru/misc/simple.html
