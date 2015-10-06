@@ -271,6 +271,10 @@ git push -u origin newfeature
 git checkout -b newfeature origin/newfeature
 # ... or merged
 git merge origin/newfeature
+
+# Delete the "newfeature" branch from your remote repo "origin"
+git push origin :newfeature	# Scary because it doesn't look like a delete!
+
 ```
 
 
