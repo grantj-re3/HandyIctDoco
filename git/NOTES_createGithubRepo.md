@@ -291,7 +291,7 @@ git reset --hard HEAD^
 
 ## Workflows
 
-- See Pro Git book (above)
+- See Pro Git book (above), http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
 - http://nvie.com/posts/a-successful-git-branching-model/
 
 Deleting a git commit
