@@ -277,6 +277,22 @@ git push origin :newfeature	# Scary because it doesn't look like a delete!
 
 ```
 
+## Undoing a successful, non-FF, non-pushed merge
+
+```
+# Backup repo
+cd parent_of_myrepo; tar cvzf myrepo.tgz myrepo; cd myrepo
+
+git reflog
+git reset --hard HEAD@{1}
+# or
+git reset --hard HEAD^
+```
+
+## Workflows
+
+- See Pro Git book (above)
+- http://nvie.com/posts/a-successful-git-branching-model/
 
 Deleting a git commit
 =====================
