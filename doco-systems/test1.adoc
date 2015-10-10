@@ -1,0 +1,25 @@
+= My Document Name
+Joe Bloggs <joe.bloggs@example.com>
+v0.1, 2015-10-10
+:toc:
+:imagesdir: assets/images
+:homepage: http://example.com
+
+== My first section
+
+This is a paragraph within level 1.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+
+=== My sub-section
+
+This is a paragraph within level 2.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+
