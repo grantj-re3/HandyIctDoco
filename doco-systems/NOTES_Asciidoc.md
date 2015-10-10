@@ -1,9 +1,9 @@
 # AsciiDoc format
 
-This is an plain text (ASCII) documentation format which can be read
+AsciiDoc is a plain text (ASCII) documentation format which can be read
 intuitively in raw format since it uses simple markup. It can also be
 processed to produce other formats including:
-- ebook formats PDF and epub
+- ebook formats, PDF and epub
 - HTML pages
 - man pages
 
@@ -13,7 +13,7 @@ See http://git-scm.com/book/en/v2 and https://github.com/progit/progit2
 This documentation format is processed by Asciidoctor (and formerly
 AsciiDoc). See http://asciidoctor.org/#authors
 
-## Newer - Ruby based
+## Asciidoctor tool (Ruby based; newer)
 
 Asciidoctor is a drop-in replacement for the original AsciiDoc Python
 processor.
@@ -28,7 +28,7 @@ Can be processed in Ruby, Java VM and JavaScript environments.
 - http://asciidoctor.org/docs/asciidoc-writers-guide/
 - MIT license: https://github.com/asciidoctor/asciidoctor/blob/master/LICENSE.adoc
 
-## Older project - Python based
+## AsciiDoc tool (Python based; original/older)
 
 Seems active until Version 8.6.9 (2013-11-09)
 
@@ -36,4 +36,6 @@ Seems active until Version 8.6.9 (2013-11-09)
 - User guide: http://www.methods.co.nz/asciidoc/asciidoc.css-embedded.html
 - Man page: http://www.methods.co.nz/asciidoc/manpage.html
 - Man page: http://www.methods.co.nz/asciidoc/a2x.1.html
+- Mathematical Formulae: http://www.methods.co.nz/asciidoc/index.html#X3
+- GPLv2 license: http://www.methods.co.nz/asciidoc/index.html#_introduction
 
