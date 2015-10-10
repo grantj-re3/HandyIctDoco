@@ -24,6 +24,9 @@ Can be processed in Ruby, Java VM and JavaScript environments.
 - Introduction: http://asciidoctor.org/docs/what-is-asciidoc/
 - Quick reference: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 - Command Line Interface: http://asciidoctor.org/docs/user-manual/#using-the-command-line-interface
+- User Manual, Appendix A: Comparison of Asciidoctor and AsciiDoc
+  Features (Asciidoctor does not support music):
+  http://asciidoctor.org/docs/user-manual/#asciidoctor-vs-asciidoc
 - User Manual, Math Equations and Formulas: http://asciidoctor.org/docs/user-manual/#stem
 - http://asciidoctor.org/docs/asciidoc-writers-guide/
 - MIT license: https://github.com/asciidoctor/asciidoctor/blob/master/LICENSE.adoc
@@ -37,5 +40,6 @@ Seems active until Version 8.6.9 (2013-11-09)
 - Man page: http://www.methods.co.nz/asciidoc/manpage.html
 - Man page: http://www.methods.co.nz/asciidoc/a2x.1.html
 - Mathematical Formulae: http://www.methods.co.nz/asciidoc/index.html#X3
+- Music support: http://www.methods.co.nz/asciidoc/music-filter.html
 - GPLv2 license: http://www.methods.co.nz/asciidoc/index.html#_introduction
 
