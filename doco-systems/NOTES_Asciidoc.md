@@ -64,7 +64,7 @@ As root:
 yum -y install rubygem-asciidoctor rubygem-asciidoctor-doc
 ```
 
-As unprivileged user, I created [test1.adoc](test1.adoc), then did:
+As unprivileged user, I created test1.adoc, then did:
 ```
 $ asciidoctor --version
 $ asciidoctor -h
@@ -72,7 +72,8 @@ $ asciidoctor test1.adoc
 $ asciidoctor -n test1.adoc
 ```
 
-My [test1.adoc](test1.adoc) produced [test1.html](test1.html).
+My [test1.adoc](https://raw.githubusercontent.com/grantj-re3/HandyIctDoco/master/doco-systems/test1.adoc)
+produced [test1.html](test1.html).
 
 View in web browser at URL file:///path/to/file/test1.html
 
