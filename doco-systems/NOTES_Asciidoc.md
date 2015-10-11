@@ -59,21 +59,52 @@ Seems active until Version 8.6.9 (2013-11-09)
 
 ## My Fedora 20 tinkering...
 
+I already have ruby and gem installed.
+
+```
+$ gem -v
+2.1.11
+$ ruby -v
+ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
+```
+
+### Attempt 1 - RPM install (not recommended)
+
 As root:
 ```
-yum -y install rubygem-asciidoctor rubygem-asciidoctor-doc
+$ yum -y install rubygem-asciidoctor rubygem-asciidoctor-doc
+$ asciidoctor -v		# 0.1.4
+```
+
+This works fine if you do not intend to produce PDF or EPubs using
+the respective apps installed via gem and you are happy to have an
+older version of asciidoctor. However I did a __yum erase__ of these
+RPMs then did commands below.
+
+### Attempt 2 - GEM install (recommended)
+
+As root:
+```
+# Installs 20 or so dependencies including asciidoctor
+$ gem install --pre asciidoctor-pdf
+$ asciidoctor -v		# 1.5.2
+$ asciidoctor-pdf -v		# 1.5.0.alpha.9
+
 ```
 
 As unprivileged user, I created test1.adoc, then did:
 ```
-$ asciidoctor --version
+$ asciidoctor -v
 $ asciidoctor -h
 $ asciidoctor test1.adoc
 $ asciidoctor -n test1.adoc
+$ asciidoctor-pdf -n test1.adoc
 ```
 
 My [test1.adoc](https://raw.githubusercontent.com/grantj-re3/HandyIctDoco/master/doco-systems/test1.adoc)
-produced [test1.html](test1.html).
+produced:
+- [test1.html](test1.html).
+- [test1.pdf](test1.pdf).
 
 View in web browser at URL file:///path/to/file/test1.html
 
