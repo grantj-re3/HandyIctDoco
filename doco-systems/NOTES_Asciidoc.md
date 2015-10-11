@@ -103,8 +103,9 @@ $ asciidoctor-pdf -n test1.adoc
 
 My [test1.adoc](https://raw.githubusercontent.com/grantj-re3/HandyIctDoco/master/doco-systems/test1.adoc)
 produced:
-- [test1.html](test1.html).
-- [test1.pdf](test1.pdf).
+- [test1.html](test1.html)
+- [test1.pdf](test1.pdf)
 
-View in web browser at URL file:///path/to/file/test1.html
+I viewed the HTML file locally in my web browser at URL file:///path/to/file/test1.html 
+I viewed the PDF file locally with Acrobat Reader and evince.
 
