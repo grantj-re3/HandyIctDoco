@@ -107,5 +107,65 @@ produced:
 - [test1.pdf](test1.pdf)
 
 I viewed the HTML file locally in my web browser at URL file:///path/to/file/test1.html 
+
 I viewed the PDF file locally with Acrobat Reader and evince.
+
+To install and test asciidoctor-epub3, I installed as per instructions at
+http://asciidoctor.org/docs/convert-asciidoc-to-epub/ with the following
+differences.
+
+#### Firstly
+
+The development version of asciidoctor-epub3 contained a bug. Hence
+after the steps:
+```
+$ git clone https://github.com/asciidoctor/asciidoctor-epub3
+$ cd asciidoctor-epub3
+```
+
+I decided to checkout the latest stable version:
+```
+$ git checkout v1.5.0.alpha.4
+```
+
+#### Secondly
+
+The command:
+```
+gem install pkg/asciidoctor-epub3-...
+```
+
+gave an error:
+```
+mkmf.rb can't find header files for ruby at /usr/share/include/ruby.h
+```
+
+To fix this I need to install the RPM package ruby-devel as root:
+```
+yum -y install ruby-devel
+```
+
+then install the gem again. This worked for me even though my ruby.h
+files were at:
+```
+/usr/include/ruby.h
+/usr/include/ruby/ruby.h
+```
+
+#### Test
+
+I used the sample supplied in the GitHub repo for testing.
+```
+$ cd data/samples
+$ asciidoctor-epub3 sample-book.adoc
+```
+
+The resulting sample-book.epub file could be read on my Android phone ok.
+
+When I attempted to convert my original test1.adoc to EPub the app
+threw an exception. This was resolved by making test1.adoc a "Spine"
+and including a subdocument.
+```
+$ asciidoctor-epub3  test1.adoc		# Ok for v1.5.0.alpha.4 provided a sub-document is included
+```
 
