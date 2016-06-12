@@ -66,7 +66,7 @@ Android VNC client. I did some basic testing using:
 I assume that your Linux computer has a Local Area Network (LAN) connection
 via wifi, ethernet cable, etc to a local network switch or hub. In my
 case I was using a laptop connected via wifi to my home ADSL router with
-built in ethernet/wifi switch. The Linux computer IP address 192.168.10.6
+built in ethernet/wifi switch. The Linux computer has IP address 192.168.10.6
 
 I assume that your Android device has a wifi connection to the same
 local network switch or hub. I assume that via this wifi or other
@@ -108,6 +108,9 @@ $ yum -y install openssh-server		# Actually, OpenSSH server was also already ins
 
 Copy the configuration into the systemd config, update it and start it.
 
+I believe these steps are only needed if you perform the
+"Optional intermediate testing" detailed below.
+
 ```
 # As root user:
 
@@ -126,16 +129,6 @@ $ diff /etc/systemd/system/vncserver@.service /lib/systemd/system/vncserver@.ser
 > ExecStart=/sbin/runuser -l <USER> -c "/usr/bin/vncserver %i"
 > PIDFile=/home/<USER>/.vnc/%H%i.pid
 
-
-# As the VNC user VNC_USER:
-
-# Configure password for the VNC user.
-# This creates the file /home/VNC_USER/.vnc/passwd (used later).
-$ vncpasswd     # Enter a password for VNC; remember it
-
-
-# As root user:
-
 # [Only required for optional intermediate testing]
 # Reload systemd manager config
 $ systemctl daemon-reload
@@ -145,6 +138,14 @@ $ systemctl daemon-reload
 # Use DISPLAY :1 for VNC as DISPLAY :0 is already used for Gnome 3 Desktop
 $ systemctl start vncserver@:1.service	# For DISPLAY :1
 $ systemctl enable vncserver@:1.service	# For DISPLAY :1
+```
+
+As the VNC user, VNC_USER:
+
+```
+# Configure password for the VNC user.
+# This creates the file /home/VNC_USER/.vnc/passwd (used later).
+$ vncpasswd     # Enter a password for VNC; remember it
 ```
 
 ### Install Android device apps
@@ -165,7 +166,9 @@ above Linux VNC server. Feel free to skip these tests.
 
 My (optional) VNC connection test would not work until I made two changes.
 
-#### I needed to **temporarily** switch off the firewall to allow for
+#### I needed to **temporarily** allow the VNC protocol to pass through the firewall
+
+I needed to **temporarily** switch off the firewall to allow for
 connections on VNC port 5900 for DISPLAY :0 or 5901 for DISPLAY :1.
 I felt safe doing this because:
 - my computer is on my home LAN
@@ -216,8 +219,8 @@ VNC client (ie. vncviewer) on the same local network.
 For the configuration and assumptions given above, connect to:
 - VNC server IP address of 192.168.10.6 
 - VNC XWindows DISPLAY of :1
-- Enter your VNC password as configured above with the
-  "vncpasswd" command
+- Enter your VNC password (as configured above with the
+  "vncpasswd" command)
 
 The equivalent command on a remote Linux computer would be:
 
@@ -277,7 +280,7 @@ on your Android device to perform an equivalent test.
 ## Configure connection to the VNC server's desktop
 
 We are going to use x11vnc (installed earlier) on the VNC server to
-connect to DISPLAY :0 (ie. the VNC server's desktop) 
+connect to DISPLAY :0 (ie. the VNC server's desktop).
 
 On the VNC server as user VNC_USER, create the file
 /home/VNC_USER/bin/x11vnc_start.sh having the contents:
@@ -340,7 +343,7 @@ Where:
     IP address 192.168.10.6 now decrypted (ie. plain VNC protocol)
   * on the server-side, those packets are sent to "localhost:5900"
     where they arrive at the x11vnc app (which will allow them
-    to talk to the VNC server DISPLAY :0.
+    to talk to the VNC server DISPLAY :0).
 
 Note:
 - When the SSH command is run, the default behaviour is to prompt
@@ -350,12 +353,12 @@ Note:
 - When vncviewer is run, the app will prompt for your VNC
   password (as configured above with the "vncpasswd" command) -
   not your Linux password.
-- When vncviewer disconnects from x11vnc app, x11vnc stops. Hence
+- When vncviewer disconnects from the x11vnc app, the x11vnc stops. Hence
   you cannot make another connection until you start x11vnc again.
   When connecting from your Android device, it might be easier
   to restart the SSH tunnel to restart x11vnc.
 
-Repeat the equivalent steps on your VNC device. It will be much
+Repeat the equivalent steps on your Android device. It will be much
 easier if you have written the script x11vnc_start.sh so you do
 not have to type all those x11vnc parameters on your Android
 device.
