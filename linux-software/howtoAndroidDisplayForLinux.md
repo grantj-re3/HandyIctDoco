@@ -377,3 +377,117 @@ auto-repeat on the keyboard (eg. repetition of say letter "x"
 when I hold down the "x" key) no longer works. I haven't
 investigated this yet.
 
+# But wait, there's more...
+
+## Linux Mint 17.3 differences
+
+You should be able to achieve a similar result to above by using other
+Linux distros. I have also used Linux Mint 17.3 with Cinnamon desktop.
+I highlight the main differences below.
+
+Mint 17 comes pre-installed with Desktop Sharing. Desktop Sharing
+uses the Vino VNC server which is very similar to Tiger VNC
+described above in the Fedora Linux section. The main difference
+is that by default it shares the desktop (what a surprise for
+a Desktop Sharing service) on DISPLAY :0 rather than sharing
+a logical XWindows display as configured by a custom script
+(xstartup). Hence Vino VNC server on Mint 17 is equivalent to
+Tiger VNC server plus the x11vnc app on Fedora 20.
+
+### Mint VNC references:
+- http://ask.xmodulo.com/enable-configure-desktop-sharing-linux-mint-cinnamon-desktop.html
+
+### High-level instructions
+
+You need to install the dconf Editor to enable and configure
+Vino VNC server.
+
+```
+# As root; install dconf Editor
+$ apt-get install dconf-editor
+
+# Start the dconf Editor as the user who will share the desktop (not root)
+$ dconf-editor
+```
+
+Navigate to org > gnome > desktop > remote-access then configue Vino VNC.
+When you click on a setting, a description appears in the bottom pane.
+The import settings are:
+- set authentication-methods to 'vnc'
+- check: enabled
+- check: notify-on-connect (if that is what you want)
+- check: prompt-enabled (if this is what you want)
+- un-check: require-encryption (as we will use an SSH tunnel for encryption)
+- set a vnc-password (using base64 encoding as described below)
+- The VNC server at the Linux end needs to listen on port 5900. Vino VNC does
+  this by default. You can achieve this by either:
+  * setting alternative-port to 5900; checking use-alternative-port, or
+  * unchecking: use-alternative-port
+
+The VNC password entered into the dconf Editor above must be base64 encoded.
+This should not be the same as your Linux shell login password. Use the
+command described below to produce the encoded password then paste it into
+the vnc-password field above.
+
+```
+$ echo 'Your_VNC_password' | base64
+```
+
+Vino VNC server should now be running. You should be able to see it in
+your process list with command:
+
+```
+ps auxww |egrep vino
+```
+
+
+### Optional intermediate testing of VNC connection
+
+If you want to make a test connection to Vino VNC server from a vncviewer
+you will need to either add a firewall rule or **temporarily** switch off
+your firewall. I chose to do the latter (but see my notes re safety under
+"Optional intermediate testing of VNC connection" in the first/Fedora
+instructions above).
+
+```
+# As root
+$ ufw disable		# Disable firewall rules
+$ ufw enable		# Enable firewall rules immediately after you have finished testing
+$ ufw status		# Check if firewall rules are enabled/disabled
+```
+
+Test the (unencrypted) VNC connection from either an Android or Linux VNC
+client. The equivalent command on a remote Linux computer would be:
+
+```
+$ vncviewer 192.168.10.6:0		# DISPLAY :0
+# or the command:
+$ vncviewer 192.168.10.6::5900		# Port 5900 (for DISPLAY :0)
+```
+
+
+### Configure an encrypted VNC connection to the VNC server's desktop
+
+- Install sshd
+- Add firewall rule for sshd (after reinstating firewall rules)
+
+```
+# As root
+$ ufw enable		# Re-enable firewall rules (after testing above)
+$ ufw allow 22/tcp	# Add a rule to allow connection to the Linux SSH service
+```
+
+- Connect
+
+```
+# As VNC user
+
+# In xterm 1 on VNC client device:
+$ ssh -t -L 5900:localhost:5900 VNC_USER@192.168.10.6  # No need to run a remote x11vnc command
+
+# In xterm 2 on VNC client device:
+$ vncviewer localhost:0			# DISPLAY :0 on localhost
+# or the command:
+$ vncviewer localhost::5900		# Port 5900 (for DISPLAY :0) on localhost
+```
+
