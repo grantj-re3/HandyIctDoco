@@ -363,6 +363,8 @@ easier if you have written the script x11vnc_start.sh so you do
 not have to type all those x11vnc parameters on your Android
 device.
 
+Celebrate!
+
 ## Conclusion
 
 Now you should be able to use VNC to allow your Android device to
@@ -376,6 +378,8 @@ works fine for me too. The only quirk I've noticed is that
 auto-repeat on the keyboard (eg. repetition of say letter "x"
 when I hold down the "x" key) no longer works. I haven't
 investigated this yet.
+
+---
 
 # But wait, there's more...
 
@@ -391,7 +395,7 @@ described above in the Fedora Linux section. The main difference
 is that by default it shares the desktop (what a surprise for
 a Desktop Sharing service) on DISPLAY :0 rather than sharing
 a logical XWindows display as configured by a custom script
-(xstartup). Hence Vino VNC server on Mint 17 is equivalent to
+(xstartup) on DISPLAY :1. Hence Vino VNC server on Mint 17 is equivalent to
 Tiger VNC server plus the x11vnc app on Fedora 20.
 
 ### Mint VNC references:
@@ -412,10 +416,10 @@ $ dconf-editor
 
 Navigate to org > gnome > desktop > remote-access then configue Vino VNC.
 When you click on a setting, a description appears in the bottom pane.
-The import settings are:
+The important settings are:
 - set authentication-methods to 'vnc'
 - check: enabled
-- check: notify-on-connect (if that is what you want)
+- check: notify-on-connect (if this is what you want)
 - check: prompt-enabled (if this is what you want)
 - un-check: require-encryption (as we will use an SSH tunnel for encryption)
 - set a vnc-password (using base64 encoding as described below)
@@ -451,9 +455,11 @@ instructions above).
 
 ```
 # As root
-$ ufw disable		# Disable firewall rules
-$ ufw enable		# Enable firewall rules immediately after you have finished testing
 $ ufw status		# Check if firewall rules are enabled/disabled
+$ ufw disable		# Disable firewall rules
+
+# Later
+$ ufw enable		# Enable firewall rules immediately after you have finished testing
 ```
 
 Test the (unencrypted) VNC connection from either an Android or Linux VNC
@@ -468,8 +474,13 @@ $ vncviewer 192.168.10.6::5900		# Port 5900 (for DISPLAY :0)
 
 ### Configure an encrypted VNC connection to the VNC server's desktop
 
-- Install sshd
-- Add firewall rule for sshd (after reinstating firewall rules)
+Install sshd
+
+```
+$ apt-get install openssh-server
+```
+
+Add firewall rule for sshd (after reinstating firewall rules)
 
 ```
 # As root
@@ -477,7 +488,7 @@ $ ufw enable		# Re-enable firewall rules (after testing above)
 $ ufw allow 22/tcp	# Add a rule to allow connection to the Linux SSH service
 ```
 
-- Connect
+Connect
 
 ```
 # As VNC user
@@ -490,4 +501,6 @@ $ vncviewer localhost:0			# DISPLAY :0 on localhost
 # or the command:
 $ vncviewer localhost::5900		# Port 5900 (for DISPLAY :0) on localhost
 ```
+
+Celebrate!
 
