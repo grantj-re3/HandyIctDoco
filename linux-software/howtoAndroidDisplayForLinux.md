@@ -492,8 +492,6 @@ $ ufw allow 22/tcp	# Add a rule to allow connection to the Linux SSH service
 Connect from your Android (or other Linux) client. The equivalent
 Linux commands are:
 ```
-# As VNC user
-
 # In xterm 1 on VNC client device:
 $ ssh -t -L 5900:localhost:5900 VNC_USER@192.168.10.6  # No need to run a remote x11vnc command
 
