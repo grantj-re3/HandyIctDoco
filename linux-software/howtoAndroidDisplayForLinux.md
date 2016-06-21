@@ -406,11 +406,13 @@ Tiger VNC server plus the x11vnc app on Fedora 20.
 You need to install the dconf Editor to enable and configure
 Vino VNC server.
 
+As root, install the dconf Editor
 ```
-# As root; install dconf Editor
 $ apt-get install dconf-editor
+```
 
-# Start the dconf Editor as the user who will share the desktop (not root)
+Start the dconf Editor as the user who will share the desktop (not root)
+```
 $ dconf-editor
 ```
 
@@ -474,22 +476,21 @@ $ vncviewer 192.168.10.6::5900		# Port 5900 (for DISPLAY :0)
 
 ### Configure an encrypted VNC connection to the VNC server's desktop
 
-Install sshd
-
+On the Linux Mint computer, install sshd.
 ```
+# As root
 $ apt-get install openssh-server
 ```
 
-Add firewall rule for sshd (after reinstating firewall rules)
-
+On the Linux Mint computer, add a firewall rule for sshd (after reinstating firewall rules).
 ```
 # As root
 $ ufw enable		# Re-enable firewall rules (after testing above)
 $ ufw allow 22/tcp	# Add a rule to allow connection to the Linux SSH service
 ```
 
-Connect
-
+Connect from your Android (or other Linux) client. The equivalent
+Linux commands are:
 ```
 # As VNC user
 
