@@ -5,6 +5,23 @@ How to configure an Android device to be a display for Linux
 
 ## Options considered
 
+## The selected option
+
+The principle when setting up a connection from an Android device to Linux
+(or Mac) will be:
+- Install and configure a VNC server on the Linux box.
+- If required configure the VNC server to share your desktop screen
+  (eg. using x11vnc). This step is often not needed as many VNC servers
+  seem to do this by default.
+- Install an SSH server on the Linux box
+- Add a firewall rule on the Linux box to permit incoming *encrypted* traffic
+  to SSH (on port 22). Except for testing, you should not require a rule to
+  permit incoming *unencrypted* traffic on the VNC server (port 5900).
+- Set up an SSH tunnel (to Linux port 5900) on your Android device using
+  ConnectBot
+- Use androidVNC on your Android device to connect to the Linux VNC server
+  through your encrypted SSH tunnel
+
 
 ## Environment
 
@@ -502,4 +519,86 @@ $ vncviewer localhost::5900		# Port 5900 (for DISPLAY :0) on localhost
 ```
 
 Celebrate!
+
+---
+
+# But wait, there's even more...
+
+## Will this idea work on a Mac?
+
+I don't own or have access to a Mac, but I'm pretty sure the answer is yes.
+Below I give a few clues regarding ideas which I think are most likely to
+work.  **But** this is all **second hand information** based on unofficial
+opinions on the internet (no first hand experience here).
+
+## Introduction
+
+What are the possibilities for Mac OS X VNC-like server apps?
+
+1. Apparently Mac OS X comes preinstalled with a Screen Sharing server
+   (and client) app based on VNC. My impression is that it has some
+   additional authentication features which makes it incompatible or
+   unreliable with some/most "ordinary" (non-Mac) VNC clients.
+
+2. Apparently Mac OS X 10.7 (Lion) comes preinstalled with a "normal" VNC
+   server app (but it is nicely hidden away in a location which is not
+   obvious to many users). My impression is that this server is compatible
+   with many ordinary VNC clients. The question (for me) is: Does Mac OS X
+   10.10 (Yosemite) and 10.11 (El Capitan) also have this preinstalled VNC
+   server?
+
+3. Install your own open-source VNC server app.
+
+4. Install your own commercial VNC-like server app.
+
+## Potential solution: Preinstalled general VNC server
+
+The instructions at the link below are five years old (2011) and written
+for a general VNC Server using Mac OS X 10.7 (Lion). However, I feel
+this might be a good option if still available in Mac OS X 10.10 or
+10.11.
+
+The principle I would try when setting up the connection from an Android
+device would be similar to that described for Mint 17 above. That is:
+- Enable the general VNC server on the Mac
+- Install an SSH server on the Mac
+- Add a firewall rule on the Mac to permit incoming connections to SSH
+  (on port 22).
+- Set up an SSH tunnel (to Mac port 5900) on your Android device using
+  ConnectBot
+- Use androidVNC on your Android device to connect to the Mac VNC server
+  through your encrypted SSH tunnel
+
+References:
+https://www.dssw.co.uk/blog/2011-08-03-setting-up-the-vnc-server-in-mac-os-x-10-7-aka-lion/
+
+
+## Potential solution: Jump Desktop (RDP/VNC)
+
+Jump Desktop (by PhaseFive Systems LLC) is
+a commercial option and one of the more expensive solutions.
+However, you do get a free trial period for the Mac server end.
+The same organisation has written both the server and client so I
+would expect good compatibility. I understand an SSH tunnel is not
+needed because the protocol has its own encryption.
+
+I suspect this has a good chance of working well. At the time of
+writing (June 2016) the Android app has 4.6 (of 5) stars based on
+2,664 reviews so it appears to be popular and well received.
+However some of the recent reviews in March-May 2016 say that
+the most recent update (to 7.0?) has broken previously working
+connectivity.
+
+Instead of VNC-server + VNC-client + SSH tunnel, use:
+- Jump Desktop for Mac (RDP / VNC) $29.99 AUD [Free trial]
+- Jump Desktop (RDP & VNC) $9.99 USD
+
+References:
+- https://community.spiceworks.com/topic/603622-how-to-vnc-over-ssh-from-win7-to-os-x-mavericks
+- https://jumpdesktop.com/
+- https://sites.fastspring.com/jumpdesktop/instant/jumpdesktopmac
+- https://play.google.com/store/apps/details?id=com.p5sys.android.jump
+
+
+## Potential solution: ...
 
