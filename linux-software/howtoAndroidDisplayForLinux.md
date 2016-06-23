@@ -109,6 +109,13 @@ I read these references:
 
 ## Instructions
 
+Aside: The instructions below work ok using "vncserver" within the
+tigervnc-server package plus "x11vnc". However I realise after the
+event that within the tigervnc-server package is also "x0vncserver"
+(which connects directly to a reall XWindows DISPLAY) so is equivalent
+to "vncserver" plus "x11vnc". In retrospect this would probably have
+been a better choice.
+
 All instructions below are carried out as the root user unless
 otherwise specified.
 
@@ -551,6 +558,7 @@ What are the possibilities for Mac OS X VNC-like server apps?
 
 4. Install your own commercial VNC-like server app.
 
+
 ## Potential solution: Preinstalled general VNC server
 
 The instructions at the link below are five years old (2011) and written
@@ -571,6 +579,39 @@ device would be similar to that described for Mint 17 above. That is:
 
 References:
 https://www.dssw.co.uk/blog/2011-08-03-setting-up-the-vnc-server-in-mac-os-x-10-7-aka-lion/
+
+
+## Potential solution: Use RealVNC viewer to connect to Mac Screen Sharing
+
+The section "Connecting to a Mac from a Windows PC" in the article
+referenced below describes how to use a free MS Windows client called
+RealVNC viewer to connect to a Mac with Screen Sharing enabled. The client
+is freely supplied by a commercial company (RealVNC Limited). They also
+supply a free Android client. I feel this has a good chance of working.
+
+The main problem with these instructions is that I don't know
+what encryption (if any) is being used because they chose the encryption
+option "Let the VNC server choose". However we might be able to force
+an encryption method in which case things should work without an SSH
+tunnel. Alternatively, if we are still unsure if the traffic is encrypted
+or not, perhaps we could just force the protocol through
+an SSH tunnel anyway (even if it is already encrypted).
+
+http://www.howtogeek.com/214220/how-to-access-your-macs-screen-from-windows-and-vice-versa/
+
+
+## Potential solution: Use Mocha Lite viewer to connect to Mac Screen Sharing
+
+The article below says that the Mocha Lite android app will connect to
+Mac Desktop Sharing. Mocha Lite is an Android VNC viewer supplied by a
+commercial company (MochaSoft Communication). It is not free but it is
+cheap (US$5.55). I feel this has a good chance of working.
+
+I have the same concerns and potential solution regarding traffic
+encryption as for the RealVNC viewer app above.
+
+http://www.hongkiat.com/blog/remote-access-mac-from-ios-android-tablets/
+https://play.google.com/store/apps/details?id=dk.mochsoft.vncpaid&hl=en
 
 
 ## Potential solution: Jump Desktop (RDP/VNC)
@@ -600,5 +641,14 @@ References:
 - https://play.google.com/store/apps/details?id=com.p5sys.android.jump
 
 
-## Potential solution: ...
+## Potential solution: x11vnc for Mac OS X plus some "normal" VNC server
+
+x11vnc (used in the Fedora 20 instructions above) is also available for
+Mac OS X. So the challenge here would be to find a good VNC server to
+run on the Mac. At the Android end you coud use ConnectBot and androidVNC
+as previously described.
+
+References:
+http://www.karlrunge.com/x11vnc/
+http://www.karlrunge.com/x11vnc/faq.html#faq-macosx
 
