@@ -112,9 +112,9 @@ I read these references:
 Aside: The instructions below work ok using "vncserver" within the
 tigervnc-server package plus "x11vnc". However I realise after the
 event that within the tigervnc-server package is also "x0vncserver"
-(which connects directly to a reall XWindows DISPLAY) so is equivalent
-to "vncserver" plus "x11vnc". In retrospect this would probably have
-been a better choice.
+(which connects directly to a real XWindows DISPLAY) so is equivalent
+to "vncserver" plus "x11vnc". In retrospect x0vncserver would probably
+have been a better choice.
 
 All instructions below are carried out as the root user unless
 otherwise specified.
@@ -645,7 +645,7 @@ References:
 
 x11vnc (used in the Fedora 20 instructions above) is also available for
 Mac OS X. So the challenge here would be to find a good VNC server to
-run on the Mac. At the Android end you coud use ConnectBot and androidVNC
+run on the Mac. At the Android end you could use ConnectBot and androidVNC
 as previously described.
 
 References:
