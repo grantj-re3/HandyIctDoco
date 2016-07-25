@@ -614,6 +614,36 @@ http://www.hongkiat.com/blog/remote-access-mac-from-ios-android-tablets/
 https://play.google.com/store/apps/details?id=dk.mochsoft.vncpaid&hl=en
 
 
+### Practical Mocha Lite solution under Mac OS X 10.10 (Yosemite)
+
+I have been informed that the following Mocha Lite solution works ok,
+however unless the Mac Desktop Sharing is providing encryption this
+configuration is **not encrypting network traffic** between the
+Android device and the Mac. I understand the e-ink ereader (Onyx BOOX
+N96) refresh rate makes it unacceptable for many use cases but adequate
+for writing software (eg. using R) for this user who has a dry eye
+medical condition with normal LCD screens. Some of the comments are:
+- It still does freeze sometimes, but it's very easy to reconnect.
+- Seems laggy
+- I'm now reasonably happy with it (and it's better than the AndroidVNC
+  because it's portrait not landscape, which is easier to fit coding
+  windows into)
+
+Here are the instructions:
+
+Go to the Mac System Preferences:
+- Go to Sharing, make sure Screen Sharing is on.
+  You can set the VNC password under "Computer Settings".
+- Make sure remote login is on.
+- Make sure your user is added to those who can have access.
+
+Mocha Lite settings:
+- Port should be 5900.
+- Tick the "Mac OS X User" sign in (but that's probably optional).
+- Type the VNC server password previously set in Mac Computer Settings.
+- Typed in the username and password of the Mac user.
+
+
 ## Potential solution: Jump Desktop (RDP/VNC)
 
 Jump Desktop (by PhaseFive Systems LLC) is
