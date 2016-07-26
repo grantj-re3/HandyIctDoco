@@ -1,6 +1,15 @@
 How to configure an Android device to be a display for Linux
 ============================================================
 
+## Contents
+1. [Environment](#environment)
+1. [Assumptions](#assumptions)
+1. [Reading material](#reading-material)
+1. [Instructions](#instructions)
+1. [Linux Mint 17.3 differences](#linux-mint-173-differences)
+1. [Will this idea work on a Mac?](#will-this-idea-work-on-a-mac)
+
+
 ## Objective
 
 ## Options considered
@@ -96,6 +105,12 @@ on your **local** network.
 
 
 ## Reading material
+
+For those who are unfamiliar with SSH tunnels (also known as SSH port
+forwarding) the links below may be useful.
+
+- https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/
+- https://en.wikipedia.org/wiki/Tunneling_protocol
 
 I read these references:
 
