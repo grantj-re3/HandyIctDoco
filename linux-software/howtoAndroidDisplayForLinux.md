@@ -6,6 +6,7 @@ How to configure an Android device to be a display for Linux
 1. [Assumptions](#assumptions)
 1. [Reading material](#reading-material)
 1. [Instructions](#instructions)
+1. [Conclusion](#conclusion)
 1. [Linux Mint 17.3 differences](#linux-mint-173-differences)
 1. [Will this idea work on a Mac?](#will-this-idea-work-on-a-mac)
 
