@@ -19,17 +19,17 @@ Unicode in a nutshell:
   other character encodings do not have a representation in Unicode.
 
 ### Links
-- [Unicode Wikipedia page](https://en.wikipedia.org/wiki/Unicode)
-- [UTF-8 Wikipedia page](https://en.wikipedia.org/wiki/UTF-8)
+- [Unicode](https://en.wikipedia.org/wiki/Unicode) Wikipedia page
+- [UTF-8](https://en.wikipedia.org/wiki/UTF-8) Wikipedia page
 - [Unicode table](http://unicode-table.com/en/)
-- [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text by David C. Zentgraf](http://kunststube.net/encoding/)
-- [UTF-8: The Secret of Character Encoding by htmlpurifier.org](http://htmlpurifier.org/docs/enduser-utf8.html)
-- [Shift-JIS & UTF-8 by Hiroshi](http://david.latapie.name/blog/shift-jis-utf-8/)
+- [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/) by David C. Zentgraf
+- [UTF-8: The Secret of Character Encoding](http://htmlpurifier.org/docs/enduser-utf8.html) by htmlpurifier.org
+- [Shift-JIS & UTF-8](http://david.latapie.name/blog/shift-jis-utf-8/) by Hiroshi
 
 ## Character encoding tools
-- [iconv (linux man page)](http://linux.die.net/man/1/iconv)
+- [iconv](http://linux.die.net/man/1/iconv) linux man page
 
 ## Computer-language specific character encoding tips
-- [3 Steps to Fix Encoding Problems in Ruby by Justin Weiss](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/)
-- [Ruby 1.9 Encodings: A Primer and the Solution for Rails by Yehuda Katz](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/)
+- [3 Steps to Fix Encoding Problems in Ruby](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/) by Justin Weiss
+- [Ruby 1.9 Encodings: A Primer and the Solution for Rails](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/) by Yehuda Katz
 
