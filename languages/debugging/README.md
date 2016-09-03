@@ -8,6 +8,12 @@
 - [How do I Debug my Program?](http://umich.edu/~eecs381/generalFAQ/Debugging.html) by Professor David Kieras
 - [How to Debug a Program](http://www.robelle.com/smugbook/todebug.html) by robelle.com
 
+In addition to the excellent points made in these links, I would also
+recommend that you get to know:
+- the language in which your software is written
+- where you can quickly look up syntax, classes, methods, etc. of the
+  version you are using.
+
 ## How to modify and debug software written by someone else
 
 - [How to Inherit Somebody Else’s Code](http://blog.smartbear.com/sqc/how-to-inherit-somebody-elses-code/) by John Mueller
