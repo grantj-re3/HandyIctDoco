@@ -44,7 +44,11 @@ The web site says:
 
 ### Download and burn ISO image to CDROM or DVD
 
-- Navigate to [Super Grub2 Disk 2.02s4 downloads](http://www.supergrubdisk.org/category/download/supergrub2diskdownload/super-grub2-disk-stable/).
+- Do not click on the wrong download button! Click "Download" menu (near
+  top, on the menu line starting with "Donate"), then "Super Grub2 Disk"
+  submenu. Then you should arrive at
+  [Super Grub2 Disk 2.02s4 downloads](http://www.supergrubdisk.org/category/download/supergrub2diskdownload/super-grub2-disk-stable/)
+  or similar version.
 - Download from the section which says *Recommended download (Floppy, CD &
   USB in one) (Valid for i386, x86_64, and x86_64-efi)*. At the time of
   writing this was *Super Grub2 Disk (CD & USB in one) 2.02s4 (ISO)[Mirror #1]*
@@ -56,9 +60,7 @@ The web site says:
   Super GRUB2 Disk itself, grub2 was unable to successfully boot into
   Linux (because the hard drive which was previously hd0 was moved to
   hd1 and the USB drive became hd0). Under Windows 8 I downloaded and
-  used Rufus 2.11 to "burn" the ISO image to DVD. [Do not click on the
-  wrong download button! Click "Download" menu (near top, on the menu line
-  starting with "Donate"), then "Super Grub2 Disk" submenu.]
+  used [Rufus](https://rufus.akeo.ie/) 2.11 to "burn" the ISO image to DVD.
   ***WARNING***: Burning/copying an ISO image to a USB drive will
   overwrite (ie. delete) all data previously stored on the USB drive!
 
@@ -69,13 +71,14 @@ The web site says:
   * Hit the Escape or Delete (or other) key before booting to stop the boot
     process; then insert disk; or
   * Insert disk quickly before booting; or
-  * Boot into your (Windows?) operating system; then insert disk
+  * Boot into your (Windows) operating system; then insert disk
 - Get the computer to boot from UEFI/EFI CDROM device. This may involve an
-  additional reboot (using Ctrl-Alt-Del) after the previous step. It may
-  also involve entering the BIOS and configuring the boot order. For me the
-  steps were:
+  additional reboot (using Windows restart or BIOS Ctrl-Alt-Del) after the
+  previous step. It may also involve entering the BIOS and configuring the
+  boot order. For me the steps were:
   * Apply power.
-  * At message "Press ESC key for Startup Menu", press the ESC key.
+  * Press ESC at the message "Press ESC key for Startup Menu". You probably
+    only have a second or two so be prepared!
   * Press F9 for "Boot Device Options".
   * At the Boot Options screen, select "Optical Disk Drive". Alternatively,
     select "Boot from EFI file" then select ".../CDROM(...)".
