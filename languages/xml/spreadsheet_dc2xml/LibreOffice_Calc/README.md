@@ -25,14 +25,6 @@ identifier	date	creator	title	subject
 - If you don't have mutiple values in a single cell in the "dc"
   sheet, you can use a formula in the corresponding cell of the "xmlp1"
   sheet.
-  Eg. In cell A2 of "xmlp1", enter:
-```
-=CONCATENATE("<",$dc.A$1,">",$dc.A2,"</",$dc.A$1,">")
-```
-  this should give a result something like:
-```
-<identifier>a1000</identifier>
-```
   * The first 3 arguments to the CONCATENATE function create an
     opening tag by referencing the cell in the header.
   * The fourth argument to the CONCATENATE function inserts the
@@ -40,23 +32,31 @@ identifier	date	creator	title	subject
   * The last 3 arguments to the CONCATENATE function create an
     closing tag by referencing the cell in the header.
 
-- For dates (which are stored internally as numbers) you will need
-  to modify this slightly. Eg. In cell B2 of "xmlp1", enter:
+  Eg. In cell A2 of "xmlp1", enter:
 ```
-=CONCATENATE("<",B$1,">",TEXT(B2,"yyyy-mm-dd"),"</",B$1,">")
+=CONCATENATE("<",$dc.A$1,">",  $dc.A2,  "</",$dc.A$1,">")
+```
+  this should give a result something like:
+```
+<identifier>a1000</identifier>
+```
+
+- For dates (which are stored internally as numbers) you will need
+  to modify this slightly.
+  * The first 3 arguments and last 3 arguments to the CONCATENATE
+    function create opening and closing tags as described above.
+  * The fourth argument to the CONCATENATE function inserts the
+    numeric value of the cell *after* converting it to a date
+    representation.
+
+  Eg. In cell B2 of "xmlp1", enter:
+```
+=CONCATENATE("<",B$1,">",  TEXT(B2,"yyyy-mm-dd"),  "</",B$1,">")
 ```
   this should give a result something like:
 ```
 <date>2016-01-10</date>
 ```
-  * The first 3 arguments to the CONCATENATE function create an
-    opening tag by referencing the cell in the header.
-  * The fourth argument to the CONCATENATE function inserts the
-    numeric value of the cell *after* converting it to a date
-    representation.
-  * The last 3 arguments to the CONCATENATE function create an
-    closing tag by referencing the cell in the header.
-
 
 
 ## Method 2 - Multiple valued cells (without Macros)
