@@ -11,26 +11,29 @@ After booting into Windows, "something happened" and now the notebook
 will only boot into Windows. I suspect the Linux filesystems are still
 intact, but one or more of the UEFI boot files for Linux has been
 overwritten by Windows. (I cannot easily verify this because I am not
-in the same city/country as the notebook!)
+in the same city or country as the notebook!)
+
 
 ## Solution attempt 1
 
 Attempt to boot all/most EFI files one by one. For me, the steps were:
 - Apply power.
-- At message "Press ESC key for Startup Menu", press the ESC key.
+- Press ESC at the message "Press ESC key for Startup Menu". You probably
+  only have a second or two so be prepared!
 - Press F9 for "Boot Device Options".
 - At the Boot Options screen, select "Boot from EFI file".
 - Navigate to and attempt to boot from almost any filename with
-  an extension of ".efi". There are often many options so you may
+  an extension of ".efi". There are often many file-paths so you may
   need to keep a record of those which you have attempted. When you
   find one which boots into Linux ok, remember or record how to
   navigate to it. First try those containing words such as "grub",
-  "mint" or "shim" within the filename or a folder name leading to
-  the file. Eg.
-  * \efi\mint\gcdx64.efi
-  * \efi\mint\grubx64.efi
-  * \efi\mint\shim.efi
+  "shim", "mint" or "ubuntu" within the filename or folder name
+  leading to the file. Eg. Pcpi(...)/Pci(...)/Sata(...)/HD(...) then
+  * \efi\ubuntu\grubx64.efi  [This option was **successful**!]
+  * \efi\ubuntu\gcdx64.efi
+  * \efi\ubuntu\shim.efi
   * \efi\microsoft\boot\grub\bootmgfw.efi
+
 
 ## Solution attempt 2
 
@@ -80,7 +83,19 @@ The web site says:
   * Press ESC at the message "Press ESC key for Startup Menu". You probably
     only have a second or two so be prepared!
   * Press F9 for "Boot Device Options".
-  * At the Boot Options screen, select "Optical Disk Drive". Alternatively,
-    select "Boot from EFI file" then select ".../CDROM(...)".
-  * ...
+  * At the Boot Options screen, select "Optical Disk Drive (UEFI)".
+    Alternatively, select "Boot from EFI file" then select ".../CDROM(...)"
+    then navigate to something like \efi\boot\bootx64.efi on the CDROM.
+  * In the Super Grub2 Disk menu, select "Detect and show boot methods"
+    then press Enter.
+  * From the Operating Systems menu, attempt to boot from almost any filename
+    with an extension of ".efi". There are often many file-paths so you may
+    need to keep a record of those which you have attempted. When you
+    find one which boots into Linux ok, remember or record the file path.
+    First try those containing words such as "grub", "shim", "mint" or
+    "ubuntu" within the filename or folder name leading to the file. Eg.
+    + (hd0,gpt2)/efi/ubuntu/grubx64.efi
+    + (hd0,gpt2)/efi/ubuntu/gcdx64.efi
+    + (hd0,gpt2)/efi/ubuntu/shim.efi
+    + (hd0,gpt2)/efi/microsoft/boot/grub/bootmgfw.efi
 
