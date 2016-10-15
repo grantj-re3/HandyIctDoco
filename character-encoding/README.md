@@ -25,6 +25,8 @@ Unicode in a nutshell:
 - [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/) by David C. Zentgraf
 - [UTF-8: The Secret of Character Encoding](http://htmlpurifier.org/docs/enduser-utf8.html) by htmlpurifier.org
 - [Shift-JIS & UTF-8](http://david.latapie.name/blog/shift-jis-utf-8/) by Hiroshi
+- [FORM submission and i18n [ie. internationalisation]](http://www.alanflavell.org.uk/charset/form-i18n.html) by Alan Flavell
+- [i18n: HTML Character set issues beyond HTML3.2](http://www.alanflavell.org.uk/charset/index.html) by Alan Flavell
 
 ## Character encoding tools
 - [iconv](http://linux.die.net/man/1/iconv) linux man page
@@ -32,8 +34,6 @@ Unicode in a nutshell:
 ## Computer-language specific character encoding tips
 - [3 Steps to Fix Encoding Problems in Ruby](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/) by Justin Weiss
 - [Ruby 1.9 Encodings: A Primer and the Solution for Rails](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/) by Yehuda Katz
-- [FORM submission and i18n [ie. internationalisation]](http://www.alanflavell.org.uk/charset/form-i18n.html) by Alan Flavell
-- [i18n: HTML Character set issues beyond HTML3.2](http://www.alanflavell.org.uk/charset/index.html) by Alan Flavell
 
 # Language fonts
 
