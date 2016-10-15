@@ -33,3 +33,21 @@ Unicode in a nutshell:
 - [3 Steps to Fix Encoding Problems in Ruby](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/) by Justin Weiss
 - [Ruby 1.9 Encodings: A Primer and the Solution for Rails](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/) by Yehuda Katz
 
+# Language fonts
+
+In a nutshell: Even if your character encoding is correct, blank
+rectangular boxes may appear on your screen (or that of your web
+page visitor) if you (or they) do not have a font which supports
+the characters you are using.
+
+## Unicode fonts
+
+### Links
+- [Unicode font](https://en.wikipedia.org/wiki/Unicode_font) Wikipedia page
+- [Meet Noto, Google's Free Font for More than 800 Languages](https://www.wired.com/2016/10/meet-noto-googles-free-font-800-languages/) by Liz Stinson, 2016
+  * The opening paragraph says:
+> SOMETHING FUNNY HAPPENS when your computer or phone can’t display a font: A blank rectangular box pops up in place of the missing glyph. This little box is called .notdef, or “not defined,” in coder lingo, but everyone else just calls it tofu.
+
+- [Google Noto Fonts: Beautiful and free fonts for all languages](https://www.google.com/get/noto/) by Google
+  * Contains links regarding downloads, installation on several platforms, licence, etc.
+
