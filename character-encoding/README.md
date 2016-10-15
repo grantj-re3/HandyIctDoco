@@ -46,7 +46,12 @@ the characters you are using.
 - [Unicode font](https://en.wikipedia.org/wiki/Unicode_font) Wikipedia page
 - [Meet Noto, Google's Free Font for More than 800 Languages](https://www.wired.com/2016/10/meet-noto-googles-free-font-800-languages/) by Liz Stinson, 2016
   * The opening paragraph says:
-> SOMETHING FUNNY HAPPENS when your computer or phone can’t display a font: A blank rectangular box pops up in place of the missing glyph. This little box is called .notdef, or “not defined,” in coder lingo, but everyone else just calls it tofu.
+
+> SOMETHING FUNNY HAPPENS when your computer or phone can’t
+> display a font: A blank rectangular box pops up in place of
+> the missing glyph. This little box is called .notdef, or
+> “not defined,” in coder lingo, but everyone else just calls
+> it tofu.
 
 - [Google Noto Fonts: Beautiful and free fonts for all languages](https://www.google.com/get/noto/) by Google
   * Contains links regarding downloads, installation on several platforms, licence, etc.
