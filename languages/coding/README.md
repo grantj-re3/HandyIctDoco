@@ -9,7 +9,7 @@
 
 ## Language style guides
 
-- [Style guides for Google-originated open-source projects [Ruby not listed]](https://github.com/google/styleguide)
+- [Style guides for Google-originated open-source projects](https://github.com/google/styleguide) [Ruby not listed]
 
 - [GitHub's style guide for Ruby](https://github.com/styleguide/ruby)
 
