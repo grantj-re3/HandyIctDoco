@@ -51,6 +51,13 @@ v3 (ANTLR for Ruby)
 - http://ananelson.com/blog/2008/06/jruby-wrapping-for-antlr/
 - https://github.com/adrianmarino/calculator
 
+### Python resources for ANTLR
+
+- http://stackoverflow.com/questions/24907105/how-to-use-antlr-for-python-target
+- http://stackoverflow.com/questions/5929797/antlr-get-and-split-lexer-content
+- https://github.com/antlr/antlr4/blob/master/doc/python-target.md
+- https://github.com/jszheng/py3antlr4book
+
 ### Other (non-Antlr) Ruby parsers
 
 Treetop
