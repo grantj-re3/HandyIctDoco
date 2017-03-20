@@ -13,12 +13,22 @@ Introduction
 
 Home web sites
 
+v4:
 - http://www.antlr.org/
 - https://github.com/antlr/antlr4/blob/master/doc/getting-started.md
+- http://www.antlr.org/download/
+- http://www.antlr.org/tools.html (includes ANTLRWorks & other IDEs)
+
+v3:
+- http://www.antlr3.org/
+- http://www.antlr3.org/download/
+- http://www.antlr3.org/works/ (ANTLRWorks IDE)
 
 Books
 
 - https://pragprog.com/book/tpantlr2/the-definitive-antlr-4-reference
+- https://pragprog.com/book/tpdsl/language-implementation-patterns
+- https://pragprog.com/book/tpantlr/the-definitive-antlr-reference (ANTLR v3)
 
 ### Ruby Gems for ANTLR
 
@@ -35,6 +45,11 @@ v3 (ANTLR for Ruby)
 - http://www.rubydoc.info/github/ohboyohboyohboy/antlr3/master/ANTLR3
 - https://gpollice.wordpress.com/2012/01/30/antlr-and-ruby-perfect-together/#comments
 - http://stackoverflow.com/questions/3043415/which-is-the-best-counterpart-to-antlr-to-create-parsers-in-ruby
+
+### More Ruby/JRuby resources for ANTLR
+
+- http://ananelson.com/blog/2008/06/jruby-wrapping-for-antlr/
+- https://github.com/adrianmarino/calculator
 
 ### Other (non-Antlr) Ruby parsers
 
