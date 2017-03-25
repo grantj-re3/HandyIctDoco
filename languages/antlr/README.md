@@ -37,8 +37,8 @@ General Compiler Books and Resources
 - Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D. (2006). Compilers: Principles, Techniques, and Tools. 2nd ed. Addison Wesley. [The Dragon book.]
 - Appel, A.W., Palsberg, J. (2002). Modern Compiler Implementation in Java. 2nd Ed. Cambridge University Press.
 - Muchnick, S. (1997). Advanced Compiler Design and Implementation. 1st Ed. Morgan Kaufmann.
-- [The Packrat Parsing and Parsing Expression Grammars Page by Bryan Ford](http://bford.info/packrat/)
-- [Compiler Construction (Lecture Slides) by Hal Perkins, Computer Science & Engineering, University of Washington](http://courses.cs.washington.edu/courses/csep501/08wi/lectures/)
+- [The Packrat Parsing and Parsing Expression Grammars Page](http://bford.info/packrat/) by Bryan Ford
+- [Compiler Construction (Lecture Slides)](http://courses.cs.washington.edu/courses/csep501/08wi/lectures/) by Hal Perkins, Computer Science & Engineering, University of Washington
 
 
 ### Ruby Gems for ANTLR
