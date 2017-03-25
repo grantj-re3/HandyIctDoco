@@ -24,11 +24,19 @@ v3:
 - http://www.antlr3.org/download/
 - http://www.antlr3.org/works/ (ANTLRWorks IDE)
 
-Books
+ANTLR Books
 
 - https://pragprog.com/book/tpantlr2/the-definitive-antlr-4-reference
 - https://pragprog.com/book/tpdsl/language-implementation-patterns
 - https://pragprog.com/book/tpantlr/the-definitive-antlr-reference (ANTLR v3)
+
+General Compiler Books
+
+- Hansen, B. (1985). Brinch Hansen on Pascal Compilers. Prentice Hall.
+- Cooper, K., Torczon, L. (2011). Engineering a Compiler. 2nd Ed. Morgan Kaufmann.
+- Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D. (2006). Compilers: Principles, Techniques, and Tools. 2nd ed. Addison Wesley. [The Dragon book.]
+- Muchnick, S. (1997). Advanced Compiler Design and Implementation. 1st Ed. Morgan Kaufmann.
+
 
 ### Ruby Gems for ANTLR
 
