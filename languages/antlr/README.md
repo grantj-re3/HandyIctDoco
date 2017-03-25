@@ -30,13 +30,15 @@ ANTLR Books
 - https://pragprog.com/book/tpdsl/language-implementation-patterns
 - https://pragprog.com/book/tpantlr/the-definitive-antlr-reference (ANTLR v3)
 
-General Compiler Books
+General Compiler Books and Resources
 
 - Hansen, B. (1985). Brinch Hansen on Pascal Compilers. Prentice Hall.
 - Cooper, K., Torczon, L. (2011). Engineering a Compiler. 2nd Ed. Morgan Kaufmann.
 - Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D. (2006). Compilers: Principles, Techniques, and Tools. 2nd ed. Addison Wesley. [The Dragon book.]
 - Appel, A.W., Palsberg, J. (2002). Modern Compiler Implementation in Java. 2nd Ed. Cambridge University Press.
 - Muchnick, S. (1997). Advanced Compiler Design and Implementation. 1st Ed. Morgan Kaufmann.
+- [The Packrat Parsing and Parsing Expression Grammars Page by Bryan Ford](http://bford.info/packrat/)
+- [Compiler Construction (Lecture Slides) by Hal Perkins, Computer Science & Engineering, University of Washington](http://courses.cs.washington.edu/courses/csep501/08wi/lectures/)
 
 
 ### Ruby Gems for ANTLR
