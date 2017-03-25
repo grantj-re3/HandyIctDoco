@@ -35,6 +35,7 @@ General Compiler Books
 - Hansen, B. (1985). Brinch Hansen on Pascal Compilers. Prentice Hall.
 - Cooper, K., Torczon, L. (2011). Engineering a Compiler. 2nd Ed. Morgan Kaufmann.
 - Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D. (2006). Compilers: Principles, Techniques, and Tools. 2nd ed. Addison Wesley. [The Dragon book.]
+- Appel, A.W., Palsberg, J. (2002). Modern Compiler Implementation in Java. 2nd Ed. Cambridge University Press.
 - Muchnick, S. (1997). Advanced Compiler Design and Implementation. 1st Ed. Morgan Kaufmann.
 
 
