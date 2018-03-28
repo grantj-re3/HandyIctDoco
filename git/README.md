@@ -12,8 +12,11 @@ Book: Pro Git, Scott Chacon (July 2009).
 Topics include basics, branching, workflows, servers and other areas.
 - http://git-scm.com/book
 
-Other books
+References to other books and doco
 - http://git-scm.com/documentation/external-links
+- http://gitready.com/ (eg. http://gitready.com/beginner/2009/01/25/branching-and-merging.html)
+- http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+- https://yangsu.github.io/pull-request-tutorial/
 
 
 Creating a Git repository at GitHub
@@ -145,8 +148,9 @@ $ git remote add origin https://GITHUB_USER@github.com/GITHUB_USER/myrepo.git
 git diff with diagram at
 http://stackoverflow.com/questions/8452820/how-to-compare-the-working-tree-with-a-commit
 ```
-git diff --cached FILENAME
-git diff FILENAME
+git diff --staged|--cached [FILENAME]
+git diff [FILENAME]
+git diff COMMIT1 COMMIT2 [FILENAME]
 git diff HEAD FILENAME
 git diff --name-only
 ```
@@ -159,6 +163,7 @@ git status
 ## git commit
 ```
 git commit		# Commit files in your staged area
+git commit -v		# Include diff output within editor (as a reminder of changes)
 git commit -a		# Automatically add/rm indexed files then commit
 git commit --amend	# Amend your last commit with new message and/or staged files
 ```
@@ -381,6 +386,11 @@ gitolite - perl based solution with ACLs
 - https://github.com/sitaramc/gitolite
 - http://gitolite.com/gitolite/g2/nonroot.html
 - https://sites.google.com/site/senawario/home/gitolite-tutorial
+
+GitLab Community Edition - ruby based solution with ACLs
+- https://gitlab.com/gitlab-org/gitlab-ce
+- https://about.gitlab.com/installation/ce-or-ee/
+- https://en.wikipedia.org/wiki/GitLab
 
 Interesting article "Running git-daemon under an unprivileged user"
 - https://blog.flameeyes.eu/2008/09/running-git-daemon-under-an-unprivileged-user
