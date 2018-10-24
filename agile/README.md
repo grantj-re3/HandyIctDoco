@@ -103,12 +103,12 @@ they all have the same units.
 > it is meaningless to sum them (unless you first convert them all to a
 > common unit such as kilometres).
 
-But the SAFe WSJF documentation says *"With relative estimating, you look
-at one column at a time, set the smallest item to a “one,” and then set
-the others relative to that."*
+But the SAFe WSJF documentation says:
+> With relative estimating, you look at one column at a time, set the
+> smallest item to a “one,” and then set the others relative to that.
 
-That statement forces the above 3 values (columns) to have arbitrary
-weights (i.e. magnification factors) every time we add a new feature
+That statement forces the above 3 values (columns) to have their weights
+(i.e. magnification factors) change every time we add a new feature
 which has a smaller value than "one" because we must multiply all
 other values by N (where N>1) in that column so that the new
 smallest-value in the column is "one".
