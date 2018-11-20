@@ -181,10 +181,26 @@ account for:
 - Time criticality, and
 - Risk reduction and/or opportunity enablement value
 
-I feel it is very unlikely that one value can properly set a priority
-for 3 independent values. So, at minimum I would guess that even an
-equation which fixes the *units problem* is setting itself up to not
-meet expectations.
+I feel it is very unlikely that one (scalar) value can properly set
+a priority for 3 independent values. So, at minimum I would guess
+that even an equation which fixes the *units problem* is setting
+itself up to not meet expectations.
+
+### Why does the algorithm appear to work some/much of the time?
+
+The SAFe version of WSJF can appear to work because most of the
+time one of the columns will have a dominant influence (i.e. have
+the greatest magnification or weight). Hence someone will always
+be able to argue that the priorities look ok when considered
+from the view of that dominant column.
+
+The problems are that:
+- the algorithm does not allow us to know which column has the
+  dominant influence at a given point in time, and
+- when we make changes which cause us to re-calculate a whole
+  column (because the algorithm forces us to make the
+  smallest-value in the column a "one") then the dominant column
+  may change
 
 ### Alternative priority methods
 
@@ -193,8 +209,14 @@ might be reasonable. I would suggest you investigate proper and
 robust methods to calculate Cost of Delay, then calculate WSJF with
 one of those. I believe some are suggested in the references below.
 
+Perhaps you could consider other metrics in addition to, or instead
+of, WSJF. For example, use an *urgent-important matrix* (or
+*Eisenhower matrix*) as documented
+[here](https://www.process.st/how-to-prioritize-tasks/) and
+[here](https://blog.sandglaz.com/the-urgent-important-matrix/).
+
 For a small number of items in your backlog you could consider
-assigning priorities with an eduacated guess (i.e. intuition).
+assigning priorities with an educated guess (i.e. intuition).
 
 ## References
 - [SAFe version of Weighted Shortest Job First](https://www.scaledagileframework.com/wsjf/)
