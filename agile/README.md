@@ -229,3 +229,5 @@ others also are unhappy with it.
 - [Urgency Profiles](http://blackswanfarming.com/urgency-profiles/)
 - [SAFe and Weighted Shortest Job First](http://blackswanfarming.com/safe-and-weighted-shortest-job-first-wsjf/)
 
+![CC BY](https://i.creativecommons.org/l/by/4.0/88x31.png)
+*This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
