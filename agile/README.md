@@ -154,11 +154,16 @@ But the SAFe WSJF documentation says:
 > With relative estimating, you look at one column at a time, set the
 > smallest item to a “one,” and then set the others relative to that.
 
-That statement forces the above 3 values (columns) to have their weights
-(i.e. magnification factors) change every time we add a new feature
-which has a smaller value than "one" because we must multiply all
-other values by N (where N>1) in that column so that the new
-smallest-value in the column is "one".
+That statement forces the above 3 columns to have their weights
+(i.e. magnification factors) change whenever:
+- we add a new feature which has a smaller value than
+  "one" because we must multiply all other values by N (where
+  N>1) in that column so that the new smallest-value in the
+  column is "one"
+- we remove a feature corresponding the the last "one"
+  in a particular column because then we must divide all other
+  values by N (where N>1) in that column so that the new
+  smallest-value in the column is "one"
 
 ### Issue 2 - Can one number tell you about 3 different components of Cost of Delay?
 
@@ -177,17 +182,16 @@ account for:
 - Risk reduction and/or opportunity enablement value
 
 I feel it is very unlikely that one value can properly set a priority
-for 3 independent values. So, at minimum I would guess that even a
-fixed a equation is setting itself up to not meet expectations.
+for 3 independent values. So, at minimum I would guess that even an
+equation which fixes the *units problem* is setting itself up to not
+meet expectations.
 
 ### Alternative priority methods
 
-I am not qualified to say what alternative priority scoring
-methods might be reasonable. I would suggest:
-
-> Investigate proper and robust methods to calculate Cost of Delay,
-> then use WSJF with one of those. I believe some are suggested in
-> the references below.
+I am not qualified to say what alternative priority scoring methods
+might be reasonable. I would suggest you investigate proper and
+robust methods to calculate Cost of Delay, then calculate WSJF with
+one of those. I believe some are suggested in the references below.
 
 For a small number of items in your backlog you could consider
 assigning priorities with an eduacated guess (i.e. intuition).
