@@ -24,6 +24,6 @@
 
 - [Redirect, Change URLs or Redirect HTTP to HTTPS in Apache](https://serverfault.com/questions/214512/redirect-change-urls-or-redirect-http-to-https-in-apache-everything-you-ever) - Everything You Ever Wanted to Know About Mod_Rewrite Rules but Were Afraid to Ask
 - In a vhost context, a regex pattern to match a full/complete string might
-  look like '^/mypath$'. In a directory context, it would look more like
-  '^mypath$' (without the leading '/').
+  look like `^/mypath$`. In a directory context, it would look more like
+  `^mypath$` (without the leading `/`).
 
