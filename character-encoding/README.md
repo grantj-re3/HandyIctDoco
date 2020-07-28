@@ -34,6 +34,8 @@ Unicode in a nutshell:
 - [Unicode 13.0](http://www.unicode.org/versions/Unicode13.0.0/) announced on 10 March 2020
 - [Byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark) Wikipedia page
 - [The byte-order mark (BOM) in HTML](https://www.w3.org/International/questions/qa-byte-order-mark) - The World Wide Web Consortium (W3C)
+- [FlindersDSpace-csv4itemimport | Cleaning the CSV file metadata](https://github.com/grantj-re3/FlindersDSpace-csv4itemimport#cleaning-the-csv-file-metadata) - Options
+  1A and 1B describe the conversion of a Microsoft Excel spreadsheet into a UTF-8 CSV file (including some problems with Excel).
 
 ## Character encoding tools
 
