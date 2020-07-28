@@ -17,6 +17,9 @@ Unicode in a nutshell:
 - Unicode is not perfect and does not have a representation for all
   characters in all languages. I gather that some characters in some
   other character encodings do not have a representation in Unicode.
+- A byte order mark (BOM) can optionally appear at the start of a
+  text stream to indicate the byte order (endianness) or the
+  Unicode character encoding being used.
 
 ### Links
 - [Unicode](https://en.wikipedia.org/wiki/Unicode) Wikipedia page
@@ -27,13 +30,24 @@ Unicode in a nutshell:
 - [Shift-JIS & UTF-8](http://david.latapie.name/blog/shift-jis-utf-8/) by Hiroshi
 - [FORM submission and i18n [ie. internationalisation]](http://www.alanflavell.org.uk/charset/form-i18n.html) by Alan Flavell
 - [i18n: HTML Character set issues beyond HTML3.2](http://www.alanflavell.org.uk/charset/index.html) by Alan Flavell
+- [Unicode home page](https://home.unicode.org/)
+- [Unicode 13.0](http://www.unicode.org/versions/Unicode13.0.0/) announced on 10 March 2020
+- [Byte order mark (BOM)](https://en.wikipedia.org/wiki/Byte_order_mark) Wikipedia page
+- [The byte-order mark (BOM) in HTML](https://www.w3.org/International/questions/qa-byte-order-mark) - The World Wide Web Consortium (W3C)
 
 ## Character encoding tools
+
+At my work place in Australia, the usual Microsoft Word and
+Microsoft Excel character encoding is Windows-1252 (also
+known as CP1252 and similar to ISO8859-1).
+
 - [iconv](http://linux.die.net/man/1/iconv) linux man page
 
 ## Computer-language specific character encoding tips
 - [3 Steps to Fix Encoding Problems in Ruby](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/) by Justin Weiss
 - [Ruby 1.9 Encodings: A Primer and the Solution for Rails](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/) by Yehuda Katz
+- [Python Standard Library | Codec registry and base classes](https://docs.python.org/3/library/codecs.html#encodings-and-unicode) - discusses
+  Python Unicode character encodings with and without byte-order marks (eg. utf-8, utf-16, utf-32, utf-8-sig, utf-16-be, utf-16-le, utf-32-be, utf-32-le)
 
 # Language fonts
 
