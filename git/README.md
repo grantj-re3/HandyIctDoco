@@ -4,13 +4,15 @@ Basic git documentation
 Git web site
 - http://git-scm.com/
 
-GitHub
-- https://github.com/
-- https://help.github.com/
-
 Book: Pro Git, Scott Chacon (July 2009).
 Topics include basics, branching, workflows, servers and other areas.
 - http://git-scm.com/book
+
+GitHub
+- https://github.com/
+- https://help.github.com/
+- https://guides.github.com/features/mastering-markdown/
+- https://guides.github.com/activities/hello-world/
 
 References to other books and doco
 - http://git-scm.com/documentation/external-links
