@@ -45,6 +45,14 @@ known as CP1252 and similar to ISO8859-1).
 
 - [iconv](http://linux.die.net/man/1/iconv) linux man page
 
+If you choose to save a Microsoft Excel spreadsheet as
+*CSV UTF-8* it saves the file as UTF-8 with BOM (byte order
+mark). If you need to remove the BOM you can:
+- edit in Notepad++ and convert to UTF-8 without BOM via the Encoding menu
+- edit in Notepad on Windows 10 and see the encoding via the status bar
+  (at the bottom) and convert to UTF-8 without BOM via the Save As >
+  Encoding drop-down.
+
 ## Computer-language specific character encoding tips
 - [3 Steps to Fix Encoding Problems in Ruby](http://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/) by Justin Weiss
 - [Ruby 1.9 Encodings: A Primer and the Solution for Rails](http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/) by Yehuda Katz
