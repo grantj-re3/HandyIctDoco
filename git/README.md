@@ -373,7 +373,17 @@ git status
 git log		# Or: git prettylog
 ```
 
- 
+
+Converting a Git repository sub-folder into a new git repository 
+================================================================
+
+- [GitHub | Splitting a subfolder out into a new repository](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository?platform=linux)
+  * Preserves commit history
+  * Uses the [git-filter-repo](https://github.com/newren/git-filter-repo) tool;
+    see the [manual](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html)
+- Do ***not*** use the [git-filter-branch](https://git-scm.com/docs/git-filter-branch) tool
+
+
 Git servers
 ===========
 ## Host your own
