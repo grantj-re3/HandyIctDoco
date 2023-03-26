@@ -383,6 +383,27 @@ Converting a Git repository sub-folder into a new git repository
     see the [manual](https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html)
 - Do ***not*** use the [git-filter-branch](https://git-scm.com/docs/git-filter-branch) tool
 
+## Variations
+
+- Keep the folder FOLDER-NAME (as per the link above)
+```
+$ git filter-repo --path FOLDER-NAME/
+```
+
+- Keep several files and folders
+```
+$ git filter-repo --path README.md --path FOLDER-NAME/ --path OTHER-FOLDER/SUB-FOLDER/
+```
+
+- Keep the folder FOLDER-NAME and make it the toplevel folder
+```
+# Shortcut
+$ git filter-repo --subdirectory-filter FOLDER-NAME/
+
+# Alternative equivalent
+$ git filter-repo --path FOLDER-NAME/ --path-rename FOLDER-NAME/:
+```
+
 
 Git servers
 ===========
