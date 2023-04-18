@@ -385,17 +385,17 @@ Converting a Git repository sub-folder into a new git repository
 
 ## Variations
 
-- Keep the folder FOLDER-NAME (as per the link above)
+Keep the folder FOLDER-NAME (as per the link above)
 ```
 $ git filter-repo --path FOLDER-NAME/
 ```
 
-- Keep several files and folders
+Keep several files and folders
 ```
 $ git filter-repo --path README.md --path FOLDER-NAME/ --path OTHER-FOLDER/SUB-FOLDER/
 ```
 
-- Keep the folder FOLDER-NAME and make it the toplevel folder
+Keep the folder FOLDER-NAME and make it the toplevel folder
 ```
 # Shortcut
 $ git filter-repo --subdirectory-filter FOLDER-NAME/
@@ -403,6 +403,12 @@ $ git filter-repo --subdirectory-filter FOLDER-NAME/
 # Alternative equivalent
 $ git filter-repo --path FOLDER-NAME/ --path-rename FOLDER-NAME/:
 ```
+
+### Gotcha
+
+If you rename a folder in the *old* git repository, then later convert the new
+folder name into a *new* git repository, it appears you will lose any history
+associated with folder content *before* the folder was renamed.
 
 
 Git servers
