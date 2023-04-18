@@ -407,8 +407,11 @@ $ git filter-repo --path FOLDER-NAME/ --path-rename FOLDER-NAME/:
 ### Gotcha
 
 If you rename a folder in the *old* git repository, then later convert the new
-folder name into a *new* git repository, it appears you will lose any history
-associated with folder content *before* the folder was renamed.
+folder name into a *new* git repository using the command below, it appears you
+will lose any history associated with folder content *before* the folder was renamed.
+```
+$ git filter-repo --subdirectory-filter PREVIOUSLY-RENAMED-FOLDER/
+```
 
 
 Git servers
