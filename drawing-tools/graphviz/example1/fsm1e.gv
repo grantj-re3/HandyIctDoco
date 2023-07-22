@@ -1,0 +1,36 @@
+digraph FSM1e {
+    // Title
+    label="Finite State Machine 1e: Fix layout"
+    labelloc=t
+    fontsize=24
+
+    // Encourage top-to-bottom layout.
+    Start; One; Two; 
+    {rank=same; Three; Four;}   // Same rank, i.e. same Y-value
+    Five; End;
+    
+    Start -> One
+    One -> Two [label="Event A"]
+    
+    Two -> Three [label="Event B"]
+    Two -> Four [label="Event C"]
+
+    // Nodes Three & Four point to each other.
+    Three -> Four [label="Event D"]
+    Four -> Three [label="Event E"]
+
+    Three -> Five [label="Event F"]
+    Four -> Five [label="Event G"]
+
+    // Point back to a previous node.
+    // This edge ruins the nice layout... unless we encourage
+    // top-to-bottom layout (see above).
+    Four -> One [label="Event H"]
+
+    Five -> End
+
+    Start [shape=box]
+    End [shape=box]
+
+}
+

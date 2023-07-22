@@ -1,0 +1,26 @@
+digraph FSM1a {
+    // Title
+    label="Finite State Machine 1a: Without layout"
+    labelloc=t
+    fontsize=24
+
+    Start -> One
+    One -> Two [label="Event A"]
+
+    Two -> Three [label="Event B"]
+    Two -> Four [label="Event C"]
+
+    // Nodes Three & Four point to each other.
+    Three -> Four [label="Event D"]
+    Four -> Three [label="Event E"]
+
+    Three -> Five [label="Event F"]
+    Four -> Five [label="Event G"]
+
+    Five -> End
+
+    Start [shape=box]
+    End [shape=box]
+
+}
+

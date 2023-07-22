@@ -1,0 +1,34 @@
+digraph FSM1d {
+    // Title
+    label="Finite State Machine 1d: Add Event H"
+    labelloc=t
+    fontsize=24
+
+    // Put nodes Three & Four at the same horizontal level.
+    // Same rank, i.e. same Y-value
+    {rank=same; Three; Four;}
+
+    Start -> One
+    One -> Two [label="Event A"]
+
+    Two -> Three [label="Event B"]
+    Two -> Four [label="Event C"]
+
+    // Nodes Three & Four point to each other.
+    Three -> Four [label="Event D"]
+    Four -> Three [label="Event E"]
+
+    Three -> Five [label="Event F"]
+    Four -> Five [label="Event G"]
+
+    // Point back to a previous node.
+    // This edge ruins the nice layout.
+    Four -> One [label="Event H"]
+
+    Five -> End
+
+    Start [shape=box]
+    End [shape=box]
+
+}
+

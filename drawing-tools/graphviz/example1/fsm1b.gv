@@ -1,0 +1,33 @@
+digraph FSM1b {
+    // Title
+    label="Finite State Machine 1b: Layout I"
+    labelloc=t
+    fontsize=24
+
+    // Nodes Three & Four point to each other.
+    // Put nodes Three & Four at the same horizontal level.
+    subgraph Horiz1 {
+        penwidth=0          // Hidden border
+        {
+            rank=same       // All nodes have same Y-value
+            Three -> Four [label="Event D"]
+            Four -> Three [label="Event E"]
+        }
+    }
+
+    Start -> One
+    One -> Two [label="Event A"]
+
+    Two -> Three [label="Event B"]
+    Two -> Four [label="Event C"]
+    
+    Three -> Five [label="Event F"]
+    Four -> Five [label="Event G"]
+
+    Five -> End
+
+    Start [shape=box]
+    End [shape=box]
+
+}
+
