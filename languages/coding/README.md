@@ -2,7 +2,7 @@
 
 ## How to write good quality code
 
-- [Clean, high quality code: a guide on how to become a better programmer](https://www.butterfly.com.au/blog/website-development/clean-high-quality-code-a-guide-on-how-to-become-a-better-programmer)
+- [Clean, high quality code: a guide on how to become a better programmer](https://butterfly.com.au/blog/how-to-become-a-better-programmer/)
 
 - [15 Rules for Writing Quality Code](http://www.informit.com/articles/article.aspx?p=2223710)
 
@@ -14,4 +14,8 @@
 - [GitHub's style guide for Ruby](https://github.com/styleguide/ruby)
 
 - [Shopify's style guide for Ruby](http://shopify.github.io/ruby-style-guide/)
+
+## How to learn to write software
+
+- [Learning to write software](learning-to-code.md)
 
