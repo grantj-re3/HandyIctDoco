@@ -20,6 +20,26 @@ References to other books and doco
 - http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
 - https://yangsu.github.io/pull-request-tutorial/
 
+Git commit messages (best practice)
+- https://github.com/git/git/commit/c2c349a15c0430a2ef9f858d69d095a00693379c says:
+  * begin the commit message with a single short (no more than 50 characters) line
+    summarizing the change, followed by a blank line and then a more thorough description
+- https://git-scm.com/docs/git-commit says:
+  * The text up to the first blank line in a commit message is treated as the commit title,
+    and that title is used throughout Git. For example, git-format-patch...
+  * we encourage that the commit log messages are encoded in UTF-8...
+- https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html re the
+  "50/72 Formatting Style" says:
+  * Write your commit message in the imperative: "Fix bug" and not "Fixed bug" or "Fixes bug"
+  * Further paragraphs come after blank lines... Bullet points are okay...
+- https://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting says:
+  * [This opinion may not be a widely held view.] For the message itself newlines indicate
+    something meaningful in the data. A single newline indicates a start/break in a list
+    [e.g. bullet points] and a double newline indicates a new thought/idea [e.g. a paragraph]
+- https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53 suggests:
+  * Rules for a great git commit message style
+  * Information in commit messages
+
 
 Creating a Git repository at GitHub
 ===================================
@@ -169,6 +189,9 @@ git commit -v		# Include diff output within editor (as a reminder of changes)
 git commit -a		# Automatically add/rm indexed files then commit
 git commit --amend	# Amend your last commit with new message and/or staged files
 ```
+
+See *Git commit messages (best practice)* information in the opeining section above.
+
 
 ## git push
 ```
