@@ -187,10 +187,10 @@ git status
 git commit		# Commit files in your staged area
 git commit -v		# Include diff output within editor (as a reminder of changes)
 git commit -a		# Automatically add/rm indexed files then commit
-git commit --amend	# Amend your last commit with new message and/or staged files
+git commit --amend	# Change your last commit with a new message and/or staged files
 ```
 
-See *Git commit messages (best practice)* information in the opeining section above.
+See *Git commit messages (best practice)* information in the opening section above.
 
 
 ## git push
