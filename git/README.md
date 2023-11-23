@@ -324,8 +324,40 @@ git reset --hard HEAD^
 - See Pro Git book (above), http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
 - http://nvie.com/posts/a-successful-git-branching-model/
 
-Deleting a git commit
+
+Rewriting git history
 =====================
+
+1. [Scott Chacon and Ben Straub | Pro Git 2nd Ed | Git Tools - Rewriting History | 2014](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+   - Changing the Last Commit
+   - Changing Multiple Commit Messages
+   - Reordering Commits
+   - Squashing Commits
+   - Splitting a Commit
+   - Deleting a commit
+   - The Nuclear Option: filter-branch  [Don't use this, use [*git-filter-repo*](https://github.com/newren/git-filter-repo) instead]
+
+1. [GitHub Docs | Changing a commit message](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message)
+   - If you run the *git rebase ...* command and choose *reword*
+     or *squash* (and probably other commands) you will be given
+     the opportunity to edit your previous commit message(s)
+     **including any multi-line messages** because a new text editor
+     will automatically open for each new commit
+
+1. [CloudBees - Pedro Barbosa | Git Squash: How to Condense Your Commit History | 2021](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
+   - git rebase -i HEAD~N   # Interactively review the last N commits
+   - Your configured text editor will open
+   - All commits are organized from *older to newer, top-down*
+   - Keep in mind that you need at least one commit to be picked before
+     the one you want to squash in order to be able to do so, which
+     means *you can’t choose to squash the first one*
+   - I strongly advise against drops and deleting lines... and
+     changing the order of the commits. Save the file and quit
+     the text editor.
+   - A new text editor will appear. In this one, you’ll need to
+     write the messages for the new commits.
+
+## Deleting a git commit
 
 This section describes how to undo (or delete or remove) your last git
 commit so it is no longer visible in your local or remote git-history.
@@ -339,7 +371,7 @@ extreme/rare circumstances (eg. the commit contains sensitive info).
 For similar reasons, it is also best carried out before (or very soon
 after) the commit is pushed to a public repo.
  
-## Assumptions
+### Assumptions
 
 This example assumes:
 - The second-last commit contains sensitive info
@@ -348,7 +380,7 @@ This example assumes:
 Hence you are happy to "merge" (ie. squash) the last and second-last
 commits (thereby hiding the second-last commit).
  
-## Procedure
+### Procedure
 
 - Backup your local repo
 ```
