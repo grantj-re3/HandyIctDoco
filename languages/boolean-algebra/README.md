@@ -27,14 +27,14 @@ NOT              | NOT A   | A̅              | A'   | ¬A
    - [Boolean Algebra Truth Tables](https://www.electronics-tutorials.ws/boolean/bool_7.html)
 
 1. [Computer Science | Boolean Algebra (playlist) | 2016-2018](https://www.youtube.com/playlist?list=PLTd6ceoshprcTJdg5AI6i2D2gZR5r8_Aw)
-   - [Boolean Algebra 1 – The Laws of Boolean Algebra](https://www.youtube.com/watch?v=EPJf4owqwdA)
-   - [Boolean Algebra 2 – Simplifying Complex Expressions](https://www.youtube.com/watch?v=XMCW6NFLMsg)
-   - [Karnaugh Maps – Introduction](https://www.youtube.com/watch?v=3vkMgTmieZI)
+   - [Boolean Algebra 1 – The Laws of Boolean Algebra (video)](https://www.youtube.com/watch?v=EPJf4owqwdA)
+   - [Boolean Algebra 2 – Simplifying Complex Expressions (video)](https://www.youtube.com/watch?v=XMCW6NFLMsg)
+   - [Karnaugh Maps – Introduction (video)](https://www.youtube.com/watch?v=3vkMgTmieZI)
 
-1. [Vladimir Keleshev | Boolean algebra for engineers | 2010](https://www.youtube.com/playlist?list=PL4772F0E29C08504B)
-   - [Boolean algebra #1: Basic laws and rules](https://www.youtube.com/watch?v=gj8QmRQtVao)
-   - [Boolean algebra #5: Truth tables - introduction](https://www.youtube.com/watch?v=oR2Zo-E-l08)
+1. [Vladimir Keleshev | Boolean algebra for engineers (playlist) | 2010](https://www.youtube.com/playlist?list=PL4772F0E29C08504B)
+   - [Boolean algebra #1: Basic laws and rules (video)](https://www.youtube.com/watch?v=gj8QmRQtVao)
+   - [Boolean algebra #5: Truth tables - introduction (video)](https://www.youtube.com/watch?v=oR2Zo-E-l08)
 
-1. [Oggi AI - Artificial Intelligence Today - Joe James | Boolean Algebra | 2014-2017](https://www.youtube.com/playlist?list=PLj8W7XIvO93o8N3DZ5cjgqZn_gtDbQTZA)
-   - [Boolean Algebra: Karnaugh Maps](https://www.youtube.com/watch?v=PSg5MJLOPRU)
+1. [Oggi AI - Artificial Intelligence Today - Joe James | Boolean Algebra (playlist) | 2014-2017](https://www.youtube.com/playlist?list=PLj8W7XIvO93o8N3DZ5cjgqZn_gtDbQTZA)
+   - [Boolean Algebra: Karnaugh Maps (video)](https://www.youtube.com/watch?v=PSg5MJLOPRU)
 
