@@ -2,11 +2,11 @@
 
 ## Common boolean operator symbols
 
-Boolean operator |         |     |    |
------------------|---------|-----|----|-----
-AND              | A AND B | A.B | AB | A∧B (Note that "∧" looks like "A", hence "AND")
-OR               | A OR B  | A+B |    | A∨B
-NOT              | NOT A   | A̅   | A' | ¬A
+Boolean operator | Name    | Plus/ dot/ bar | Misc | Logic symbol
+-----------------|---------|----------------|------|--------------
+AND              | A AND B | A.B            | AB   | A∧B ("∧" looks like "A", hence "AND")
+OR               | A OR B  | A+B            |      | A∨B
+NOT              | NOT A   | A̅              | A'   | ¬A
 
 
 ## General
