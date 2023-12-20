@@ -45,3 +45,8 @@
 
 1. [Narkive | Collection of Hash Functions | 2007](https://comp.programming.narkive.com/raThbvjB/collection-of-hash-functions)
 
+
+## Other
+
+1. [Evan Klitzke | CRCs vs Hash Functions | 2016](https://eklitzke.org/crcs-vs-hash-functions)
+
