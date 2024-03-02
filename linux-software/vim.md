@@ -69,3 +69,7 @@
 
 1. [How can I shift a block by one space in Vim?](https://www.quora.com/How-can-I-shift-a-block-by-one-space-in-Vim)
 
+1. How to insert Unicode characters into Vim
+   - [jdhao | How to Insert Unicode Characters in Neovim/Vim | 2021](https://jdhao.github.io/2020/10/07/nvim_insert_unicode_char/)
+   - [Fandom: Vim Tips Wiki | Working with Unicode: Additional remarks | 2002](https://vim.fandom.com/wiki/Working_with_Unicode#Additional_remarks)
+
