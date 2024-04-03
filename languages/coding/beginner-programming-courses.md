@@ -37,3 +37,37 @@
        + Python and Databases
        + Data Vizualization
 
+   - [Mike Dane | Learn Python - Full Course for Beginners [Tutorial] | 2018](https://www.youtube.com/watch?v=rfscVS0vtbw)
+     * 4h27m
+     * No registration for course.
+
+   - [Mike Dane | Ruby Programming Language - Full Course | 2018](https://www.youtube.com/watch?v=t_ispmWmdjY)
+     * 4h02s
+     * No registration for course.
+
+   - Algorithms
+     * [CupofCode 01 | Python Algorithms for Interviews | 2019](https://www.youtube.com/watch?v=p65AHm9MX80)
+     * [Sam Gavis-Hughson | MASTER your coding interview | 2019](https://www.youtube.com/watch?v=iAHQopLuZ4Q)
+
+
+1. [Harvard University: CS50](https://www.youtube.com/cs50)
+   - [David J. Malan | CS50's Introduction to Programming with Python (playlist) | 2022](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+   - [David J. Malan | CS50 for Lawyers 2019 (playlist)](https://www.youtube.com/playlist?list=PLhQjrBD2T380CIOjHCjIAugO3ryncp6IW)
+     * Algorithms, Data Structures
+   - [David J. Malan | CS50x 2024 Lectures (playlist)](https://www.youtube.com/playlist?list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4)
+     * Languages: Scratch, C, Python
+     * Algorithms, Data Structures
+
+
+1. [The Odin Project](https://www.theodinproject.com/)
+   - [Ruby Course](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby)
+     * Basic Ruby
+     * Object Oriented Programming Basics
+     * Advanced Ruby
+     * A Bit of Computer Science, e.g. Common Data Structures and Algorithms
+
+
+1. [W3Schools: Learn to Code](https://www.w3schools.com/)
+   - [Where To Start](https://www.w3schools.com/where_to_start.asp)
+   - [Python Tutorial](https://www.w3schools.com/python/)
+
