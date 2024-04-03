@@ -7,7 +7,7 @@
 
 ## Resources
 
-1. [freeCodeCamp](freeCodeCamp.org)
+1. [freeCodeCamp](https://www.freecodecamp.org/)
    - [Beau Carnes | Python For Beginners Courses Ranked from Best to Worst – freeCodeCamp Edition (video) | 2022](https://www.freecodecamp.org/news/freecodecamp-python-courses-ranked-from-best-to-worst/)
 
    - [Beau Carnes | Python for Beginners – Full Course [Programming Tutorial (video) | 2022]](https://www.youtube.com/watch?v=eWRfhZUzrAc)
