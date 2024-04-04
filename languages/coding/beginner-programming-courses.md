@@ -12,12 +12,12 @@
 
    - [Beau Carnes | Python for Beginners – Full Course [Programming Tutorial (video) | 2022]](https://www.youtube.com/watch?v=eWRfhZUzrAc)
      * 4h40m
-     * No registration for course.
+     * No registration for course
      * He suggests you sign up to https://replit.com/ to use python [but I feel it is not required if you have it installed on your computer]
 
    - [Dr. Charles R. Severance | Python for Everybody - Full University Python Course (video) | 2019](https://www.youtube.com/watch?v=8DvywoWv6fI)
      * 13h40m
-     * No registration for course.
+     * No registration for course
      * https://www.py4e.com/book.php
      * https://www.py4e.com/html3/
        + Introduction
@@ -39,11 +39,11 @@
 
    - [Mike Dane | Learn Python - Full Course for Beginners [Tutorial] (video) | 2018](https://www.youtube.com/watch?v=rfscVS0vtbw)
      * 4h27m
-     * No registration for course.
+     * No registration for course
 
    - [Bobby Stearman | Python Tutorial for Beginners (video) | 2022](https://www.youtube.com/watch?v=8124kv-632k)
      * 2h48m
-     * No registration for course.
+     * No registration for course
 
    - Algorithms
      * [CupofCode 01 | Python Algorithms for Interviews (video) | 2019](https://www.youtube.com/watch?v=p65AHm9MX80)
@@ -69,7 +69,11 @@
 1. [freeCodeCamp](https://www.freecodecamp.org/)
    - [Mike Dane | Ruby Programming Language - Full Course (video) | 2018](https://www.youtube.com/watch?v=t_ispmWmdjY)
      * 4h02s
-     * No registration for course.
+     * No registration for course
+
+   - [TK | Learning Ruby: From Zero to Hero | 2017](https://www.freecodecamp.org/news/learning-ruby-from-zero-to-hero-90ad4eecc82d/)
+     * Tutorial page (not a video)
+     * No registration for course
 
 
 1. [The Odin Project](https://www.theodinproject.com/)
@@ -109,7 +113,7 @@ Opinions
 1. [freeCodeCamp: Pasan Premaratne (Treehouse) | Algorithms and Data Structures Tutorial - Full Course for Beginners (video) | 2021](https://www.youtube.com/watch?v=8hly31xKli0)
    - [Treehouse web site](https://teamtreehouse.com/)
    - 5h22m
-   - No registration for course.
+   - No registration for course
 
 1. [Internet Made Coder | Data Structures & Algorithms (playlist) | 2022-2024](https://www.youtube.com/playlist?list=PLe2lWnS2pvv0PNJMEYcRxR6lMT24uJb5a)
    - https://zerotomastery.io/courses/learn-data-structures-and-algorithms/
