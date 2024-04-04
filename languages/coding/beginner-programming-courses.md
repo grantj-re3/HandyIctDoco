@@ -95,14 +95,14 @@
 - The above issues are magnified when:
   * the task being performed by the code is complex
   * the code base becomes very big
-  * when the data being processed becomes very big
+  * the data being processed becomes very big
 
 Often, the answer to the above question on internet is "DSA is important so I can do well
 in an interview and get a job". Although this answer is applicable for developers seeking
 employment, I have ignored this above because it gives rise the the secondary question
 "Why does your potential employer want to employ someone who is proficient with DSA?"
 
-Opinions
+Opinions:
 
 - [Testing Coder | Data Structures and Algorithms. Should you learn them? (Senior Software Engineer perspective) (video) | 2022](https://www.youtube.com/watch?v=rGbWHujTeic)
 - [Traversy Media | Do You Need To Learn Data Structures & Algorithms As A Developer? (video) | 2022](https://www.youtube.com/watch?v=b_4ZchFAYRs&t=6m2s)
