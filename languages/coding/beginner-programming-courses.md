@@ -118,6 +118,10 @@ Opinions
 1. [Internet Made Coder | Data Structures & Algorithms (playlist) | 2022-2024](https://www.youtube.com/playlist?list=PLe2lWnS2pvv0PNJMEYcRxR6lMT24uJb5a)
    - https://zerotomastery.io/courses/learn-data-structures-and-algorithms/
 
+1. [freeCodeCamp: Aakash N S (Jovian) | Data Structures and Algorithms in Python - Full Course for Beginners (video) | 2021](https://www.youtube.com/watch?v=pkYVOmU3MgA)
+   - 12h30m
+   - No registration for video (but I understand registration is required for the Jovian course which has online features)
+
 1. [Real Python: Dan Bader | Common Python Data Structures (Guide) | 2020-2023](https://realpython.com/python-data-structures/)
    - https://realpython.com/lessons/stacks-queues-ideal-overview/
    - https://realpython.com/lessons/stacks-and-lists/
