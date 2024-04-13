@@ -59,6 +59,10 @@
      * Algorithms, Data Structures
 
 
+1. [Launch School | Introduction to Programming with Python | c.2023](https://launchschool.com/books/python)
+   - For Python 3.10.x
+
+
 1. [W3Schools: Learn to Code](https://www.w3schools.com/)
    - [Where To Start](https://www.w3schools.com/where_to_start.asp)
    - [Python Tutorial](https://www.w3schools.com/python/)
@@ -82,6 +86,9 @@
      * Object Oriented Programming Basics
      * Advanced Ruby
      * A Bit of Computer Science, e.g. Common Data Structures and Algorithms
+
+1. [Launch School | Introduction to Programming with Ruby | c.2023](https://launchschool.com/books/ruby)
+   - For Ruby 3.2.0
 
 
 ## Data Structures & Algorithms (DSA)
@@ -136,4 +143,13 @@ Opinions:
 1. Less formal blogs, discussion & opinion
    - https://blog.georgovassilis.com/2016/06/26/the-art-of-copy-paste-in-programming/
    - https://www.reddit.com/r/learnprogramming/comments/12a4nq5/is_most_of_programming_is_copy_paste_or_its_just/
+
+
+## Object Oriented Programming
+
+1. [Launch School | Object Oriented Programming with Python | c.2023](https://launchschool.com/books/oo_python)
+   - Partner book to *Introduction to Programming with Python* above so probably for Python 3.10.x
+
+1. [Launch School | Object Oriented Programming with Ruby | c.2023](https://launchschool.com/books/oo_ruby)
+   - Partner book to *Introduction to Programming with Ruby* above so probably for Ruby 3.2.0
 
