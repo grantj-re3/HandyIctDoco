@@ -72,7 +72,7 @@
      * Separation of concerns
      * Law of Demeter, LoD (also known as the Principle of Least Knowledge)
      * [1h17m30s SOLID Principles](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h17m30s)
-   - [1h23m58s Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=)
+   - [1h23m58s Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h23m58s)
      * E.g. Logging, caching, thread pools, database connections, configuration access
      * When to use? To control access to a shared resource.
      * When not to use?
