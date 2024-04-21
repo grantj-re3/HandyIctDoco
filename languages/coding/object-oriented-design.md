@@ -46,14 +46,41 @@
    - Other presentations re clean code are [here](https://www.youtube.com/playlist?list=PL4B8197063D90CDB3)
 
 1. [jGeek: P.J. Paweska | SOLID Principles: Improve Your Python Code (video) | 2023](https://www.youtube.com/watch?v=sX6hrDJfoxY)
-   - 0m0s Start section
-   - 4m50s Start section
-   - 8m24s Start section
-   - 11m10s Start section
-   - 12m40s Start section
-   - 18m31s Start section
+   - [0m0s Design Patterns - Background](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=0s)
+   - [2m11s Design Patterns - Introduction](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2m11s)
+     1. Creational
+        * Singleton Pattern
+        * Factory Method Pattern
+        * Builder Pattern
+     1. Structural
+        * Adaptor Pattern
+     1. Behavioural
+        * Strategy Pattern
+        * Observer Pattern
+        * State Pattern
+   - [4m50s Why do we need software architecture?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4m50s)
+     * [8m24s Why use UML?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=8m24s)
+     * [11m10s Difference between organised an unorganised code](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=11m10s)
+     * [12m40s Python environment](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=12m40s)
+     * [18m31s Optional UML refresher](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=18m31s)
+   - [24m31s Python v3.5+ OOP refresher](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=24m31s)
+     * [37m10s Interface Contract and Abstract Class concepts](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=37m10s)
+     * [46m43s OOP Code examples](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=46m43s)
+     * [1h2m3s How Interface Contracts work](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h2m3s)
+   - [1h13m54s What makes a great architecture?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h13m54s)
+     * Loose coupling
+     * Separation of concerns
+     * Law of Demeter, LoD (also known as the Principle of Least Knowledge)
+     * [1h17m30s SOLID Principles](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h17m30s)
+   - [1h23m58s Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=)
+     * E.g. Logging, caching, thread pools, database connections, configuration access
+     * When to use? To control access to a shared resource.
+     * When not to use?
+       + Global access
+       + If you violate the SRP
+     * [1h30m57s UML diagram and the Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h30m57s)
+     * [1h40m26s Singleton with Python metaclass](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h40m26s)
    - ...
-   - 1h30m56s Start section
 
 1. Ordina | SOLID Python: with Johan Vergeer | 2020
    - [Part 1: Single Responsibility Principle (video)](https://www.youtube.com/watch?v=OCogAzOqn3Y)
