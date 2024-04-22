@@ -48,16 +48,9 @@
 1. [jGeek: P.J. Paweska | SOLID Principles: Improve Your Python Code (video) | 2023](https://www.youtube.com/watch?v=sX6hrDJfoxY)
    - [0m0s Design Patterns - Background](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=0s)
    - [2m11s Design Patterns - Introduction](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2m11s)
-     1. Creational
-        * Singleton Pattern
-        * Factory Method Pattern
-        * Builder Pattern
-     1. Structural
-        * Adaptor Pattern
-     1. Behavioural
-        * Strategy Pattern
-        * Observer Pattern
-        * State Pattern
+     1. Creational: Singleton Pattern, Factory Method Pattern, Builder Pattern
+     1. Structural: Adaptor Pattern
+     1. Behavioural: Strategy Pattern, Observer Pattern, State Pattern
    - [4m50s Why do we need software architecture?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4m50s)
      * [8m24s Why use UML?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=8m24s)
      * [11m10s Difference between organised an unorganised code](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=11m10s)
@@ -68,18 +61,24 @@
      * [46m43s OOP Code examples](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=46m43s)
      * [1h2m3s How Interface Contracts work](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h2m3s)
    - [1h13m54s What makes a great architecture?](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h13m54s)
-     * Loose coupling
-     * Separation of concerns
-     * Law of Demeter, LoD (also known as the Principle of Least Knowledge)
+     * Loose coupling; Separation of concerns; Law of Demeter, LoD (i.e. Principle of Least Knowledge)
      * [1h17m30s SOLID Principles](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h17m30s)
    - [1h23m58s Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h23m58s)
-     * E.g. Logging, caching, thread pools, database connections, configuration access
-     * When to use? To control access to a shared resource.
-     * When not to use?
-       + Global access
-       + If you violate the SRP
+     * A single instance of a class. E.g. Logging, caching, thread pools, database connections, configuration access
      * [1h30m57s UML diagram and the Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h30m57s)
      * [1h40m26s Singleton with Python metaclass](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h40m26s)
+     * [1h47m45s Exploring thread safety in Python](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h47m45s)
+     * [1h54m42s Practical examples of the Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h54m42s)
+     * [2h8m38s Practical example of the Singleton Pattern in action: Create a logger](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h8m38s)
+     * [2h20m22s Singleton Pattern Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h20m22s)
+   - [2h22m47s Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h22m47s)
+     * Used when caller can't anticipate the types of objects it must create or you have many objects of a common type
+     * [2h31m47s UML diagram & implementation detail for the Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h31m47s)
+     * [2h37m26s Coding the *Simple* Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h37m26s)
+     * [2h48m43s Factory Method Pattern Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h48m43s)
+   - [2h50m47s Intro to the Builder Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h50m47s)
+     * Used for creating complex objects
+     * [2h59m43s UML diagram for the Builder Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h59m43s)
    - ...
 
 1. Ordina | SOLID Python: with Johan Vergeer | 2020
