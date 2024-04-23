@@ -45,6 +45,16 @@
 1. [Google TechTalks: Misko Hevery | The Clean Code Talks -- Inheritance, Polymorphism, & Testing (video) | 2008](https://www.youtube.com/watch?v=4F72VULWFvc)
    - Other presentations re clean code are [here](https://www.youtube.com/playlist?list=PL4B8197063D90CDB3)
 
+1. Ordina | SOLID Python: with Johan Vergeer | 2020
+   - [Part 1: Single Responsibility Principle (video)](https://www.youtube.com/watch?v=OCogAzOqn3Y)
+   - [Part 2: Open-Closed Principle (video)](https://www.youtube.com/watch?v=77kphOzOSUc)
+   - [Part 3: Liskov Substitution Principle (video)](https://www.youtube.com/watch?v=8wjntHrTGPs)
+   - [Part 4: Interface Segregation Principle (video)](https://www.youtube.com/watch?v=-0wQdMEF1mY)
+   - [Part 5: Dependency Inversion Principle (video)](https://www.youtube.com/watch?v=YrpDElQK10k)
+
+
+## Design Patterns
+
 1. [jGeek: P.J. Paweska | SOLID Principles: Improve Your Python Code (video) | 2023](https://www.youtube.com/watch?v=sX6hrDJfoxY)
    - [0m0s Design Patterns - Background](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=0s)
    - [2m11s Design Patterns - Introduction](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2m11s)
@@ -65,26 +75,45 @@
      * [1h17m30s SOLID Principles](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h17m30s)
    - [1h23m58s Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h23m58s)
      * A single instance of a class. E.g. Logging, caching, thread pools, database connections, configuration access
-     * [1h30m57s UML diagram and the Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h30m57s)
+     * [1h30m57s UML diagram](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h30m57s)
      * [1h40m26s Singleton with Python metaclass](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h40m26s)
      * [1h47m45s Exploring thread safety in Python](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h47m45s)
-     * [1h54m42s Practical examples of the Singleton Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h54m42s)
-     * [2h8m38s Practical example of the Singleton Pattern in action: Create a logger](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h8m38s)
-     * [2h20m22s Singleton Pattern Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h20m22s)
+     * [1h54m42s Practical examples](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=1h54m42s)
+     * [2h8m38s Practical example: Create a logger](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h8m38s)
+     * [2h20m22s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h20m22s)
    - [2h22m47s Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h22m47s)
      * Used when caller can't anticipate the types of objects it must create or you have many objects of a common type
-     * [2h31m47s UML diagram & implementation detail for the Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h31m47s)
-     * [2h37m26s Coding the *Simple* Factory Method Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h37m26s)
-     * [2h48m43s Factory Method Pattern Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h48m43s)
-   - [2h50m47s Intro to the Builder Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h50m47s)
+     * [2h31m47s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h31m47s)
+     * [2h37m26s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h37m26s)
+     * [2h48m43s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h48m43s)
+   - [2h50m47s Builder Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h50m47s)
      * Used for creating complex objects
-     * [2h59m43s UML diagram for the Builder Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h59m43s)
-   - ...
-
-1. Ordina | SOLID Python: with Johan Vergeer | 2020
-   - [Part 1: Single Responsibility Principle (video)](https://www.youtube.com/watch?v=OCogAzOqn3Y)
-   - [Part 2: Open-Closed Principle (video)](https://www.youtube.com/watch?v=77kphOzOSUc)
-   - [Part 3: Liskov Substitution Principle (video)](https://www.youtube.com/watch?v=8wjntHrTGPs)
-   - [Part 4: Interface Segregation Principle (video)](https://www.youtube.com/watch?v=-0wQdMEF1mY)
-   - [Part 5: Dependency Inversion Principle (video)](https://www.youtube.com/watch?v=YrpDElQK10k)
+     * [2h59m43s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=2h59m43s)
+     * [3h4m50s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h4m50s)
+     * [3h11m8s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h11m8s)
+   - [3h12m17s Adapter Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h12m17s)
+     * Used to convert the interface of a class to another interface
+     * [3h19m21s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h19m21s)
+     * [3h22m18s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h22m18s)
+     * [3h27m11s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h27m11s)
+   - [3h29m13s Strategy Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h29m13s)
+     * Used to extract related algorithms into separate classes with a common interface [*very useful*]
+     * [3h34m25s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h34m25s)
+     * [3h38m30s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h38m30s)
+     * [3h44m5s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h44m5s)
+   - [3h46m19s Observer Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h46m19s)
+     * Used for event notification between objects [*very useful*]
+     * [3h48m46s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h48m46s)
+     * [3h55m18s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=3h55m18s)
+     * [4h9m16s Exercises](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h9m16s)
+   - [4h12m17s State Pattern](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=)
+     * Used for Finite State Machines i.e. for an object which changes its behaviour depending on its internal state
+     * [4h17m9s UML diagram / architecture](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h17m9s)
+     * [4h21m55s More, including example](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h21m55s)
+     * [4h27m26s Coding](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h27m26s)
+   - [4h35m22s Course Assignment: Game of Life](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h35m22s)
+     * [4h44m19s Support materials](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h44m19s)
+     * [4h45m0s Starter code](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h45m0s)
+     * [4h47m28s Architecture [*good starting ideas*]](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h47m28s)
+   - [4h50m10s Final thoughts](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h50m10s)
 
