@@ -43,6 +43,7 @@
 1. [DigitalOcean: Samuel Oloruntoba | SOLID: The First 5 Principles of Object Oriented Design | 2021](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 
 1. [Google TechTalks: Misko Hevery | The Clean Code Talks -- Inheritance, Polymorphism, & Testing (video) | 2008](https://www.youtube.com/watch?v=4F72VULWFvc)
+   - 30m44s: "...try writing a small project without any [IF statements]... it's worth the experience"
    - Other presentations re clean code are [here](https://www.youtube.com/playlist?list=PL4B8197063D90CDB3)
 
 1. Ordina | SOLID Python: with Johan Vergeer | 2020
@@ -140,6 +141,9 @@
 1. [GitHub: borderBite | Examples from the book Design Patterns in Ruby by Russ Olsen | 2023](https://github.com/design-patterns-in-ruby/design-patterns-in-ruby)
 
 1. [GitHub: davidgf | Design Patterns in Ruby (Russ Olsen) | 2017-2023](https://github.com/davidgf/design-patterns-in-ruby)
+
+1. [HackerNoon: Stephen | Can You Really Code Without IF Statements? | 2020](https://hackernoon.com/can-you-really-code-without-if-statements-k0483ymg)
+   - An example of the Strategy Pattern & Factory Pattern in Ruby (nicely integrated into a single tiny "project")
 
 1. [freeCodeCamp: Sihui Huang | Design Patterns: Command and Concierge in Life and Ruby | 2018](https://www.freecodecamp.org/news/design-patterns-command-and-concierge-in-life-and-ruby-aab9815817ea/)
    - An example of the Command Pattern in Ruby
