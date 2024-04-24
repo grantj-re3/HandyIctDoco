@@ -14,6 +14,12 @@ GitHub
 - https://guides.github.com/features/mastering-markdown/
 - https://guides.github.com/activities/hello-world/
 
+GitHub search
+- https://www.freecodecamp.org/news/github-search-tips/
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics
+  * https://github.com/topics/
+- https://github.com/features/code-search
+
 References to other books and doco
 - http://git-scm.com/documentation/external-links
 - http://gitready.com/ (eg. http://gitready.com/beginner/2009/01/25/branching-and-merging.html)
