@@ -117,3 +117,43 @@
      * [4h47m28s Architecture [*good starting ideas*]](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h47m28s)
    - [4h50m10s Final thoughts](https://www.youtube.com/watch?v=sX6hrDJfoxY&t=4h50m10s)
 
+
+### Design Pattern examples: Multiple languages
+
+1. [Refactoring.Guru | The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
+   - A catalog of 22 Creational, Structural & Behavioral Design Patterns
+   - Each pattern includes description, UML class diagram, pseudocode & code example in 10 languages (including Ruby) with execution results
+
+1. [SourceMaking.com | Design Patterns](https://sourcemaking.com/design_patterns)
+   - A catalog of 26 Creational, Structural & Behavioral Design Patterns
+   - Each pattern includes description, UML class diagram & code example in 5 languages (excluding Ruby) without execution result
+
+1. [Wikipedia | Software design pattern | 2003-2024](https://en.wikipedia.org/wiki/Software_design_pattern)
+   * Links to 58 Creational, Structural, Behavioral & Concurrency Design Patterns
+   * Links describe patterns with UML & a variety of languages (often Java)
+
+
+### Design Pattern examples: Ruby
+
+1. [DEV Community: Davide Santangelo | Mastering Common and Advanced Ruby Design Patterns: A Comprehensive Guide with Code Examples | 2023](https://dev.to/daviducolo/mastering-common-and-advanced-ruby-design-patterns-a-comprehensive-guide-with-code-examples-17l0)
+
+1. [GitHub: borderBite | Examples from the book Design Patterns in Ruby by Russ Olsen | 2023](https://github.com/design-patterns-in-ruby/design-patterns-in-ruby)
+
+1. [GitHub: davidgf | Design Patterns in Ruby (Russ Olsen) | 2017-2023](https://github.com/davidgf/design-patterns-in-ruby)
+
+1. [freeCodeCamp: Sihui Huang | Design Patterns: Command and Concierge in Life and Ruby | 2018](https://www.freecodecamp.org/news/design-patterns-command-and-concierge-in-life-and-ruby-aab9815817ea/)
+   - An example of the Command Pattern in Ruby
+
+1. OmbuLabs: Cleiviane Costa
+   - [Refactoring: Clean your ruby code with design patterns | 2018-2020](https://www.ombulabs.com/blog/code-refactor/refactoring-with-design-patterns.html)
+     * Factory Pattern & Strategy Pattern
+   - [Refactoring with Design Patterns - The Template Pattern | 2018-2020](https://www.ombulabs.com/blog/code-refactor/design-patterns/refactoring-template-pattern.html)
+   - [Refactoring with Design Patterns - The State Pattern | 2019-2020](https://www.ombulabs.com/blog/code-refactor/design-patterns/refactoring-state-pattern.html)
+
+
+### Design Pattern examples: Non-Ruby
+
+1. [DZone: Ranga Karanam | Design Patterns for Beginners With Java Examples | c.2020](https://dzone.com/articles/design-patterns-for-beginners-with-java-examples)
+1. [Tutorials Point | Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
+1. [freeCodeCamp: Germán Cocca | JavaScript Design Patterns – Explained with Examples | 2022](https://www.freecodecamp.org/news/javascript-design-patterns-explained/)
+
