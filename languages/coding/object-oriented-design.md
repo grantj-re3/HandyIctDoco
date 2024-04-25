@@ -3,10 +3,21 @@
 ## Sandi Metz
 
 1. [Confreaks | GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz (video) | 2015](https://www.youtube.com/watch?v=v-2yFMzxqwU)
-   - SOLID is about managing dependencies in your apps
    - Discusses O (open/closed), S (single responsibility) and D (dependency injection).
      I (interface segregation) is not really applicable in Ruby.
    - 12m24s The coding examples start here
+   - TDD: Write the unit test (result will be red); then write the class (result will be green); then refactor.
+   - How do you know if you should you refactor a class? Ask yourself:
+     * Is it DRY (Don't Repeat Yourself)?
+     * Does it have one responsibility?
+     * Does everything in it change at the same rate?
+     * Does it depend on things that **change less often* than it does**? [See 37m8s](https://www.youtube.com/watch?v=v-2yFMzxqwU&t=37m8s)
+     * *If the answer to any of these is 'no' you should consider refactoring [again]*
+   - Triangle of Responsibility Refactoring: Refactor -> Extract -> Inject -> Refactor
+   - Thoughts
+     * SOLID is about managing dependencies in your apps
+     * If [unit] testing seems hard, examine your design (because unit testing depends upon the design of the code)
+   - Aside:
      * Code smell: Don't use "isKindOf()"
      * TDD = Test-driven development
      * [Mock](https://www.telerik.com/products/mocking/unit-testing.aspx) = dependencies are
@@ -21,6 +32,11 @@
    - [O’Reilly page for POODR with table of contents](https://www.oreilly.com/library/view/practical-object-oriented-design/9780134445588/)
    - [Arachne Tutorials | Practical Object-Oriented Design in Ruby (Sandi Metz) (playlist) | 2015](https://www.youtube.com/playlist?list=PLECibIxMfd0dVOFbn7cbtvuiatC0XvINP)
      * A video summary of each chapter of POODR
+
+1. [Blog](https://sandimetz.com/blog)
+   - [SOLID Design Principles - Dependency Injection | 2009](https://sandimetz.com/blog/2009/03/21/solid-design-principles)
+   - [Getting It Right By Betting On Wrong | 2014](https://sandimetz.com/blog/2014/05/28/betting-on-wrong)
+   - [How Shall We Define Design? | 2012](https://sandimetz.com/blog/2012/07/05/how-shall-we-define-design)
 
 
 ## Code smells
