@@ -37,6 +37,8 @@
    - [SOLID Design Principles - Dependency Injection | 2009](https://sandimetz.com/blog/2009/03/21/solid-design-principles)
    - [Getting It Right By Betting On Wrong | 2014](https://sandimetz.com/blog/2014/05/28/betting-on-wrong)
    - [How Shall We Define Design? | 2012](https://sandimetz.com/blog/2012/07/05/how-shall-we-define-design)
+   - [Ruby Case Statements and 'kind_of?' | 2009](https://sandimetz.com/blog/2009/06/12/ruby-case-statements-and-kind-of)
+     * Open–Closed Principle (OCP); "Always send messages if you can"
 
 
 ## Code smells
@@ -68,6 +70,8 @@
    - [Part 3: Liskov Substitution Principle (video)](https://www.youtube.com/watch?v=8wjntHrTGPs)
    - [Part 4: Interface Segregation Principle (video)](https://www.youtube.com/watch?v=-0wQdMEF1mY)
    - [Part 5: Dependency Inversion Principle (video)](https://www.youtube.com/watch?v=YrpDElQK10k)
+
+1. [Practicing Ruby: Gregory Brown | SOLID Design Principles | 2011](https://practicingruby.com/articles/solid-design-principles)
 
 
 ## Design Patterns
