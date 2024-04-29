@@ -334,6 +334,13 @@ git reset --hard HEAD^
 Rewriting git history
 =====================
 
+1. [GitHub Docs | Changing a commit message](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message)
+   - If you run the *git rebase ...* command and choose *reword*
+     or *squash* (and probably other commands) you will be given
+     the opportunity to edit your previous commit message(s)
+     **including any multi-line messages** because a new text editor
+     will automatically open for each new commit
+
 1. [Scott Chacon and Ben Straub | Pro Git 2nd Ed | Git Tools - Rewriting History | 2014](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
    - Changing the Last Commit
    - Changing Multiple Commit Messages
@@ -342,13 +349,6 @@ Rewriting git history
    - Splitting a Commit
    - Deleting a commit
    - The Nuclear Option: filter-branch  [Don't use this, use [*git-filter-repo*](https://github.com/newren/git-filter-repo) instead]
-
-1. [GitHub Docs | Changing a commit message](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message)
-   - If you run the *git rebase ...* command and choose *reword*
-     or *squash* (and probably other commands) you will be given
-     the opportunity to edit your previous commit message(s)
-     **including any multi-line messages** because a new text editor
-     will automatically open for each new commit
 
 1. [CloudBees - Pedro Barbosa | Git Squash: How to Condense Your Commit History | 2021](https://www.cloudbees.com/blog/git-squash-how-to-condense-your-commit-history)
    - git rebase -i HEAD~N   # Interactively review the last N commits
