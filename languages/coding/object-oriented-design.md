@@ -27,6 +27,7 @@
    - 10m52s The coding examples start here
    - Need to define a role for each object
    - OOP perhaps should be called Message Oriented Programming
+   - OOP "affords" *anthropomorphic, polymorphic, loosely-coupled, role-playing, factory-created, message-sending* objects
 
 1. Book: [Practical Object-Oriented Design, An Agile Primer Using Ruby (POODR), 2nd Ed. | 2018](https://www.poodr.com/)
    - [O’Reilly page for POODR with table of contents](https://www.oreilly.com/library/view/practical-object-oriented-design/9780134445588/)
@@ -59,8 +60,10 @@
 1. [Women Who Code: Nadia Zhuk | Object Oriented Programming: SOLID principles (video) | 2022](https://www.youtube.com/watch?v=erPk8Y5nw6k)
 
 1. [DigitalOcean: Samuel Oloruntoba | SOLID: The First 5 Principles of Object Oriented Design | 2021](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+   - Single-Responsibility Principle: e.g. the "outputter" logic has its own class
 
 1. [Google TechTalks: Misko Hevery | The Clean Code Talks -- Inheritance, Polymorphism, & Testing (video) | 2008](https://www.youtube.com/watch?v=4F72VULWFvc)
+   - Use polymorphism when: Behaviour changes based on state; Same conditionals are in multiple places in code
    - 30m44s: "...try writing a small project without any [IF statements]... it's worth the experience"
    - Other presentations re clean code are [here](https://www.youtube.com/playlist?list=PL4B8197063D90CDB3)
 
