@@ -22,3 +22,9 @@ This page is for Ruby resources which don't [quite] fit into either of the above
 
 1. [Jerome Dalbert | A Diagram of the Ruby Core Object Model | 2013](http://jeromedalbert.com/a-diagram-of-the-ruby-core-object-model/)
 
+
+## Gotchas
+
+1. [Medium: Jeff Adler | Inheriting class variables in Ruby | 2020](https://medium.com/@jeffm.adler/inheriting-class-variables-in-ruby-971f8f977884)
+   - @@variables are shared among entire class hierarchies (that is, parents and their subclasses)
+
