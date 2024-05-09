@@ -77,6 +77,42 @@
 1. [Practicing Ruby: Gregory Brown | SOLID Design Principles | 2011](https://practicingruby.com/articles/solid-design-principles)
 
 
+## Refactoring
+
+1. Refactoring.Guru
+   - [Refactoring](https://refactoring.guru/refactoring)
+     * [Clean code](https://refactoring.guru/refactoring/what-is-refactoring)
+     * [Technical debt](https://refactoring.guru/refactoring/technical-debt)
+     * [When to refactor](https://refactoring.guru/refactoring/when)
+     * [How to refactor](https://refactoring.guru/refactoring/how-to)
+   - [Refactoring Techniques](https://refactoring.guru/refactoring/techniques)
+     * links to over 60 techniques
+     * described in a logical and structured style
+
+1. SourceMaking.com
+   - Almost identical content to Refactoring.Guru
+   - [Refactoring](https://sourcemaking.com/refactoring)
+   - [Refactoring techniques](https://sourcemaking.com/refactoring/refactorings)
+
+1. [Johns Hopkins University, Programming Languages Laboratory, Prof. Scott Smith | Refactoring | c.2018](https://pl.cs.jhu.edu/oose/lectures/refactoring.shtml)
+
+1. [CodeSee | Code Refactoring: 6 Techniques and 5 Critical Best Practices | 2024](https://www.codesee.io/learning-center/code-refactoring)
+
+1. Refraction
+   - [Techniques for Refactoring and Improving Code Structure in Object-Oriented Programming | 2024](https://refraction.dev/blog/refactoring-object-oriented-programming-techniques)
+   - [Common Refactoring Patterns and How to Use Them | 2024](https://refraction.dev/blog/common-refactoring-patterns)
+   - [The Art of Refactoring Code | 2024](https://refraction.dev/blog/art-of-refactoring-code)
+
+1. Yoan Thirion
+   - [Refactoring journey | 2021-2023](https://ythirion.github.io/refactoring-journey/)
+     * [Step by step solution guide (scala)(https://github.com/ythirion/refactoring-journey/blob/solution/solutions/scala/scala-refactoring-facilitator-guide.md)
+   - [Theatrical players refactoring Kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata)
+     * [Let's refactor (OOP style)](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata/lets-refactor-oop-style)
+
+1. [GeePawHill.org | Refactoring blog posts | 2019-2021](https://www.geepawhill.org/category/refactoring/)
+   - [Refactoring Pro-Tip: Making Local Variables Maximally Local](https://www.geepawhill.org/2019/03/16/refactoring-pro-tip-making-local-variables-maximally-local/)
+
+
 ## Design Patterns
 
 1. [jGeek: P.J. Paweska | SOLID Principles: Improve Your Python Code (video) | 2023](https://www.youtube.com/watch?v=sX6hrDJfoxY)
