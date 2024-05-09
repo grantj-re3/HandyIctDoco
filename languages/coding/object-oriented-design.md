@@ -105,7 +105,7 @@
 
 1. Yoan Thirion
    - [Refactoring journey | 2021-2023](https://ythirion.github.io/refactoring-journey/)
-     * [Step by step solution guide (scala)(https://github.com/ythirion/refactoring-journey/blob/solution/solutions/scala/scala-refactoring-facilitator-guide.md)
+     * [Step by step solution guide (scala)](https://github.com/ythirion/refactoring-journey/blob/solution/solutions/scala/scala-refactoring-facilitator-guide.md)
    - [Theatrical players refactoring Kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata)
      * [Let's refactor (OOP style)](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata/lets-refactor-oop-style)
 
