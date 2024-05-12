@@ -2,6 +2,22 @@
 
 UML = Unified Modeling Language
 
+## UML Class Diagrams
+
+1. [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
+   - [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
+
+1. [UMLBoard | Relations | 2023](https://www.umlboard.com/docs/relations/)
+   - Class Diagrams
+   - UML supports six different types of relations: Dependency, Association (which can be further specified as Aggregation or Composition) and Generalization and Realization
+
+1. [JointJS: Martin Kaněra | UML Class Diagrams: All you need to know | 2023](https://www.jointjs.com/blog/uml-class-diagrams)
+
+1. [IBM: Donald Bell | The UML 2 class diagram | 2023](https://developer.ibm.com/articles/the-class-diagram/)
+
+1. [Old Dominion University: Computer Science: Steven Zeil | UML Class Relationship Diagrams | 2018](https://www.cs.odu.edu/~zeil/cs330/latest/Public/classDiagrams/index.html)
+
+
 ## UML Sequence Diagram
 
 1. [Lucidchart | UML Sequence Diagram Tutorial](https://www.lucidchart.com/pages/uml-sequence-diagram)
