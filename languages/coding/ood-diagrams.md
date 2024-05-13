@@ -2,9 +2,9 @@
 
 UML = Unified Modeling Language
 
-## UML Class Diagrams
+## UML Class Diagram
 
-1. [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
+1. [Visual Paradigm | UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
    - [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
 
 1. [UMLBoard | Relations | 2023](https://www.umlboard.com/docs/relations/)
