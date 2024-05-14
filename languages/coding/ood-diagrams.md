@@ -4,12 +4,18 @@ UML = Unified Modeling Language
 
 ## UML Class Diagram
 
-1. [Visual Paradigm | UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
+1. Visual Paradigm
+   - [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
+   - [What are the six types of relationships in UML class diagrams? | 2022](https://blog.visual-paradigm.com/what-are-the-six-types-of-relationships-in-uml-class-diagrams/)
+   - [What is Class Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/)
    - [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
 
 1. [UMLBoard | Relations | 2023](https://www.umlboard.com/docs/relations/)
-   - Class Diagrams
-   - UML supports six different types of relations: Dependency, Association (which can be further specified as Aggregation or Composition) and Generalization and Realization
+   - UML supports six different types of relations
+   - ... Association (which can be further specified as Aggregation or Composition)
+   - While associations refer to a *has-a* relationship, a generalization expresses a much stronger, *is-a* relation.
+   - *Has-a* relationships can be very dynamic - the instances on each edge can be changed anytime during runtime and even set to null.
+   - Generalizations [*is-a* relationships] ... will remain over your application's whole lifetime.
 
 1. [JointJS: Martin Kaněra | UML Class Diagrams: All you need to know | 2023](https://www.jointjs.com/blog/uml-class-diagrams)
 
