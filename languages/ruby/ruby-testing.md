@@ -2,6 +2,10 @@
 
 ## Rspec
 
+Read [this](RSPEC_LOCAL_PROJECT.txt) for how to use RSpec with Bundler on Linux Mint 21
+(because some of the instructions on the internet are out of date).
+
+
 ### Written info
 
 1. [Medium: Cosmin Mircea | Learn TDD in Ruby in 5 easy steps | 2019](https://medium.com/@micosmin/learn-tdd-in-ruby-in-5-easy-steps-3ab28014fec4)
@@ -22,8 +26,16 @@
 
 1. [RubyGuides: Jesus Castello | The Definitive RSpec Tutorial With Examples | 2018](https://www.rubyguides.com/2018/07/rspec-tutorial/)
 
-1. [RSpec | Behaviour Driven Development for Ruby. Making TDD Productive and Fun](https://rspec.info/)
+1. RSpec
+   - [Behaviour Driven Development for Ruby. Making TDD Productive and Fun](https://rspec.info/)
    - [Documentation](https://rspec.info/documentation/)
+     * [rspec-core](https://rspec.info/documentation/3.13/rspec-core/)
+   - [Features: RSpec core](https://rspec.info/features/3-13/rspec-core/)
+     * [Command line options](https://rspec.info/features/3-13/rspec-core/command-line/)
+     * [Subject](https://rspec.info/features/3-13/rspec-core/subject/)
+   - [Features: RSpec Expectations](https://rspec.info/features/3-13/rspec-expectations/)
+     * [Built in matchers](https://rspec.info/features/3-13/rspec-expectations/built-in-matchers/)
+     * [Custom matchers](https://rspec.info/features/3-13/rspec-expectations/custom-matchers/)
 
 
 ### Videos
