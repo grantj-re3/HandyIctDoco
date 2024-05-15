@@ -105,16 +105,38 @@
 
 ### Design Pattern examples: Non-Ruby
 
+1. [OODesign.com | Design Patterns](https://www.oodesign.com/)
+   - A catalog of 24 Creational, Structural & Behavioral Design Patterns
+   - With UML and Java examples
+
 1. [DZone: Ranga Karanam | Design Patterns for Beginners With Java Examples | c.2020](https://dzone.com/articles/design-patterns-for-beginners-with-java-examples)
 1. [Tutorials Point | Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
 1. [freeCodeCamp: Germán Cocca | JavaScript Design Patterns – Explained with Examples | 2022](https://www.freecodecamp.org/news/javascript-design-patterns-explained/)
 
 1. Eduard Ghergu | Fundamental Software Design Principles for Quality Coding | 2022
+   - The slides, articles and other written work is very good. (The video doesn't
+     enhance the written material much in my view.)
+   - [Article: part 1](https://www.pentalog.com/blog/it-development-technology/solid-principles-object-oriented-programming/)
+     * SOLID
+   - [Article: part 2](https://www.pentalog.com/blog/it-development-technology/software-design-principles/)
+     * Boy Scout Rule – Clean Code
+     * Don’t Repeat Yourself (DRY)
+     * Encapsulation
+     * Principle of Least Astonishment (PoLA)
+     * Don’t Call Us, We’ll Call You (Hollywood)
+   - [Article: part 3](https://www.pentalog.com/blog/it-development-technology/design-principles/)
+     * Keep It Simple (KISS)
+     * Persistence Ignorance (PI)
+     * Separation of Concerns (SoC)
+     * Stable Dependencies
+     * Tell, Don’t Ask (TDA)
+     * You Ain’t Gonna Need It (YAGNI)
+     * Law of Demeter (LoD)
+     * Loose Coupling
+     * High Cohesion
+     * ***The key to writing high-quality software is to avoid tight coupling! The rest will follow.***
+   - [GitHub source material](https://github.com/AbstractSoft/design_principles)
+     including examples in C# and PDF slides
    - [Video](https://www.pentalog.com/pentabar/software-design-principles-for-quality-coding/).
      Same video on [YouTube](https://www.youtube.com/watch?v=axM7wHZ26F8)
-   - [GitHub source material](https://github.com/AbstractSoft/design_principles) including examples in C#
-   - Articles:
-     [part 1](https://www.pentalog.com/blog/it-development-technology/solid-principles-object-oriented-programming/), 
-     [part 2](https://www.pentalog.com/blog/it-development-technology/software-design-principles/),
-     [part 3](https://www.pentalog.com/blog/it-development-technology/design-principles/)
 

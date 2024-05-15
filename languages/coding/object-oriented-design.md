@@ -3,6 +3,16 @@
 Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
 
 
+## Recap of OOP 
+
+1. [LinkedIn: Nimesh Ekanayake | Concepts in Object-Oriented Programming (OOP) | 2022](https://www.linkedin.com/pulse/concepts-object-oriented-programming-oop-nimesh-ekanayake)
+   - Encapsulation, Polymorphism, Inheritance & Composition
+
+1. [DEV: Fajar Zuhri Hadiyanto | Types of Relation Between Classes in Object Oriented Programming | 2021](https://dev.to/fajarzuhrihadiyanto/types-of-relation-between-classes-in-object-oriented-programming-551m)
+   - HAS-A: Aggregation & Composition
+   - IS-A: Inheritance
+
+
 ## Sandi Metz
 
 1. [Confreaks | GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz (video) | 2015](https://www.youtube.com/watch?v=v-2yFMzxqwU)
@@ -57,6 +67,16 @@ Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
 ## SOLID
 
 1. [freeCodeCamp: Kolade Chris | SOLID Design Principles in Software Development | 2023](https://www.freecodecamp.org/news/solid-design-principles-in-software-development/)
+
+1. Peter Lee | 2020
+   - [Software Design Principles Every Programmer Should Know](https://medium.com/@peterlee2068/software-design-principles-every-programmer-should-know-c164a83c6f87)
+     * SOLID
+     * DRY, KISS, YAGNI
+   - [SOLID Principles Every Programmer Should Know](https://medium.com/an-idea/solid-principles-every-programmer-should-know-3399eb663ad2)
+     * With Java code examples
+
+1. [OODesign.com | SOLID Design Principles](https://www.oodesign.com/design-principles/)
+   - 6 web pages with UML and Java examples
 
 1. [Kevin Berridge | OOP: You’re Doing It Completely Wrong (video) | 2014](https://vimeo.com/91672848)
 
