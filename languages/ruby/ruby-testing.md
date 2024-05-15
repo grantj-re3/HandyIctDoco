@@ -2,7 +2,7 @@
 
 ## Rspec
 
-Read [this](RSPEC_LOCAL_PROJECT.txt) for how to use RSpec with Bundler on Linux Mint 21
+Read [this](rspec-local-project.md) for how to use RSpec with Bundler on Linux Mint 21
 (because some of the instructions on the internet are out of date).
 
 
