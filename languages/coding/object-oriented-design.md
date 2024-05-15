@@ -68,6 +68,14 @@ Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
 
 1. [freeCodeCamp: Kolade Chris | SOLID Design Principles in Software Development | 2023](https://www.freecodecamp.org/news/solid-design-principles-in-software-development/)
 
+1. [RubyConf 2009 - SOLID Ruby by: Jim Weirich](https://www.youtube.com/watch?v=dKRbsE061u4)
+   - [GitHub: jimweirich | presentation_solid_ruby | 2009](https://github.com/jimweirich/presentation_solid_ruby)
+     * Includes a PDF of the presentation
+   - [Robert C. Martin (Uncle Bob) | The Principles of OOD | 2005](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+   - 8m42s SOLID is about managing dependencies
+   - UML Class Diagrams: Arrows point in the direction of the dependency
+   - How does SOLID apply to dynamically typed languages like Ruby?
+
 1. Peter Lee | 2020
    - [Software Design Principles Every Programmer Should Know](https://medium.com/@peterlee2068/software-design-principles-every-programmer-should-know-c164a83c6f87)
      * SOLID
@@ -116,6 +124,8 @@ Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
    - Almost identical content to Refactoring.Guru
    - [Refactoring](https://sourcemaking.com/refactoring)
    - [Refactoring techniques](https://sourcemaking.com/refactoring/refactorings)
+
+1. [Martin Fowler @ OOP2014 "Workflows of Refactoring"](https://www.youtube.com/watch?v=vqEg37e4Mkw)
 
 1. [Johns Hopkins University, Programming Languages Laboratory, Prof. Scott Smith | Refactoring | c.2018](https://pl.cs.jhu.edu/oose/lectures/refactoring.shtml)
 
