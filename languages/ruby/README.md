@@ -23,42 +23,35 @@ This page is for Ruby resources which don't [quite] fit into the above categorie
      * [Learning new things step-by-step | 2011](https://practicingruby.com/articles/learning-new-things-step-by-step)
        + Writing a simple Ruby graphics game using [Ray](https://mon-ouie.github.io/posts/ray_0_2.html)
 
-1. [Keynote: Jim Weirich - Why aren't you using Ruby? (RubyConf Uruguay 2013) (video)](https://www.youtube.com/watch?v=0D3KfnbTdWw)
-   - Alternative title: Why I Use Ruby
-   - [Story 1: Making the switch](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=3m47s)
-     * Perl --> Python --> Ruby
-     * Summary:
-       + Principle of least surprise
-       + Data abstraction
-       + Classes! Object Oriented!
-       + Easy to learn
-   - [Story 2: Emergency Rescue](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=9m34s)
-     * Summary:
-       + Emergency
-       + Quick solution (~1/2 hour)
-       + Lots of $$s saved!
-   - [Story 3: Make in Ruby](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=16m44s)
-     * He writes a working draft of *rake* (Ruby Make) during the presentation
-     * I have put a working copy of the files [here](code-examples/rake)
-     * Summary:
-       + 28 lines of code
-       + 1/2 hour of effort
-       + Core Rake engine
-       + File tasks?
-   - [Story 4: Beautiful Testing](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=28m10s)
-     * Alternative title: Design by Conference
-     * Summary:
-       + Sometimes ideas mature slowly
-       + Synergy!
-       + Describe/context & Given/When/Then
-       + Expressive / Readable tests
-   - [Story 5: Flying robot/drone](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=37m36s)
-     * Summary:
-       + Realtime programming
-       + Threads
-       + Actor version coming soon
-       + Easy to extend to handle C data fields
-       + Fun
+1. Jim Weirich
+   - [RubyConf 2011 Writing Solid Ruby Code by Jim Weirich](https://www.youtube.com/watch?v=FR95rp-9Oo4)
+     * [GitHub: jimweirich | presentation_writing_solid_ruby_code](https://github.com/jimweirich/presentation_writing_solid_ruby_code)
+     * This presentation is *not* about S.O.L.I.D. design principles
+     * Overview: Good programming books | Write tests as specifications | Pry/Ruby-Debugger |
+       Risk | Saikuro/cyclomatic complexity | Choose simple solutions | Fix the cause
+     * Book: Steve Maguire, Writing Solid Code, 1993, Microsoft Press
+   - [Keynote: Jim Weirich - Why aren't you using Ruby? (RubyConf Uruguay 2013) (video)](https://www.youtube.com/watch?v=0D3KfnbTdWw)
+     * Alternative title: Why I Use Ruby
+     * [Story 1: Making the switch](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=3m47s)
+       + Perl --> Python --> Ruby
+       + Summary: Principle of least surprise | Data abstraction |
+         Classes! Object Oriented! | Easy to learn
+     * [Story 2: Emergency Rescue](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=9m34s)
+       + Summary: Emergency | Quick solution (~1/2 hour) | Lots of $$s saved!
+     * [Story 3: Make in Ruby](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=16m44s)
+       + He writes a working draft of *rake* (Ruby Make) during the presentation
+       + I have put a working copy of the files [here](code-examples/rake)
+       + Summary: 28 lines of code | 1/2 hour of effort | Core Rake engine | File tasks?
+     * [Story 4: Beautiful Testing](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=28m10s)
+       + Alternative title: Design by Conference
+       + Summary: Sometimes ideas mature slowly | Synergy! |
+         Describe/context & Given/When/Then | Expressive / Readable tests
+     * [Story 5: Flying robot/drone](https://www.youtube.com/watch?v=0D3KfnbTdWw&t=37m36s)
+       + Summary: Realtime programming | Threads | Actor version coming soon |
+         Easy to extend to handle C data fields | Fun
+   - [Ruby Conference 2008 - What All Rubyists Should Know About Threads](https://www.youtube.com/watch?v=fK-N_VxdW7g)
+     * [GitHub: jimweirich | presentation_enterprise_mom](https://github.com/jimweirich/presentation_enterprise_mom)
+       + Includes a PDF of the presentation slides
 
 1. [Jerome Dalbert | A Diagram of the Ruby Core Object Model | 2013](http://jeromedalbert.com/a-diagram-of-the-ruby-core-object-model/)
 
