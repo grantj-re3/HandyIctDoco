@@ -1,0 +1,5 @@
+Goto store
+Buy Pasta
+Buy Cheese
+Boil Water
+Make Mac & Cheese
