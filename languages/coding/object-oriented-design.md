@@ -142,6 +142,13 @@ Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
    - [Theatrical players refactoring Kata](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata)
      * [Let's refactor (OOP style)](https://yoan-thirion.gitbook.io/knowledge-base/software-craftsmanship/code-katas/theatrical-players-refactoring-kata/lets-refactor-oop-style)
 
+1. Pat Shaughnessy
+   - [Using a Ruby Class To Write Functional Code | 2014](https://patshaughnessy.net/2014/4/8/using-a-ruby-class-to-write-functional-code)
+     and republished [here](https://www.cloudbees.com/blog/ruby-class-to-write-functional-code)
+   - [Use An Ask, Don’t Tell Policy With Ruby | 2014](https://patshaughnessy.net/2014/2/10/use-an-ask-dont-tell-policy-with-ruby)
+     ... I feel the ideas are good, even though the jargon isn't correct as discussed
+     [here](https://pragdave.me/thoughts/active/2014-02-11-telling-asking-and-the-power-of-jargon.html)
+
 1. [GeePawHill.org | Refactoring blog posts | 2019-2021](https://www.geepawhill.org/category/refactoring/)
    - [Refactoring Pro-Tip: Making Local Variables Maximally Local](https://www.geepawhill.org/2019/03/16/refactoring-pro-tip-making-local-variables-maximally-local/)
 
