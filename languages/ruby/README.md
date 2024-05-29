@@ -53,6 +53,10 @@ This page is for Ruby resources which don't [quite] fit into the above categorie
      * [GitHub: jimweirich | presentation_enterprise_mom](https://github.com/jimweirich/presentation_enterprise_mom)
        + Includes a PDF of the presentation slides
 
+1. PyCall
+   - [GitHub: mrkn | PyCall: Calling Python functions from the Ruby language | 2016-2024](https://github.com/mrkn/pycall.rb)
+   - [ReadySteadyCode | HOWTO execute Python code with Ruby](https://readysteadycode.com/howto-execute-python-code-with-ruby)
+
 1. [Jerome Dalbert | A Diagram of the Ruby Core Object Model | 2013](http://jeromedalbert.com/a-diagram-of-the-ruby-core-object-model/)
 
 
