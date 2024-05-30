@@ -18,6 +18,17 @@ This page is for resources which don't fit into the above categories!
    - [Medium: Gianpiero Andrenacci | Understanding Encapsulation in Object-Oriented Programming with Python | 2024](https://medium.com/data-bistrot/understanding-encapsulation-in-object-oriented-programming-with-python-b7a65c994902)
    - [Real Python: Leodanis Pozo Ramos | Python's property(): Add Managed Attributes to Your Classes | 2021-2023](https://realpython.com/python-property/)
    - [python-course.eu: Bernd Klein | 3. Properties vs. Getters and Setters | 2023](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
+   - Hence my interpretation of Python encapsulation is:
+     * For fields with read/write access from outside the class, use `.field`
+     * For protected/private fields never accessed outside the class, use `._field` or `.__field`
+     * For protected/private read-only fields, use `._field` or `.__field` with an `@property` getter method
+     * For fields with read/write access from outside the class where setter validation is needed, use
+       `._field` or `.__field` with `@field.setter` setter method (and usually an `@property` getter method)
+     * Gotcha: Within the class's constructor (and other methods) the statement `self.field = ...`
+       does *not* mean we are using `.field` if we have defined an `@field.setter` setter method
+       for that field! We are actually using the `._field` or `.__field` used within `@field.setter`
+       (and `@property`) methods. In fact, if we were to use `self._field = ...` or `self.__field = ...`
+       within the constructor (or elsewhere) we would be bypassing any validation in the `@field.setter`!
 
 1. Object/data serialisation
    - [Python Software Foundation | pickle — Python object serialization](https://docs.python.org/3/library/pickle.html#module-pickle)
