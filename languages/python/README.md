@@ -21,9 +21,12 @@ This page is for resources which don't fit into the above categories!
 
 1. Object/data serialisation
    - [Python Software Foundation | pickle — Python object serialization](https://docs.python.org/3/library/pickle.html#module-pickle)
+     * Performance... *the pickle module has a transparent optimizer written in C*.
+       I understand (from [this](https://askubuntu.com/questions/742782/how-to-install-cpickle-on-python-3-4) post)
+       that Python3 will use the fast (cPickle) version if it can.
    - [Python Module of the Week: Doug Hellmann | pickle — Object Serialization | 2016](https://pymotw.com/3/pickle/index.html)
    - Stack Overflow posts re
      [example of how to save an object (2012-2023)](https://stackoverflow.com/questions/11218477/how-can-i-use-pickle-to-save-a-dict-or-any-other-python-object/33245595)
      and 
-     [cPickle vs pickle (2010-2024)](https://stackoverflow.com/questions/4529815/saving-an-object-data-persistence)
+     [cPickle vs pickle in Python2 (2010-2024)](https://stackoverflow.com/questions/4529815/saving-an-object-data-persistence)
 
