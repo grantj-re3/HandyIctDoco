@@ -1,13 +1,13 @@
 # Ruby
 
-Click [here](../coding/beginner-programming-courses.md) for beginner Ruby material.
+Click [here](../coding/beginner-programming-courses.md) for beginner material.
 
 Click [here](ruby-testing.md) for Ruby testing with RSpec.
 
 Click [here](../coding/object-oriented-design.md) for Object Oriented Design material.
 
 
-This page is for Ruby resources which don't [quite] fit into the above categories!
+This page is for resources which don't fit into the above categories!
 
 1. [Ruby home page](https://www.ruby-lang.org/en/)
    - [Documentation](https://www.ruby-lang.org/en/documentation/) - Guides, tutorials, and reference material
