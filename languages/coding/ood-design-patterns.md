@@ -82,9 +82,13 @@
 
 ### Design Pattern examples: Ruby
 
-1. [DEV Community: Davide Santangelo | Mastering Common and Advanced Ruby Design Patterns: A Comprehensive Guide with Code Examples | 2023](https://dev.to/daviducolo/mastering-common-and-advanced-ruby-design-patterns-a-comprehensive-guide-with-code-examples-17l0)
-
 1. [Medium: D. L. Jerome | Design Patterns in Ruby (23 articles) | 2016-2017](https://medium.com/@dljerome)
+   - These articles are very good & show *all* 23 of the "Gang of Four" OOD design patterns
+   - They have nice simple examples
+   - One or two patterns are missing an invocation example (or I feel the example is too simple)
+
+1. [DEV Community: Davide Santangelo | Mastering Common and Advanced Ruby Design Patterns: A Comprehensive Guide with Code Examples | 2023](https://dev.to/daviducolo/mastering-common-and-advanced-ruby-design-patterns-a-comprehensive-guide-with-code-examples-17l0)
+   - Six design patterns: Singleton, Factory, Observer, Strategy, Decorator, Command
 
 1. [GitHub: borderBite | Examples from the book Design Patterns in Ruby by Russ Olsen | 2023](https://github.com/design-patterns-in-ruby/design-patterns-in-ruby)
 
