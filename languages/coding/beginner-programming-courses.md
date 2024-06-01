@@ -147,8 +147,22 @@ Opinions:
 
 ## Object Oriented Programming
 
+### Python
+
 1. [Launch School | Object Oriented Programming with Python | c.2023](https://launchschool.com/books/oo_python)
    - Partner book to *Introduction to Programming with Python* above so probably for Python 3.10.x
+
+1. [freeCodeCamp: JimShapedCoding | Object Oriented Programming with Python - Full Course for Beginners (video) | 2021](https://www.youtube.com/watch?v=Ej_02ICOIgs)
+   - 2h13m
+
+1. [Harvard University: David J. Malan | Introduction to Programming with Python: CS50P - Lecture 8 - Object-Oriented Programming (video) | 2022](https://www.youtube.com/watch?v=e4fwY9ZsxPw)
+   - 2h48m
+
+1. [Corey Schafer | Python OOP Tutorials - Working with Classes (playlist) | 2016](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+   - 6 videos, each one is 10-20m
+
+
+### Ruby
 
 1. [Launch School | Object Oriented Programming with Ruby | c.2023](https://launchschool.com/books/oo_ruby)
    - Partner book to *Introduction to Programming with Ruby* above so probably for Ruby 3.2.0
