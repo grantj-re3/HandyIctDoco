@@ -2,6 +2,8 @@
 
 Click [here](ood-design-patterns.md) for links to OOD Design Patterns.
 
+Click [here](ood-diagrams.md) for links to OOD Diagrams.
+
 
 ## Recap of OOP 
 

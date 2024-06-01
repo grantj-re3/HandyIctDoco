@@ -1,4 +1,8 @@
-# Beginner programming courses
+# Beginner programming courses & material
+
+Click [here](../python) for more Python material.
+
+Click [here](../ruby) for more Ruby material.
 
 ## Introduction
 

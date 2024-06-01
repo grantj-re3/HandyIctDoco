@@ -1,5 +1,7 @@
 # Object Oriented Design
 
+Click [here](object-oriented-design.md) for the main Object Oriented Design page.
+
 ## Design Patterns
 
 1. [jGeek: P.J. Paweska | SOLID Principles: Improve Your Python Code (video) | 2023](https://www.youtube.com/watch?v=sX6hrDJfoxY)

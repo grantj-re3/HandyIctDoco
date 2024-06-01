@@ -1,5 +1,7 @@
 # Object Oriented Design
 
+Click [here](object-oriented-design.md) for the main Object Oriented Design page.
+
 UML = Unified Modeling Language
 
 ## UML Class Diagram
