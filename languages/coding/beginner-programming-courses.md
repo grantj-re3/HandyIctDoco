@@ -170,14 +170,14 @@ Long videos
 
 Brief videos
 
+1. [Corey Schafer | Python OOP Tutorials - Working with Classes (playlist) | 2016](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+   - 6 videos, each one is 10-20m
+
 1. [Matt Macarty | Intro to Object Oriented Programming Python (playlist) | 2020](https://www.youtube.com/playlist?list=PLiPFKCVZWHKqG1Gw2zTHT7ufgEiAEddv3)
    - 5 videos, each one is 4-8m (plus a video about the PyCharm IDE).
 
-1. [ProgrammingKnowledge | Object-Oriented Programming (OOP) in Python 3 | Python Object Oriented Programming Tutorial (playlist) | 2018](https://www.youtube.com/playlist?list=PLS1QulWo1RIZ77GWt3rQUggB7vm46ylYO)
-   - 14 tutorial videos, each one is 6-17m. Also 14 longer and more specialised python videos.
-
-1. [Corey Schafer | Python OOP Tutorials - Working with Classes (playlist) | 2016](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
-   - 6 videos, each one is 10-20m
+1. [ProgrammingKnowledge | Object-Oriented Programming (OOP) in Python 3 (playlist) | 2018](https://www.youtube.com/playlist?list=PLS1QulWo1RIZ77GWt3rQUggB7vm46ylYO)
+   - 14 step-by-step OOP tutorial videos (lessons 23-35 & 50), each one is 6-17m. Also 14 other python videos.
 
 
 ### Ruby
