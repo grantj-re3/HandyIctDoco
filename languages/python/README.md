@@ -41,3 +41,10 @@ This page is for resources which don't fit into the above categories!
      and 
      [cPickle vs pickle in Python2 (2010-2024)](https://stackoverflow.com/questions/4529815/saving-an-object-data-persistence)
 
+1. The `len()` function and the `.__len__` attribute
+   - [Python Software Foundation | Built-in Functions: len()](https://docs.python.org/3/library/functions.html#len)
+   - [Python Software Foundation | Data model: object.__len__()](https://docs.python.org/3/reference/datamodel.html#object.__len__)
+   - [Stack Overflow | How do I get the number of elements in a list (length of a list) in Python? | 2009-2023](https://stackoverflow.com/questions/1712227/how-do-i-get-the-number-of-elements-in-a-list-length-of-a-list-in-python)
+   - [Stack Overflow | Why is Python's 'len' function faster than the __len__ method? | 2013-2022](https://stackoverflow.com/questions/20302558/why-is-pythons-len-function-faster-than-the-len-method/69563793)
+   - [Stack Overflow | Is arr.__len__() the preferred way to get the length of an array in Python? | 2009-2021](https://stackoverflow.com/questions/518021/is-arr-len-the-preferred-way-to-get-the-length-of-an-array-in-python)
+
