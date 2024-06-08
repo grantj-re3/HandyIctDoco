@@ -73,3 +73,8 @@
    - [jdhao | How to Insert Unicode Characters in Neovim/Vim | 2021](https://jdhao.github.io/2020/10/07/nvim_insert_unicode_char/)
    - [Fandom: Vim Tips Wiki | Working with Unicode: Additional remarks | 2002](https://vim.fandom.com/wiki/Working_with_Unicode#Additional_remarks)
 
+1. How to navigate a project with a large number of files using Vim
+   - [Ben McCormick | Learning Vim in 2014: Working with Files | 2014](https://benmccormick.org/2014/07/07/061037.html)
+   - [Stack Overflow | How to navigate in large project in VIM | 2009-2019](https://stackoverflow.com/questions/1457540/how-to-navigate-in-large-project-in-vim)
+   - [GitHub: preservim | nerdtree | c.2007-2024](https://github.com/preservim/nerdtree)
+
