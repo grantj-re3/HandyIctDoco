@@ -20,7 +20,7 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
 1. [Confreaks | GORUCO 2009 - SOLID Object-Oriented Design by Sandi Metz (video) | 2015](https://www.youtube.com/watch?v=v-2yFMzxqwU)
    - Discusses O (open/closed), S (single responsibility) and D (dependency injection).
      I (interface segregation) is not really applicable in Ruby.
-   - 12m24s The coding examples start here
+   - 12m24s: The coding examples start here
    - TDD: Write the unit test (result will be red); then write the class (result will be green); then refactor.
    - How do you know if you should you refactor a class? Ask yourself:
      * Is it DRY (Don't Repeat Yourself)?
@@ -39,10 +39,27 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
        replaced by... objects that simulate the behavior of the real ones
 
 1. [Polly want a message Sandi Metz (video) | 2018](https://www.youtube.com/watch?app=desktop&v=XXi_FBrZQiU)
-   - 10m52s The coding examples start here
+   - 10m52s: The coding examples start here
    - Need to define a role for each object
    - OOP perhaps should be called Message Oriented Programming
    - OOP "affords" *anthropomorphic, polymorphic, loosely-coupled, role-playing, factory-created, message-sending* objects
+
+1. [Confreaks | RailsConf 2014 - All the Little Things by Sandi Metz (video) | 2014](https://www.youtube.com/watch?v=8bZh5LMaSmE)
+   - A solution to *The Gilded Rose Code Kata*
+     * [GitHub: jimweirich | The Gilded Rose Code Kata | c.2011-2013](https://github.com/jimweirich/gilded_rose_kata)
+     * What is a code kata? For answers, read [this](https://github.com/gamontal/awesome-katas) or [this](http://codekata.com/)
+   - Important points:
+     * 21m14s: The open/closed principle says "You ought to be able to add new behaviour without editing existing code"
+     * 29m06s: Inheritance is not evil. It is safe to use it when:
+       + you have a shallow and narrow hierarchy
+       + subclasses to be at the leaf nodes of the object graph (they don't know about "other things")
+       + subclasses to use all the behaviour of the superclass
+     * 30m43s: It is ok for the [default] behaviour of a method in a superclass *to do nothing*
+   - Summary:
+     * Prefer duplication over the wrong abstraction
+     * Reach for the open/closed principle (i.e. the "O" in SOLID)
+     * Make small things/objects
+     * Refactor through the complexity to make your code simpler and smaller
 
 1. Book: [Practical Object-Oriented Design, An Agile Primer Using Ruby (POODR), 2nd Ed. | 2018](https://www.poodr.com/)
    - [O’Reilly page for POODR with table of contents](https://www.oreilly.com/library/view/practical-object-oriented-design/9780134445588/)
@@ -66,6 +83,19 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
 1. [TechTarget: Joydip Kanjilal | Understanding code smells and how refactoring can help | 2022](https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help)
 
 
+## Coupling and cohesion
+
+1. [CodeOpinion.com: Derek Comartin | SOLID? Nope, just Coupling and Cohesion | 2022](https://codeopinion.com/solid-nope-just-coupling-and-cohesion/)
+1. [Shubham Gautam | Cohesion and Coupling in Object Oriented Programming (OOPS)](https://www.enjoyalgorithms.com/blog/cohesion-and-coupling-in-oops)
+1. [Yet another explanation of OOP (loose coupling, tight cohesion) | c.2019](https://codegym.cc/quests/lectures/questcore.level01.lecture03)
+
+### Coupling metrics
+
+1. [CodeOpinion.com: Derek Comartin | Write Stable Code using Coupling Metrics | 2021](https://codeopinion.com/write-stable-code-using-coupling-metrics/)
+1. [Microsoft Learn: Mikejo5000, et al. | Code metrics - Class coupling | 2024](https://learn.microsoft.com/en-us/visualstudio/code-quality/code-metrics-class-coupling?view=vs-2022)
+1. [Stack Overflow | OOP metrics to determine coupling | 2017](https://softwareengineering.stackexchange.com/questions/351112/oop-metrics-to-determine-coupling)
+
+
 ## SOLID
 
 1. [freeCodeCamp: Kolade Chris | SOLID Design Principles in Software Development | 2023](https://www.freecodecamp.org/news/solid-design-principles-in-software-development/)
@@ -74,7 +104,7 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
    - [GitHub: jimweirich | presentation_solid_ruby | 2009](https://github.com/jimweirich/presentation_solid_ruby)
      * Includes a PDF of the presentation
    - [Robert C. Martin (Uncle Bob) | The Principles of OOD | 2005](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
-   - 8m42s SOLID is about managing dependencies
+   - 8m42s: SOLID is about managing dependencies
    - UML Class Diagrams: Arrows point in the direction of the dependency
    - How does SOLID apply to dynamically typed languages like Ruby?
 
