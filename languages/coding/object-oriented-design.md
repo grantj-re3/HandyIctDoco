@@ -74,15 +74,6 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
      * Open–Closed Principle (OCP); "Always send messages if you can"
 
 
-## Code smells
-
-1. [Refactoring.Guru | Code Smells](https://refactoring.guru/refactoring/smells)
-1. [Coding Horror | Code Smells | 2006](https://blog.codinghorror.com/code-smells/)
-   - [Industrial Logic: Joshua Kerievsky | Smells to Refactorings Cheatsheet | 2005](https://www.industriallogic.com/blog/smells-to-refactorings-cheatsheet/)
-1. [LinearB: Justin Reynolds | Code Smells: What Are They And How Can I Prevent Them? | 2022](https://linearb.io/blog/what-is-a-code-smell)
-1. [TechTarget: Joydip Kanjilal | Understanding code smells and how refactoring can help | 2022](https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help)
-
-
 ## Coupling and cohesion
 
 1. [CodeOpinion.com: Derek Comartin | SOLID? Nope, just Coupling and Cohesion | 2022](https://codeopinion.com/solid-nope-just-coupling-and-cohesion/)
@@ -138,6 +129,15 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
    - [Part 5: Dependency Inversion Principle (video)](https://www.youtube.com/watch?v=YrpDElQK10k)
 
 1. [Practicing Ruby: Gregory Brown | SOLID Design Principles | 2011](https://practicingruby.com/articles/solid-design-principles)
+
+
+## Code smells
+
+1. [Refactoring.Guru | Code Smells](https://refactoring.guru/refactoring/smells)
+1. [Coding Horror | Code Smells | 2006](https://blog.codinghorror.com/code-smells/)
+   - [Industrial Logic: Joshua Kerievsky | Smells to Refactorings Cheatsheet | 2005](https://www.industriallogic.com/blog/smells-to-refactorings-cheatsheet/)
+1. [LinearB: Justin Reynolds | Code Smells: What Are They And How Can I Prevent Them? | 2022](https://linearb.io/blog/what-is-a-code-smell)
+1. [TechTarget: Joydip Kanjilal | Understanding code smells and how refactoring can help | 2022](https://www.techtarget.com/searchsoftwarequality/tip/Understanding-code-smells-and-how-refactoring-can-help)
 
 
 ## Refactoring
