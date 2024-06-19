@@ -180,6 +180,15 @@ Brief videos
    - 14 step-by-step OOP tutorial videos (lessons 23-35 & 50), each one is 6-17m. Also 14 other python videos.
 
 
+#### Python OOP example projects
+
+1. [Code Bricks | Building a Simple Bank System in Python with OOP | 2024](https://codebricks.co.nz/python-oop-example-01)
+   - 4 classes and main
+
+1. [Naem Azam | Top Python OOP Projects with Source code | 2023](http://www.naemazam.com/post/55-top-python-oop-projects-with-source-code)
+   - Repeated on Medium, [here](https://naemazam.medium.com/top-python-oop-projects-with-source-code-4606a821973d)
+
+
 ### Ruby
 
 1. [Launch School | Object Oriented Programming with Ruby | c.2023](https://launchschool.com/books/oo_ruby)
