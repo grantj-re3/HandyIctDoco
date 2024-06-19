@@ -14,6 +14,10 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
    - Inheritance, Abstraction, Encapsulation and Polymorphism
    - Long, detailed paper
 
+1. Nzerue-Kenneth P.E., et al. | Detailed Study of the Object-Oriented Programming (OOP) Features in Python | 2023
+   - [PDF @ abjournals.org](https://doi.org/10.52589/BJCNIT-FACSOJAO)
+   - [HTML @ ResearchGate](https://www.researchgate.net/publication/376049332_Detailed_Study_of_the_Object-Oriented_Programming_OOP_Features_in_Python)
+
 1. [DEV: Fajar Zuhri Hadiyanto | Types of Relation Between Classes in Object Oriented Programming | 2021](https://dev.to/fajarzuhrihadiyanto/types-of-relation-between-classes-in-object-oriented-programming-551m)
    - HAS-A: Aggregation & Composition
    - IS-A: Inheritance
