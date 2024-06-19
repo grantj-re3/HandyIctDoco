@@ -7,8 +7,12 @@ Click [here](ood-diagrams.md) for links to OOD Diagrams.
 
 ## Recap of OOP 
 
-1. [LinkedIn: Nimesh Ekanayake | Concepts in Object-Oriented Programming (OOP) | 2022](https://www.linkedin.com/pulse/concepts-object-oriented-programming-oop-nimesh-ekanayake)
-   - Encapsulation, Polymorphism, Inheritance & Composition
+1. [Codefinity | C# Beyond Basics: What are the Principles of OOP?](https://codefinity.com/courses/v2/ff3a339c-e15a-4df1-a3e0-19818bcc7104/b756203b-39e6-4394-917a-407811370467/674f7a20-18b7-4c6a-b7a9-aa4240387848)
+   - Very short definitions
+
+1. [KAARIA FRANCIS MURIUNGI | OBJECT ORIENTED PROGRAMMING PRINCIPLES | 2014](https://www.academia.edu/6409654/OBJECT_ORIENTED_PROGRAMMING_PRINCIPLES)
+   - Inheritance, Abstraction, Encapsulation and Polymorphism
+   - Long, detailed paper
 
 1. [DEV: Fajar Zuhri Hadiyanto | Types of Relation Between Classes in Object Oriented Programming | 2021](https://dev.to/fajarzuhrihadiyanto/types-of-relation-between-classes-in-object-oriented-programming-551m)
    - HAS-A: Aggregation & Composition
