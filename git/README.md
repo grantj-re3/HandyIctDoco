@@ -13,6 +13,10 @@ GitHub
 - https://help.github.com/
 - https://guides.github.com/features/mastering-markdown/
 - https://guides.github.com/activities/hello-world/
+- https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
+  * https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
+  * https://docs.github.com/en/repositories/working-with-files/using-files/getting-permanent-links-to-files
+
 
 GitHub search
 - https://www.freecodecamp.org/news/github-search-tips/
