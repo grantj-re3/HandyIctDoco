@@ -168,7 +168,11 @@ Intel Rapid Storage Technology).
 It is recommended you do not permit either Windows or Linux to sleep if you
 ever intend to mount the other filesystem. Since Windows cannot mount an
 ext4 filesystem without third party tools, the problem is most likely to
-be corrupting Windows NTFS by mounting it in Linux.
+be corrupting a Windows NTFS partition by mounting it in Linux.
+
+Aside: I understand that allowing Windows *Fast Startup* has a similar
+bad impact. However, it appears that my BIOS does not have a *Fast Startup*
+setting.
 
 The solution:
 
