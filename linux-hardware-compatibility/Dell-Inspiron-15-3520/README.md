@@ -6,7 +6,7 @@ This is not a step by step guide, as many of the dual boot instructions
 are documented elsewhere.  Instead, this document describes gotchas and
 decisions made before or during the install / config process.
 
-I purchased Dell Inspiron 15, 3520. It has the following features:
+I purchased a Dell Inspiron 15, 3520. It has the following features:
 
 - i7-1255U CPU
 - Intel Iris Xe Graphics
@@ -145,7 +145,7 @@ So the question boils down to:
   encrypt?
 - Am I comfortable with the risks regarding possible loss of my
   encryption key?
-- Is my laptop "likely" to be stolen?  E.g. Do you take it to work,
+- Is my laptop "likely" to be stolen?  E.g. Do I take it to work,
   school, university everyday or is it always left in a secure home?
 
 *For me, the answers are NO, NO and NO.*
@@ -153,6 +153,12 @@ So the question boils down to:
 The solution:
 
 - Remove BitLocker encryption from drive C as described in [this article](https://www.asus.com/au/support/faq/1047461/)
+
+Aside: This also has an advantage that I can perform a test later.
+In particular, I can try to mount drive C via a Linux live-USB and
+if it is successful/readable then it indicates that the Linux
+storage driver knows how to read the storage format (in my case,
+Intel Rapid Storage Technology).
 
 
 ### 3.4 [Decision] Allow Windows to sleep?
