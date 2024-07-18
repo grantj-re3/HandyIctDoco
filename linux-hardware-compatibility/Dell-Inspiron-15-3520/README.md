@@ -249,13 +249,13 @@ Windows and Linux? The risk is that in the process of recovering
 Windows (less important to me) it destroys Linux (which is very
 important to me).
 
-*My interim decision is to keep Dell SupportAssist and the associated
+My interim decision is to keep Dell SupportAssist and the associated
 service partition, BUT:
 
 - remember to disable it in the BIOS if necessary
 - prepare a Windows 11 bootable USB and prepare Intel Rapid Storage
-  Technology Windows drivers so it is available if something goes
-  wrong during the dual boot install/config process*
+  Technology (IRST) Windows drivers so they are available if
+  something goes wrong during the dual boot install/config process
 
 
 Dell SupportAssist references:
@@ -277,7 +277,83 @@ Dell SupportAssist references:
     + SUPPORT FOR BIOSCONNECT = Embedded
 
 
-## 4. EFI BIOS changes
+## 4. Verify that laptop hardware is Linux compatible
+
+Boot to a Linux live-USB and verify that Linux can *talk* to the
+hardware. I booted to several linux distros to perform my testing:
+
+- Linux Mint 21.3 - Cinnamon Edition
+- MX Linux 23.3 - Xfce
+- MX Linux 23.3 AHS (Advanced Hardware Support) - Xfce
+
+I did a very quick test of each of the following features:
+
+- wifi
+- display 1920x1080 resolution
+- display acceleration?: youtube video
+- sound: youtube video
+- bluetooth (unable to pair with my speakers; didn't investigate)
+- laptop touchpad
+- laptop keyboard
+- webcam: zoom test meeting (couldn't find cheese or other video recording app)
+- microphone: used commands arecord & aplay
+- earphone socket
+- USB: mouse
+- HDMI
+- mounted Windows drive C **after** disabing BitLocker and preventing Windows from Sleep mode [and Fast Startup]
+
+
+## 5. EFI BIOS changes: Preparation for dual booting
+
+### 5.1 [Decision] Should I allow Secure Boot (SB)?
+
+**Short term**
+
+*In the short term, the answer is NO because SB must be disabled during
+the Linux install process.*
+
+**Long term**
+
+In the long term, you can choose to enable SB if you run a Linux kernel
+which has been signed/certified for Secure Boot.
+
+*In the long term, my decision is to disable Secure Boot. (However
+I might investigate the details later then change my mind!)*
+
+- [MX Linux Forum: Fehlix | MX-21 Secure Boot | 2021](https://forum.mxlinux.org/viewtopic.php?t=67022)
+- [Debian wiki | Secure Boot | 2015-2024](https://wiki.debian.org/SecureBoot)
+
+
+### 5.2 [Decision] Should I allow Windows Fast Startup?
+
+My understanding is that it is possible to allow it, but doing so
+creates a risk of corrupting any Windows NTFS partition if you mount
+it from Linux. This is similar to the above discussion re
+"[Decision] Allow Windows to sleep?"
+
+*For me, the answer is NO.*
+
+However, I cannot find a Fast Startup setting in the BIOS, hence no
+BIOS action is needed.
+
+
+### 5.3 [Decision] Should I convert IRST to AHCI?
+
+My laptop BIOS is configured for Intel Rapid Storage Technology (IRST).
+My understanding is that the Linux kernel does not have an Intel
+Rapid Storage Technology (IRST) driver (which is a deliberate decision).
+So I assumed that I would need to convert from IRST to AHCI
+(Advanced Host Controller Interface).
+
+...
+
+1. [Tom's Hardware forum | Windows 11 Installation - AHCI v Intel RST | 2021](https://forums.tomshardware.com/threads/windows-11-installation-ahci-v-intel-rst.3729378/)
+   - OP is unable to install Windows 11 Pro when BIOS set to AHCI
+   - OP found a [messy] workaround
+1. [Intel Community forum | Windows 11 - Changed RST to AHCI | 2023](https://community.intel.com/t5/Rapid-Storage-Technology/Windows-11-Changed-RST-to-AHCI/m-p/1562614#M12704)
+   - LeonWaksman provides instructions to change SATA mode from RST to AHCI 
+1. [Stack Overflow: Unix & Linux | Intel Rapid Storage alongside with Linux | 2022](https://unix.stackexchange.com/questions/717660/intel-rapid-storage-alongside-with-linux)
+   - oldfred says: Linux uses the vmd driver for NVMe drives. I have used NVMe for over a year. My new Dell with Secure Boot on & RAID mode with one drive, just works.
 
 ...
 
