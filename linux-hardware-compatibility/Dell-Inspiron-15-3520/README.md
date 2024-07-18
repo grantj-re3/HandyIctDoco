@@ -22,6 +22,7 @@ I purchased a Dell Inspiron 15, 3520. It has the following features:
   * Touch screen
   * Finger print reader
   * Backlit [keyboard]
+  * DVD drive
   * Operating System media
 
 I wanted to install MX Linux 23.3 Libretto. (I have not used MX Linux
@@ -186,10 +187,97 @@ The solution:
 
 *For me, the answer is NO.*
 
+I intend to use LibreOffice while running Linux.
+
 
 ### 3.6 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
 
 *For me, the answer is NO.*
+
+For me, the question boils down to: Is Microsoft Defender (which comes
+pre-installed in Windows 11 Home):
+
+- suitable for home use?
+- suitable for someone who doesn't plan to use Windows for web
+  browsing very often?
+- suitable for someone who doesn't plan to visit risky web sites?
+
+From my brief review of articles on the web, opinions vary but it
+seems that most believe Microsoft Defender is suitable for home use.
+
+In addition, I found the
+[AV-TEST Institute](https://www.av-test.org/en/about-the-institute/)
+gave both McAfee Total Protection and Microsoft Defender Antivirus
+(Consumer) maximum points of 18/18 in their reviews. [Although
+McAfee+ Premium is different from McAfee Total Protection, it could
+not have scored higher than 18/18!]
+
+- [AV-TEST Institute | The best Windows antivirus software for home users | 2024](https://www.av-test.org/en/antivirus/home-windows/)
+- [AV-TEST Institute | AV-TEST Product Review and Certification Report – Mar-Apr/2024: McAfee Total Protection](https://www.av-test.org/en/antivirus/home-windows/windows-11/april-2024/mcafee-total-protection-1.14--1.16-241211/)
+- [AV-TEST Institute | AV-TEST Product Review and Certification Report – Mar-Apr/2024: Microsoft Defender Antivirus (Consumer)](https://www.av-test.org/en/antivirus/home-windows/windows-11/april-2024/microsoft-defender-antivirus-consumer-4.18-241213/)
+
+The solution:
+
+- MS Security would not permit me to enable Real-time protection
+  while McAfee was installed.
+- Read: [McAfee | How to remove McAfee products from a Windows PC | 2022-2024](https://www.mcafee.com/support/?articleId=TS101331&page=shell&shell=article-view)
+- Used *Option 1 — Remove using the standard Windows removal method*.
+  That is: Start > Settings > Apps > Installed Apps > McAfee ... > Uninstall
+- After reboot (required for uninstall) MS Security had automatically
+  enabled Real-time protection and enabled all other features under Virus &
+  threat protection settings (except for Controlled Folder Access which
+  I will leave disabled).
+
+Aside: [Computerworld: Susan Bradley | Think twice before deploying Windows’ Controlled Folder Access | 2022](https://www.computerworld.com/article/1612084/windows-controlled-folder-access-think-twice-before-deploying.html)
+
+
+### 3.7 [Decision] Should I keep Dell SupportAssist?
+
+*For me, the interim answer is YES.*
+
+*What is Dell SupportAssist?* My understanding is that it is the
+Dell OS Recovery Tool (a Windows 10 and 11 app) and BIOSConnect
+(Attached, Hybrid or Embedded) together with a service partition
+on the hard drive. These Windows and BIOS tools are capable of
+restoring the Windows operating system via the service partition
+and/or internet connection.
+
+These tools appear to be a great recovery option for a computer
+where the only operating system installed is Windows. The question
+is, are they a good option for a computer which dual boots to both
+Windows and Linux? The risk is that in the process of recovering
+Windows (less important to me) it destroys Linux (which is very
+important to me).
+
+*My interim decision is to keep Dell SupportAssist and the associated
+service partition, BUT:
+
+- remember to disable it in the BIOS if necessary
+- prepare a Windows 11 bootable USB and prepare Intel Rapid Storage
+  Technology Windows drivers so it is available if something goes
+  wrong during the dual boot install/config process*
+
+
+Dell SupportAssist references:
+
+- [Dell | How to Create Windows Installation Media for Windows 11, Windows 10 and Windows 8.1 using the Media Creation Tool | 2024](https://www.dell.com/support/kbdoc/en-au/000132439/how-to-create-windows-installation-media-for-windows-8-1-and-windows-10-using-the-media-creation-tool?lang=en)
+  * Note: Dell Technologies recommends using the Dell OS Recovery Tool to download the OEM version of Windows that was shipped with your device. Dell provided recovery images for your device contains supported drivers and Dell apps. Learn How to Download and Use the Dell Operating System Recovery Image.
+
+- [Dell | Reinstall Windows or Linux using the Dell OS Recovery Image | 2024](https://www.dell.com/support/kbdoc/en-au/000123667/how-to-download-and-use-the-dell-os-recovery-image-in-microsoft-windows)
+  * Note: Windows 11 ONLY supports the Automated by SupportAssist option.
+  * Note: The Dell operating system recovery image is available for the original operating system that was shipped with the Dell computer.
+  * Note: A Windows 11 or Windows 10 device is required to download and install the Dell OS Recovery Tool.
+
+- [Dell | SupportAssist OS Recovery](https://www.dell.com/support/home/en-au/product-support/product/support-assist-os-recovery/docs)
+- [Dell | Dell SupportAssist OS Recovery Support Matrix](https://www.dell.com/support/manuals/en-au/support-assist-os-recovery/saosr_sm/introduction?guid=guid-9735e3d7-9e7a-40bc-83c7-c89d7ac1a12c&lang=en-us)
+- [Dell | Dell SupportAssist OS Recovery Support Matrix: Supported Inspiron systems](https://www.dell.com/support/manuals/en-au/support-assist-os-recovery/saosr_sm/supported-inspiron-systems?guid=guid-5e61764e-a287-4732-a6dc-1c1d8ca9aecc&lang=en-us)
+  * Inspiron 3520 Laptop
+    + AVAILABILITY OF SUPPORTASSIST OS RECOVERY ON THE HARD DRIVE = Yes
+    + SUPPORTS RESET AND UPDATE FEATURE = Yes
+    + SUPPORT FOR BIOSCONNECT = Embedded
+
+
+## 4. EFI BIOS changes
 
 ...
 
