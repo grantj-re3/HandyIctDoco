@@ -1,10 +1,25 @@
 # Dual boot Windows 11 Home and MX Linux 23.3
 
+## Purpose
+
+The aims of this document are:
+
+- so I have a record of what I did so I can repeat it in future
+  (if needed)
+- so others who have a similar laptop and wish to dual boot
+  Windows 11 and Linux can avoid wasting as much time as me!
+
+
 ## Introduction
 
 This is not a step by step guide, as many of the dual boot instructions
 are documented elsewhere.  Instead, this document describes gotchas and
 decisions made before or during the install / config process.
+
+*I recommend you skim all of the section and sub-section headings before
+starting* because some of those areas are not in chronological order
+(e.g. making a Windows/Linux bootable USB is described after using
+the Linux live USB). *Sorry!*
 
 I purchased a Dell Inspiron 15, 3520. It has the following features:
 
@@ -175,22 +190,51 @@ Aside: I understand that allowing Windows *Fast Startup* has a similar
 bad impact. However, it appears that my BIOS does not have a *Fast Startup*
 setting.
 
-The solution:
+The solution, part A:
 
-- Control Panel > Power Options > Choose what the power buttons do
+- Control Panel > System & Security > Power Options: Choose what the power buttons do
 - Change all settings in the *On battery* column to *Shutdown*
 - Change all settings in the *Plugged in* column to *Shutdown*
+- Save
+
+The solution, part B:
+
+- Control Panel > System & Security > Power Options: Choose what the power buttons do
+- Change settings that are currently unavailable
 - Uncheck *Sleep: Show in power menu*
+- Save
 
 
-### 3.5 [Decision] I have Microsoft 365: 30-day trial; should I subscribe?
+### 3.5 [Decision] Should I allow Windows Fast Startup?
+
+My understanding is that it is possible to allow it, but doing so
+creates a risk of corrupting any Windows NTFS partition if you mount
+it from Linux. This is similar to the above discussion re
+"[Decision] Allow Windows to sleep?"
+
+*For me, the answer is NO.*
+
+The solution, part A:
+
+- Control Panel > System & Security > Power Options: Choose what the power buttons do
+- Change settings that are currently unavailable
+- Uncheck *Turn on fast startup (recommended)*
+- Save
+
+The solution, part B:
+
+See the "[Decision] Should I allow Windows Fast Startup?"
+in the *EFI BIOS changes: Preparation for dual booting* section.
+
+
+### 3.6 [Decision] I have Microsoft 365: 30-day trial; should I subscribe?
 
 *For me, the answer is NO.*
 
 I intend to use LibreOffice while running Linux.
 
 
-### 3.6 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
+### 3.7 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
 
 *For me, the answer is NO.*
 
@@ -231,7 +275,7 @@ The solution:
 Aside: [Computerworld: Susan Bradley | Think twice before deploying Windows’ Controlled Folder Access | 2022](https://www.computerworld.com/article/1612084/windows-controlled-folder-access-think-twice-before-deploying.html)
 
 
-### 3.7 [Decision] Should I keep Dell SupportAssist?
+### 3.8 [Decision] Should I keep Dell SupportAssist?
 
 *For me, the interim answer is YES.*
 
@@ -261,7 +305,7 @@ service partition, BUT:
 Dell SupportAssist references:
 
 - [Dell | How to Create Windows Installation Media for Windows 11, Windows 10 and Windows 8.1 using the Media Creation Tool | 2024](https://www.dell.com/support/kbdoc/en-au/000132439/how-to-create-windows-installation-media-for-windows-8-1-and-windows-10-using-the-media-creation-tool?lang=en)
-  * Note: Dell Technologies recommends using the Dell OS Recovery Tool to download the OEM version of Windows that was shipped with your device. Dell provided recovery images for your device contains supported drivers and Dell apps. Learn How to Download and Use the Dell Operating System Recovery Image.
+  * Note: Dell Technologies recommends using the Dell OS Recovery Tool to download the OEM version of Windows that was shipped with your device. Dell provided recovery images for your device contains supported drivers and Dell apps.
 
 - [Dell | Reinstall Windows or Linux using the Dell OS Recovery Image | 2024](https://www.dell.com/support/kbdoc/en-au/000123667/how-to-download-and-use-the-dell-os-recovery-image-in-microsoft-windows)
   * Note: Windows 11 ONLY supports the Automated by SupportAssist option.
@@ -326,26 +370,58 @@ I might investigate the details later then change my mind!)*
 
 ### 5.2 [Decision] Should I allow Windows Fast Startup?
 
-My understanding is that it is possible to allow it, but doing so
-creates a risk of corrupting any Windows NTFS partition if you mount
-it from Linux. This is similar to the above discussion re
-"[Decision] Allow Windows to sleep?"
-
 *For me, the answer is NO.*
 
-However, I cannot find a Fast Startup setting in the BIOS, hence no
-BIOS action is needed.
+The solution:
+
+My old HP laptop had a Fast Startup setting in the BIOS, however
+I cannot find it in the BIOS of this Dell laptop. Hence no BIOS
+action is needed.
+
+However, there is a Windows change required as per
+"[Decision] Should I allow Windows Fast Startup?" in the
+*Windows 11 Home: Preparation for dual booting* section.
 
 
-### 5.3 [Decision] Should I convert IRST to AHCI?
+### 5.3 [Decision] Should I convert SATA mode from IRST to AHCI?
 
 My laptop BIOS is configured for Intel Rapid Storage Technology (IRST).
 My understanding is that the Linux kernel does not have an Intel
 Rapid Storage Technology (IRST) driver (which is a deliberate decision).
-So I assumed that I would need to convert from IRST to AHCI
-(Advanced Host Controller Interface).
+So I originally assumed that I would need to convert the SATA mode
+from IRST to AHCI (Advanced Host Controller Interface).
 
-...
+After reading references 1 and 2 below, my original plan was:
+
+- use existing Windows 11 Home with IRST configured (or if something
+  goes wrong and I need to re-install Windows, do so with IRST configured)
+- convert SATA mode from IRST to AHCI as per reference 2
+- install Linux with AHCI
+
+However, in reference 3, oldfred says that the Linux VMD (Intel Volume
+Management Device) driver should work for NVMe drives. While keeping
+IRST enabled in the BIOS (and after disabling BitLocker, Windows
+sleep mode and Windows fast startup) I ran the MX Linux live USB
+and confirmed that I was about to mount drive C (read only for
+safety)... and it was successful!
+
+```
+mount -o ro /dev/nvme0n1p3 /mnt/win11  # As root
+```
+
+So (rightly or wrongly) I took this as a sign that MX Linux has
+storage drivers which can read an existing partition (Windows 11
+drive C, NTFS) even with IRST. Hence, based on oldfred's comment
+and the above test, I decided to try my luck installing MX Linux
+with IRST configured.
+
+*For me, the answer is NO.*
+
+The solution:
+
+No BIOS, Windows or Linux change required.
+
+IRST and AHCI references:
 
 1. [Tom's Hardware forum | Windows 11 Installation - AHCI v Intel RST | 2021](https://forums.tomshardware.com/threads/windows-11-installation-ahci-v-intel-rst.3729378/)
    - OP is unable to install Windows 11 Pro when BIOS set to AHCI
@@ -354,6 +430,120 @@ So I assumed that I would need to convert from IRST to AHCI
    - LeonWaksman provides instructions to change SATA mode from RST to AHCI 
 1. [Stack Overflow: Unix & Linux | Intel Rapid Storage alongside with Linux | 2022](https://unix.stackexchange.com/questions/717660/intel-rapid-storage-alongside-with-linux)
    - oldfred says: Linux uses the vmd driver for NVMe drives. I have used NVMe for over a year. My new Dell with Secure Boot on & RAID mode with one drive, just works.
+
+
+## 6. Create a Windows 11 bootable USB
+
+### 6.1 [Decision] Which media creation tool: Media Creation Tool or Rufus or Ventoy?
+
+I suspect it doesn't really matter which media creation tool you use,
+however I decided to use Ventoy because one can boot multiple ISOs
+from a single USB memory stick! E.g. I put the Windows 11 ISO plus 3
+Linux live distros on the same Ventoy 16GB USB stick.
+
+*For me, the answer is Ventoy.*
+
+The solution:
+
+- Download Ventoy from the recommended link on SourceForge
+- Verify it has the correct SHA-256
+- Install Ventoy on a USB which is at least 16GB (which is adequate
+  for the Windows 11 and MX Linux ISOs below)
+
+References:
+
+- [ventoy.net: longpanda | Start to use Ventoy](https://www.ventoy.net/en/doc_start.html)
+- [ventoy.net: longpanda | How to download the binaries](https://www.ventoy.net/en/download.html)
+- [Medium: Grepix | Ventoy: Revolutionizing The USB Game — An In-depth Review of a Hidden Gem in Open Source | 2023](https://grepix.medium.com/ventoy-revolutionizing-the-usb-game-an-in-depth-review-of-a-hidden-gem-in-open-source-842eb0ec616)
+- [Lifewire: Tim Fisher | 2 Ways to Create a Windows 11 Bootable USB Drive | 2023](https://www.lifewire.com/create-windows-11-bootable-usb-7187331)
+- [Dexerto: Sayem Ahmed | How to make a Windows 11 bootable USB: Where to get installation media & more | 2024](https://www.dexerto.com/tech/how-to-make-a-windows-11-bootable-usb-where-to-get-installation-media-more-2085688/)
+
+
+### 6.2 Where to get the Windows 11 ISO?
+
+The solution:
+
+- Navigate to:
+  * [Microsoft | Download Windows 11 | 2023](https://www.microsoft.com/software-download/windows11)
+    Current release: Windows 11 2023 Update l Version 23H2
+  * Third section: Download Windows 11 Disk Image (ISO) for x64 devices
+  * Select download: Windows 11 (multi-edition ISO for x64 devices)
+- Expand and read the instructions *Before you begin downloading an ISO*.
+  (Actually, I think the instructions in the previous expand-section
+  *Before you begin using the media creation tool* are similar but better.)
+- Click *Download Now* to download the Windows 11 multi-edition ISO
+- After downloading, use PowerShell to verify the SHA-256 hash is correct:
+```
+    Get-FileHash .\Win11_23H2_English_x64v2.iso
+```
+- Copy the ISO to the FAT parition of the Ventoy USB
+
+Notes:
+
+- Because my MX Linux install went smoothly and dual boot worked ok,
+  I did not actually need this a re-install or this ISO.
+- I verified that Ventoy booted ok into this Windows 11 install ISO
+- I understand that it will install the *correct* version of Windows 11
+  (in my case, the Home edition) by detecting the Windows Product Key
+  which resides on the motherboard.
+
+
+### 6.3 Where to get the Windows 11 IRST drivers?
+
+I understand that a Windows 11 install USB will not be capable of
+recognising the SSD when the SATA mode is Intel Rapid Storage Technology
+unless suitable drivers are made available at install time.
+
+The solution:
+
+- Navigate to:
+  * [Dell | Drivers & Downloads](https://www.dell.com/support/home/en-au?app=drivers)
+  * Browse all products > Computers > Laptops > Inspiron > 3000 Series > Inspiron 15 3520 > Select this product
+  * Find a driver for your Inspiron 15 3520
+    + Keyword: -
+    + Operating system: Windows 11
+    + Download Type: All
+    + Category: Storage
+    + Show All
+    + Intel Rapid Storage Technology | 07 Nov 2023 [Latest]
+    + Download
+- After downloading, use PowerShell to verify the SHA-256 hash is correct:
+```
+    Get-FileHash .\Intel-Rapid-Storage-Technology-Driver_38GC0_WIN64_19.5.7.1058_A04_01.EXE
+```
+- Unzip the IRST driver exe file
+- Navigate to the Drivers folder:
+  * production > Windows10-x64 > 15063 > Drivers
+- Ensure you have the Drivers folder available if a Windows 11
+  re-install is needed... perhaps on the Ventoy USB memory stick
+  or another USB memory stick
+  
+Notes:
+
+- Because my MX Linux install went smoothly and dual boot worked ok,
+  I did not actually need a re-install or these drivers.
+- I took the ideas from the Dell reference below.
+
+References:
+
+- [Dell: Philip Yip | Creating a Windows Bootable USB on Ubuntu | 2023](https://www.dell.com/community/en/conversations/windows-general-wiki/creating-a-windows-bootable-usb-on-ubuntu/65683fa3913536036a01db7b)
+  * This is an excellent article covering all aspects from downloading
+    Windows 11 to installing it.
+  * The section of interest to us is *Intel Rapid Storage Technology Driver*
+
+
+## 7. Create an MX Linux bootable USB
+
+1. Get the MX Linux ISO
+   - Navigate to [MX Linux | Download Links](https://mxlinux.org/download-links/)
+   - Download MX Linux 23.3 - Xfce
+   - Verify its checksum
+   - This ISO is both a live-Linux version and installer
+
+2. Make a bootable USB
+   - Simply copy the ISO to the Ventoy FAT partition
+     (also used to store the Windows installer ISO)
+   - Now both ISOs can be booted from the same Ventoy USB
 
 ...
 
