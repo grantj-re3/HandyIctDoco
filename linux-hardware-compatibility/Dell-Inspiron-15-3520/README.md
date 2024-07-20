@@ -17,9 +17,8 @@ are documented elsewhere.  Instead, this document describes gotchas and
 decisions made before or during the install / config process.
 
 *I recommend you skim all of the section and sub-section headings before
-starting* because some of those areas are not in chronological order
-(e.g. making a Windows/Linux bootable USB is described after using
-the Linux live USB). *Sorry!*
+starting* because some of those areas may not be in chronological order.
+*Sorry!*
 
 I purchased a Dell Inspiron 15, 3520. It has the following features:
 
@@ -95,21 +94,104 @@ The solution:
   used shift + fn + F10 (3 simultaneous keys).
 
 
-## 3. Windows 11 Home: Preparation for dual booting
+## 3. Create an MX Linux bootable USB
+
+### 3.1 [Decision] Which media creation tool: Media Creation Tool or Rufus or Ventoy?
+
+I suspect it doesn't really matter which media creation tool you use,
+however I decided to use Ventoy because one can boot multiple ISOs
+from a single USB memory stick! E.g. I put the Windows 11 ISO plus 3
+live Linux distros on the same Ventoy 16GB USB stick.
+
+*For me, the answer is Ventoy.*
+
+The solution:
+
+- Download Ventoy from the recommended link on SourceForge
+- Verify it has the correct SHA-256
+- Install Ventoy on a USB which is at least 16GB (which is adequate
+  for both Windows 11 and MX Linux ISOs below)
+
+References:
+
+- [ventoy.net: longpanda | Start to use Ventoy](https://www.ventoy.net/en/doc_start.html)
+- [ventoy.net: longpanda | How to download the binaries](https://www.ventoy.net/en/download.html)
+- [Medium: Grepix | Ventoy: Revolutionizing The USB Game — An In-depth Review of a Hidden Gem in Open Source | 2023](https://grepix.medium.com/ventoy-revolutionizing-the-usb-game-an-in-depth-review-of-a-hidden-gem-in-open-source-842eb0ec616)
+- [Lifewire: Tim Fisher | 2 Ways to Create a Windows 11 Bootable USB Drive | 2023](https://www.lifewire.com/create-windows-11-bootable-usb-7187331)
+- [Dexerto: Sayem Ahmed | How to make a Windows 11 bootable USB: Where to get installation media & more | 2024](https://www.dexerto.com/tech/how-to-make-a-windows-11-bootable-usb-where-to-get-installation-media-more-2085688/)
+
+
+### 3.2 Get the MX Linux ISO
+
+- Navigate to [MX Linux | Download Links](https://mxlinux.org/download-links/)
+- Download MX Linux 23.3 - Xfce
+- Verify its checksum
+- This ISO is both a live Linux version and installer
+
+
+### 3.3 Make a bootable USB
+
+- Simply copy the ISO to the Ventoy FAT partition (also used
+  to store the Windows installer ISO as described later)
+- Both ISOs can be booted from the same Ventoy USB
+
+
+## 4. Verify that laptop hardware is Linux compatible
+
+The solution:
+
+Boot to a live Linux USB and verify that Linux can talk
+to the hardware.
+
+If you cannot boot to the live Linux USB, you may need to
+disable Secure Boot in the BIOS or make other BIOS changes
+as per *EFI BIOS changes: Preparation for dual booting*
+section below.
+
+I did a very quick test of each of the following features:
+
+- wifi
+- display 1920x1080 resolution
+- display acceleration?: youtube video
+- sound: youtube video
+- bluetooth:
+  * unable to pair with my speakers; didn't investigate at the
+    time but suspect the speakers were paired with my phone!
+  * paired with my speakers ok after installing MX Linux
+- laptop touchpad
+- laptop keyboard
+- webcam: zoom test meeting (couldn't find cheese or other video recording app)
+- microphone: used commands arecord & aplay
+- earphone socket
+- USB: mouse
+- HDMI
+- mounted Windows drive C **after** disabing BitLocker and
+  preventing Windows from Sleep mode [and Fast Startup]
+
+Aside: As an aid in deciding which Linux distro to install,
+I booted into several linux distros and performed the
+above tests in each one.
+
+- Linux Mint 21.3 - Cinnamon Edition
+- MX Linux 23.3 - Xfce
+- MX Linux 23.3 AHS (Advanced Hardware Support) - Xfce
+
+
+## 5. Windows 11 Home: Preparation for dual booting
 
 Windows 11 Home was already activated once the above configuration
 was completed. (I suspect it was activated before Dell shipped it
 to me.)
 
 
-### 3.1 [Gotcha] Applied all outstanding updates
+### 5.1 [Gotcha] Applied all outstanding updates
 
 After a couple of hours of applying updates, KB5039302 started updating
 the system for a second time, so I cancelled the second occurence. When
 I checked updates again, Windows claimed it was up-to-date.
 
 
-### 3.2 [Info] Checked some system info
+### 5.2 [Info] Checked some system info
 
 Paste the following info somewhere for future reference.
 
@@ -130,7 +212,7 @@ wmic bios get serialnumber
 ```
 
 
-### 3.3 [Decision] Allow Windows drive C to continue to be encrypted with BitLocker?
+### 5.3 [Decision] Allow Windows drive C to continue to be encrypted with BitLocker?
 
 What does full disk encryption (such as BitLocker) do?
 
@@ -171,13 +253,13 @@ The solution:
 - Remove BitLocker encryption from drive C as described in [this article](https://www.asus.com/au/support/faq/1047461/)
 
 Aside: This also has an advantage that I can perform a test later.
-In particular, I can try to mount drive C via a Linux live-USB and
+In particular, I can try to mount drive C via a live Linux USB and
 if it is successful/readable then it indicates that the Linux
 storage driver knows how to read the storage format (in my case,
 Intel Rapid Storage Technology).
 
 
-### 3.4 [Decision] Allow Windows to sleep?
+### 5.4 [Decision] Allow Windows to sleep?
 
 *For me, the answer is NO.*
 
@@ -205,7 +287,7 @@ The solution, part B:
 - Save
 
 
-### 3.5 [Decision] Should I allow Windows Fast Startup?
+### 5.5 [Decision] Should I allow Windows Fast Startup?
 
 My understanding is that it is possible to allow it, but doing so
 creates a risk of corrupting any Windows NTFS partition if you mount
@@ -227,14 +309,14 @@ See the "[Decision] Should I allow Windows Fast Startup?"
 in the *EFI BIOS changes: Preparation for dual booting* section.
 
 
-### 3.6 [Decision] I have Microsoft 365: 30-day trial; should I subscribe?
+### 5.6 [Decision] I have Microsoft 365: 30-day trial; should I subscribe?
 
 *For me, the answer is NO.*
 
 I intend to use LibreOffice while running Linux.
 
 
-### 3.7 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
+### 5.7 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
 
 *For me, the answer is NO.*
 
@@ -275,7 +357,7 @@ The solution:
 Aside: [Computerworld: Susan Bradley | Think twice before deploying Windows’ Controlled Folder Access | 2022](https://www.computerworld.com/article/1612084/windows-controlled-folder-access-think-twice-before-deploying.html)
 
 
-### 3.8 [Decision] Should I keep Dell SupportAssist?
+### 5.8 [Decision] Should I keep Dell SupportAssist?
 
 *For me, the interim answer is YES.*
 
@@ -321,35 +403,9 @@ Dell SupportAssist references:
     + SUPPORT FOR BIOSCONNECT = Embedded
 
 
-## 4. Verify that laptop hardware is Linux compatible
+## 6. EFI BIOS changes: Preparation for dual booting
 
-Boot to a Linux live-USB and verify that Linux can *talk* to the
-hardware. I booted to several linux distros to perform my testing:
-
-- Linux Mint 21.3 - Cinnamon Edition
-- MX Linux 23.3 - Xfce
-- MX Linux 23.3 AHS (Advanced Hardware Support) - Xfce
-
-I did a very quick test of each of the following features:
-
-- wifi
-- display 1920x1080 resolution
-- display acceleration?: youtube video
-- sound: youtube video
-- bluetooth (unable to pair with my speakers; didn't investigate)
-- laptop touchpad
-- laptop keyboard
-- webcam: zoom test meeting (couldn't find cheese or other video recording app)
-- microphone: used commands arecord & aplay
-- earphone socket
-- USB: mouse
-- HDMI
-- mounted Windows drive C **after** disabing BitLocker and preventing Windows from Sleep mode [and Fast Startup]
-
-
-## 5. EFI BIOS changes: Preparation for dual booting
-
-### 5.1 [Decision] Should I allow Secure Boot (SB)?
+### 6.1 [Decision] Should I allow Secure Boot (SB)?
 
 **Short term**
 
@@ -364,11 +420,22 @@ which has been signed/certified for Secure Boot.
 *In the long term, my decision is to disable Secure Boot. (However
 I might investigate the details later then change my mind!)*
 
+The solution:
+
+- Boot/reboot and press F2 to enter the BIOS
+- Boot Configuration > Secure Boot > Enable Secure Boot: Off
+- Security > TPM 2.0 Security > Attestation Enable: Off [#]
+- Security > TPM 2.0 Security > Key Storage Enable: Off [#]
+- Security > Absolute: Disable Absolute [#]
+
+References:
+
 - [MX Linux Forum: Fehlix | MX-21 Secure Boot | 2021](https://forum.mxlinux.org/viewtopic.php?t=67022)
 - [Debian wiki | Secure Boot | 2015-2024](https://wiki.debian.org/SecureBoot)
+- [#] Lost the reference which recommended the last 3 changes
 
 
-### 5.2 [Decision] Should I allow Windows Fast Startup?
+### 6.2 [Decision] Should I allow Windows Fast Startup?
 
 *For me, the answer is NO.*
 
@@ -383,7 +450,7 @@ However, there is a Windows change required as per
 *Windows 11 Home: Preparation for dual booting* section.
 
 
-### 5.3 [Decision] Should I convert SATA mode from IRST to AHCI?
+### 6.3 [Decision] Should I convert SATA mode from IRST to AHCI?
 
 My laptop BIOS is configured for Intel Rapid Storage Technology (IRST).
 My understanding is that the Linux kernel does not have an Intel
@@ -401,15 +468,15 @@ After reading references 1 and 2 below, my original plan was:
 However, in reference 3, oldfred says that the Linux VMD (Intel Volume
 Management Device) driver should work for NVMe drives. While keeping
 IRST enabled in the BIOS (and after disabling BitLocker, Windows
-sleep mode and Windows fast startup) I ran the MX Linux live USB
-and confirmed that I was about to mount drive C (read only for
-safety)... and it was successful!
+sleep mode and Windows fast startup) I ran the MX live Linux USB
+and confirmed that I was able to successfully mount drive C read
+only (for safety).
 
 ```
 mount -o ro /dev/nvme0n1p3 /mnt/win11  # As root
 ```
 
-So (rightly or wrongly) I took this as a sign that MX Linux has
+So (rightly or wrongly) I assumed this meant that MX Linux has
 storage drivers which can read an existing partition (Windows 11
 drive C, NTFS) even with IRST. Hence, based on oldfred's comment
 and the above test, I decided to try my luck installing MX Linux
@@ -419,7 +486,7 @@ with IRST configured.
 
 The solution:
 
-No BIOS, Windows or Linux change required.
+No BIOS, Windows or Linux changes required.
 
 IRST and AHCI references:
 
@@ -432,34 +499,14 @@ IRST and AHCI references:
    - oldfred says: Linux uses the vmd driver for NVMe drives. I have used NVMe for over a year. My new Dell with Secure Boot on & RAID mode with one drive, just works.
 
 
-## 6. Create a Windows 11 bootable USB
+## 7. Create a Windows 11 bootable USB
 
-### 6.1 [Decision] Which media creation tool: Media Creation Tool or Rufus or Ventoy?
-
-I suspect it doesn't really matter which media creation tool you use,
-however I decided to use Ventoy because one can boot multiple ISOs
-from a single USB memory stick! E.g. I put the Windows 11 ISO plus 3
-Linux live distros on the same Ventoy 16GB USB stick.
-
-*For me, the answer is Ventoy.*
-
-The solution:
-
-- Download Ventoy from the recommended link on SourceForge
-- Verify it has the correct SHA-256
-- Install Ventoy on a USB which is at least 16GB (which is adequate
-  for the Windows 11 and MX Linux ISOs below)
-
-References:
-
-- [ventoy.net: longpanda | Start to use Ventoy](https://www.ventoy.net/en/doc_start.html)
-- [ventoy.net: longpanda | How to download the binaries](https://www.ventoy.net/en/download.html)
-- [Medium: Grepix | Ventoy: Revolutionizing The USB Game — An In-depth Review of a Hidden Gem in Open Source | 2023](https://grepix.medium.com/ventoy-revolutionizing-the-usb-game-an-in-depth-review-of-a-hidden-gem-in-open-source-842eb0ec616)
-- [Lifewire: Tim Fisher | 2 Ways to Create a Windows 11 Bootable USB Drive | 2023](https://www.lifewire.com/create-windows-11-bootable-usb-7187331)
-- [Dexerto: Sayem Ahmed | How to make a Windows 11 bootable USB: Where to get installation media & more | 2024](https://www.dexerto.com/tech/how-to-make-a-windows-11-bootable-usb-where-to-get-installation-media-more-2085688/)
+This was an insurance policy in case something went wrong!
+Because my MX Linux install went smoothly and dual boot worked ok,
+*I did not actually need to re-install Windows or use the ISO or drivers*.
 
 
-### 6.2 Where to get the Windows 11 ISO?
+### 7.1 Where to get the Windows 11 ISO?
 
 The solution:
 
@@ -476,19 +523,17 @@ The solution:
 ```
     Get-FileHash .\Win11_23H2_English_x64v2.iso
 ```
-- Copy the ISO to the FAT parition of the Ventoy USB
+- Copy the ISO to the FAT parition of the Ventoy USB (discussed earlier)
 
 Notes:
 
-- Because my MX Linux install went smoothly and dual boot worked ok,
-  I did not actually need this a re-install or this ISO.
 - I verified that Ventoy booted ok into this Windows 11 install ISO
 - I understand that it will install the *correct* version of Windows 11
   (in my case, the Home edition) by detecting the Windows Product Key
   which resides on the motherboard.
 
 
-### 6.3 Where to get the Windows 11 IRST drivers?
+### 7.2 Where to get the Windows 11 IRST drivers?
 
 I understand that a Windows 11 install USB will not be capable of
 recognising the SSD when the SATA mode is Intel Rapid Storage Technology
@@ -520,9 +565,15 @@ The solution:
   
 Notes:
 
-- Because my MX Linux install went smoothly and dual boot worked ok,
-  I did not actually need a re-install or these drivers.
-- I took the ideas from the Dell reference below.
+- I understand that early during the Windows 11 install, the
+  installer will be unable to see the SSD. Then you should:
+  * insert the USB containing the drivers
+  * click *Browse*
+  * navigate to Drivers > VMD folder
+  * highlight all the driver files in the VMD folder
+  * click Next
+  * proceed with the Windows install
+- I stole the above method from the Dell reference below.
 
 References:
 
@@ -531,19 +582,6 @@ References:
     Windows 11 to installing it.
   * The section of interest to us is *Intel Rapid Storage Technology Driver*
 
-
-## 7. Create an MX Linux bootable USB
-
-1. Get the MX Linux ISO
-   - Navigate to [MX Linux | Download Links](https://mxlinux.org/download-links/)
-   - Download MX Linux 23.3 - Xfce
-   - Verify its checksum
-   - This ISO is both a live-Linux version and installer
-
-2. Make a bootable USB
-   - Simply copy the ISO to the Ventoy FAT partition
-     (also used to store the Windows installer ISO)
-   - Now both ISOs can be booted from the same Ventoy USB
 
 ...
 
