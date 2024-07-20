@@ -424,15 +424,19 @@ The solution:
 
 - Boot/reboot and press F2 to enter the BIOS
 - Boot Configuration > Secure Boot > Enable Secure Boot: Off
-- Security > TPM 2.0 Security > Attestation Enable: Off [#]
-- Security > TPM 2.0 Security > Key Storage Enable: Off [#]
-- Security > Absolute: Disable Absolute [#]
+
+Aside: I originally disabled the following 3 BIOS settings for the
+MX Linux install, but did not keep a record of reference which
+recommended it. After the Linux install I enabled them again.
+
+- Security > TPM 2.0 Security > Attestation Enable: On
+- Security > TPM 2.0 Security > Key Storage Enable: On
+- Security > Absolute: Enable Absolute
 
 References:
 
 - [MX Linux Forum: Fehlix | MX-21 Secure Boot | 2021](https://forum.mxlinux.org/viewtopic.php?t=67022)
 - [Debian wiki | Secure Boot | 2015-2024](https://wiki.debian.org/SecureBoot)
-- [#] Lost the reference which recommended the last 3 changes
 
 
 ### 6.2 [Decision] Should I allow Windows Fast Startup?
