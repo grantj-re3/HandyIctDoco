@@ -15,8 +15,10 @@
 
 1. Restore Privacy
    - [Marko Medakovic | 10 Best Encrypted Email Services (2024 Test Results)](https://restoreprivacy.com/email/best-encrypted-email/)
+   - [Alex Lekander | 10 Best Private and Secure Email Services for 2024](https://restoreprivacy.com/email/secure/)
    - [Alex Lekander | 10 Best Alternatives to Gmail in 2024 (Private & Secure)](https://restoreprivacy.com/email/alternatives-to-gmail/)
    - [Alex Lekander | 12 Secure Browsers That Protect Your Privacy in 2024](https://restoreprivacy.com/browser/secure/)
+   - [Alex Lekander | 11 Best Private Search Engines 2024 (Search Anonymously)](https://restoreprivacy.com/private-search-engine/)
    - [Alex Lekander | Best Password Managers in 2024 (Only 5 Passed Our Tests)](https://restoreprivacy.com/password-manager/best-password-manager/)
    - [Alex Lekander | 10 Best VPN Services Tested and Reviewed (July 2024)](https://restoreprivacy.com/vpn/best/)
    - [Bill Mann | Google Drive Alternatives That are Private and Secure | 2024](https://restoreprivacy.com/google-drive-alternatives/)
