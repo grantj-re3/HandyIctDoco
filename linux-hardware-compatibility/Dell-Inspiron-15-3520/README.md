@@ -651,23 +651,23 @@ Device         |  Size | Type                         | Comment
 
 I have listed the partitions in order of *physical* location (not by partition number).
 
-Device          |   Size | Type                         | Comment
-----------------|--------|------------------------------|----------------
-/dev/nvme0n1p1  |   400M | EFI System                   | Win11 EFI
-/dev/nvme0n1p2  |   128M | Microsoft reserved           | -
-/dev/nvme0n1p3  | 112.3G | Microsoft basic data         | Win11 drive C [NTFS]
-/dev/nvme0n1p4  |  19.5G | Microsoft basic data         | Win11 drive D [FAT32] (shared between Win & Linux)
-             -  |        |                              |
-/dev/nvme0n1p8  |  80.1G | Linux filesystem             | / [ext4] (MX Linux 23.3)
-/dev/nvme0n1p9  |  1000M | EFI System                   | /boot/efi [vfat] (Linux EFI)
-/dev/nvme0n1p10 |  80.1G | Linux filesystem             | Reserved for another Linux: /
-/dev/nvme0n1p11 |  1000M | Microsoft basic data         | Reserved for another Linux: /boot/efi
-/dev/nvme0n1p12 |    16G | Linux swap                   | Linux swap (shared between all Linux OSes)
-/dev/nvme0n1p13 | 621.1G | Linux filesystem             | /mnt/road [ext4] (shared between all Linux OSes)
-             -  |        |                              |
-/dev/nvme0n1p5  |   1.2G | Windows recovery environment | Win11 recovery partition
-/dev/nvme0n1p6  |  19.7G | Windows recovery environment | Win11 recovery partition
-/dev/nvme0n1p7  |   1.5G | Windows recovery environment | Win11 recovery partition
+| Device          |   Size | Type                         | Comment
+|-----------------|--------|------------------------------|----------------
+| /dev/nvme0n1p1  |   400M | EFI System                   | Win11 EFI
+| /dev/nvme0n1p2  |   128M | Microsoft reserved           | -
+| /dev/nvme0n1p3  | 112.3G | Microsoft basic data         | Win11 drive C [NTFS]
+| /dev/nvme0n1p4  |  19.5G | Microsoft basic data         | Win11 drive D [FAT32] (shared between Win & Linux)
+|                 |        |                              |
+| /dev/nvme0n1p8  |  80.1G | Linux filesystem             | / [ext4] (MX Linux 23.3)
+| /dev/nvme0n1p9  |  1000M | EFI System                   | /boot/efi [vfat] (Linux EFI)
+| /dev/nvme0n1p10 |  80.1G | Linux filesystem             | Reserved for another Linux: /
+| /dev/nvme0n1p11 |  1000M | Microsoft basic data         | Reserved for another Linux: /boot/efi
+| /dev/nvme0n1p12 |    16G | Linux swap                   | Linux swap (shared between all Linux OSes)
+| /dev/nvme0n1p13 | 621.1G | Linux filesystem             | /mnt/road [ext4] (shared between all Linux OSes)
+|                 |        |                              |
+| /dev/nvme0n1p5  |   1.2G | Windows recovery environment | Win11 recovery partition
+| /dev/nvme0n1p6  |  19.7G | Windows recovery environment | Win11 recovery partition
+| /dev/nvme0n1p7  |   1.5G | Windows recovery environment | Win11 recovery partition
 
 
 ...
