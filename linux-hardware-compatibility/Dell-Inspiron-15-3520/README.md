@@ -587,5 +587,84 @@ References:
   * The section of interest to us is *Intel Rapid Storage Technology Driver*
 
 
+## 8. Partition the Solid State Drive (SSD)
+
+
+### 8.1 [Decision] Plan the partitioning of the SSD
+
+The solution:
+
+Most people will want a partitioning scheme to suit their own
+needs. This describes the partition scheme that I want.
+
+**Windows 11:** I want the Windows partition to be as small as
+possible while allowing space for:
+
+- drive C: paging file (14GB as determined above)
+- drive C: about 15GB free for future use
+- drive D: a separate 20GB FAT32 partition to be shared between
+  Windows and Linux. I want this to immediately follow drive C
+  so that if I find (in future) that drive C is too small, I can
+  delete drive D and use the unallocated space to grow drive C
+  by 20GB.
+
+**Linux:**
+
+- Allow for 2 simultaneous Linux operating systems.
+  * Initially I plan to install MX Linux 23.3.
+  * After a couple of years I am likely to migrate to a newer MX
+    Linux or other distro and I wish to do so while MX Linux 23.3
+    remains operational.
+  * After a few years of using my second Linux OS, I can use the same
+    principle to install my third Linux OS but this time I can delete
+    and re-use the oldest OS (which would be MX Linux 23.3) while my
+    second OS remains operational.
+  * I can repeat the migration of one Linux to the next using this
+    principle for the lifetime of the laptop.
+  * Allow 80GB for the root partition "/"
+- Allow 1GB (to include multiple kernels) for *each* Linux EFI system
+  partition (ESP) at /boot/efi as per section 2 of
+  [this ArchLinux article](https://wiki.archlinux.org/title/EFI_system_partition#Create_the_partition)
+- Allow 16GB for a single Linux Swap partition. Share between the 2
+  Linux OSes (instead of each OS having its own Linux swap file).
+- All the remaining space to be allocated to an ext4 partition,
+  /mnt/road; my place for Linux home directories to store data.
+
+
+**Partition table after Windows 11 pre-install process [my best guess]**
+
+Device         |  Size | Type                         | Comment
+---------------|-------|------------------------------|----------------
+/dev/nvme0n1p1 |  400M | EFI System                   | Win11 EFI
+/dev/nvme0n1p2 |  128M | Microsoft reserved           | -
+/dev/nvme0n1p3 | ~930G | Microsoft basic data         | Win11 drive C [NTFS]
+/dev/nvme0n1p5 |  1.2G | Windows recovery environment | Win11 recovery partition
+/dev/nvme0n1p6 | 19.7G | Windows recovery environment | Win11 recovery partition
+/dev/nvme0n1p7 |  1.5G | Windows recovery environment | Win11 recovery partition
+
+
+**Partition table after applying the above changes**
+
+I have listed the partitions in order of *physical* location (not by partition number).
+
+Device          |   Size | Type                         | Comment
+----------------|--------|------------------------------|----------------
+/dev/nvme0n1p1  |   400M | EFI System                   | Win11 EFI
+/dev/nvme0n1p2  |   128M | Microsoft reserved           | -
+/dev/nvme0n1p3  | 112.3G | Microsoft basic data         | Win11 drive C [NTFS]
+/dev/nvme0n1p4  |  19.5G | Microsoft basic data         | Win11 drive D [FAT32] (shared between Win & Linux)
+                |        |                              |
+/dev/nvme0n1p8  |  80.1G | Linux filesystem             | / [ext4] (MX Linux 23.3)
+/dev/nvme0n1p9  |  1000M | EFI System                   | /boot/efi [vfat] (Linux EFI)
+/dev/nvme0n1p10 |  80.1G | Linux filesystem             | Reserved for another Linux: /
+/dev/nvme0n1p11 |  1000M | Microsoft basic data         | Reserved for another Linux: /boot/efi
+/dev/nvme0n1p12 |    16G | Linux swap                   | Linux swap (shared between all Linux OSes)
+/dev/nvme0n1p13 | 621.1G | Linux filesystem             | /mnt/road [ext4] (shared between all Linux OSes)
+                |        |                              |
+/dev/nvme0n1p5  |   1.2G | Windows recovery environment | Win11 recovery partition
+/dev/nvme0n1p6  |  19.7G | Windows recovery environment | Win11 recovery partition
+/dev/nvme0n1p7  |   1.5G | Windows recovery environment | Win11 recovery partition
+
+
 ...
 
