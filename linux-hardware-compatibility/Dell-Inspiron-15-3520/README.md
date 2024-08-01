@@ -63,6 +63,14 @@ to copy mine then you might need to know what sort of computer user I am.
 
 If your background is different to mine, then you might make different choices.
 
+**BEWARE:** 
+
+Making changes to BIOS settings, Windows settings, partitioning a drive,
+formatting a drive, installing Linux and configuring dual boot requires
+knowledge of each of these areas and great care! **Some of these steps can
+delete your operating system(s), all of your data, or make your computer
+unable to boot! Please be VERY CAREFUL**.
+
 
 ## 1. Dell boot-time function keys
 
@@ -642,9 +650,9 @@ Device         |  Size | Type                         | Comment
 /dev/nvme0n1p1 |  400M | EFI System                   | Win11 EFI
 /dev/nvme0n1p2 |  128M | Microsoft reserved           | -
 /dev/nvme0n1p3 | ~930G | Microsoft basic data         | Win11 drive C [NTFS]
-/dev/nvme0n1p5 |  1.2G | Windows recovery environment | Win11 recovery partition
-/dev/nvme0n1p6 | 19.7G | Windows recovery environment | Win11 recovery partition
-/dev/nvme0n1p7 |  1.5G | Windows recovery environment | Win11 recovery partition
+/dev/nvme0n1p5 |  1.2G | Windows recovery environment | Win11 recovery partition (WINRETOOLS)
+/dev/nvme0n1p6 | 19.7G | Windows recovery environment | Win11 recovery partition (IMAGE)
+/dev/nvme0n1p7 |  1.5G | Windows recovery environment | Win11 recovery partition (DELLSUPPORT)
 
 
 **Partition table after applying the above changes**
@@ -659,16 +667,62 @@ I have listed the partitions in order of *physical* location (not by partition n
 | /dev/nvme0n1p4  |  19.5G | Microsoft basic data         | Win11 drive D [FAT32] (shared between Win & Linux)
 |                 |        |                              |
 | /dev/nvme0n1p8  |  80.1G | Linux filesystem             | / [ext4] (MX Linux 23.3)
-| /dev/nvme0n1p9  |  1000M | EFI System                   | /boot/efi [vfat] (Linux EFI)
+| /dev/nvme0n1p9  |  1000M | EFI System                   | /boot/efi [fat32] (Linux EFI)
 | /dev/nvme0n1p10 |  80.1G | Linux filesystem             | Reserved for another Linux: /
 | /dev/nvme0n1p11 |  1000M | Microsoft basic data         | Reserved for another Linux: /boot/efi
 | /dev/nvme0n1p12 |    16G | Linux swap                   | Linux swap (shared between all Linux OSes)
 | /dev/nvme0n1p13 | 621.1G | Linux filesystem             | /mnt/road [ext4] (shared between all Linux OSes)
 |                 |        |                              |
-| /dev/nvme0n1p5  |   1.2G | Windows recovery environment | Win11 recovery partition
-| /dev/nvme0n1p6  |  19.7G | Windows recovery environment | Win11 recovery partition
-| /dev/nvme0n1p7  |   1.5G | Windows recovery environment | Win11 recovery partition
+| /dev/nvme0n1p5  |   1.2G | Windows recovery environment | Win11 recovery partition (WINRETOOLS)
+| /dev/nvme0n1p6  |  19.7G | Windows recovery environment | Win11 recovery partition (IMAGE)
+| /dev/nvme0n1p7  |   1.5G | Windows recovery environment | Win11 recovery partition (DELLSUPPORT)
 
 
-...
+### 8.2 Perform the Windows portion of the partitioning
+
+The solution:
+
+Make the drive C and drive D changes using Windows 11.
+
+- **Shrink drive C:** Navigate to Start > All apps > Windows Tools >
+  Computer Management > Disk Management > Right click "OS (C:)" >
+  Shrink Volume (or Extend Volume as needed); this should leave
+  about 818GB unallocated
+- **Add drive D:** Navigate to Start > All apps > Windows Tools >
+  Computer Management > Disk Management > Right click "Unallocated" >
+  New Simple Volume > Next > Simple Volume Size: 20,000MB > Next >
+  Drive letter "D" > Next > Format this volume: 
+  *Filesystem: FAT32 | Allocation unit size: Default | Volume Label: WIN_LNX | Quick Format* >
+  Finish
+
+References:
+
+- [Sandip Sky | How to Dual Boot MX linux 23 and Windows 10/11 (video) | 2023](https://www.youtube.com/watch?v=xy76ERFjrQk&t=1m30s); 1m30s
+
+
+### 8.3 Perform the Linux portion of the partitioning
+
+The solution:
+
+Create the Linux partitions above (/dev/nvme0n1p8 to /dev/nvme0n1p13
+inclusive) using the GParted app from within the MX Linux installer.
+In the installer, you will find the icon for GParted on the
+*Choose Partitions* page (to the right of the horizontal slider at
+the bottom of the partitions pane).
+
+During the MX Linux install, I did *not* assign mount points to
+Win11 drives C or D (/dev/nvme0n1p3 and /dev/nvme0n1p4) nor the
+partitions reserved for another Linux (/dev/nvme0n1p10 and
+/dev/nvme0n1p11). I only assigned 3 mount points:
+
+- /dev/nvme0n1p8; ext4; Mount point /
+- /dev/nvme0n1p9; fat32; Mount point /boot/efi
+- /dev/nvme0n1p13; ext4; Mount point /mnt/road
+
+References:
+
+- [Sandip Sky | How to Dual Boot MX linux 23 and Windows 10/11 (video) | 2023](https://www.youtube.com/watch?v=xy76ERFjrQk&t=3m0s); 3m00s
+  * For the MX Linux 23.3 installer, it appears you must specifically
+    choose the mount point /boot/efi (not ESP as shown in the video
+    at 3m58)
 
