@@ -543,8 +543,8 @@ is Linux compatible" for the mount command and prerequisites.
 So (rightly or wrongly) I assumed this meant that MX Linux has
 storage drivers which can read an existing partition (Windows 11
 drive C, NTFS) even with IRST. Hence, based on oldfred's comment
-and the above test, I decided to try my luck installing MX Linux
-with IRST configured.
+and the above mount-test, I decided to try my luck installing MX
+Linux with IRST configured.
 
 *For me, the answer is NO.*
 
