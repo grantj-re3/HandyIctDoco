@@ -92,7 +92,7 @@ The problem is that the only options were to either sign in or to create an acco
 
 The solution:
 
-- I followed the info [here](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account)
+- I followed the Tom’s Hardware article below.
 - [Gotcha] I don't have an ethernet port, and I had already entered my wifi
   credentials, so I needed to switch off my home wifi router where the
   instructions say to "cut off the Internet". (I needed to do this at
@@ -100,6 +100,51 @@ The solution:
 - [Gotcha] Shift + F10 (2 simultaneous keys) did not work for me. Because
   my laptop keyboard has two operations assigned to each function key, I
   used shift + fn + F10 (3 simultaneous keys).
+- [Gotcha] Note that *OOBE\BYPASSNRO* must not contain spaces but can be
+  either upper case or lower case as it is a relative file path (to
+  c:\windows\system32\oobe\BypassNRO.cmd).
+
+References:
+
+- [Tom’s Hardware: Avram Piltch | How to Install Windows 11 Without a Microsoft Account | 2024](https://www.tomshardware.com/how-to/install-windows-11-without-microsoft-account)
+- [ASUS | FAQ: Unable to Complete Windows 11* Installation, as “Let’s Connect You to a Network” Page Requires an Internet Connection during Setup | 2024](https://www.asus.com/au/support/faq/1052860/)
+- [Kapil Arya Microsoft MVP | OOBE Setup Windows 11 without Internet (video) |2022](https://www.youtube.com/watch?v=QqAs_H9q7bw)
+- [Windows 11 Forum | What is "oobe\bypassnro" | 2022](https://www.elevenforum.com/t/what-is-oobe-bypassnro.5011/)
+
+
+### 2.2 [Decision] Do you want to enter your real name and contact details?
+
+*For me, the answer is NO.*
+
+During the pre-install configuration, I was prompted to enter my
+first name, last name, email, country and phone number.
+
+- I do not feel this information is necessary to install an
+  operating system (and I feel it is a potential privacy risk
+  if Microsoft, Dell, McAfee, etc. are ever hacked).
+- I do not intend to subscribe to McAfee. See "[Decision] I have
+  McAfee+ Premium: 30-day trial; should I subscribe?" below.
+- If you intend to register with McAfee during the pre-install
+  configuration then I think your answer may need to be YES.
+  (However, I understand you can opt to register with McAfee
+  after the pre-install configuration is completed.)
+- I copied my user name into the first name field, selected my
+  real country but I left all the other fields blank.
+
+
+### 2.3 [Decision] Do you want to register with McAfee during the Windows 11 pre-install configuration?
+
+*For me, the answer is NO.*
+
+During the pre-install configuration, I was prompted to *Use my
+information to register my McAfee service and send the service
+related email and text notices. Message and data rates may apply.*
+
+- I do not intend to subscribe to McAfee. See "[Decision] I have
+  McAfee+ Premium: 30-day trial; should I subscribe?" below.
+- In an earlier section of the Windows 11 pre-install configuration,
+  I did not enter my email address, phone number or other contact
+  details.
 
 
 ## 3. Create an MX Linux bootable USB
@@ -173,8 +218,18 @@ I did a very quick test of each of the following features:
 - earphone socket
 - USB: mouse
 - HDMI
-- mounted Windows drive C **after** disabing BitLocker and
-  preventing Windows from Sleep mode [and Fast Startup]
+- **LATER**: mounted Windows drive C in read-only mode **after**:
+  * disabing BitLocker (as below), and
+  * preventing Windows Sleep mode (as below), and
+  * preventing Fast Startup (as below) ...
+  * with the commands:
+
+```
+$ sudo su -					# Become the root user
+$ mkdir /mnt/win11				# Create an empty folder
+$ mount -o ro /dev/nvme0n1p3 /mnt/win11		# Mount the partition
+$ ls -l /mnt/win11				# List top-level folder of drive C
+```
 
 Aside: As an aid in deciding which Linux distro to install,
 I booted into several linux distros and performed the
@@ -240,8 +295,9 @@ What does full disk encryption **not** do?
 Disadvantages of full disk encryption
 
 - If you lose your key, then you lose access to your disk and *all* of its
-  content. [If you backup your key, do you trust the location, organisation,
-  etc. where your backup is stored?]
+  content.
+- If you backup your key, do you trust the location, organisation, etc.
+  where your backup is stored?
 - Encrypting disk writes and decrypting disk reads reduces the 
   performance of your storage devices. [This article](https://www.easeus.com/computer-instruction/does-bitlocker-slow-down-ssd.html)
   claims that BitLocker can slow down your SSD by up to 45%.
@@ -277,8 +333,7 @@ ext4 filesystem without third party tools, the problem is most likely to
 be corrupting a Windows NTFS partition by mounting it in Linux.
 
 Aside: I understand that allowing Windows *Fast Startup* has a similar
-bad impact. However, it appears that my BIOS does not have a *Fast Startup*
-setting.
+bad impact. See "[Decision] Should I allow Windows Fast Startup?" below.
 
 The solution, part A:
 
@@ -321,7 +376,7 @@ in the *EFI BIOS changes: Preparation for dual booting* section.
 
 *For me, the answer is NO.*
 
-I intend to use LibreOffice while running Linux.
+I intend to use LibreOffice (while running Linux).
 
 
 ### 5.7 [Decision] I have McAfee+ Premium: 30-day trial; should I subscribe?
@@ -482,11 +537,8 @@ Management Device) driver should work for NVMe drives. While keeping
 IRST enabled in the BIOS (and after disabling BitLocker, Windows
 sleep mode and Windows fast startup) I ran the MX live Linux USB
 and confirmed that I was able to successfully mount drive C read
-only (for safety).
-
-```
-mount -o ro /dev/nvme0n1p3 /mnt/win11  # As root
-```
+only (for safety). See the section "Verify that laptop hardware
+is Linux compatible" for the mount command and prerequisites.
 
 So (rightly or wrongly) I assumed this meant that MX Linux has
 storage drivers which can read an existing partition (Windows 11
@@ -725,4 +777,36 @@ References:
   * For the MX Linux 23.3 installer, it appears you must specifically
     choose the mount point /boot/efi (not ESP as shown in the video
     at 3m58)
+
+
+## 9. Miscellaneous
+
+
+### 9.1 [Decision] Do you want the MX Linux root user to be assigned a password?
+
+*For me, the answer is NO.*
+
+I feel it is more secure giving one or two users access to sudo.
+
+
+### 9.2 Confirm you can boot to Linux and Windows
+
+Both were successful.
+
+
+### 9.3 Has drive F appeared in Windows?
+
+*For me, the answer is YES.*
+
+During the install of MX Linux, I reserved a 1GB FAT32 partition
+(/dev/nvme0n1p11) for a future Linux /boot/efi. When I next booted
+into Windows, it noticed this partition and automatically assigned
+drive F to it. I do not want Windows to see this partition so I
+disabled access to it as follows.
+
+The solution:
+
+- **Disable drive letter F:** Navigate to Start > All apps >
+  Windows Tools > Computer Management > Disk Management >
+  Right click drive F > Change Drive Letter & Paths > Remove > Yes
 
