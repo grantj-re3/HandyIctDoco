@@ -277,7 +277,7 @@ wmic bios get serialnumber
 
 ### 5.3 [Decision] Allow Windows drive C to continue to be encrypted with BitLocker?
 
-What does full disk encryption (such as BitLocker) do?
+What does full disk encryption (FDE) such as BitLocker do?
 
 - If your laptop is lost or stolen, and if a person who has possession
   of your laptop does not know your login and cannot discover your login
@@ -301,6 +301,12 @@ Disadvantages of full disk encryption
 - Encrypting disk writes and decrypting disk reads reduces the 
   performance of your storage devices. [This article](https://www.easeus.com/computer-instruction/does-bitlocker-slow-down-ssd.html)
   claims that BitLocker can slow down your SSD by up to 45%.
+  Many other articles claim BitLocker has a negligible impact
+  on performance, but I haven't found any which back it up
+  with test results. There are further test results
+  [here](https://www.isumsoft.com/bitlocker/how-much-does-bitlocker-impacts-on-hard-disk-io-performance.html)
+  and
+  [here](https://answers.microsoft.com/en-us/windows/forum/all/considerable-speed-difference-between-bitlocker/22c869eb-5022-469c-bbfa-21b67ec44ee6).
 
 So the question boils down to:
 - Is the information on the encrypted drive valuable enough to
@@ -321,6 +327,16 @@ In particular, I can try to mount drive C via a live Linux USB and
 if it is successful/readable then it indicates that the Linux
 storage driver knows how to read the storage format (in my case,
 Intel Rapid Storage Technology).
+
+References:
+
+- [Thales | What is Full-Disk Encryption (FDE) and What are Self-Encrypting Drives (SED)? | 2020](https://cpl.thalesgroup.com/faq/encryption/what-full-disk-encryption-fed-and-what-are-self-encrypting-drives-sed)
+- [PreyProject: Juan Hernández | Essential Guide to BitLocker Encryption: Secure Your Data Today | 2023](https://preyproject.com/blog/bitlocker)
+- [ScienceDirect: Anton Chuvakin | Protecting Cardholder Data | 2012](https://www.sciencedirect.com/topics/computer-science/full-disk-encryption)
+  * Excerpt from PCI Compliance, Third Edition, 2012
+  * Disadvantages "...FDE does not necessarily protect data on a
+    laptop if the system is compromised while in use. It primarily
+    helps to prevent data disclosure resulting from physical theft."
 
 
 ### 5.4 [Decision] Allow Windows to sleep?
@@ -489,8 +505,9 @@ The solution:
 - Boot Configuration > Secure Boot > Enable Secure Boot: Off
 
 Aside: I originally disabled the following 3 BIOS settings for the
-MX Linux install, but did not keep a record of reference which
-recommended it. After the Linux install I enabled them again.
+MX Linux install, but did not keep a record of the reference which
+recommended it. I suspect these changes were not needed, so after
+the Linux install I enabled them again as follows:
 
 - Security > TPM 2.0 Security > Attestation Enable: On
 - Security > TPM 2.0 Security > Key Storage Enable: On
@@ -596,12 +613,28 @@ Notes:
   (in my case, the Home edition) by detecting the Windows Product Key
   which resides on the motherboard.
 
+References:
+
+- [Microsoft | Reinstall Windows | 2020-2022](https://support.microsoft.com/en-au/windows/reinstall-windows-d8369486-3e33-7d9c-dccc-859e2b022fc7);
+  Windows 11 tab
+
 
 ### 7.2 Where to get the Windows 11 IRST drivers?
 
 I understand that a Windows 11 install USB will not be capable of
 recognising the SSD when the SATA mode is Intel Rapid Storage Technology
 unless suitable drivers are made available at install time.
+
+I attempted to find a *Driver Pack* for my laptop at
+https://www.dell.com/support/home/en-au/drivers/driversdetails?driverid=62pd8
+but the resulting message was:
+
+> You have selected: Inspiron 15 3520 Service Tag: [S/Tag] Operating System: Windows 11.
+> This driver is not applicable for [S/Tag] with Windows 11. You can search for a similar
+> driver for this device or check to see if this driver is compatible with another device.
+
+Hence, no luck finding a driver pack (because recovery is intended to be via
+Dell SupportAssist).
 
 The solution:
 
