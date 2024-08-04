@@ -145,6 +145,11 @@ related email and text notices. Message and data rates may apply.*
 - In an earlier section of the Windows 11 pre-install configuration,
   I did not enter my email address, phone number or other contact
   details.
+- I did *not* agree to use my information to register with McAfee.
+
+References:
+
+- [Dell | Dell Support and Protection Setup, Knowledge Base Article 000212614 | 2023](https://www.dell.com/support/kbdoc/en-au/000212614/dell-support-and-protection-setup)
 
 
 ## 3. Create an MX Linux bootable USB
@@ -208,8 +213,8 @@ I did a very quick test of each of the following features:
 - display acceleration?: youtube video
 - sound: youtube video
 - bluetooth:
-  * unable to pair with my speakers; didn't investigate at the
-    time but suspect the speakers were paired with my phone!
+  * unable to pair with my speakers [I didn't investigate at the time
+    but I suspect the speakers were already  paired with my phone. Oops!]
   * paired with my speakers ok after installing MX Linux
 - laptop touchpad
 - laptop keyboard
@@ -227,7 +232,7 @@ I did a very quick test of each of the following features:
 ```
 $ sudo su -					# Become the root user
 $ mkdir /mnt/win11				# Create an empty folder
-$ mount -o ro /dev/nvme0n1p3 /mnt/win11		# Mount the partition
+$ mount -o ro /dev/nvme0n1p3 /mnt/win11		# Mount the partition read-only
 $ ls -l /mnt/win11				# List top-level folder of drive C
 ```
 
@@ -575,7 +580,7 @@ IRST and AHCI references:
    - OP is unable to install Windows 11 Pro when BIOS set to AHCI
    - OP found a [messy] workaround
 1. [Intel Community forum | Windows 11 - Changed RST to AHCI | 2023](https://community.intel.com/t5/Rapid-Storage-Technology/Windows-11-Changed-RST-to-AHCI/m-p/1562614#M12704)
-   - LeonWaksman provides instructions to change SATA mode from RST to AHCI 
+   - LeonWaksman provides instructions to change SATA mode from IRST to AHCI 
 1. [Stack Overflow: Unix & Linux | Intel Rapid Storage alongside with Linux | 2022](https://unix.stackexchange.com/questions/717660/intel-rapid-storage-alongside-with-linux)
    - oldfred says: Linux uses the vmd driver for NVMe drives. I have used NVMe for over a year. My new Dell with Secure Boot on & RAID mode with one drive, just works.
 
@@ -697,9 +702,9 @@ possible while allowing space for:
 - Drive C: About 15GB free for future use
 - Drive D: A separate 20GB FAT32 partition to be shared between
   Windows and Linux. I want this to immediately follow drive C
-  so that if I find (in future) that drive C is too small, I can
-  delete drive D and use the unallocated space to grow drive C
-  by 20GB.
+  (physically) so that if I find (in future) that drive C is
+  too small, I can delete drive D and use the unallocated space
+  to grow drive C by 20GB.
 
 **Linux:**
 
@@ -722,7 +727,7 @@ possible while allowing space for:
 - Allow 16GB for a single Linux Swap partition. Share between the 2
   Linux OSes (instead of each OS having its own Linux swap file).
 - All the remaining space to be allocated to an ext4 partition,
-  /mnt/road; my place for Linux home directories to store data.
+  /mnt/road (i.e. my place for Linux home directories to store data).
 
 
 **Partition table after Windows 11 pre-install process**
