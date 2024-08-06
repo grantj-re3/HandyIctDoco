@@ -1,0 +1,23 @@
+$ lspci
+0000:00:00.0 Host bridge: Intel Corporation Device 4601 (rev 04)
+0000:00:02.0 VGA compatible controller: Intel Corporation Alder Lake-UP3 GT2 [Iris Xe Graphics] (rev 0c)
+0000:00:04.0 Signal processing controller: Intel Corporation Alder Lake Innovation Platform Framework Processor Participant (rev 04)
+0000:00:08.0 System peripheral: Intel Corporation 12th Gen Core Processor Gaussian & Neural Accelerator (rev 04)
+0000:00:0e.0 RAID bus controller: Intel Corporation Volume Management Device NVMe RAID Controller
+0000:00:14.0 USB controller: Intel Corporation Alder Lake PCH USB 3.2 xHCI Host Controller (rev 01)
+0000:00:14.2 RAM memory: Intel Corporation Alder Lake PCH Shared SRAM (rev 01)
+0000:00:15.0 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #0 (rev 01)
+0000:00:15.1 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #1 (rev 01)
+0000:00:16.0 Communication controller: Intel Corporation Alder Lake PCH HECI Controller (rev 01)
+0000:00:17.0 System peripheral: Intel Corporation RST VMD Managed Controller
+0000:00:1d.0 PCI bridge: Intel Corporation Alder Lake PCI Express x1 Root Port #10 (rev 01)
+0000:00:1f.0 ISA bridge: Intel Corporation Alder Lake PCH eSPI Controller (rev 01)
+0000:00:1f.3 Audio device: Intel Corporation Alder Lake PCH-P High Definition Audio Controller (rev 01)
+0000:00:1f.4 SMBus: Intel Corporation Alder Lake PCH-P SMBus Host Controller (rev 01)
+0000:00:1f.5 Serial bus controller: Intel Corporation Alder Lake-P PCH SPI Controller (rev 01)
+0000:01:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter
+10000:e0:17.0 SATA controller: Intel Corporation Alder Lake-P SATA AHCI Controller (rev 01)
+10000:e0:1c.0 System peripheral: Intel Corporation RST VMD Managed Controller
+10000:e0:1c.4 PCI bridge: Intel Corporation Device 51bc (rev 01)
+10000:e1:00.0 Non-Volatile memory controller: Micron Technology Inc Device 5416 (rev 01)
+

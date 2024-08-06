@@ -1,0 +1,5 @@
+$ mount |egrep nvme0n1
+/dev/nvme0n1p8 on / type ext4 (rw,noatime,discard)
+/dev/nvme0n1p9 on /boot/efi type vfat (rw,noatime,fmask=0113,dmask=0002,allow_utime=0020,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro)
+/dev/nvme0n1p13 on /mnt/road type ext4 (rw,noatime)
+

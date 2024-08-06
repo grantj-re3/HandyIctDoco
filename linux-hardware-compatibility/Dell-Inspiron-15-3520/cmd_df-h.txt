@@ -1,0 +1,6 @@
+$ df -h |egrep "^(File|/)"
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/nvme0n1p8    79G   17G   58G  23% /
+/dev/nvme0n1p9   999M  292K  998M   1% /boot/efi
+/dev/nvme0n1p13  611G  184G  396G  32% /mnt/road
+

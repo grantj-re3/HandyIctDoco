@@ -1,0 +1,27 @@
+$ fdisk -l -ucylinders
+Disk /dev/nvme0n1: 953.87 GiB, 1024209543168 bytes, 2000409264 sectors
+Disk model: 2550 Micron 1024GB                      
+Geometry: 64 heads, 32 sectors/track, 976762 cylinders
+Units: cylinders of 2048 * 512 = 1048576 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: ...
+
+Device           Start    End   Size Type
+/dev/nvme0n1p1       2    401   400M EFI System
+/dev/nvme0n1p2     402    529   128M Microsoft reserved
+/dev/nvme0n1p3     530 115529 112.3G Microsoft basic data
+/dev/nvme0n1p4  115530 135529  19.5G Microsoft basic data
+/dev/nvme0n1p5  953871 955070   1.2G Windows recovery environment
+/dev/nvme0n1p6  955071 975224  19.7G Windows recovery environment
+/dev/nvme0n1p7  975226 976762   1.5G Windows recovery environment
+/dev/nvme0n1p8  135530 217529  80.1G Linux filesystem
+/dev/nvme0n1p9  217530 218529  1000M EFI System
+/dev/nvme0n1p10 218530 300529  80.1G Linux filesystem
+/dev/nvme0n1p11 300530 301529  1000M Microsoft basic data
+/dev/nvme0n1p12 301530 317913    16G Linux swap
+/dev/nvme0n1p13 317914 953870 621.1G Linux filesystem
+
+Partition table entries are not in disk order.
+
