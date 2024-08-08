@@ -25,6 +25,7 @@
    - [Sead Fadilpašić | How to Protect Yourself Against Identity Theft and Identity Fraud](https://restoreprivacy.com/identity-theft-protection/)
 
 1. Email
+   - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
    - [Zapier Inc: Toby Peterson | The 8 best Gmail alternatives in 2024](https://zapier.com/blog/gmail-alternatives/) - Proton Mail
 
