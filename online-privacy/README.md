@@ -27,7 +27,20 @@
 1. Email
    - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
-   - [Zapier Inc: Toby Peterson | The 8 best Gmail alternatives in 2024](https://zapier.com/blog/gmail-alternatives/) - Proton Mail
+   - See above Restore Privacy's *10 Best Encrypted Email Services*
+
+1. End-to-end encryption (E2EE)
+
+Used for email, messaging apps, cloud storage, VPNs, etc. Vulnerable
+areas may exist at end points, back doors or where users are careless.
+For most implementations, loss of your private key means you can no
+longer decrypt your emails/messages.
+
+   - [TechTarget: Ben Lutkevich, Madelyn Bacon | End-to-end encryption (E2EE) | 2021](https://www.techtarget.com/searchsecurity/definition/end-to-end-encryption-E2EE)
+   - [Cloudflare | What is end-to-end encryption (E2EE)?](https://www.cloudflare.com/learning/privacy/what-is-end-to-end-encryption/)
+   - [Proton: Marco Martinoli | What is end-to-end encryption and how does it work? | 2022-2023](https://proton.me/blog/what-is-end-to-end-encryption)
+     * [How to use PGP with Proton Mail](https://proton.me/support/how-to-use-pgp)
+   - [Mozilla: Kai Engert, et al. | Introduction to End-to-end encryption in Thunderbird | c.2021](https://support.mozilla.org/en-US/kb/introduction-to-e2e-encryption)
 
 1. Android
    - [Google | Add or remove an account on Android](https://support.google.com/android/answer/7664951)
