@@ -29,6 +29,13 @@
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
    - See above Restore Privacy's *10 Best Encrypted Email Services*
 
+1. The opposing view re encrypted email
+   - [LinkedIn: Marnix Dekker | Encrypted email is for nobody really | 2017](https://www.linkedin.com/pulse/stop-asking-encrypted-email-marnix-dekker)
+     * In my view, suggesting GMail (and other similar free
+       webmail services) as a solution to "improve email
+       security" does not improve online privacy. See Google
+       and email articles above.
+
 1. End-to-end encryption (E2EE)
 
 Used for email, messaging apps, cloud storage, VPNs, etc. Vulnerable
