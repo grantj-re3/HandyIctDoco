@@ -28,6 +28,7 @@
    - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
    - See above Restore Privacy's *10 Best Encrypted Email Services*
+   - [Tuta: Matthias | Email Security Guide: 3 best practices to keep your emails safe from attackers | 2022](https://tuta.com/blog/email-security-guide-online)
 
 1. The opposing view re encrypted email
    - [LinkedIn: Marnix Dekker | Encrypted email is for nobody really | 2017](https://www.linkedin.com/pulse/stop-asking-encrypted-email-marnix-dekker)
@@ -48,6 +49,18 @@ longer decrypt your emails/messages.
    - [Proton: Marco Martinoli | What is end-to-end encryption and how does it work? | 2022-2023](https://proton.me/blog/what-is-end-to-end-encryption)
      * [How to use PGP with Proton Mail](https://proton.me/support/how-to-use-pgp)
    - [Mozilla: Kai Engert, et al. | Introduction to End-to-end encryption in Thunderbird | c.2021](https://support.mozilla.org/en-US/kb/introduction-to-e2e-encryption)
+
+1. Zero-access encryption
+
+Also known as zero-knowledge encryption.
+
+   - [Proton: Ben Wolford | What is zero-access encryption and why is it important for security? | 2018-2024](https://proton.me/blog/zero-access-encryption)
+   - [PCMag | zero-access encryption](https://www.pcmag.com/encyclopedia/term/zero-access-encryption)
+   - [Zivver | What is zero-access encryption and why is it superior to end-to-end encryption? | 2023](https://www.zivver.com/blog/what-is-zero-access-encryption-and-why-is-it-superior-to-end-to-end-encryption)
+
+1. Perfect Forward Secrecy (PFS)
+   - [Avi Networks | Perfect Forward Secrecy Definition & FAQs | 2017](https://avinetworks.com/glossary/perfect-forward-secrecy/)
+   - [Encryption Consulting | All you need to know about Perfect Forward Secrecy | 2024](https://www.encryptionconsulting.com/all-you-need-to-know-about-perfect-forward-secrecy/)
 
 1. Android
    - [Google | Add or remove an account on Android](https://support.google.com/android/answer/7664951)
