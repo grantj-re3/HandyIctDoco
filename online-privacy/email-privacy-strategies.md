@@ -20,3 +20,36 @@
    - [Restore Privacy: Bill Mann | 5 Best Temporary Disposable Email Services in 2024](https://restoreprivacy.com/email/temporary-disposable/)
    - [MakeUseOf: Sandeep Babu | What Is a Disposable Email Address and Why Should You Use One? | 2022](https://www.makeuseof.com/what-is-disposable-email-address/)
 
+
+## Practical ideas about multiple email addresses
+
+1. Choose email-categories based on:
+   - The info/assets you are aiming to protect, e.g.
+     * financial
+     * health
+     * identity (e.g. passport, driver's licence)
+     * personal info (e.g. name, address, telephone, email address)
+     * protecting your [important] mailboxes from phishing, spam, etc.
+   - The trustworthiness of the person/organisation/party you are
+     communicating with:
+     * is the organisation big enough to have an IT Security department, *AND*
+     * does the organisation care about your privacy (or are they likely
+       to collect/sell/misuse your email address and data), *AND*
+     * although you may trust the party (e.g. a friend) you may not
+       trust the IT platform they are using (e.g. the platform has been
+       previously hacked or they are known to collect/sell/misuse your
+       email address and data)
+
+1. Suggested email-categories for personal email addresses/aliases:
+   1. Organisations entrusted with my financial, health and identity assets,
+      e.g. banks, superannuation, shares, government departments, tax
+      department
+   1. Other organisations who expect payment from me and have had or will
+      have my credit card, etc. details, e.g. memberships, paid subscriptions,
+      online shopping, non-government bills (e.g. phone, ISP, insurance)
+   1. Friends, relatives, etc. (but not formal contacts for work)
+   1. Social media, free online services, free subscriptions, free newsletters
+
+You may choose to adapt the above lists to address your own environment, privacy
+concerns and experiences.
+
