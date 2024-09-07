@@ -23,6 +23,9 @@
 
 ## Practical ideas about multiple email addresses
 
+Define your own email-categories, then use one email address/alias
+for each category.
+
 1. Choose email-categories based on:
    - The info/assets you are aiming to protect, e.g.
      * financial
@@ -41,14 +44,22 @@
        email address and data)
 
 1. Suggested email-categories for personal email addresses/aliases:
-   1. Organisations entrusted with my financial, health and identity assets,
+   1. *Very high impact:*
+      Organisations entrusted with your financial, health and identity assets,
       e.g. banks, superannuation, shares, government departments, tax
       department
-   1. Other organisations who expect payment from me and have had or will
-      have my credit card, etc. details, e.g. memberships, paid subscriptions,
+   1. *High impact:*
+      Other organisations who expect payment from you and have had or will
+      have your credit card, etc. details, e.g. memberships, paid subscriptions,
       online shopping, non-government bills (e.g. phone, ISP, insurance)
-   1. Friends, relatives, etc. (but not formal contacts for work)
-   1. Social media, free online services, free subscriptions, free newsletters
+   1. *Medium impact:*
+      Friends, relatives, etc. (but not formal contacts for work)
+   1. *Lower impact:*
+      Social media, free online services, free subscriptions, free newsletters
+
+When I indicate *impact* above, I am attempting to convey the likely impact /
+consequences if information associated with your bank account, online shopping
+account, social media account, etc. was publicly exposed.
 
 You may choose to adapt the above lists to address your own environment, privacy
 concerns and experiences.
