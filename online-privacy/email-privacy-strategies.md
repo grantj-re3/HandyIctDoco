@@ -70,7 +70,7 @@ for each category.
    - Even in my situation, the above email-categories are imperfect because:
      * I am aware of one organisation in the *very high impact* category
        where there has been a data breach
-     * some organisations in the *high impact* category who I suspect either
+     * I suspect some organisations in the *high impact* category either
        aren't big enough to have an IT Security department or perhaps don't
        give privacy and IT security the emphasis I feel it deserves
 
