@@ -42,6 +42,10 @@ for each category.
        trust the IT platform they are using (e.g. the platform has been
        previously hacked or they are known to collect/sell/misuse your
        email address and data)
+   - The impact to you if:
+     * the email associated with the email-category was compromised
+     * the login associated with the info/asset you are aiming to protect
+       (e.g. online bank account or social media account) was compromised
 
 1. Suggested email-categories for personal email addresses/aliases:
    1. *Very high impact:*
@@ -57,10 +61,16 @@ for each category.
    1. *Lower impact:*
       Social media, free online services, free subscriptions, free newsletters
 
-When I indicate *impact* above, I am attempting to convey the likely impact /
-consequences if information associated with your bank account, online shopping
-account, social media account, etc. was publicly exposed.
-
-You may choose to adapt the above lists to address your own environment, privacy
-concerns and experiences.
+1. Notes:
+   - When I indicate *impact* above, I am attempting to convey the likely
+     impact / consequences if information associated with your bank account,
+     online shopping account, social media account, etc. was publicly exposed.
+   - You should adapt the above lists to address your own situation,
+     privacy concerns and experiences.
+   - Even in my situation, the above email-categories are imperfect because:
+     * I am aware of one organisation in the *very high impact* category
+       where there has been a data breach
+     * some organisations in the *high impact* category who I suspect either
+       aren't big enough to have an IT Security department or perhaps don't
+       give privacy and IT security the emphasis I feel it deserves
 

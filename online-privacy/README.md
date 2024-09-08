@@ -1,17 +1,16 @@
 # Online privacy
 
-1. [Terms of Service; Didn't Read](https://www.tosdr.org/)
-   - “Terms of Service; Didn't Read” (short: ToS;DR) is a project started in June 2012 to help fix the
-     “biggest lie on the web”: almost no one really reads the terms of service we agree to all the time.
-   - [Classification](https://www.tosdr.org/classification) - ToS;DR aims at creating a transparent and
-     peer-reviewed process to rate and analyse Terms of Service and Privacy Policies in order to create
-     a rating from Grade A to Grade E.
+1. Why bother about online privacy?
+   - [Forbes: Scott Goodson | If You're Not Paying For It, You Become The Product | 2012](https://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/)
+   - [Medium: Fábio Esteves | I have nothing to hide. Why should I care about my privacy? | 2016](https://medium.com/@FabioAEsteves/i-have-nothing-to-hide-why-should-i-care-about-my-privacy-f488281b8f1d)
+   - [About Cookies | Why You Should Care About Online Security and Privacy | 2024](https://www.aboutcookies.org.uk/online-security-and-privacy)
+   - Google and companies with similar business models:
+     * [Electronic Frontier Foundation: Bennett Cyphers | Google Says It Doesn’t 'Sell' Your Data. Here’s How the Company Shares, Monetizes, and Exploits It. | 2020](https://www.eff.org/deeplinks/2020/03/google-says-it-doesnt-sell-your-data-heres-how-company-shares-monetizes-and)
+     * [The Markup: Alfred Ng | What Does It Actually Mean When a Company Says, “We Do Not Sell Your Data”? | 2021](https://themarkup.org/the-breakdown/2021/09/02/what-does-it-actually-mean-when-a-company-says-we-do-not-sell-your-data)
+     * [Tampa Bay Times: Ethan Baron | Google selling users’ personal data despite promise, federal court lawsuit claims | 2021](https://www.tampabay.com/news/2021/05/07/google-selling-users-personal-data-despite-promise-federal-court-lawsuit-claims/)
 
-1. [DeleteMe](https://joindeleteme.com/)
-   - DeleteMe makes it quick, easy and safe to remove your personal data online.
-   - [DeleteMe: Laura Martisiute | How to Stop Google From Selling My Data? | 2023](https://joindeleteme.com/blog/how-to-stop-google-from-selling-my-data/)
-     * Google doesn’t sell your personal information... However, Google does share your data... with third parties.
-     * find out about entities that actually sell your data
+1. Privacy solutions
+   - [Seth For Privacy: Seth | Privacy first steps | 2021](https://sethforprivacy.com/posts/privacy-first-steps/)
 
 1. Restore Privacy
    - [Marko Medakovic | 10 Best Encrypted Email Services (2024 Test Results)](https://restoreprivacy.com/email/best-encrypted-email/)
@@ -28,6 +27,7 @@
    - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
    - See above Restore Privacy's *10 Best Encrypted Email Services*
+   - [Email privacy strategies](email-privacy-strategies.md)
    - [Tuta: Matthias | Email Security Guide: 3 best practices to keep your emails safe from attackers | 2022](https://tuta.com/blog/email-security-guide-online)
 
 1. The opposing view re encrypted email
@@ -36,6 +36,19 @@
        webmail services) as a solution to "improve email
        security" does not improve online privacy. See Google
        and email articles above.
+
+1. [DeleteMe](https://joindeleteme.com/)
+   - DeleteMe makes it quick, easy and safe to remove your personal data online.
+   - [DeleteMe: Laura Martisiute | How to Stop Google From Selling My Data? | 2023](https://joindeleteme.com/blog/how-to-stop-google-from-selling-my-data/)
+     * Google doesn’t sell your personal information... However, Google does share your data... with third parties.
+     * find out about entities that actually sell your data
+
+1. [Terms of Service; Didn't Read](https://www.tosdr.org/)
+   - “Terms of Service; Didn't Read” (short: ToS;DR) is a project started in June 2012 to help fix the
+     “biggest lie on the web”: almost no one really reads the terms of service we agree to all the time.
+   - [Classification](https://www.tosdr.org/classification) - ToS;DR aims at creating a transparent and
+     peer-reviewed process to rate and analyse Terms of Service and Privacy Policies in order to create
+     a rating from Grade A to Grade E.
 
 1. End-to-end encryption (E2EE)
    - Summary:
