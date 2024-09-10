@@ -11,6 +11,7 @@
 
 1. Privacy solutions
    - [Seth For Privacy: Seth | Privacy first steps | 2021](https://sethforprivacy.com/posts/privacy-first-steps/)
+   - [Tuta: Lena | Protect your digital identity – must read tips from the Tuta Team | 2024](https://tuta.com/blog/how-to-protect-digital-identity)
 
 1. Restore Privacy
    - [Marko Medakovic | 10 Best Encrypted Email Services (2024 Test Results)](https://restoreprivacy.com/email/best-encrypted-email/)

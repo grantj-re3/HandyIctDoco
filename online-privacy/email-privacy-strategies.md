@@ -2,6 +2,7 @@
 
 1. Use multiple email addresses/aliases
 
+   - [Tuta: Lena | Email aliases: What is an alias and how does it improve online security? | 2024](https://tuta.com/blog/secure-email-alias)
    - [MakeUseOf: Olasubomi Gbenjo | 7 Reasons Why You Should Have Multiple Email Accounts | 2023](https://www.makeuseof.com/reasons-multiple-email-accounts/)
    - [The Privacy Dad | Using Multiple Email Accounts for Privacy | 2023](https://theprivacydad.com/using-multiple-email-accounts-for-privacy/)
      * [Moving from Gmail to Tutanota Email | 2022](https://theprivacydad.com/moving-from-gmail-to-tutanota/)
@@ -14,6 +15,23 @@
    - [SimpleLogin (by Proton AG) | Home page](https://simplelogin.io/)
    - [addy.io | Home page](https://addy.io/)
    - [StartMail | Home page](https://www.startmail.com/)
+   - You may not need a separate email alias service (like SimpleLogin) if
+     your email provider offers full-featured aliases i.e. which can send
+     and reply from the alias email address (in addition to receive).
+     Proton, Tuta and Posteo are examples of email providers who
+     offer full-featured email aliases.
+   - I haven't used an email alias service, but it seems that it would
+     be more messy than when the feature is integrated into your email
+     provider's service because *for the separate alias service*:
+     * you would fill your contact list with reverse-aliases (i.e. not
+       real recipient email addresses)... so this might be confusing or
+       unintuitive to some people
+     * if the recipient initiates the first email conversation, you
+       can simply save the reverse-alias to your contact list and/or
+       reply to the reverse-alias, however
+       *if you initiate the first email conversation*, you need to use a
+       special procedure (to obtain/calculate the reverse-alias of the
+       recipient) before you can send the email
 
 1. Disposable email services
 
