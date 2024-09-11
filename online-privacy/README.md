@@ -24,12 +24,27 @@
    - [Bill Mann | Google Drive Alternatives That are Private and Secure | 2024](https://restoreprivacy.com/google-drive-alternatives/)
    - [Sead Fadilpašić | How to Protect Yourself Against Identity Theft and Identity Fraud](https://restoreprivacy.com/identity-theft-protection/)
 
+1. Firewalls Don’t Stop Dragons: Carey Parker
+   - [Account Security is Broken | 2024](https://firewallsdontstopdragons.com/account-security-is-broken/)
+     * The Account Recovery Backdoor
+     * Strengthening the Weak Links
+   - [Craft Your Access Backup Plan | 2023](https://firewallsdontstopdragons.com/craft-your-access-backup-plan/)
+   - [It’s Time to Quit Chrome | 2024](https://firewallsdontstopdragons.com/its-time-to-quit-chrome/)
+   - [How to Use Email Aliases (Part 1) | 2023](https://firewallsdontstopdragons.com/how-to-use-email-aliases-part-1/)
+   - [It’s Time to Try Proton | 2023](https://firewallsdontstopdragons.com/its-time-to-try-proton/)
+   - [The Truth is Out There | 2024](https://firewallsdontstopdragons.com/the-truth-is-out-there/)
+     * How to gird yourself against mis- and disinformation
+   - [How to Choose a PIN | 2024](https://firewallsdontstopdragons.com/how-to-choose-a-pin/)
+   - [How to Avoid Juice Jacking | 2023](https://firewallsdontstopdragons.com/how-to-avoid-juice-jacking/)
+
 1. Email
    - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
    - See above Restore Privacy's *10 Best Encrypted Email Services*
    - [Email privacy strategies](email-privacy-strategies.md)
    - [Tuta: Matthias | Email Security Guide: 3 best practices to keep your emails safe from attackers | 2022](https://tuta.com/blog/email-security-guide-online)
+   - Aside: Managing your email
+     * [Fastmail | How to achieve inbox zero](https://www.fastmail.com/how-to/inbox-zero/)
 
 1. The opposing view re encrypted email
    - [LinkedIn: Marnix Dekker | Encrypted email is for nobody really | 2017](https://www.linkedin.com/pulse/stop-asking-encrypted-email-marnix-dekker)
