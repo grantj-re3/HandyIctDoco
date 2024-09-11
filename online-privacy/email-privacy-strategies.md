@@ -2,19 +2,25 @@
 
 1. Use multiple email addresses/aliases
 
-   - [Tuta: Lena | Email aliases: What is an alias and how does it improve online security? | 2024](https://tuta.com/blog/secure-email-alias)
    - [MakeUseOf: Olasubomi Gbenjo | 7 Reasons Why You Should Have Multiple Email Accounts | 2023](https://www.makeuseof.com/reasons-multiple-email-accounts/)
    - [The Privacy Dad | Using Multiple Email Accounts for Privacy | 2023](https://theprivacydad.com/using-multiple-email-accounts-for-privacy/)
      * [Moving from Gmail to Tutanota Email | 2022](https://theprivacydad.com/moving-from-gmail-to-tutanota/)
    - [Restore Privacy: Sead Fadilpašić | How to Massively Reduce Junk Email and Spam in 2024](https://restoreprivacy.com/data-removal/reduce-spam-email-junk-email/)
+   - [Fastmail | 10 Things Only Privacy-Conscious People Know about Email Aliases | 2021](https://www.fastmail.com/blog/10-things-only-privacy-conscious-people-know-about-email-aliases/)
+   - [Tuta: Lena | Email aliases: What is an alias and how does it improve online security? | 2024](https://tuta.com/blog/secure-email-alias)
    - [Reddit | How many email addresses do I need realistically for better security and privacy? | 2023](https://www.reddit.com/r/privacy/comments/11daiga/how_many_email_addresses_do_i_need_realistically/)
 
 1. Email alias services
 
    - [Seth For Privacy: Seth | Privacy first steps: 5 Use an email aliasing service | 2021](https://sethforprivacy.com/posts/privacy-first-steps/#5-use-an-email-aliasing-service)
-   - [SimpleLogin (by Proton AG) | Home page](https://simplelogin.io/)
-   - [addy.io | Home page](https://addy.io/)
-   - [StartMail | Home page](https://www.startmail.com/)
+   - I understand the providers below offer both privacy and encryption:
+     * [SimpleLogin (by Proton AG) | Home page](https://simplelogin.io/) [PGP encryption]
+     * [addy.io | Home page](https://addy.io/) [PGP encryption]
+     * [StartMail | Home page](https://www.startmail.com/) [PGP encryption]
+   - I understand the providers below offer privacy but not encryption:
+     * [DuckDuckGo Email Protection | web page](https://duckduckgo.com/email/)
+     * [33Mail | Home page](https://33mail.com/)
+     * [Firefox Relay | Home page](https://relay.firefox.com/)
    - You may not need a separate email alias service (like SimpleLogin) if
      your email provider offers full-featured aliases i.e. which can send
      and reply from the alias email address (in addition to receive).
@@ -32,6 +38,10 @@
        *if you initiate the first email conversation*, you need to use a
        special procedure (to obtain/calculate the reverse-alias of the
        recipient) before you can send the email
+   - If you use an email alias service, you potentially expose your
+     emails to an extra entity/organisation and any data breach of that
+     entity... unless the email is encrypted.
+
 
 1. Disposable email services
 
