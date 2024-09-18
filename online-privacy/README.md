@@ -53,6 +53,34 @@
        security" does not improve online privacy. See Google
        and email articles above.
 
+1. TOTP/HOTP Authenticator Apps
+   - [Kripesh Adwani | 9 Best 2FA Apps (2024) – The Complete Two-Factor Authentication Guide | 2023](https://kripeshadwani.com/best-2fa-apps/)
+     * This article contains an incredible amount of detail
+     * What is 2FA?
+     * What are 2FA Factors?
+     * Common types of 2FA
+     * What is MFA?
+     * TOTP vs HOTP
+     * What is an Authenticator App?
+     * How to use a 2FA App?
+     * What are the Factors for Selecting the Right Authenticator App?
+       + Pricing | Offline Access | Open Source | Passcode Protection |
+         Biometric Lock | Backup and Restore | Autofill and Autologin |
+         Import Entries | Export Entries | User Interface |
+         Alteration of Code | Desktop App | Multi-Device Sync |
+         Password Manager | Dark Mode
+     * Best 2FA Apps
+       + Authy | Google Authenticator | Microsoft Authenticator |
+         FreeOTP | andOTP | Duo Mobile | Aegis | 1Password Authenticator |
+         Zoho OneAuth
+     * Conclusion
+     * FAQ
+   - [PCMag: Michael Muchmore, Kim Key | The Best Authenticator Apps for 2024](https://au.pcmag.com/security/106845/the-best-authenticator-apps-for-2024)
+     * Lists 5 apps that they recommend
+     * Lists 2 apps that they *do not* recommend
+     * Warns about Data Collection Practices
+     * What's the Safest Third-Party Authenticator App?
+
 1. [DeleteMe](https://joindeleteme.com/)
    - DeleteMe makes it quick, easy and safe to remove your personal data online.
    - [DeleteMe: Laura Martisiute | How to Stop Google From Selling My Data? | 2023](https://joindeleteme.com/blog/how-to-stop-google-from-selling-my-data/)
