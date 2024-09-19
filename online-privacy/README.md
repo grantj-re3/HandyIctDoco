@@ -53,33 +53,47 @@
        security" does not improve online privacy. See Google
        and email articles above.
 
-1. TOTP/HOTP Authenticator Apps
+1. Two-Factor Authentication (2FA/MFA) Apps
    - [Kripesh Adwani | 9 Best 2FA Apps (2024) – The Complete Two-Factor Authentication Guide | 2023](https://kripeshadwani.com/best-2fa-apps/)
      * This article contains an incredible amount of detail
-     * What is 2FA?
-     * What are 2FA Factors?
-     * Common types of 2FA
-     * What is MFA?
-     * TOTP vs HOTP
-     * What is an Authenticator App?
-     * How to use a 2FA App?
-     * What are the Factors for Selecting the Right Authenticator App?
-       + Pricing | Offline Access | Open Source | Passcode Protection |
-         Biometric Lock | Backup and Restore | Autofill and Autologin |
-         Import Entries | Export Entries | User Interface |
-         Alteration of Code | Desktop App | Multi-Device Sync |
-         Password Manager | Dark Mode
-     * Best 2FA Apps
-       + Authy | Google Authenticator | Microsoft Authenticator |
-         FreeOTP | andOTP | Duo Mobile | Aegis | 1Password Authenticator |
-         Zoho OneAuth
-     * Conclusion
-     * FAQ
+     * What is 2FA? | What are 2FA Factors? | Common types of 2FA |
+       What is MFA? | TOTP vs HOTP | What is an Authenticator App? |
+       How to use a 2FA App?
+     * What are the Factors for Selecting the Right Authenticator App? —
+       Pricing | Offline Access | Open Source | Passcode Protection |
+       Biometric Lock | Backup and Restore | Autofill and Autologin |
+       Import Entries | Export Entries | User Interface |
+       Alteration of Code | Desktop App | Multi-Device Sync |
+       Password Manager | Dark Mode
+     * Best 2FA Apps —
+       Authy | Google Authenticator | Microsoft Authenticator |
+       FreeOTP | andOTP | Duo Mobile | Aegis | 1Password Authenticator |
+       Zoho OneAuth
+   - [Naomi Brockwell TV | Most PRIVATE 2FA apps (video) | 2023](https://www.youtube.com/watch?v=JHIAIzOPz3I)
+     * Apps which collect your data: Authy, Microsoft Authenticator
+     * Apps which do not collect your data: FreeOTP, Aegis Authenticator, andOTP
+     * Note: 2FAS does collect Google Analytics data
+     * Beware: Although Google Authenticator did not appear to collect
+       personally identifiable data:
+       + the App Store privacy label says it collects Identifiers and Usage Data
+       + the APK contains (inactive?) tracker signatures
+       + the app may contain trackers which Exodus Privacy does not recognise yet
+   - [Naomi Brockwell TV | SCAM 2FA Apps! (video) | 2023](https://www.youtube.com/watch?v=cP1LVbLAcSU)
+     * 2FA apps STEALING your seeds! | Dark Patterns Exposed |
+       Analytic Events | Paywalls | Dark Patterns | Copycat apps |
+       More Shady Tactics | Advice for Staying Safe
    - [PCMag: Michael Muchmore, Kim Key | The Best Authenticator Apps for 2024](https://au.pcmag.com/security/106845/the-best-authenticator-apps-for-2024)
      * Lists 5 apps that they recommend
      * Lists 2 apps that they *do not* recommend
      * Warns about Data Collection Practices
      * What's the Safest Third-Party Authenticator App?
+   - [Firewalls Don’t Stop Dragons: Carey Parker | How to Backup 2FA Seed Codes | 2024](https://firewallsdontstopdragons.com/how-to-backup-2fa-seed-codes/)
+
+1. Car
+   - [Mozilla Foundation: Jen Caltrider, Misha Rykov & Zoë MacDonald | It’s Official: Cars Are the Worst Product Category We Have Ever Reviewed for Privacy | 2023](https://foundation.mozilla.org/en/privacynotincluded/articles/its-official-cars-are-the-worst-product-category-we-have-ever-reviewed-for-privacy/)
+   - [Mozilla Foundation: Jen Caltrider & Zoë MacDonald | Your Driving Data for the Price of a Gumball: What We Learned From Two US Senators' Bonkers New Letter to the FTC | 2024](https://foundation.mozilla.org/en/privacynotincluded/articles/your-driving-data-for-the-price-of-a-gumball-what-we-learned-from-two-us-senators-bonkers-new-letter-to-the-ftc/)
+   - [Naomi Brockwell TV | Car Privacy (playlist) | 2023-2024](https://www.youtube.com/playlist?list=PLt3zZ-N423gVRXVr5VTFglMdP4S1MN0Ro)
+   - [Los Angeles Times: Frank Bajak | ‘Wiretaps on wheels’: How your car is collecting and selling your personal data | 2023](https://www.latimes.com/business/story/2023-09-06/carmakers-privacy-data-collection-drivers)
 
 1. [DeleteMe](https://joindeleteme.com/)
    - DeleteMe makes it quick, easy and safe to remove your personal data online.
