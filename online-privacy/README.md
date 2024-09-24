@@ -71,7 +71,7 @@
        Zoho OneAuth
    - [Naomi Brockwell TV | Most PRIVATE 2FA apps (video) | 2023](https://www.youtube.com/watch?v=JHIAIzOPz3I)
      * Apps which collect your data: Authy, Microsoft Authenticator
-     * Apps which do not collect your data: FreeOTP, Aegis Authenticator, andOTP
+     * Apps which do not collect your data: FreeOTP [FreeOTP+ fork not tested?], Aegis Authenticator, andOTP
      * Note: 2FAS does collect Google Analytics data
      * Beware: Although Google Authenticator did not appear to collect
        personally identifiable data:
