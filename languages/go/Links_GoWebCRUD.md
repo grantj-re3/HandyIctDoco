@@ -1,4 +1,4 @@
-# Go language: CRUD web app or API
+# Go language: CRUD web API / app
 
 CRUD = Create, Read, Update, Delete
 
@@ -7,11 +7,13 @@ CRUD = Create, Read, Update, Delete
    - Understanding this is perhaps a prerequisite to a CRUD app
 
 1. [Honeybadger: Salem Olorundare | Creating a CRUD application with Golang and MySQL | 2023](https://www.honeybadger.io/blog/how-to-create-crud-application-with-golang-and-mysql/)
-   - A CRUD app using the *Gorilla mux* router
+   - A CRUD API using the *Gorilla mux* router & MySQL
    - The [Gorilla mux](https://github.com/gorilla/mux) doco looks good
 
 1. [Medium: Antony Injila | Golang CRUD API | 2023](https://medium.com/@antonyshikubu/golang-crud-api-45abf75b6a10)
-   - A CRUD app using Gorm & PostgreSQL
+   - A CRUD API using [Gin](https://github.com/gin-gonic/gin),
+     [Gorm](https://github.com/jinzhu/gorm),
+     [GoDotEnv](https://github.com/joho/godotenv) & PostgreSQL
    - Only 3 Go scripts required (plus .env, go.mod, go.sum)
 
 1. [Medium: Vishal Jain | Building basic RESTful (CRUD) with Golang & MySQL | 2021](https://towardsdev.com/building-basic-restful-crud-with-golang-mysql-6869dfdefade)
@@ -21,6 +23,7 @@ CRUD = Create, Read, Update, Delete
 1. DEV: Sam Zhang
    - [Learning Go Web Development From Zero | 2022](https://dev.to/samzhangjy/learning-go-web-development-from-zero-a1l)
      * A *Hello world* app using Gin
+     * Understanding this is perhaps a prerequisite to a CRUD app
    - [Restful CRUD with Golang for beginners | 2022](https://dev.to/samzhangjy/restful-crud-with-golang-for-beginners-23ia)
      * A CRUD API using Gin, Gorm & PostgreSQL
      * Code is available at [GitHub](https://github.com/samzhangjy/go-blog)
