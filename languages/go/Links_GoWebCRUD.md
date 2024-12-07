@@ -36,3 +36,27 @@ CRUD = Create, Read, Update, Delete
      * https://github.com/go-chi/chi/tree/master/_examples/hello-world
      * https://github.com/go-chi/chi/tree/master/_examples/rest
 
+
+## Videos
+
+1. [AppliedGo: Christoph Berger | RESTful Web API Basics in Go (video) | 2016](https://www.youtube.com/watch?v=iVXaPD_Jbu0)
+   - A bit old, but very well explained
+   - [Code & written explanation](https://appliedgo.net/rest/)
+   - Uses httprouter & no database.
+   - Example does Create, Read & Update (but not Delete)
+
+1. [Traversy Media: Brad Traversy | Golang REST API With Mux (video) | 2018](https://www.youtube.com/watch?v=SonwZ6MF5BE)
+   - Uses Gorilla mux & no database
+
+1. [Pragmatic Reviews | Golang / Go Gin Framework Crash Course (playlist) | 2020](https://www.youtube.com/playlist?list=PL3eAkoh7fypr8zrkiygiY1e9osoqjoV9w)
+   - 14 videos. Most are less than 20 minutes.
+   - Video 1: Shows how to divide the app into folders & scripts for controller, service, etc.
+   - Video 10: Uses Gin, Gorm & SQLite
+
+1. [TutorialEdge | Building REST APIs in Go 1.22 - New Features (video) | 2024](https://www.youtube.com/watch?v=tgLvIghsJFo)
+   - New Feature: net/http's HandleFunc now has an easier way to detect HTTP verbs GET, POST, PUT, etc.
+   - New Feature: net/http's HandleFunc now has an easier way to extract fields from URL paths
+
+1. [TutorialEdge | Understanding Contexts in Go in 5(-ish?) Minutes (video) | 2021](https://www.youtube.com/watch?v=h2RdcrMLQAo)
+   - Interesting coding of timeout & errors via context
+

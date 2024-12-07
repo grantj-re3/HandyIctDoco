@@ -42,9 +42,13 @@
 1. [TechWorld with Nana | Golang Tutorial for Beginners | Full Go Course (video) | 2021](https://www.youtube.com/watch?v=yyUHQIec83I)
    - 3h25m
 
+1. [Alex Mux | Learn GO Fast: Full Tutorial (video) | 2023](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
+   - 1h08m
+   - Good but brief introduction to many language features
+
 1. [Traversy Media: Brad Traversy | Go / Golang Crash Course (video) | 2018](https://www.youtube.com/watch?v=SqrbIlUwR0U)
    - 1h38m
-   - Good but brief introduction to many language
+   - Good but brief introduction to many language features
 
 1. [ProgrammingKnowledge | Go Programming Language Tutorial | Golang Tutorial For Beginners (playlist) | 2020-2023](https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij)
    - 33 video lessons. Most are less than 15 minutes.
