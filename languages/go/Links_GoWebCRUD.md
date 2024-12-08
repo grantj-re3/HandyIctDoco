@@ -2,6 +2,9 @@
 
 CRUD = Create, Read, Update, Delete
 
+
+## API doco
+
 1. [Honeybadger: Ayooluwa Isaiah | A Gentle Introduction to Web Services With Go | 2020](https://www.honeybadger.io/blog/go-web-services/)
    - A basic web server with the built-in router, ServeMux
    - Understanding this is perhaps a prerequisite to a CRUD app
@@ -36,8 +39,15 @@ CRUD = Create, Read, Update, Delete
      * https://github.com/go-chi/chi/tree/master/_examples/hello-world
      * https://github.com/go-chi/chi/tree/master/_examples/rest
 
+1. Soham Kamani
+   - Part 1: [Build a web application in Go | 2017-2020](https://www.sohamkamani.com/golang/how-to-build-a-web-application/)
+     * Bird encyclopedia
+     * Web REST API & HTML submit (POST) form
+   - Part 2: [Using a PostgreSQL Database in Go | 2021-2024](https://www.sohamkamani.com/golang/sql-database/)
+     * Uses the database directly rather than via an ORM
 
-## Videos
+
+## API videos
 
 1. [AppliedGo: Christoph Berger | RESTful Web API Basics in Go (video) | 2016](https://www.youtube.com/watch?v=iVXaPD_Jbu0)
    - A bit old, but very well explained
@@ -59,4 +69,25 @@ CRUD = Create, Read, Update, Delete
 
 1. [TutorialEdge | Understanding Contexts in Go in 5(-ish?) Minutes (video) | 2021](https://www.youtube.com/watch?v=h2RdcrMLQAo)
    - Interesting coding of timeout & errors via context
+
+
+## Web app doco
+
+1. [GitBook: Jeremy Saenz | Introduction | Building Web Apps with Go | 2014-2024](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
+   - Uses HttpRouter, Negroni HTTP Middleware, (HTTP/JSON/XML) Render &  SQLite
+
+1. [The Go Project | Writing Web Applications | c.2010](https://go.dev/doc/articles/wiki/)
+   - [Source code](https://go.dev/doc/articles/wiki/final.go) and [plain text source code](https://go.dev/doc/articles/wiki/final.go?m=text)
+   - Uses the router & HTML template from the standard library
+   - Does not use any database
+
+1. [Scott Logic: Rosie Hamilton | Creating My First Web Application with Go | 2017](https://blog.scottlogic.com/2017/02/28/building-a-web-app-with-go.html)
+   - Uses the router & HTML template from the standard library
+   - Does not use any database
+
+
+## Web app videos
+
+1. [TutorialEdge | Creating a Go API using an ORM - Tutorial (video) | 2018](https://www.youtube.com/watch?v=VAGodyl84OY)
+   * Uses Gorilla mux, Gorm & SQLite
 
