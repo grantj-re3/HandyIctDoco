@@ -46,6 +46,12 @@ CRUD = Create, Read, Update, Delete
    - Part 2: [Using a PostgreSQL Database in Go | 2021-2024](https://www.sohamkamani.com/golang/sql-database/)
      * Uses the database directly rather than via an ORM
 
+1. [Golang with Code Example | Fiber Golang: A Powerful Web Framework for Go (Golang) | 2023](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/)
+
+1. [DEV: Francisco Mendes | How to Build REST API using Go Fiber and Gorm ORM | 2022](https://dev.to/franciscomendes10866/how-to-build-rest-api-using-go-fiber-and-gorm-orm-2jbe)
+
+1. [Medium: adhi tanjung | How to Build REST API using Go Fiber, Gorm ORM, and PostgreSQL | 2022](https://medium.com/@adhtanjung/how-to-build-rest-api-using-go-fiber-gorm-orm-and-postgresql-a454848672a0)
+
 
 ## API videos
 
@@ -70,6 +76,8 @@ CRUD = Create, Read, Update, Delete
 1. [TutorialEdge | Understanding Contexts in Go in 5(-ish?) Minutes (video) | 2021](https://www.youtube.com/watch?v=h2RdcrMLQAo)
    - Interesting coding of timeout & errors via context
 
+1. [Alex Mux | Golang Context Package: It's More Than You Think! (video) | 2024](https://www.youtube.com/watch?v=BkzgYfygDy8)
+
 
 ## Web app doco
 
@@ -85,9 +93,15 @@ CRUD = Create, Read, Update, Delete
    - Uses the router & HTML template from the standard library
    - Does not use any database
 
-
 ## Web app videos
 
 1. [TutorialEdge | Creating a Go API using an ORM - Tutorial (video) | 2018](https://www.youtube.com/watch?v=VAGodyl84OY)
    * Uses Gorilla mux, Gorm & SQLite
+
+1. [TutorialEdge | Building a Go REST API using Gorm and Fiber! (video) | 2020](https://www.youtube.com/watch?v=Iq2qT0fRhAA)
+
+1. [Alex Mux | Golang Project: Building a Secure Login Portal (video) | 2024](https://www.youtube.com/watch?v=OmLdoEMcr_Y)
+
+1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
+   - We use Ebitengine V2 to create our 2D game
 
