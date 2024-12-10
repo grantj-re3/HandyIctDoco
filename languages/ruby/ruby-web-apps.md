@@ -47,14 +47,14 @@ idea by demonstrating how to build your own app/framework.
 1. [Tech and FI: Marvs | Simple Web Applications using Rack | 2021](https://techandfi.com/simple-web-applications-using-rack/)
    - A very simple introduction to Rack: apps, routing & middleware
 
-1. [SlideShare: Marcin Kulik (sickill/ku1ik) | Building web framework with Rack (EuRuKo 2010) | 2011](https://www.slideshare.net/slideshow/building-web-framework-with-rack/10085523
+1. [SlideShare: Marcin Kulik (sickill/ku1ik) | Building web framework with Rack (EuRuKo 2010) | 2011](https://www.slideshare.net/slideshow/building-web-framework-with-rack/10085523)
    - Not a beginner/introductory slideshow
    - Uses several other gems/tools in addition to Rack & Bundler:
      Usher | rack-contrib | rack-flash | Tilt |
      DataMapper | Warden | rack-test | racksh
    - [GitHub/ku1ik: Source code](https://github.com/ku1ik/example-rack-framework)
-   - [GitHub/ku1ik: rack-test]https://github.com/ku1ik/rack-test) & official version [here](https://github.com/rack/rack-test)
-   - [GitHub/ku1ik: racksh]https://github.com/ku1ik/racksh)
+   - [GitHub/ku1ik: rack-test](https://github.com/ku1ik/rack-test) & official version [here](https://github.com/rack/rack-test)
+   - [GitHub/ku1ik: racksh](https://github.com/ku1ik/racksh)
 
 1. [Medium: Daniel Martin | web development with ruby without rails? | 2024](https://medium.com/@aryanvania03/web-development-with-ruby-without-rails-450882203887)
    - Discusses options: Sinatra | Hanami | Rack | Cuba | Roda | When to Use These Alternatives
