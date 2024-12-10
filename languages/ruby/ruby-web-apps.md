@@ -10,9 +10,13 @@ idea by demonstrating how to build your own app/framework.
 
 1. [Shopify: Maple Ong | How to Build a Web App with and without Rails Libraries | 2021](https://shopify.engineering/building-web-app-ruby-rails)
    - Eight different implementations of working source code are linked in the article as GitHub Gists
+     * Without Rack or Rails
+     * With Rack
+     * With some Rails libraries without using Rails as a whole
 
 1. [mkdev: Ivan Shamatov | How to write an MVC framework in Ruby | 2016-2024](https://mkdev.me/posts/how-to-write-an-mvc-framework-in-ruby)
    - [Source code on GitHub](https://github.com/IvanShamatov/rails-like-app)
+   - Uses Rack, Puma, Slim, Sequel & SQLite
 
 1. Launch School | Growing Your Own Web Framework with Rack | 2017-2021
    - [Part 1](https://launchschool.medium.com/growing-your-own-web-framework-with-rack-part-1-8c4c630c5faf):
@@ -39,6 +43,18 @@ idea by demonstrating how to build your own app/framework.
      | Start of a Framework
      | Final Showcase — Our Application So Far
      | Conclusion
+
+1. [Tech and FI: Marvs | Simple Web Applications using Rack | 2021](https://techandfi.com/simple-web-applications-using-rack/)
+   - A very simple introduction to Rack: apps, routing & middleware
+
+1. [SlideShare: Marcin Kulik (sickill/ku1ik) | Building web framework with Rack (EuRuKo 2010) | 2011](https://www.slideshare.net/slideshow/building-web-framework-with-rack/10085523
+   - Not a beginner/introductory slideshow
+   - Uses several other gems/tools in addition to Rack & Bundler:
+     Usher | rack-contrib | rack-flash | Tilt |
+     DataMapper | Warden | rack-test | racksh
+   - [GitHub/ku1ik: Source code](https://github.com/ku1ik/example-rack-framework)
+   - [GitHub/ku1ik: rack-test]https://github.com/ku1ik/rack-test) & official version [here](https://github.com/rack/rack-test)
+   - [GitHub/ku1ik: racksh]https://github.com/ku1ik/racksh)
 
 1. [Medium: Daniel Martin | web development with ruby without rails? | 2024](https://medium.com/@aryanvania03/web-development-with-ruby-without-rails-450882203887)
    - Discusses options: Sinatra | Hanami | Rack | Cuba | Roda | When to Use These Alternatives
