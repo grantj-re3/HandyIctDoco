@@ -4,8 +4,7 @@
 
 - Alex Mux | Go Project: Let's Make a PONG Game in Golang! | 2024
 - https://www.youtube.com/watch?v=V_OGeYj6p00
-- There were a few minor bugs in the source code & omissions in the instructions
-  shown on the video. Otherwise, it was an excellent video.
+- An excellent introductory video
 
 
 ## My environment

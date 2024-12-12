@@ -68,7 +68,6 @@ func main() {
 		dydt: ballSpeed,
 	}
 
-
 	g := &Game{
 		paddle: paddle,
 		ball: ball,
@@ -145,7 +144,6 @@ func (g *Game) CollideWithWall() {
 		g.ball.dydt = -ballSpeed
 	}
 }
-
 
 func (g *Game) CollideWithPaddle() {
 	if g.ball.X >= g.paddle.X && g.ball.Y >= g.paddle.Y && g.ball.Y <= (g.paddle.Y + g.paddle.H) {
