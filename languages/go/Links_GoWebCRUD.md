@@ -104,4 +104,5 @@ CRUD = Create, Read, Update, Delete
 
 1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
    - We use Ebitengine V2 to create our 2D game
+   - My own version of the source code is [here](code-examples/go_pong)
 
