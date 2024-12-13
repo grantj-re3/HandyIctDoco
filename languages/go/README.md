@@ -53,3 +53,44 @@
 1. [ProgrammingKnowledge | Go Programming Language Tutorial | Golang Tutorial For Beginners (playlist) | 2020-2023](https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij)
    - 33 video lessons. Most are less than 15 minutes.
 
+
+## Free ebooks
+
+1. [Essential Programming Books | Essential Go | c.2018-2024](https://www.programming-books.io/essential/go/)
+   - Online book
+   - 60 chapters
+
+1. [Maximilien Andile | Practical Go Lessons | 2022](https://www.practical-go-lessons.com/)
+   - Online book
+   - Paper, PDF, MOBI and EPUB versions are available for purchase
+   - 41 chapters and more than 700 pages
+
+1. [Miek Gieben | Learning Go | 2015-2019](https://miek.nl/go/)
+   - Online book
+   - Links to chapters 2-8 can be found in chapter 1
+   - Basics | Functions | Packages | Beyond the basics | Interfaces | Concurrency | Communication
+
+1. [Mark Lewin | Go Succinctly | 2017](https://www.syncfusion.com/succinctly-free-ebooks/go-succinctly)
+   - Online book, PDF, MOBI and EPUB
+   - Welcome | Introducing Go | Let’s Go! | Variables, Constants, and Assignments |
+     Basic Data Types | Control Structures | Arrays, Slices, and Maps |
+     User-Defined Types | Concurrency | Standard Packages | Go Further
+
+1. [Caleb Doxsey | An Introduction to Programming in Go | 2012](https://www.golang-book.com/books/intro)
+   - Online book and PDF
+   - Getting Started | Your First Program | Types | Variables | Control Structures |
+     Arrays, Slices and Maps | Functions | Pointers | Structs and Interfaces |
+     Concurrency | Packages | Testing | The Core Packages | Next Steps
+
+1. [Gitbooks: Suraj Patil | Webapps in Go: the anti textbook | 2019](https://thewhitetulip.gitbook.io/bo)
+   - Online book
+   - The book teaches you how to write web applications in Go without using a framework
+   - [Source code](https://github.com/thewhitetulip/Tasks) which accompanies the book
+   - [About the book](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
+   - [Multiversity: Suraj Patil | Write web applications in Go without using a framework (video playlist) | 2017](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4)
+
+1. [A collection of free books for devs](https://devfreebooks.github.io/)
+   - [The Go book list](https://devfreebooks.github.io/go/)
+
+1. [GetFreeEbooks.com: John | 22 Free Go Programming Ebooks | 2021](https://www.getfreeebooks.com/22-free-go-programming-ebooks/)
+
