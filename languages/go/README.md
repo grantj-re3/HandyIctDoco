@@ -82,15 +82,18 @@
      Arrays, Slices and Maps | Functions | Pointers | Structs and Interfaces |
      Concurrency | Packages | Testing | The Core Packages | Next Steps
 
-1. [Gitbooks: Suraj Patil | Webapps in Go: the anti textbook | 2019](https://thewhitetulip.gitbook.io/bo)
-   - Online book
-   - The book teaches you how to write web applications in Go without using a framework
-   - [Source code](https://github.com/thewhitetulip/Tasks) which accompanies the book
-   - [About the book](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
-   - [Multiversity: Suraj Patil | Write web applications in Go without using a framework (video playlist) | 2017](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4)
+1. Gitbooks: Suraj Patil | Webapps in Go: the anti textbook | 2019
+   - More details [here](https://github.com/grantj-re3/HandyIctDoco/blob/master/languages/go/Links_GoWebCRUD.md#web-app-doco)
 
 1. [A collection of free books for devs](https://devfreebooks.github.io/)
    - [The Go book list](https://devfreebooks.github.io/go/)
 
 1. [GetFreeEbooks.com: John | 22 Free Go Programming Ebooks | 2021](https://www.getfreeebooks.com/22-free-go-programming-ebooks/)
+
+
+# Miscellaneous
+
+1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
+   - We use Ebitengine V2 to create our 2D game
+   - My own version of the source code is [here](code-examples/go_pong)
 

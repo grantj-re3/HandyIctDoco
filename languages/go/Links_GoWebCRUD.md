@@ -81,6 +81,13 @@ CRUD = Create, Read, Update, Delete
 
 ## Web app doco
 
+1. [Gitbooks: Suraj Patil | Webapps in Go: the anti textbook | 2019](https://thewhitetulip.gitbook.io/bo)
+   - Online book
+   - The book teaches you how to write web applications in Go without using a framework
+   - [Source code](https://github.com/thewhitetulip/Tasks) which accompanies the book
+   - [About the book](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
+   - [Multiversity: Suraj Patil | Write web applications in Go without using a framework (video playlist) | 2017](https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4)
+
 1. [GitBook: Jeremy Saenz | Introduction | Building Web Apps with Go | 2014-2024](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
    - Uses HttpRouter, Negroni HTTP Middleware, (HTTP/JSON/XML) Render &  SQLite
 
@@ -101,8 +108,4 @@ CRUD = Create, Read, Update, Delete
 1. [TutorialEdge | Building a Go REST API using Gorm and Fiber! (video) | 2020](https://www.youtube.com/watch?v=Iq2qT0fRhAA)
 
 1. [Alex Mux | Golang Project: Building a Secure Login Portal (video) | 2024](https://www.youtube.com/watch?v=OmLdoEMcr_Y)
-
-1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
-   - We use Ebitengine V2 to create our 2D game
-   - My own version of the source code is [here](code-examples/go_pong)
 
