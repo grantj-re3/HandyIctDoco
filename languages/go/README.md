@@ -1,6 +1,8 @@
 # Go/Golang
 
-## The Go Project
+## Written resources
+
+### The Go Project
 
 1. [Go home page](https://go.dev/)
    - [Learn](https://go.dev/learn/) - tutorials, etc.
@@ -13,12 +15,12 @@
    - [Standard library](https://pkg.go.dev/std)
 
 
-## Mark McGranaghan and Eli Bendersky
+### Mark McGranaghan and Eli Bendersky
 
 1. :thumbsup: [Go by Example | 2012-2024](https://gobyexample.com/)
 
 
-## golangbot.com: Naveen Ramanathan
+### golangbot.com: Naveen Ramanathan
 
 1. [Home page](https://golangbot.com/)
 
@@ -27,7 +29,7 @@
    * [Interfaces - I](https://golangbot.com/interfaces-part-1/)
 
 
-## GoDocs: Sutirtha Chakraborty
+### GoDocs: Sutirtha Chakraborty
 
 1. [Home page](https://golangdocs.com/)
 
@@ -35,6 +37,12 @@
    * [Object-oriented programming in Golang | 2020](https://golangdocs.com/object-oriented-programming-in-golang)
    * [Inheritance in Golang | 2020](https://golangdocs.com/inheritance-in-golang)
    * [Polymorphism in Golang | 2020](https://golangdocs.com/polymorphism-in-golang)
+
+
+### Code-Maven: Gábor Szabó
+
+1. [Slides: Golang | 2019 - 2024](https://slides.code-maven.com/golang/toc.html)
+   - 463 pages of Go examples
 
 
 ## Courses
@@ -91,7 +99,7 @@
 1. [GetFreeEbooks.com: John | 22 Free Go Programming Ebooks | 2021](https://www.getfreeebooks.com/22-free-go-programming-ebooks/)
 
 
-# Miscellaneous
+## Miscellaneous
 
 1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
    - We use Ebitengine V2 to create our 2D game
