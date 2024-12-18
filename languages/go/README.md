@@ -15,11 +15,6 @@
    - [Standard library](https://pkg.go.dev/std)
 
 
-### Mark McGranaghan and Eli Bendersky
-
-1. :thumbsup: [Go by Example | 2012-2024](https://gobyexample.com/)
-
-
 ### golangbot.com: Naveen Ramanathan
 
 1. [Home page](https://golangbot.com/)
@@ -39,10 +34,16 @@
    * [Polymorphism in Golang | 2020](https://golangdocs.com/polymorphism-in-golang)
 
 
-### Code-Maven: Gábor Szabó
+### Code example sites
 
-1. [Slides: Golang | 2019 - 2024](https://slides.code-maven.com/golang/toc.html)
+1. :thumbsup: [Mark McGranaghan & Eli Bendersky | Go by Example | 2012-2024](https://gobyexample.com/)
+   - About 80 pages
+
+1. [Code-Maven: Gábor Szabó | Slides: Golang | 2019 - 2024](https://slides.code-maven.com/golang/toc.html)
    - 463 pages of Go examples
+
+1. [Programming.Guide: Stefan Nilsson | Go](https://programming.guide/go/)
+   - About 200 pages
 
 
 ## Courses
