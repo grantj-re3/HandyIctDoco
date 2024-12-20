@@ -9,11 +9,14 @@
 
 1. [Documentation](https://go.dev/doc/)
    - [How to Write Go Code](https://go.dev/doc/code)
-   - :thumbsup: [Welcome to a tour of Go](https://go.dev/tour/list)
-   - :thumbsup: [Effective Go](https://go.dev/doc/effective_go)
+   - [Welcome to a tour of Go](https://go.dev/tour/list)
+   - [Effective Go](https://go.dev/doc/effective_go)
    - [Frequently Asked Questions](https://go.dev/doc/faq)
    - [Standard library](https://pkg.go.dev/std)
 
+1. [Go Wiki: Mobile](https://go.dev/wiki/Mobile)
+   - The Go mobile subrepository adds support for mobile platforms
+     (Android and iOS) and provides tools to build mobile applications
 
 ### golangbot.com: Naveen Ramanathan
 
@@ -36,13 +39,16 @@
 
 ### Code example sites
 
-1. :thumbsup: [Mark McGranaghan & Eli Bendersky | Go by Example | 2012-2024](https://gobyexample.com/)
+1. [Mark McGranaghan & Eli Bendersky | Go by Example | 2012-2024](https://gobyexample.com/)
    - About 80 pages
 
 1. [Code-Maven: Gábor Szabó | Slides: Golang | 2019 - 2024](https://slides.code-maven.com/golang/toc.html)
    - 463 pages of Go examples
 
-1. [Programming.Guide: Stefan Nilsson | Go](https://programming.guide/go/)
+1. [yourbasic.org: Stefan Nilsson | Go go-to guide | c.2018-2022](https://yourbasic.org/golang/)
+   - 178 Go articles
+
+1. [Programming.Guide: Stefan Nilsson | Go | 2016-2022](https://programming.guide/go/)
    - About 200 pages
 
 
@@ -69,7 +75,7 @@
    - Online book
    - 60 chapters
 
-1. [Maximilien Andile | Practical Go Lessons | 2022](https://www.practical-go-lessons.com/)
+1. :thumbsup: [Maximilien Andile | Practical Go Lessons | 2022](https://www.practical-go-lessons.com/)
    - Online book
    - Paper, PDF, MOBI and EPUB versions are available for purchase
    - 41 chapters and more than 700 pages
