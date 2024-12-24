@@ -92,6 +92,9 @@
 1. [Programming.Guide: Stefan Nilsson | Go | 2016-2022](https://programming.guide/go/)
    - About 200 pages
 
+1. [Karan Pratap Singh | Learn Go | 2022](https://www.karanpratapsingh.com/courses/go)
+   - About 30 pages
+
 
 ## Courses
 
@@ -103,16 +106,30 @@
    - 1h08m
    - Good but brief introduction to many language features
 
-1. [Traversy Media: Brad Traversy | Go / Golang Crash Course (video) | 2018](https://www.youtube.com/watch?v=SqrbIlUwR0U)
-   - 1h38m
-
 1. [ProgrammingKnowledge | Go Programming Language Tutorial | Golang Tutorial For Beginners (playlist) | 2020-2023](https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij)
    - 33 video lessons. Most are less than 15 minutes.
+
+1. [freeCodeCamp.org: Lane Wagner & Allan Lires | Go Programming – Golang Course with Bonus Projects (video) | 2023](https://www.youtube.com/watch?v=un6ZyFkqFKo)
+   - 9h32m
+   - Very detailed and very good
+   - Divided into 16 chapters plus 7 projects
+   - [GitHub source](https://github.com/bootdotdev/fcc-learn-golang-assets)
+
+1. [freeCodeCamp.org: Michael Van Sickle | Learn Go Programming - Golang Tutorial for Beginners (video) | 2019](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+   - 6h40m
+   - Divided into 15 chapters
+
+1. [codebuilds: Talal | GoLang Essentials 2024: Beginner to Pro with Real-World Projects | Full Go Programming Course (video) | 2024](https://www.youtube.com/watch?v=0hChKDYOKd8)
+   - 4h15m
+   - Divided into 9 chapters plus 2 projects
+
+1. [Traversy Media: Brad Traversy | Go / Golang Crash Course (video) | 2018](https://www.youtube.com/watch?v=SqrbIlUwR0U)
+   - 1h38m
 
 
 ## Configuration for Go apps
 
-1. [The Go standard library | flag package (from the Standard library)](https://pkg.go.dev/flag)
+1. [The Go standard library | flag package](https://pkg.go.dev/flag)
    - Implements command-line flag parsing
    - Limited functionality
 
