@@ -70,7 +70,8 @@
 1. [GoDocs: Sutirtha Chakraborty | Home page](https://golangdocs.com/)
 1. [CalliCoder: Rajeev Kumar Singh | Golang Tutorials | 2018-2021](https://www.callicoder.com/categories/golang/)
    - 21 tutorials
-   - The oldest 15 tutorials are structured like an ebook
+   - The oldest 15 are nicely structured, with ebook-like chapters/tutorials listed
+     [here](https://github.com/callicoder/golang-tutorials/blob/master/Readme.md)
    - [Golang Methods Tutorial with Examples | 2018](https://www.callicoder.com/golang-methods-tutorial/)
 
 
@@ -128,16 +129,12 @@
 
 ## Custom packages
 
-Several of the video courses above have a chapter about custom packages.
+Several of the ebooks and video courses above have a chapter about custom packages.
 
 1. [CalliCoder: Rajeev Kumar Singh | A beginners guide to Packages in Golang | 2018-2022](https://www.callicoder.com/golang-packages/)
    - [GitHub source](https://github.com/callicoder/golang-tutorials)
 
 1. [golangbot.com: Naveen Ramanathan | Go Packages | 2024](https://golangbot.com/go-packages/)
-
-1. [myTectra | Custom Packages and Modules](https://www.mytectra.com/tutorials/golang/custom-packages-and-modules)
-   - Step 3 shows a test file. You can read about unit testing
-     [here](https://www.mytectra.com/tutorials/golang/unit-testing-in-go)
 
 
 ## Configuration for Go apps
