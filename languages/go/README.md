@@ -68,6 +68,10 @@
 
 1. [golangbot.com: Naveen Ramanathan | Home page](https://golangbot.com/)
 1. [GoDocs: Sutirtha Chakraborty | Home page](https://golangdocs.com/)
+1. [CalliCoder: Rajeev Kumar Singh | Golang Tutorials | 2018-2021](https://www.callicoder.com/categories/golang/)
+   - 21 tutorials
+   - The oldest 15 tutorials are structured like an ebook
+   - [Golang Methods Tutorial with Examples | 2018](https://www.callicoder.com/golang-methods-tutorial/)
 
 
 ### Code example sites
@@ -120,6 +124,20 @@
 1. [Derek Banas | Golang Tutorial : Go Full Course (video) | 2022](https://www.youtube.com/watch?v=YzLrWHZa-Kc)
    - 3h49m
    - 57 chapters
+
+
+## Custom packages
+
+Several of the video courses above have a chapter about custom packages.
+
+1. [CalliCoder: Rajeev Kumar Singh | A beginners guide to Packages in Golang | 2018-2022](https://www.callicoder.com/golang-packages/)
+   - [GitHub source](https://github.com/callicoder/golang-tutorials)
+
+1. [golangbot.com: Naveen Ramanathan | Go Packages | 2024](https://golangbot.com/go-packages/)
+
+1. [myTectra | Custom Packages and Modules](https://www.mytectra.com/tutorials/golang/custom-packages-and-modules)
+   - Step 3 shows a test file. You can read about unit testing
+     [here](https://www.mytectra.com/tutorials/golang/unit-testing-in-go)
 
 
 ## Configuration for Go apps
