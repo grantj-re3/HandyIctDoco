@@ -22,6 +22,10 @@
      Basic Data Types | Control Structures | Arrays, Slices, and Maps |
      User-Defined Types | Concurrency | Standard Packages | Go Further
 
+1. [myTectra | Golang tutorial | c.2023](https://www.mytectra.com/tutorials/golang/introduction-to-go)
+   - Online tutorial
+   - About 35 web pages
+
 1. [Caleb Doxsey | An Introduction to Programming in Go | 2012](https://www.golang-book.com/books/intro)
    - Online book and PDF
    - Getting Started | Your First Program | Types | Variables | Control Structures |
@@ -31,10 +35,10 @@
 1. Gitbooks: Suraj Patil | Webapps in Go: the anti textbook | 2019
    - More details [here](https://github.com/grantj-re3/HandyIctDoco/blob/master/languages/go/Links_GoWebCRUD.md#web-app-doco)
 
-1. [A collection of free books for devs](https://devfreebooks.github.io/)
-   - [The Go book list](https://devfreebooks.github.io/go/)
-
-1. [GetFreeEbooks.com: John | 22 Free Go Programming Ebooks | 2021](https://www.getfreeebooks.com/22-free-go-programming-ebooks/)
+1. Links to free ebooks
+   - [A collection of free books for devs](https://devfreebooks.github.io/)
+     * [The Go book list](https://devfreebooks.github.io/go/)
+   - [GetFreeEbooks.com: John | 22 Free Go Programming Ebooks | 2021](https://www.getfreeebooks.com/22-free-go-programming-ebooks/)
 
 
 ## Written resources
@@ -59,23 +63,11 @@
    - The Go mobile subrepository adds support for mobile platforms
      (Android and iOS) and provides tools to build mobile applications
 
-### golangbot.com: Naveen Ramanathan
 
-1. [Home page](https://golangbot.com/)
+### Other sites
 
-1. [Golang tutorial series](https://golangbot.com/learn-golang-series/)
-   * [Methods in Go](https://golangbot.com/methods/)
-   * [Interfaces - I](https://golangbot.com/interfaces-part-1/)
-
-
-### GoDocs: Sutirtha Chakraborty
-
-1. [Home page](https://golangdocs.com/)
-
-1. OOP
-   * [Object-oriented programming in Golang | 2020](https://golangdocs.com/object-oriented-programming-in-golang)
-   * [Inheritance in Golang | 2020](https://golangdocs.com/inheritance-in-golang)
-   * [Polymorphism in Golang | 2020](https://golangdocs.com/polymorphism-in-golang)
+1. [golangbot.com: Naveen Ramanathan | Home page](https://golangbot.com/)
+1. [GoDocs: Sutirtha Chakraborty | Home page](https://golangdocs.com/)
 
 
 ### Code example sites
@@ -98,33 +90,36 @@
 
 ## Courses
 
-1. [TechWorld with Nana | Golang Tutorial for Beginners | Full Go Course (video) | 2021](https://www.youtube.com/watch?v=yyUHQIec83I)
+1. :thumbsup: [freeCodeCamp.org: Lane Wagner & Allan Lires | Go Programming – Golang Course with Bonus Projects (video) | 2023](https://www.youtube.com/watch?v=un6ZyFkqFKo)
+   - 9h32m
+   - Very detailed and very good
+   - 16 chapters plus 7 projects
+   - [GitHub source](https://github.com/bootdotdev/fcc-learn-golang-assets)
+
+1. :thumbsup: [TechWorld with Nana | Golang Tutorial for Beginners | Full Go Course (video) | 2021](https://www.youtube.com/watch?v=yyUHQIec83I)
    - 3h25m
    - Good introduction to many language features
+   - 23 chapters
 
-1. [Alex Mux | Learn GO Fast: Full Tutorial (video) | 2023](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
+1. :thumbsup: [Alex Mux | Learn GO Fast: Full Tutorial (video) | 2023](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
    - 1h08m
    - Good but brief introduction to many language features
+   - 11 chapters
 
 1. [ProgrammingKnowledge | Go Programming Language Tutorial | Golang Tutorial For Beginners (playlist) | 2020-2023](https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij)
    - 33 video lessons. Most are less than 15 minutes.
 
-1. [freeCodeCamp.org: Lane Wagner & Allan Lires | Go Programming – Golang Course with Bonus Projects (video) | 2023](https://www.youtube.com/watch?v=un6ZyFkqFKo)
-   - 9h32m
-   - Very detailed and very good
-   - Divided into 16 chapters plus 7 projects
-   - [GitHub source](https://github.com/bootdotdev/fcc-learn-golang-assets)
-
 1. [freeCodeCamp.org: Michael Van Sickle | Learn Go Programming - Golang Tutorial for Beginners (video) | 2019](https://www.youtube.com/watch?v=YS4e4q9oBaU)
    - 6h40m
-   - Divided into 15 chapters
+   - 15 chapters
 
 1. [codebuilds: Talal | GoLang Essentials 2024: Beginner to Pro with Real-World Projects | Full Go Programming Course (video) | 2024](https://www.youtube.com/watch?v=0hChKDYOKd8)
    - 4h15m
-   - Divided into 9 chapters plus 2 projects
+   - 9 chapters plus 2 projects
 
-1. [Traversy Media: Brad Traversy | Go / Golang Crash Course (video) | 2018](https://www.youtube.com/watch?v=SqrbIlUwR0U)
-   - 1h38m
+1. [Derek Banas | Golang Tutorial : Go Full Course (video) | 2022](https://www.youtube.com/watch?v=YzLrWHZa-Kc)
+   - 3h49m
+   - 57 chapters
 
 
 ## Configuration for Go apps
@@ -153,7 +148,7 @@
    - [GitHub source](https://github.com/techschool/simplebank)
 
 
-## Miscellaneous
+## Miscellaneous topics
 
 1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
    - We use Ebitengine V2 to create our 2D game
