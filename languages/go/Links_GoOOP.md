@@ -8,6 +8,7 @@
 
 1. golangbot.com: Naveen Ramanathan
    - [Structs Instead of Classes - OOP in Go | 2020](https://golangbot.com/structs-instead-of-classes/)
+     * My pasted source code is [here](code-examples/golangbot-struct-class)
    - [Composition Instead of Inheritance - OOP in Go | 2021](https://golangbot.com/inheritance/)
    - [Polymorphism - OOP in Go | 2021](https://golangbot.com/polymorphism/)
 
