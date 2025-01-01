@@ -21,3 +21,5 @@
    - [Inheritance in Golang | 2020](https://golangdocs.com/inheritance-in-golang)
    - [Polymorphism in Golang | 2020](https://golangdocs.com/polymorphism-in-golang)
 
+1. [Medium: Qasim Hafeez | Singleton Pattern in Go | 2023](https://medium.com/@qasimhafeez/singleton-pattern-in-go-10278dea12ca)
+
