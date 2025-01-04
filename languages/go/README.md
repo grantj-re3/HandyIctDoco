@@ -163,6 +163,22 @@ Several of the ebooks and video courses above have a chapter about custom packag
    - [GitHub source](https://github.com/techschool/simplebank)
 
 
+## Using math/rand/v2
+
+1. [Go by Example: Random Numbers](https://gobyexample.com/random-numbers)
+1. [Go standard library | math/rand/v2: Example (Rand)](https://pkg.go.dev/math/rand/v2#example-package-Rand)
+1. [Go 1.22 Release Notes | New math/rand/v2 package](https://tip.golang.org/doc/go1.22#math_rand_v2)
+
+```
+import "math/rand/v2"	// Example usage with seed
+    ...
+    seed1, seed2 := time.Now().UnixNano(), time.Now().UnixNano() + 1
+    src := rand.NewPCG(uint64(seed1), uint64(seed2))
+    prng := rand.New(src)
+    n := prng.IntN(8)
+```
+
+
 ## Makefiles
 
 1. [Earthly: Milap Neupane and Adam Gordon Bell | Creating a Golang Makefile | 2023](https://earthly.dev/blog/golang-makefile/)
