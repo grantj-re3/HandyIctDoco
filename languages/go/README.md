@@ -163,6 +163,23 @@ Several of the ebooks and video courses above have a chapter about custom packag
    - [GitHub source](https://github.com/techschool/simplebank)
 
 
+## Makefiles
+
+1. [Earthly: Milap Neupane and Adam Gordon Bell | Creating a Golang Makefile | 2023](https://earthly.dev/blog/golang-makefile/)
+   - Basic usage
+   - Contains a link to a more advanced tutorial (for the C programming language)
+   - Contains a link to a video tutorial (for Golang)
+
+1. [Medium: Chaewonkong | Simplifying Your Build Process with Makefiles in Golang Projects | 2023](https://medium.com/@chaewonkong/simplifying-your-build-process-with-makefiles-in-golang-projects-b125af7a10c4)
+   - Basic usage
+
+1. [Alex Edwards | Quick tip: A time-saving Makefile for your Go projects | 2024](https://www.alexedwards.net/blog/a-time-saving-makefile-for-your-go-projects)
+   - More advanced usage
+
+1. [Blue Bot | Makefile For Golang - Tutorial | 2016](https://www.youtube.com/watch?v=IrYaW3zc9ds)
+   - More advanced usage
+
+
 ## Miscellaneous topics
 
 1. [Alex Mux | Go Project: Let's Make a PONG Game in Golang! (video) | 2024](https://www.youtube.com/watch?v=V_OGeYj6p00)
