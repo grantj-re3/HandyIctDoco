@@ -103,42 +103,33 @@ topics than Lane Wagner or Talal).
 ### Shorter courses
 
 1. :thumbsup: [Alex Mux | Learn GO Fast: Full Tutorial (video) | 2023](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
-   - 1h08m
-   - Good but brief introduction to many language features
-   - 11 chapters
+   - 1h08m | 11 chapters | Good but brief introduction to many language features
 
 1. :thumbsup: [TechWorld with Nana | Golang Tutorial for Beginners | Full Go Course (video) | 2021](https://www.youtube.com/watch?v=yyUHQIec83I)
-   - 3h25m
-   - Good introduction to many language features
-   - 23 chapters
+   - 3h25m | 23 chapters | Good introduction to many language features
 
 
 ### Courses with more detail
 
 1. :thumbsup: [freeCodeCamp.org: Michael Van Sickle | Learn Go Programming - Golang Tutorial for Beginners (video) | 2019](https://www.youtube.com/watch?v=YS4e4q9oBaU)
-   - 6h40m
-   - Very detailed and very good
-   - 15 chapters
+   - 6h40m | 15 chapters | Very detailed and very good
 
 1. :thumbsup: [freeCodeCamp.org: Lane Wagner & Allan Lires | Go Programming – Golang Course with Bonus Projects (video) | 2023](https://www.youtube.com/watch?v=un6ZyFkqFKo)
-   - 9h32m
-   - Very detailed and very good
-   - 16 chapters plus 7 projects
-   - [GitHub source](https://github.com/bootdotdev/fcc-learn-golang-assets)
+   - 9h32m | 16 chapters plus 7 projects | Very detailed and very good |
+     [GitHub source](https://github.com/bootdotdev/fcc-learn-golang-assets)
 
 1. :thumbsup: [codebuilds: Talal | GoLang Essentials 2024: Beginner to Pro with Real-World Projects | Full Go Programming Course (video) | 2024](https://www.youtube.com/watch?v=0hChKDYOKd8)
-   - 4h15m
-   - 9 chapters plus 2 projects
+   - 4h15m | 9 chapters plus 2 projects |
+     [Source code](https://codebuilds.dev/go-course/)
 
 
 ### Some topics covered below are missed in courses above
 
 1. [ProgrammingKnowledge | Go Programming Language Tutorial | Golang Tutorial For Beginners (playlist) | 2020-2023](https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij)
-   - 33 video lessons. Most are less than 15 minutes.
+   - 33 video lessons | Most are less than 15 minutes
 
 1. [Derek Banas | Golang Tutorial : Go Full Course (video) | 2022](https://www.youtube.com/watch?v=YzLrWHZa-Kc)
-   - 3h49m
-   - 57 chapters
+   - 3h49m | 57 chapters
 
 
 ## Custom packages
