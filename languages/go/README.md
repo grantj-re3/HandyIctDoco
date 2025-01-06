@@ -181,18 +181,18 @@ import "math/rand/v2"	// Example usage with seed
 
 ## Makefiles
 
+1. [makefiletutorial.com | Learn Makefiles: With the tastiest examples](https://makefiletutorial.com/)
+   - Fairly comprehensive guide (for C/C++)
+
+1. CrashLaker: Carlos Aguni
+   - [Writing bash inside Makefile | 2020](https://crashlaker.github.io/linux/2020/04/24/writing_bash_inside_makefile.html)
+   - [Write exactly bash inside Makefile | 2020](https://crashlaker.github.io/linux/2020/05/01/write_exactly_bash_inside_makefile.html)
+
 1. [Earthly: Milap Neupane and Adam Gordon Bell | Creating a Golang Makefile | 2023](https://earthly.dev/blog/golang-makefile/)
    - Basic usage
-   - Contains a link to a more advanced tutorial (for the C programming language)
    - Contains a link to a video tutorial (for Golang)
 
-1. [Medium: Chaewonkong | Simplifying Your Build Process with Makefiles in Golang Projects | 2023](https://medium.com/@chaewonkong/simplifying-your-build-process-with-makefiles-in-golang-projects-b125af7a10c4)
-   - Basic usage
-
 1. [Alex Edwards | Quick tip: A time-saving Makefile for your Go projects | 2024](https://www.alexedwards.net/blog/a-time-saving-makefile-for-your-go-projects)
-   - More advanced usage
-
-1. [Blue Bot | Makefile For Golang - Tutorial | 2016](https://www.youtube.com/watch?v=IrYaW3zc9ds)
    - More advanced usage
 
 
