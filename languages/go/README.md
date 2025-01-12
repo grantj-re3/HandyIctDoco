@@ -122,6 +122,11 @@ topics than Lane Wagner or Talal).
    - 4h15m | 9 chapters plus 2 projects |
      [Source code](https://codebuilds.dev/go-course/)
 
+1. :thumbsup: [Matt KØDVB: Matt Holiday | Go Class (playlist) | 2020-2021](https://www.youtube.com/playlist?list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6)
+   - 18-20 hours | 44 video lessons | 6-45 minutes each | Very detailed and very good
+   - [GitHub: matt4biz | Slides: Christmas 2020 Go class](https://github.com/matt4biz/go-class-slides/tree/trunk/xmas-2020)
+   - [Github: matt4biz | clean-go-article | 2019-2021](https://github.com/matt4biz/clean-go-article)
+
 
 ### Some topics covered below are missed in courses above
 
