@@ -46,3 +46,8 @@
    - [Florida State University: Theodore P. Baker | Introduction to Real-Time Systems: The Dining Philosophers Problem | c.2008](https://www.cs.fsu.edu/~baker/realtime/restricted/notes/philos.html)
    - [University of Tennessee: James S. Plank | C560 Lecture notes -- Dining Philosophers (CBThread Version) | 2009](https://web.eecs.utk.edu/~jplank/plank/classes/cs560/560/notes/CBThread_Dphil/)
 
+1. Matt Holiday (Matt KØDVB)
+   - [Go Class: 23 CSP, Goroutines, and Channels | Example 3: Prime Sieve | 2021](https://www.youtube.com/watch?v=zJd7Dvg3XCk&t=26m1s)
+   - [Go Class: 24 Select | 2021](https://www.youtube.com/watch?v=tG7gII0Ax0Q&t=1m43s)
+     * Thread 2 sends messages to main twice as often as thread 1
+
