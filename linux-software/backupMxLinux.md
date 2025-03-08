@@ -44,6 +44,7 @@ Consider:
 
 1. [Lenovo | What is backup? | How often should I back up my data? | 2025](https://www.lenovo.com/us/en/glossary/backup/)
 1. [Reader's Digest: Jeff Bogle | This Is How Often You Need to Back up Your Computer | 2021](https://www.rd.com/article/how-often-back-up-computer/)
-1. Before applying significant or large-scale updates (e.g. [iOS](https://discussions.apple.com/thread/254516885?sortBy=rank) or [windows](https://askleo.com/back-up-my-computer-before-an-operating-system-upgrade/)
+1. Before applying significant or large-scale updates (e.g. for [iOS](https://discussions.apple.com/thread/254516885?sortBy=rank) or
+   [Windows](https://askleo.com/back-up-my-computer-before-an-operating-system-upgrade/) platforms)
    - [FOSS Linux: Nitish S. | Updating MX Linux: Command-line & All You Need to Know | 2020](https://www.fosslinux.com/35838/updating-mx-linux-command-line-all-you-need-to-know.htm)
 
