@@ -15,7 +15,7 @@
    - Newer versions of Chrome, Safari, and Opera will no longer allow you to disable hyperlink auditing, which is a concern for those seeking maximum privacy
    - Of all the browsers I tested, only Brave and Firefox currently disable it by default and do not appear to have any plans on enabling it in the future
 
-1. [Click tracking: Privacy | 2020-2025](https://en.wikipedia.org/wiki/Click_tracking#Privacy)
+1. [Wikipedia | Click tracking: Privacy | 2020-2025](https://en.wikipedia.org/wiki/Click_tracking#Privacy)
    - Hence, user personal identification information is still collected, and this collection process is based on users trusting such servers.
    - Third-party tracking generates more privacy concerns than first-party tracking...
    - Google and Facebook were deemed as the first and second largest web trackers, and Google and Twitter were deemed as the first and second largest mobile trackers.
