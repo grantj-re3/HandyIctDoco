@@ -37,6 +37,12 @@
    - [How to Choose a PIN | 2024](https://firewallsdontstopdragons.com/how-to-choose-a-pin/)
    - [How to Avoid Juice Jacking | 2023](https://firewallsdontstopdragons.com/how-to-avoid-juice-jacking/)
 
+1. Rob Braxman
+   - [Your Windows 11 Computer’s Hidden Spy: The Dark Truth About TPM Chips (video) | 2025](https://www.youtube.com/watch?v=t1eX_vvAlUc)
+   - [New Privacy Threat from Google? Full Analysis of the Tracking Infrastructure (video) | 2025](https://www.youtube.com/watch?v=3DnalpPsuR0)
+   - [AI Primarily Using Wikipedia Makes it the De-Facto Source of Online Intelligence. Is that Good? (video) | 2025](https://www.youtube.com/watch?v=bJ8079kg7oY)
+   - [Brax.Me home page](https://brax.me/) -- Privacy: No Identity | Encrypted | Open Source
+
 1. Email
    - [Kinsta: Matteo Duò | The Top 14 Secure Email Providers | 2022-2024](https://kinsta.com/blog/secure-email-providers/)
    - [Clean Email: David Morelo | The 9 Best Free Private Email Providers | 2024](https://clean.email/blog/email-security/free-private-email-providers)
