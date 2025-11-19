@@ -34,5 +34,21 @@
 
 1. [TechTarget: Kyle Johnson | Client virtualization still has its fans and use cases: A look at Hysolate and Qubes OS | 2019](https://www.techtarget.com/searchvirtualdesktop/opinion/Client-virtualization-still-has-its-fans-and-use-cases-A-look-at-Hysolate-and-Qubes-OS)
    - Shortcomings: Not super user-friendly | Lack of GPU virtualization (3-D) support | Single (not multi) user security model
+
 1. [Whonix | Why use Qubes over other Virtualizers? | 2025](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)
+
+1. scip (Security, Consulting, Information and Process)
+   - [Ahmet Hrnjadovic | Qubes OS - Usability in Windows Environments | 2021]https://www.scip.ch/en/?labs.20210311
+     * Windows issues in 2021: Active Directory | USB access | Audio
+     * I understand that Qubes OS R4.1 does support USB access for Windows VMs (experimental feature)
+     * I understand Qubes OS R4.2 has a preliminary testing version for Windows 10 and 11 audio, but it is not officially supported
+   - [Rocco Gagliardi | Implementing a Qubes OS productive laptop | 2016](https://www.scip.ch/en/?labs.20160519)
+     * Domain planning: List tasks and interactions with other components | Plan domains | Network rules | Copy/paste rules
+
+1. [IT Pro: Danny Bradbury | Qubes OS review: An OS built with security in mind | 2024](https://www.itpro.com/software/qubes-os-review-an-os-built-with-security-in-mind)
+   - Setup | Isolation features | Navigation | Templates | Is it worth it?
+   - There's little point in taking the extra time and effort to set up and operate Qubes OS without a basic level
+     of privacy literacy. [Avoid] OPSEC (Operational security) mistakes.
+
+1. Consider [OPSEC and digital hygiene](../../online-privacy/opsec-digital-hygiene.md) workflows and principles when planning your VM qubes.
 
