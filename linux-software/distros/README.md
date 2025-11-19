@@ -38,7 +38,7 @@
 1. [Whonix | Why use Qubes over other Virtualizers? | 2025](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)
 
 1. scip (Security, Consulting, Information and Process)
-   - [Ahmet Hrnjadovic | Qubes OS - Usability in Windows Environments | 2021]https://www.scip.ch/en/?labs.20210311
+   - [Ahmet Hrnjadovic | Qubes OS - Usability in Windows Environments | 2021](https://www.scip.ch/en/?labs.20210311)
      * Windows issues in 2021: Active Directory | USB access | Audio
      * I understand that Qubes OS R4.1 does support USB access for Windows VMs (experimental feature)
      * I understand Qubes OS R4.2 has a preliminary testing version for Windows 10 and 11 audio, but it is not officially supported
