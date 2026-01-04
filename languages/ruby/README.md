@@ -53,6 +53,15 @@ This page is for resources which don't fit into the above categories!
      * [GitHub: jimweirich | presentation_enterprise_mom](https://github.com/jimweirich/presentation_enterprise_mom)
        + Includes a PDF of the presentation slides
 
+1. Code with Jason: Jason Swett
+   - [Articles](https://www.codewithjason.com/articles/) and [podcast](https://www.codewithjason.com/podcast/)
+   - [Understanding Ruby Proc objects | 2021](https://www.codewithjason.com/ruby-procs/)
+   - [What the ampersand in front of &block means | 2021](https://www.codewithjason.com/ampersand-ruby-block/)
+   - [Understanding Ruby closures | 2021](https://www.codewithjason.com/ruby-closures/)
+   - [How map(&:some_method) works | 2021](https://www.codewithjason.com/how-map-works/)
+   - [The difference between procs and lambdas in Ruby | 2022](https://www.codewithjason.com/the-difference-between-procs-and-lambdas-in-ruby/)
+     * [ruby-doc.org | Proc (for Ruby 2.6)](https://ruby-doc.org/core-2.6/Proc.html)
+
 1. PyCall
    - [GitHub: mrkn | PyCall: Calling Python functions from the Ruby language | 2016-2024](https://github.com/mrkn/pycall.rb)
    - [ReadySteadyCode | HOWTO execute Python code with Ruby](https://readysteadycode.com/howto-execute-python-code-with-ruby)
