@@ -10,7 +10,7 @@
 1. [GitHub larskanis: Lars Kanis | FXRuby](https://github.com/larskanis/fxruby)
 
 
-# wxRuby3
+## wxRuby3
 
 1. [GitHub mcorino: Martin Corino | wxRuby3](https://github.com/mcorino/wxRuby3)
    - [How can I learn to use wxRuby?](https://github.com/mcorino/wxRuby3/blob/master/README.md#how-can-i-learn-to-use-wxruby)
