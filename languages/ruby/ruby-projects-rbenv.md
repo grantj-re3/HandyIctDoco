@@ -2,7 +2,11 @@
 
 ## Detail
 
-1. [GitHub rbenv | Seamlessly manage your app’s Ruby environment with rbenv](https://github.com/rbenv/rbenv) -- doesn't cover bundler
+1. GitHub rbenv
+   - [Seamlessly manage your app’s Ruby environment with rbenv](https://github.com/rbenv/rbenv)
+     * Doesn't cover bundler
+   - [ruby-build](https://github.com/rbenv/ruby-build)
+     * As a standalone program, *ruby-build*. | As a plugin for rbenv, *rbenv install*.
 1. [Honeybadger: Subomi Oluwalana | Understanding How Rbenv, RubyGems And Bundler Work Together | 2021](https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path/)
 
 
