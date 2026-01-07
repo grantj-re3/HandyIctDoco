@@ -31,6 +31,13 @@
 
 1. [Visual Studio Code | Ruby in Visual Studio Code | 2024](https://code.visualstudio.com/docs/languages/ruby)
    - "we recommend using a version manager ... such as *rbenv* on macOS and Linux and *rbenv on Windows*"
+   - For me on MX Linux 23.3, after successfully installing and using rbenv as per Stanley Ulili's link above,
+     although the VS Code terminal could see my project level ruby version (via the `.ruby-version` file in my
+     project directory, and `ruby --version` in the VS Code terminal showing the correct [rbenv-shim] version)
+     VS Code gave a variety of errors until I did the following in the project directory (in the VS Code terminal):
+     * `bundle init`
+     * `bundle install`
+     * rebooted MX Linux
 
 
 ## Brief articles and tips
