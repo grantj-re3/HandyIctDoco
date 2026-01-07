@@ -7,6 +7,12 @@
      Setting Ruby versions for your projects | Managing gems with rbenv | Using Bundler with rbenv
    - [Gemfile], Gemfile.lock and .ruby-version should be committed to version control with your project code
 
+1. Prerequisite packages for rbenv
+   - Packages listed on [this](https://collectionbuilder.github.io/cb-docs/docs/software/ruby_linux/) page are:
+     *autoconf bison build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev*
+   - Packages listed on [this](https://vegastack.com/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04/) page are
+     the same *except* *libreadline-dev* is replaced with *libreadline6-dev*, and *libgdbm3* is added
+
 1. GitHub rbenv
    - [Seamlessly manage your app’s Ruby environment with rbenv](https://github.com/rbenv/rbenv)
      * Doesn't cover bundler
@@ -22,7 +28,7 @@
    - [Bundler | 2025](https://launchschool.com/books/core_ruby_tools/read/bundler)
 
 1. [Visual Studio Code | Ruby in Visual Studio Code | 2024](https://code.visualstudio.com/docs/languages/ruby)
-   - "we recommend using a version manager ... such as **rbenv** on macOS and Linux and *rbenv on Windows*"
+   - "we recommend using a version manager ... such as *rbenv* on macOS and Linux and *rbenv on Windows*"
 
 
 ## Brief articles and tips
