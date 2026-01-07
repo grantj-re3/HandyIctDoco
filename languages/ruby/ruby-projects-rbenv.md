@@ -2,18 +2,27 @@
 
 ## Detail
 
+1. :thumbsup: [Better Stack: Stanley Ulili | Getting Started with rbenv | 2025](https://betterstack.com/community/guides/scaling-ruby/rbenv-explained/)
+   - Installing rbenv | Understanding rbenv's operation | Installing Ruby versions with rbenv |
+     Setting Ruby versions for your projects | Managing gems with rbenv | Using Bundler with rbenv
+   - [Gemfile], Gemfile.lock and .ruby-version should be committed to version control with your project code
+
 1. GitHub rbenv
    - [Seamlessly manage your app’s Ruby environment with rbenv](https://github.com/rbenv/rbenv)
      * Doesn't cover bundler
    - [ruby-build](https://github.com/rbenv/ruby-build)
      * As a standalone program, *ruby-build*. | As a plugin for rbenv, *rbenv install*.
-1. [Honeybadger: Subomi Oluwalana | Understanding How Rbenv, RubyGems And Bundler Work Together | 2021](https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path/)
 
+1. [Bundler | Bundler’s Purpose and Rationale](https://bundler.io/guides/rationale.html#summary)
+   - Checking Your Code into Version Control: check in ... the Gemfile and Gemfile.lock snapshot
+   - A Simple Bundler Workflow
 
-## More detail
+1. Launch School | Core Ruby Tools
+   - [Ruby Version Managers: Rbenv](https://launchschool.com/books/core_ruby_tools/read/ruby_version_managers#rbenv)
+   - [Bundler | 2025](https://launchschool.com/books/core_ruby_tools/read/bundler)
 
-1. [Better Stack: Stanley Ulili | Getting Started with rbenv | 2025](https://betterstack.com/community/guides/scaling-ruby/rbenv-explained/)
-1. [Launch School | Core Ruby Tools: Bundler | 2025](https://launchschool.com/books/core_ruby_tools/read/bundler)
+1. [Visual Studio Code | Ruby in Visual Studio Code | 2024](https://code.visualstudio.com/docs/languages/ruby)
+   - "we recommend using a version manager ... such as **rbenv** on macOS and Linux and *rbenv on Windows*"
 
 
 ## Brief articles and tips
