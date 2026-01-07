@@ -9,9 +9,11 @@
 
 1. Prerequisite packages for rbenv
    - Packages listed on [this](https://collectionbuilder.github.io/cb-docs/docs/software/ruby_linux/) page are:
-     *autoconf bison build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev*
+     `autoconf bison build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev`
    - Packages listed on [this](https://vegastack.com/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04/) page are
-     the same *except* *libreadline-dev* is replaced with *libreadline6-dev*, and *libgdbm3* is added
+     the same except `libreadline-dev` is replaced with `libreadline6-dev`, and `libgdbm3` is added
+   - For me on MX Linux 23.3 with `ruby` 3.1.2p20 & `ruby-dev` previously installed (via Synaptic Package Manager) I needed to
+     install 2 extra packages (`libffi-dev` and `libyaml-dev`) before I could successfully run: `rbenv install 3.4.8`
 
 1. GitHub rbenv
    - [Seamlessly manage your app’s Ruby environment with rbenv](https://github.com/rbenv/rbenv)
