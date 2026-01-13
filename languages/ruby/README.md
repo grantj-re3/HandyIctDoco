@@ -62,6 +62,12 @@ This page is for resources which don't fit into the above categories!
    - [The difference between procs and lambdas in Ruby | 2022](https://www.codewithjason.com/the-difference-between-procs-and-lambdas-in-ruby/)
      * [ruby-doc.org | Proc (for Ruby 2.6)](https://ruby-doc.org/core-2.6/Proc.html)
 
+1. RubyGuides: Jesus Castello
+   - [Articles](https://www.rubyguides.com/ruby-post-index/)
+   - [The Ultimate Guide To Blocks, Procs & Lambdas | 2016-2023](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/)
+   - [How To Debug & Fix Your Ruby Programs | 2015-2020](https://www.rubyguides.com/2015/07/ruby-debugging/)
+   - [Writing A Shell In 25 Lines Of Ruby Code | 2015-2019](https://www.rubyguides.com/2016/07/writing-a-shell-in-ruby/)
+
 1. PyCall
    - [GitHub: mrkn | PyCall: Calling Python functions from the Ruby language | 2016-2024](https://github.com/mrkn/pycall.rb)
    - [ReadySteadyCode | HOWTO execute Python code with Ruby](https://readysteadycode.com/howto-execute-python-code-with-ruby)
