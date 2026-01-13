@@ -33,11 +33,17 @@
    - "we recommend using a version manager ... such as *rbenv* on macOS and Linux and *rbenv on Windows*"
    - For me on MX Linux 23.3, after successfully installing and using rbenv as per Stanley Ulili's link above,
      although the VS Code terminal could see my project level ruby version (via the `.ruby-version` file in my
-     project directory, and `ruby --version` in the VS Code terminal showing the correct [rbenv-shim] version)
-     VS Code gave a variety of errors until I did the following in the project directory (in the VS Code terminal):
+     project directory, and `ruby --version` in the VS Code terminal showed the correct [rbenv-shim] version)
+     VS Code gave a variety of errors something like:
+     * Server initialization failed
+     * connection got disposed
+     * Ruby LSP client: couldn't create connection to server
+     * ... due to a version manager
+   - I fixed by doing the following in the project directory in the VS Code terminal:
      * `bundle init`
      * `bundle install`
      * rebooted MX Linux
+   - Note: I start VS Code from the MX Linux start menu (not an xterm)
 
 
 ## Brief articles and tips
