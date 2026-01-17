@@ -34,15 +34,16 @@
    - For me on MX Linux 23.3, after successfully installing and using rbenv as per Stanley Ulili's link above,
      although the VS Code terminal could see my project level ruby version (via the `.ruby-version` file in my
      project directory, and `ruby --version` in the VS Code terminal showed the correct [rbenv-shim] version)
-     VS Code gave a variety of errors something like:
-     * Server initialization failed
-     * connection got disposed
+     VS Code gave errors like:
      * Ruby LSP client: couldn't create connection to server
-     * ... due to a version manager
-   - I fixed by doing the following in the project directory in the VS Code terminal:
-     * `bundle init`
-     * `bundle install`
-     * rebooted MX Linux
+     * Pending response rejected since connection got disposed
+     * Launching the Ruby LSP failed. This typically happens due to an error with version manager integration or Bundler issues
+     * Server initialization failed
+   - Fix by doing the following in the project directory in the VS Code terminal:
+     * `bundle init` (creates `Gemfile`)
+     * `bundle install` (creates `Gemfile.lock`)
+     * restart VS Code (creates the VS Code `.ruby-lsp` folder) or
+       VS Code may auto-create the `.ruby-lsp` folder if it sees `Gemfile.lock` change
    - Note: I start VS Code from the MX Linux start menu (not an xterm)
 
 
