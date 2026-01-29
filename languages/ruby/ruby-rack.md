@@ -16,5 +16,6 @@
    - [Part 2: Routes and Controllers](https://tommaso.pavese.me/2016/07/26/a-rack-application-from-scratch-part-2-routes-and-controllers/)
    - [Part 3: View templates](https://tommaso.pavese.me/2016/08/01/a-rack-application-from-scratch-part-3-view-templates/)
    - [Part 4: Models and Persistence](https://tommaso.pavese.me/2016/10/09/a-rack-application-from-scratch-part-4-models-and-persistence/)
+   - [Source code](https://github.com/tompave/rack_demo)
 1. OLD: [GitHub Gist: Mark Bates | Getting Started with Rack | 2012](https://gist.github.com/markbates/4240848)
 
