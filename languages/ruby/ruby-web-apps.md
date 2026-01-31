@@ -1,5 +1,8 @@
 # Ruby web apps
 
+Read about [Rack](ruby-rack.md) first!
+
+
 ## Make your own Ruby web app/framework without Rails
 
 If you ever wondered why we use [Ruby on Rails](https://rubyonrails.org/)
@@ -44,9 +47,6 @@ idea by demonstrating how to build your own app/framework.
      | Final Showcase — Our Application So Far
      | Conclusion
 
-1. [Tech and FI: Marvs | Simple Web Applications using Rack | 2021](https://techandfi.com/simple-web-applications-using-rack/)
-   - A very simple introduction to Rack: apps, routing & middleware
-
 1. [SlideShare: Marcin Kulik (sickill/ku1ik) | Building web framework with Rack (EuRuKo 2010) | 2011](https://www.slideshare.net/slideshow/building-web-framework-with-rack/10085523)
    - Not a beginner/introductory slideshow
    - Uses several other gems/tools in addition to Rack & Bundler:
@@ -67,5 +67,9 @@ idea by demonstrating how to build your own app/framework.
      * Views: ERB, Tilt
      * Controllers: Roda, Sinatra, custom
 
-1. Aside: [Tutorials Point | Ruby on Rails - Directory Structure](https://www.tutorialspoint.com/ruby-on-rails/rails-directory-structure.htm)
+1. Rails params
+   - [Honeybadger: Jeffery Morhous | How the Rails params hash works | 2023](https://www.honeybadger.io/blog/how-the-rails-params-hash-works/)
+   - [Medium, Launch School: Sunny Beatteay | Rails Params: Where do they come from? | 2017](https://medium.com/launch-school/params-in-rails-where-do-they-come-from-b172cdb46eb4)
+
+1. [Tutorials Point | Ruby on Rails - Directory Structure](https://www.tutorialspoint.com/ruby-on-rails/rails-directory-structure.htm)
 
