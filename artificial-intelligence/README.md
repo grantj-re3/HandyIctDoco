@@ -4,7 +4,7 @@
 
 1. [Understanding AI: Timothy B. Lee & Sean Trott | Large language models, explained with a minimum of math and jargon | 2023](https://www.understandingai.org/p/large-language-models-explained-with)
 
-1. [Understanding AI: Timothy B. Lee | Reinforcement learning, explained with a minimum of math and jargon | 2025](https://www.understandingai.org/p/a-deepmind-ai-rivals-the-worlds-smartest)
+1. [Understanding AI: Timothy B. Lee | Reinforcement learning, explained with a minimum of math and jargon | 2025](https://www.understandingai.org/p/reinforcement-learning-explained)
 
 1. [elasticsearch B.V. | What are large language models (LLMs)? | 2023](https://www.elastic.co/what-is/large-language-models)
 
