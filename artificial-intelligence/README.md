@@ -26,8 +26,12 @@
 
 ## Videos
 
-1. [3Blue1Brown: Grant Sanderson | Neural networks (playlist) | 2017-2025](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+1. :thumbsup: :thumbsup: [3Blue1Brown: Grant Sanderson | Neural networks (playlist) | 2017-2025](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+   - 9 videos | 8-38 minutes each | Excellent animations | Contains some maths
    - [Large Language Models explained briefly (video) | 2024](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+
+1. [Welch Labs | Learning To See (playlist) |2016-2017](https://www.youtube.com/playlist?list=PLiaHhY2iBX9ihLasvE8BKnS2Xg8AhY6iV)
+   - 15 videos | 5-15 minutes each | Good visualisations
 
 1. [Andrej Karpathy | Intro to Large Language Models (video) | 2023](https://www.youtube.com/watch?v=zjkBMFhNj_g) -- 60m
 
