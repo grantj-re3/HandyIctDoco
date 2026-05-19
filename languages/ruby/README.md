@@ -68,6 +68,12 @@ This page is for resources which don't fit into the above categories!
    - [How To Debug & Fix Your Ruby Programs | 2015-2020](https://www.rubyguides.com/2015/07/ruby-debugging/)
    - [Writing A Shell In 25 Lines Of Ruby Code | 2015-2019](https://www.rubyguides.com/2016/07/writing-a-shell-in-ruby/)
 
+1. Binding of procs, lambdas and blocks
+   - [Medium: Marwan Zaarab | Ruby Closures: Understanding Blocks, Procs, Methods, and Arity |
+     2022](https://medium.com/@marwan.zaarab/closures-blocks-procs-methods-and-arity-in-ruby-c5d55e49bd13)
+     * Very detailed
+   - [LinkedIn: Robert Rodes | Ruby: Procs, Lambdas and Bindings | 2023](https://www.linkedin.com/pulse/ruby-procs-lambdas-bindings-robert-rodes)
+
 1. PyCall
    - [GitHub: mrkn | PyCall: Calling Python functions from the Ruby language | 2016-2024](https://github.com/mrkn/pycall.rb)
    - [ReadySteadyCode | HOWTO execute Python code with Ruby](https://readysteadycode.com/howto-execute-python-code-with-ruby)
