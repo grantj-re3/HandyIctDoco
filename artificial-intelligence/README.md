@@ -39,4 +39,6 @@
    - [Hyperautomation Labs | Stanford Just Taught the World How LLMs Are Built — Here's Everything You Need to Know (video) | 2026](https://www.youtube.com/watch?v=yMZiiX-aqdQ) -- 10m
 
 1. [Stanford Online: Afshine Amidi & Shervine Amidi | Stanford CME295: Transformers and Large Language Models I Autumn 2025 (playlist)](https://www.youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy)
+   - 9 videos | 1h40m-1h50m each
+   - Prerequisites: At a very minimum, Machine Learning basics and Linear Algebra
 
