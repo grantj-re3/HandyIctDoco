@@ -42,7 +42,11 @@
 1. [Data School | Machine learning in Python with scikit-learn | Course (playlist) | 2015-2019](https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A)
    - Code for the PyCon 2016 tutorial (2h40m) is available at https://github.com/justmarkham/pycon-2016-tutorial
 
-1. [Machine Learning Mastery: Jason Brownlee]
+1. [Machine Learning Mastery: Jason Brownlee | Get Started](https://machinelearningmastery.com/start-here/)
+   - How Do I Get Started? | Applied Machine Learning Process | Probability for Machine Learning |
+     Statistics for Machine Learning | Linear Algebra for Machine Learning | ... |
+     Python for Machine Learning | Understand Machine Learning Algorithms |
+     Weka Machine Learning (no code) | Python Machine Learning (scikit-learn) | ...
    - Browse the Topics | Read the Blogs
    - Search for the word "scratch": How To Implement Simple Linear Regression From Scratch With Python |
      How to Implement Linear Regression From Scratch in Python |
