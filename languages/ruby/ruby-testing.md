@@ -1,5 +1,10 @@
 # Ruby testing
 
+Why test? [This video](https://www.youtube.com/watch?v=qUIlmAfDsQA) gives a nice summary...
+- Signs of a brittle codebase: Afraid of changing code | Staying up at night | Slower development cycles
+- Solution: Get the specification | Turn it into runnable tests | Make the tests pass
+
+
 ## Rspec
 
 Read [this](rspec-local-project.md) for how to use RSpec with Bundler on Linux Mint 21

@@ -108,6 +108,14 @@ Click [here](object-oriented-design.md) for the main Object Oriented Design page
    - [Refactoring with Design Patterns - The Template Pattern | 2018-2020](https://www.ombulabs.com/blog/code-refactor/design-patterns/refactoring-template-pattern.html)
    - [Refactoring with Design Patterns - The State Pattern | 2019-2020](https://www.ombulabs.com/blog/code-refactor/design-patterns/refactoring-state-pattern.html)
 
+1. Mix & Go: Cezar Halmagean
+   - [LEARN: Tips on Building Your Own SaaS | 2022](https://mixandgo.com/learn)
+     * Search in the page for the word "pattern" | 6 articles | Each article has a related video
+     * Patterns in Ruby: Factory Method | Abstract Factory | Strategy | Adapter | Decorator | Builder
+   - [Design Patterns in Ruby (playlist) | 2021](https://www.youtube.com/playlist?list=PLBhH0uX92r6oP8r-oSY_b8_2EnK0Z1Fkz)
+     * 8 videos | 4-8 minutes each
+     * Patterns in Ruby: Factory Method | Abstract Factory | *Singleton* | *Template Method* | Strategy | Adapter | Decorator | Builder
+
 
 ### Design Pattern examples: Non-Ruby
 
