@@ -3,7 +3,7 @@
 ## dcode: Dom
 
 1. [JAVASCRIPT FOR BEGINNERS (playlist) | 2021-2024](https://www.youtube.com/playlist?list=PLVvjrrRCBy2K1319SWypV9UZpqeTJstIq)
- - [Common JavaScript Mistakes and How to Avoid Them (video) | 2022](https://www.youtube.com/watch?v=iKj3xWcKVNM&list=PLVvjrrRCBy2K1319SWypV9UZpqeTJstIq&index=13)
+   - [Common JavaScript Mistakes and How to Avoid Them (video) | 2022](https://www.youtube.com/watch?v=iKj3xWcKVNM&list=PLVvjrrRCBy2K1319SWypV9UZpqeTJstIq&index=13)
 
 1. [JAVASCRIPT CLASSES TUTORIALS (playlist) | 2018-2020](https://www.youtube.com/playlist?list=PLVvjrrRCBy2I2eE1e1yOuhts2oTvWesMy)
 
