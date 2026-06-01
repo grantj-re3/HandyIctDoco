@@ -44,3 +44,62 @@
 
 1. [W3Schools | JavaScript Tutorial](https://www.w3schools.com/js/)
 
+
+## Noteworthy info
+
+### Browser Console
+
+1. [DebugBear: Matt Zeunert | How To Use The Browser Console: An In-Depth Guide | 2025-2026](https://www.debugbear.com/blog/chrome-browser-console)
+   - What is the browser console? | How to open the browser console in Chrome DevTools
+   - How to check errors and warnings in the console: AI Console Insights | Search and filter | Clear console messages
+   - Run code in the JavaScript console: Inspect elements that disappear when entering DevTools |
+     View recently run JavaScript commands | Select a JavaScript context
+   - How to log errors, warnings & much more: Logging more than just text | Color and format console messages | console.trace |
+     console.table | console.count | console.time, console.timeLog, and console.timeEnd | console.group
+   - Better productivity with the Console Utilities API: $0: Reference the current DOM element | copy: store content in the clipboard |
+     $_: Get the most recent evaluation result | monitor: log function calls | debug: pause execution when a function is called |
+     monitorEvents: log events on DOM elements | getEventListeners: identify attached event listeners |
+     queryObjects: find objects by constructor | profile and profileEnd: collect a performance recording
+   - Live expressions | Console settings | More Chrome Console features | Track console errors on your website
+
+1. DevTools Tips
+   - [Patrick Brosset, Alex Lakatos | Copy an object from the console | 2021](https://devtoolstips.org/tips/en/copy-from-console/)
+   - [Patrick Brosset | Write code on multiple lines in the Console | 2021](https://devtoolstips.org/tips/en/multi-line-console/)
+
+1. Chrome for Developers
+   - [Kayce Basques & Sofia Emelianova | Console Utilities API reference | 2015](https://developer.chrome.com/docs/devtools/console/utilities)
+   - [Kayce Basques | Console overview | 2024](https://developer.chrome.com/docs/devtools/console)
+
+
+### Snapshot of current DOM
+
+1. [Stack Overflow | How can I dump the entire Web DOM in its current state in Chrome? | 2012-2020](https://stackoverflow.com/questions/12147007/how-can-i-dump-the-entire-web-dom-in-its-current-state-in-chrome)
+   - Answer by Marcus in 2020: Type `copy(document.documentElement.outerHTML)` into the browser Console to copy the DOM into your clipboard
+
+1. [XJavascript.com | How to Download the Current Page (DOM) as a File Using JavaScript | 2026](https://www.xjavascript.com/blog/how-to-download-the-current-page-as-a-file-attachment-using-javascript/)
+
+
+### localStorage and sessionStorage
+
+1. [thedevlife | How to use Local Storage with Javascript (video) | 2023](https://www.youtube.com/watch?v=xGvhj-f6IgQ)
+
+1. [JavaScript.info: Ilya Kantor | LocalStorage, sessionStorage | 2022](https://javascript.info/localstorage)
+
+1. [Mozilla Developer Network | Using the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+
+1. [freeCodeCamp.org: Oluwatobi Sofela | Web Storage Explained – How to Use localStorage and sessionStorage in JavaScript Projects | 2023](https://www.freecodecamp.org/news/web-storage-localstorage-vs-sessionstorage-in-javascript)
+
+
+### Shadow DOM
+
+1. [The T-Shaped Dev: Petar Ivanov | Demystifying the Shadow DOM: A Web Developer's secret weapon | 2024](https://thetshaped.dev/p/demystifying-the-shadow-dom)
+
+1. [Mozilla Developer Network | Web Components: Using shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
+
+1. web.dev: Shadow DOM 101, 201 & 301
+   - [Dominic Cooney | Shadow DOM 101 | 2013](https://web.dev/articles/shadowdom)
+   - [Eric Bidelman | Shadow DOM 201: CSS and styling | 2013](https://web.dev/articles/shadowdom-201)
+   - [Eric Bidelman | Shadow DOM 301: Advanced concepts & DOM APIs | 2013](https://web.dev/articles/shadowdom-301)
+
+1. [Chrome for Developers Blog: Eric Bidelman | Visualizing shadow DOM concepts | 2013](https://developer.chrome.com/blog/visualizing-shadow-dom-concepts)
+
