@@ -119,8 +119,8 @@
    - I prefer to wrap any code in a closure to prevent leaking code snippet's variables into global namespace
    - Code snippets are a lot more user and developer friendly than bookmarklets
 
-1. [Firefox Source Docs￼| Deprecated tools: Scratchpad](https://firefox-source-docs.mozilla.org/devtools-user/deprecated_tools/index.html#Scratchpad)
-   - Scratchpad was removed in Firefox 72
+1. [Firefox Source Docs | Deprecated tools: Scratchpad](https://firefox-source-docs.mozilla.org/devtools-user/deprecated_tools/index.html#Scratchpad)
+   - Scratchpad [a feature similar to Snippets] was removed in Firefox 72
 
 
 ## Noteworthy info
