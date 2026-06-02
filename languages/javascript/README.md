@@ -65,9 +65,9 @@
    - Very good, but *no longer being updated!*
 
 
-## Noteworthy info
+## Browser DevTools
 
-### Browser Console
+### DevTools: Console
 
 1. [DebugBear: Matt Zeunert | How To Use The Browser Console: An In-Depth Guide | 2025-2026](https://www.debugbear.com/blog/chrome-browser-console)
    - What is the browser console? | How to open the browser console in Chrome DevTools
@@ -90,6 +90,40 @@
    - [Kayce Basques & Sofia Emelianova | Console Utilities API reference | 2015](https://developer.chrome.com/docs/devtools/console/utilities)
    - [Kayce Basques | Console overview | 2024](https://developer.chrome.com/docs/devtools/console)
 
+
+### DevTools: Overrides / Local overrides
+
+1. [Drew Conley | Local Overrides in Chrome Dev Tools (video) | 2021](https://www.youtube.com/watch?v=PT6xsr_AUQ0)
+
+1. [Quora: Assistant/Bot | Is there a way to edit something with inspect element but keep the change even after refreshing the page?](https://www.quora.com/Is-there-a-way-to-edit-something-with-inspect-element-but-keep-the-change-even-after-refreshing-the-page)
+
+1. [Microsoft Learn | Microsoft Edge Developer documentation: Override webpage resources with local copies (Overrides tab)](https://learn.microsoft.com/en-us/microsoft-edge/devtools/javascript/overrides)
+
+1. [SitePoint: Craig Buckler | How to Edit Source Files Directly in Chrome | 2020](https://www.sitepoint.com/edit-source-files-in-chrome/)
+
+1. [DEV: Krzysztof Platis | Mastering Chrome DevTools: Edit production code on-the-fly in your browser | 2025](https://dev.to/krisplatis/mastering-chrome-devtools-edit-production-code-on-the-fly-in-your-browser-1ial)
+
+1. [Chrome for Developers: Sofia Emelianova | Changes: Track your HTML, CSS, and JavaScript changes | 2024](https://developer.chrome.com/docs/devtools/changes)
+
+
+### DevTools: Snippets
+
+1. [SeanMcP | Use Snippets In The Chrome DevTools (video) | 2022](https://www.youtube.com/watch?v=0dD0OiNhLrg)
+   - He wraps most examples in a *function to be run immediately* to avoid poluting the global namespace
+
+1. [Microsoft Learn | Microsoft Edge Developer documentation: Run snippets of JavaScript on any webpage | 2025](https://learn.microsoft.com/en-us/microsoft-edge/devtools/javascript/snippets)
+
+1. [Chrome for Developers: Kayce Basques & Sofia Emelianova | Run snippets of JavaScript | 2015](https://developer.chrome.com/docs/devtools/javascript/snippets)
+
+1. [Gleb Bahmutov | Chrome DevTools Code Snippets | 2014](https://glebbahmutov.com/blog/chrome-dev-tools-code-snippets/)
+   - I prefer to wrap any code in a closure to prevent leaking code snippet's variables into global namespace
+   - Code snippets are a lot more user and developer friendly than bookmarklets
+
+1. [Firefox Source Docs￼| Deprecated tools: Scratchpad](https://firefox-source-docs.mozilla.org/devtools-user/deprecated_tools/index.html#Scratchpad)
+   - Scratchpad was removed in Firefox 72
+
+
+## Noteworthy info
 
 ### Snapshot of current DOM
 
