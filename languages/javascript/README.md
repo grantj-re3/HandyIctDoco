@@ -67,7 +67,14 @@
 
 ## Browser DevTools
 
+1. [Traversy Media | Google Chrome Developer Tools Crash Course (video) | 2017](https://www.youtube.com/watch?v=x4q86IjJFag) -- 51m
+
+1. [Pete Moxon (NicheSpin) | Chrome Developer Tools - Learn How To Use (playlist) | 2014](https://www.youtube.com/playlist?list=PLo6T-jp3bwgvciPVQElygONUAnyA9_CeX)
+
+
 ### DevTools: Console
+
+1. [Jarrod Overson | Console Secrets: 5 Chrome DevTools Console APIs you probably aren't using! (video) | 2019](https://www.youtube.com/watch?v=lHpahKBVDnk)
 
 1. [DebugBear: Matt Zeunert | How To Use The Browser Console: An In-Depth Guide | 2025-2026](https://www.debugbear.com/blog/chrome-browser-console)
    - What is the browser console? | How to open the browser console in Chrome DevTools
