@@ -28,8 +28,6 @@ See Browser DevTools info [here](devtools.md).
    - Source code: [Part 1](https://github.com/CodeLab98/DOM-Manipulation-Part-1-Source-Code) and
      [Part 2](https://github.com/CodeLab98/DOM-P2-Source-Code)
 
-1. [tapaScript: Tapas Adhikary | JavaScript Clean Code Course – Fix Code Smells & Refactor (video) | 2025](https://www.youtube.com/watch?v=626BcUO84og) -- 1h04m
-
 1. [WellPaidGeek | Debugging JavaScript - Are you doing it wrong? (video) | 2018](https://www.youtube.com/watch?v=ABlaMXkUwzY) -- 4m
 
 
@@ -57,6 +55,9 @@ See Browser DevTools info [here](devtools.md).
 
 1. [W3Schools | JavaScript Tutorial](https://www.w3schools.com/js/)
 
+1. [GitHub: james-priest / code-exercises | JavaScript Tutorial by Pragim Technologies | 2014-2015](https://github.com/james-priest/code-exercises/tree/master/javascript_exercises/javascript-csharp)
+   - JavaScript ES5 (old) | 75 lessons | YouTube videos and corresponding blog posts
+
 
 ## JavaScript style guides
 
@@ -66,6 +67,30 @@ See Browser DevTools info [here](devtools.md).
 
 1. [GitHub | Google JavaScript Style Guide | 2012-2022](https://google.github.io/styleguide/jsguide.html)
    - Very good, but *no longer being updated!*
+
+
+## Best practice
+
+1. [W3C Wiki | JavaScript best practices | 2015](https://www.w3.org/wiki/JavaScript_best_practices#Avoid_globals)
+   - Call things by their name... | **Avoid globals** | Stick to a strict coding style | Comment as much as needed but not more |
+     Avoid mixing with other technologies | Use shortcut notation when it makes sense | Modularize — one function per task |
+     Enhance progressively | Allow for configuration and translation | Avoid heavy nesting | Optimize loops | Keep DOM access to a minimum |
+     Don’t yield to browser whims | Don’t trust any data | Add functionality with JavaScript, don’t create too much content |
+     Build on the shoulders of giants | Development code is not live code
+
+1. [freeCodeCamp.org: tapaScript: Tapas Adhikary | JavaScript Clean Code Course – Fix Code Smells & Refactor (video) | 2025](https://www.youtube.com/watch?v=626BcUO84og) -- 1h04m
+
+1. Lessons 55 and 56 of JavaScript Tutorial by Pragim Technologies (above)
+
+
+### Global namespace
+
+1. [Stack Overflow: Travis J | What does it mean global namespace would be polluted? | 2012](https://stackoverflow.com/questions/8862665/what-does-it-mean-global-namespace-would-be-polluted)
+
+1. [Tutorials Point: vineeth.mariserla | What is global namespace pollution in JavaScript? | 2026](https://www.tutorialspoint.com/article/what-is-global-namespace-pollution-in-javascript)
+   - Use namespaces, modules, or Immediately Invoked Function Expressions (IIFE) patterns to keep your code organized and prevent conflicts in large projects
+
+
 
 
 ## Noteworthy info
