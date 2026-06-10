@@ -35,6 +35,8 @@ See Browser DevTools info [here](devtools.md).
 
 1. [Benjamin Semah | The JavaScript DOM Manipulation Handbook | 2024](https://www.freecodecamp.org/news/the-javascript-dom-manipulation-handbook/)
 
+1. [Marijn Haverbeke | Eloquent JavaScript (4th edition) | 2024](https://eloquentjavascript.net/)
+
 1. The Odin Project
    - [JavaScript Basics](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics)
      * [DOM Manipulation and Events](https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events)
@@ -58,6 +60,8 @@ See Browser DevTools info [here](devtools.md).
 1. [GitHub: james-priest / code-exercises | JavaScript Tutorial by Pragim Technologies | 2014-2015](https://github.com/james-priest/code-exercises/tree/master/javascript_exercises/javascript-csharp)
    - JavaScript ES5 (old) | 75 lessons | YouTube videos and corresponding blog posts
 
+1. [CSS-Tricks: Declan Chidlow | A Complete Guide to Bookmarklets | 2026](https://css-tricks.com/a-complete-guide-to-bookmarklets/)
+
 
 ## JavaScript style guides
 
@@ -67,6 +71,8 @@ See Browser DevTools info [here](devtools.md).
 
 1. [GitHub | Google JavaScript Style Guide | 2012-2022](https://google.github.io/styleguide/jsguide.html)
    - Very good, but *no longer being updated!*
+
+1. [GitHub: rwaldron/idiomatic.js | Principles of Writing Consistent, Idiomatic JavaScript | 2011-2021](https://github.com/rwaldron/idiomatic.js)
 
 
 ## Best practice
@@ -91,8 +97,6 @@ See Browser DevTools info [here](devtools.md).
    - Use namespaces, modules, or Immediately Invoked Function Expressions (IIFE) patterns to keep your code organized and prevent conflicts in large projects
 
 
-
-
 ## Noteworthy info
 
 ### Snapshot of current DOM
@@ -112,6 +116,13 @@ See Browser DevTools info [here](devtools.md).
 1. [Mozilla Developer Network | Using the Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
 
 1. [freeCodeCamp.org: Oluwatobi Sofela | Web Storage Explained – How to Use localStorage and sessionStorage in JavaScript Projects | 2023](https://www.freecodecamp.org/news/web-storage-localstorage-vs-sessionstorage-in-javascript)
+
+
+### Immediately Invoked Function Expression (IIFE)
+
+1. [Sariful Islam | JavaScript IIFE: The Complete Guide to Immediately Invoked Function Expressions in 2026](https://sarifulislam.com/blog/javascript-iife/)
+
+1. [W3Schools | Self-Invoking Functions](https://www.w3schools.com/js/js_function_iife.asp)
 
 
 ### Shadow DOM
