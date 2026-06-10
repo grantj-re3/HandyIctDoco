@@ -8,6 +8,13 @@
    - What is a Prototype in JavaScript? | Understanding the Prototype Chain | Constructor Functions and Prototypes |
      Object.create() and Prototypal Inheritance | Overriding and Shadowing Prototype Properties | Common Mistakes and Misconceptions About Prototypes
 
+1. :thumbsup: [Medium: Anurag Majumdar | “Super” and “Extends” In JavaScript ES6 - Understanding The Tough Parts | 2018](https://medium.com/beginners-guide-to-mobile-web-development/super-and-extends-in-javascript-es6-understanding-the-tough-parts-6120372d3420)
+   - Compares class-like implementation in ES6 vs ES5 with an example
+   - Aside:
+     * `ParentClassName.prototype.methodName` is the same as `Object.getPrototypeOf(ChildClassName.prototype).methodName`
+     * E.g. `Animal.prototype.eat` is the same as `Object.getPrototypeOf(Gorilla.prototype).eat`
+   - Note the good comment by Brian
+
 1. [Medium: Tharunbalaji | Deep Diving Into JavaScript’s Prototype System: A Developer’s Journey | 2025](https://medium.com/@tharunbalaji110/deep-diving-into-javascripts-prototype-system-a-developer-s-journey-4d5e2bd37483)
    - Describes the steps which occur when: the new keyword is used | a method is called
    - Every object has __proto__ | Constructor functions have prototype | Primitives get wrapped |
