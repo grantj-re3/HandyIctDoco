@@ -14,6 +14,16 @@ See Browser DevTools info [here](devtools.md).
    - [The Best Way to Load External JavaScript Files Into Your HTML File | 2022](https://dev.to/dcodeyt/the-best-way-to-load-external-javascript-files-into-your-html-file-3o5d)
 
 
+## [Medium: Artem Khrienov](https://medium.com/@artemkhrenov)
+
+He is the author of about 70 articles mostly covering JavaScript design (including Design Patterns) and Database design.
+Here are some examples.
+
+1. [Singleton Pattern Implementation in JavaScript | 2025](https://medium.com/@artemkhrenov/understanding-the-singleton-pattern-in-modern-javascript-128987efd54d)
+
+1. [Factory Method Pattern Implementation in JavaScript] | 2025](https://medium.com/@artemkhrenov/factory-method-pattern-implementation-in-javascript-7cf6b7cbe744)
+
+
 ## freeCodeCamp.org
 
 1. [Steven Garcia | JavaScript Course for Beginners (video) | 2024](https://www.youtube.com/watch?v=Zi-Q0t4gMC8) -- 3h36m

@@ -38,6 +38,7 @@
 ## JavaScript classes/objects
 
 1. [Delicious Insights: Christophe Porteneuve | JS classes with ES2015+ | 2022](https://delicious-insights.com/en/posts/js-classes/)
+   - Interesting ES3 (pre-2009) function `inherit(Child, Parent)` since Object.create() wasn't available then
 
 1. JavaScript Weblog: Angus Croll
    - [Five ways to create objects… | 2010](https://javascriptweblog.wordpress.com/2010/03/16/five-ways-to-create-objects/)
