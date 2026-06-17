@@ -21,7 +21,7 @@ Here are some examples.
 
 1. [Singleton Pattern Implementation in JavaScript | 2025](https://medium.com/@artemkhrenov/understanding-the-singleton-pattern-in-modern-javascript-128987efd54d)
 
-1. [Factory Method Pattern Implementation in JavaScript] | 2025](https://medium.com/@artemkhrenov/factory-method-pattern-implementation-in-javascript-7cf6b7cbe744)
+1. [Factory Method Pattern Implementation in JavaScript | 2025](https://medium.com/@artemkhrenov/factory-method-pattern-implementation-in-javascript-7cf6b7cbe744)
 
 
 ## freeCodeCamp.org
