@@ -46,6 +46,17 @@
    - [Understanding JavaScript Prototypes | 2010](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
 
+## How to avoid this/new
+
+Using 'this' can cause binding issues. Below are some ways to create objects while avoiding 'this' (and 'new').
+
+1. :thumbsup: [The Odin Project | Factory Functions and the Module Pattern](https://www.theodinproject.com/lessons/node-path-javascript-factory-functions-and-the-module-pattern)
+
+1. [Medium: Rajesh Naroth | JavaScript Inheritance without ES6 classes | 2019](https://rajeshnaroth.medium.com/javascript-inheritance-without-es6-classes-6ff546c0d58b)
+
+1. [patterns.dev | Factory Pattern](https://www.patterns.dev/vanilla/factory-pattern/)
+
+
 ## Don't use JavaScript classes
 
 1. [Toptal: Justen Robertson | As a JS Developer, ES6 Classes Are What Keep Me Up at Night | 2018](https://www.toptal.com/developers/javascript/es6-class-chaos-keeps-js-developer-up)
