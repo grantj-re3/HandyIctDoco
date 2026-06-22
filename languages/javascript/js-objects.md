@@ -46,7 +46,16 @@
    - [Understanding JavaScript Prototypes | 2010](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 
 
-## How to avoid this/new
+## Gotchas with *this* and binding
+
+1. [JavaScript.info: Ilya Kantor | Function binding | 2025](https://javascript.info/bind)
+
+1. [GitHub/zcaceres: zach.dev | How to Eyeball Your ‘This’ Context in Javascript | 2018](https://gist.github.com/zcaceres/2a4ac91f9f42ec0ef9cd0d18e4e71262)
+
+1. [Playful Programming: Corbin Crutchley | Mastering JavaScript's `this` keyword using `bind` | 2023](https://playfulprogramming.com/posts/javascript-bind-usage/)
+
+
+## How to avoid *this*
 
 Using 'this' can cause binding issues. Below are some ways to create objects while avoiding 'this' (and 'new').
 
