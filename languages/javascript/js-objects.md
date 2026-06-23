@@ -37,13 +37,19 @@
 
 ## JavaScript classes/objects
 
-1. [Delicious Insights: Christophe Porteneuve | JS classes with ES2015+ | 2022](https://delicious-insights.com/en/posts/js-classes/)
-   - Interesting ES3 (pre-2009) function `inherit(Child, Parent)` since Object.create() wasn't available then
+1. techsith
+   - [advanced javascript tutorial (playlist)](https://www.youtube.com/playlist?list=PL7pEw9n3GkoW5bYOhVAtmJlak3ZK7SaDf)
+     * [javaScript object oriented programming tutorial - Understanding Objects Part 1 | 2015](https://www.youtube.com/watch?v=DpFDj-6iYoY&t=19m38s)
+       + Private variables and private methods | Closure
+     * [JavaScript object creation patterns tutorial - factory , constructor pattern, prototype pattern | 2015](https://www.youtube.com/watch?v=xizFJHKHdHw)
 
 1. JavaScript Weblog: Angus Croll
    - [Five ways to create objects… | 2010](https://javascriptweblog.wordpress.com/2010/03/16/five-ways-to-create-objects/)
    - [Five ways to create objects – part 2: Inheritance | 2010](https://javascriptweblog.wordpress.com/2010/03/16/five-ways-to-create-obejcts-part-2-inheritance/)
    - [Understanding JavaScript Prototypes | 2010](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+
+1. [Delicious Insights: Christophe Porteneuve | JS classes with ES2015+ | 2022](https://delicious-insights.com/en/posts/js-classes/)
+   - Interesting ES3 (pre-2009) function `inherit(Child, Parent)` since Object.create() wasn't available then
 
 
 ## Gotchas with *this* and binding
