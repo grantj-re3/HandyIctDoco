@@ -96,6 +96,8 @@ Here are some examples.
 
 1. [freeCodeCamp.org: tapaScript: Tapas Adhikary | JavaScript Clean Code Course – Fix Code Smells & Refactor (video) | 2025](https://www.youtube.com/watch?v=626BcUO84og) -- 1h04m
 
+1. [Fireship | JavaScript Pro Tips - Code This, NOT That (video) | 2018](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+
 1. Lessons 55 and 56 of JavaScript Tutorial by Pragim Technologies (above)
 
 

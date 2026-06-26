@@ -31,6 +31,22 @@
    - [Kayce Basques | Console overview | 2024](https://developer.chrome.com/docs/devtools/console)
 
 
+## DevTools: Sources
+
+1. [xplodivity | Debugging JavaScript in Chrome DevTools | STOP using console log | 2023](https://www.youtube.com/watch?v=ZaOZFkHTloM)
+
+1. [Steve Griffith - Prof3ssorSt3v3 | Chrome Dev Tools Source Panel and Breakpoints | 2023](https://www.youtube.com/watch?v=YlEhfts-E7E)
+
+1. [Nodecasts | Chrome DevTools - Sources Panel (Step Through Debugging) | 2016](https://www.youtube.com/watch?v=_sbRx8GlXQ8)
+
+
+### Debugging tips
+
+1. [James Q Quick | Tips and Tricks for Debugging JavaScript (video) | 2022](https://www.youtube.com/watch?v=_QtUGdaCb1c)
+
+1. [Alex Ziskind | Are you debugging JavaScript in VSCode? | YOU SHOULD! (video) | 2021](https://www.youtube.com/watch?v=68wO-sl5vXg)
+
+
 ## DevTools: Overrides / Local overrides
 
 1. [Drew Conley | Local Overrides in Chrome Dev Tools (video) | 2021](https://www.youtube.com/watch?v=PT6xsr_AUQ0)
