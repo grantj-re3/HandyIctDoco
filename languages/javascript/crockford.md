@@ -25,7 +25,7 @@
 
 ## Others discussing Douglas Crockford's ideas
 
-1. :thumbsup: [GitHub Gist: benpriebe/object-creation.md | Douglas Crockford - Create Object Recipe (2014)](https://gist.github.com/benpriebe/55b7e950b5e9d056b47e?permalink_comment_id=2229105)
+1. :thumbsup: [GitHub Gist: benpriebe/object-creation.md | Douglas Crockford - Create Object Recipe (2014)](https://gist.github.com/benpriebe/55b7e950b5e9d056b47e?permalink_comment_id=2229105#gistcomment-2229105)
    - The best sample code seems to be by pmw57 on Oct 14, 2017
 
 1. :thumbsup: [Danny Fritz | Class Free Object Oriented Programming | 2014](https://dannyfritz.wordpress.com/2014/10/11/class-free-object-oriented-programming/#comment-58)
