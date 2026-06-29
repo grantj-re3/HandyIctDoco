@@ -1,4 +1,3 @@
-//javascript:
 ;(function () {
     'use strict';
 
@@ -12,7 +11,7 @@
 
     /* Similar to: instance method */
     Employee.prototype.toString = function () { /* Override the default toString() */
-        return `${this.name} (emp# ${this.employeeNum}) is a ${this.role}!`;
+        return `${this.name} (emp# ${this.employeeNum}) is a ${this.role}.`;
     };
 
     /* Similar to: class-level (static) properties */
@@ -44,8 +43,17 @@
 
     /***** Main *****/
     const emily = new Employee('Emily', 'Payroll Officer');
-    const emerson = new Employee('Emerson', 'Junior Payroll Officer');
-    const leanne = new Leader('Leanne', 'Payroll Manager', emily, emerson);
+    const emerson = new Employee('Emerson', 'Payroll Officer');
+    const leanne = new Leader('Leanne', 'Payroll Team Leader', emily, emerson);
+
+    console.log(`${emily}`);
+    console.log(`${emerson}`);
+    console.log(`${leanne}`);
+
+    console.log("Promote Emerson and Leanne to new roles...");
+    emerson.role = 'Senior Payroll Officer';
+    leanne.role = 'Payroll Manager';
+
     console.log(`${emily}`);
     console.log(`${emerson}`);
     console.log(`${leanne}`);
