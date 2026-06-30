@@ -35,3 +35,25 @@
 
 1. [Stack Overflow | Douglas Crockford on Class Free OOP in JavaScript | 2014-2021](https://stackoverflow.com/questions/27595749/douglas-crockford-on-class-free-oop-in-javascript)
 
+1. [Depth-First: Richard L. Apodaca | Class-Free Object-Oriented Programming | 2019](https://depth-first.com/articles/2019/03/04/class-free-object-oriented-programming/)
+
+1. [GitHub Gist: mpj/classless.md | The future is here: Classless object-oriented programming in JavaScript | 2014](https://gist.github.com/mpj/17d8d73275bca303e8d2)
+
+
+## Eric Elliott
+
+It seems there is a significant overlap between Douglas Crockford's and Eric Elliott's ideas.
+
+1. [Medium | Composing Software: The Book | 2019](https://medium.com/javascript-scene/composing-software-the-book-f31c77fc3ddc)
+
+1. Eric Elliott's JavaScript Blog [The Wayback Machine]
+   - [Stop Using Constructor Functions In JavaScript | 2012](https://web.archive.org/web/20151108133533/http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript)
+   - [JavaScript Constructor Functions Vs Factory Functions | 2013](https://web.archive.org/web/20151029152324/http://ericleads.com/2013/01/javascript-constructor-functions-vs-factory-functions)
+   - [Fluent JavaScript – Three Different Kinds Of Prototypal OO | 2013](https://web.archive.org/web/20151108134914/http://ericleads.com/2013/02/fluent-javascript-three-different-kinds-of-prototypal-oo)
+
+1. [O'Reilly's Fluent Conference: JavaScript and Beyond | Classical Inheritance is Obsolete - How to Think in Prototypal OO (video) | 2013](https://vimeo.com/69255635)
+
+1. [GitHub Gist: ericelliott/essential-javascript-links.md | Essential JavaScript Links | 2015-2020](https://gist.github.com/ericelliott/d576f72441fc1b27dace/0cee592f8f8b7eae39c4b3851ae92b00463b67b9)
+
+1. [Super-Script: Roger Sperberg | Eric Elliott’s essential JavaScript links or The way of the parrot, not | 2015](https://www.super-script.us/2015/essential-js-links.html)
+
