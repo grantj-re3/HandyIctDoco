@@ -12,3 +12,11 @@
    - [Tom Williams | Toyota is accused of collecting and sharing driver data, but it's not the only car brand facing privacy concerns | 2024](https://www.abc.net.au/news/2024-02-09/toyota-car-brands-collecting-driver-data-privacy-concerns-laws/103443500)
    - [James Purtill | These car brands are collecting and sharing your data with third parties | 2024](https://www.abc.net.au/news/science/2024-10-09/car-brands-are-tracking-and-sharing-your-data-with-third-parties/104440742)
 
+1. Drive
+   - [Ethan Cardinal | ‘Extends beyond cars’: It’s not just Chinese cars who can ‘spy’ on you | 2026](https://www.drive.com.au/caradvice/extends-beyond-cars-its-not-just-chinese-cars-who-can-spy-on-you/)
+   - [Adam Turner | Can electric cars be hacked more easily than other cars? | 2024](https://www.drive.com.au/caradvice/can-electric-cars-be-hacked-more-easily-than-other-cars/)
+
+1. [IEEE Spectrum: Michelle Hampson | Yes, Your Electric Vehicle Could Be Hacked: EV charging brings multiple security and privacy risks | 2023](https://spectrum.ieee.org/ev-hacks)
+
+1. [Manufacturing.net: Zac Amos | Hacker's Latest Target: The Electric Vehicle | 2023](https://www.manufacturing.net/automotive/blog/22867544/hackers-latest-target-the-electric-vehicle)
+
